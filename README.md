@@ -1,4 +1,4 @@
-# data-ingest-runner-tracking
+# Data Ingest (Runner tracking)
 
 A [DataLad](https://www.datalad.org) dataset tracking the provenance of every action the [data ingest runner](https://github.com/brain-bbqs/data-ingest-runner) takes.
 [`dispatch.py`](https://github.com/brain-bbqs/data-ingest-task-force/tree/main/dispatch) writes to it, and the runner workflow pushes it here after each run.
