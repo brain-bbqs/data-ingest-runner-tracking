@@ -1,0 +1,16 @@
+PATH                                                                                                               SIZE      ERRORS PROGRESS STATUS           MESSAGE                  
+dandiset.yaml                                                                                                      1.5 kB                    skipped          should be edited online  
+sourcedata/rawbids/README                                                                                          599 Bytes   0             skipped          file exists              
+sourcedata/rawbids/dataset_description.json                                                                        467 Bytes   0             skipped          file exists              
+sourcedata/rawbids/participants.json                                                                               225 Bytes   0             skipped          file exists              
+sourcedata/rawbids/participants.tsv                                                                                44 Bytes    0             skipped          file exists              
+sourcedata/rawbids/sub-multi/ses-20260710/beh/sub-multi_ses-20260710_acq-average_recording-overhead_image.json     133 Bytes   0             skipped          file exists              
+sourcedata/rawbids/sub-multi/ses-20260710/beh/sub-multi_ses-20260710_acq-average_recording-overhead_image.png      10.2 MB     0             skipped          file exists              
+sourcedata/rawbids/sub-multi/ses-20260710/beh/sub-multi_ses-20260710_acq-singleframe_recording-overhead_image.json 113 Bytes   0             skipped          file exists              
+sourcedata/rawbids/sub-multi/ses-20260710/beh/sub-multi_ses-20260710_acq-singleframe_recording-overhead_image.png  44.0 MB     0             skipped          file exists              
+sourcedata/rawbids/sub-multi/ses-20260710/beh/sub-multi_ses-20260710_recording-overhead_video.json                 1.1 kB      0             skipped          file exists              
+sourcedata/rawbids/sub-multi/ses-20260710/beh/sub-multi_ses-20260710_recording-overhead_video.mp4                  16.5 GB     0             skipped          file exists              
+sourcedata/rawbids/sub-multi/ses-20260710/sub-multi_ses-20260710_scans.json                                        295 Bytes   0             skipped          file exists              
+sourcedata/rawbids/sub-multi/ses-20260710/sub-multi_ses-20260710_scans.tsv                                         313 Bytes   0             skipped          file exists              
+Summary:                                                                                                           16.6 GB                   13 skipped       1 should be edited online
+                                                                                                                                                              12 file exists           
