@@ -1,0 +1,8 @@
+* annex.backend=MD5E
+**/.git* annex.largefiles=nothing
+* annex.largefiles=((mimeencoding=binary)and(largerthan=0))
+# Container images are always annexed, whatever their mime type. They stay
+# on the runner and are rebuilt from their pinned docker:// URL elsewhere.
+envs/*.sif annex.largefiles=anything
+# Run records always go to git, so the GitHub history holds all of them.
+records/** annex.largefiles=nothing
