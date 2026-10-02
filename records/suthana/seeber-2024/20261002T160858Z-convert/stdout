@@ -1,0 +1,13 @@
+['data_3.mat', 'data_4.mat', 'data_2.mat', 'data_1.mat']
+/vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/ember-incoming/000530/sourcedata/raw/Seeber_etal_2024_data_code/data/data_1.mat
+instructed_routes hdmf.common.table.DynamicTable at 0x139820552117888
+Fields:
+  colnames: ['direction' 'x_coordinates' 'y_coordinates']
+  columns: (
+    direction <class 'hdmf.common.table.VectorData'>,
+    x_coordinates <class 'hdmf.common.table.VectorData'>,
+    y_coordinates <class 'hdmf.common.table.VectorData'>
+  )
+  description: Instructed walking routes
+  id: id <class 'hdmf.common.table.ElementIdentifiers'>
+

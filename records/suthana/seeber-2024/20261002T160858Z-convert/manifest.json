@@ -1,0 +1,22 @@
+{
+  "command": [
+    "python3",
+    "/vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/task-force/labs/suthana/seeber-2024/code/seeber_2024_group_subject_to_nwb.py",
+    "--input",
+    "/vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/ember-incoming/000530/sourcedata/raw/Seeber_etal_2024_data_code/data",
+    "--output",
+    "/vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/ember-standardized/000531/sourcedata/nwb/Seeber_etal_2024_data_code"
+  ],
+  "exit_code": 0,
+  "finished_at": "2026-10-02T16:09:38+00:00",
+  "removed": [],
+  "root": "/vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/ember-standardized/000531",
+  "started_at": "2026-10-02T16:09:32+00:00",
+  "written": [
+    {
+      "path": "sourcedata/nwb/Seeber_etal_2024_data_code/Zenodo_compressed_groupSubject.nwb",
+      "sha256": "821adcd33287da123310c138fc213eb84e6a6da9f351a947c1f9f675bdb5b8fe",
+      "size": 13631335
+    }
+  ]
+}

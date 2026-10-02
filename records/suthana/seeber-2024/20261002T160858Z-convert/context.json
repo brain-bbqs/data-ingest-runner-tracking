@@ -1,0 +1,14 @@
+{
+  "force_overwrite": true,
+  "image": "docker://ghcr.io/brain-bbqs/suthana-seeber-2024-r61mh135106-ingest@sha256:ef4c27d897a70a7e2866fe189d9e7104493ef901081fdb1087bc0f32b00352a6",
+  "incoming_dandiset_id": "000530",
+  "project": "suthana/seeber-2024",
+  "script_path": "labs/suthana/seeber-2024/code/seeber_2024_group_subject_to_nwb.py",
+  "script_sha256": "3547f238dd8b0e9eac37a2d63472586743ca23f8155668de170374e447bcd384",
+  "sessions": [
+    "Seeber_etal_2024_data_code"
+  ],
+  "standardized_dandiset_id": "000531",
+  "step": "convert",
+  "task_force_commit": "82560bb69d9b763dc23f5b816e783a970747db20"
+}

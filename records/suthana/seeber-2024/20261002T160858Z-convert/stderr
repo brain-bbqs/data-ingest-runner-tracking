@@ -1,0 +1,5 @@
+INFO:    fuse2fs not found, will not be able to mount EXT3 filesystems
+/opt/venv/lib/python3.13/site-packages/pynwb/misc.py:459: UserWarning: Neither source_timeseries nor source_channels is present in DecompositionSeries. It is recommended to indicate the source timeseries if it is present, or else to link to the corresponding source_channels. (Optional)
+  warnings.warn("Neither source_timeseries nor source_channels is present in DecompositionSeries. It is "
+/vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/task-force/labs/suthana/seeber-2024/code/seeber_2024_group_subject_to_nwb.py:1196: FutureWarning: Naming a single compression method and options for `apply_global_compression` is deprecated and will be removed in v0.12.0. Pass lists instead, for example `apply_global_compression(["gzip"], [{"level": 9}])`.
+  backend_configuration.apply_global_compression(
