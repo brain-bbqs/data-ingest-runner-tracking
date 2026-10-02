@@ -1,0 +1,2 @@
+INFO:    fuse2fs not found, will not be able to mount EXT3 filesystems
+Converting sessions:   0%|          | 0/1 [00:00<?, ?session/s]Converting sessions: 100%|██████████| 1/1 [00:22<00:00, 22.07s/session]Converting sessions: 100%|██████████| 1/1 [00:22<00:00, 22.08s/session]

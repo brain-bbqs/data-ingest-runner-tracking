@@ -1,0 +1,14 @@
+{
+  "force_overwrite": true,
+  "image": "docker://ghcr.io/brain-bbqs/kemere-r34da059514-ingest@sha256:97cfbf6633bf834bdf15fd77a7049af4674e851b8e96fcce012ccfb35cabda01",
+  "incoming_dandiset_id": "000477",
+  "project": "kemere",
+  "script_path": "labs/kemere/code/convert_raw_to_bids.py",
+  "script_sha256": "015a6c04a1e36dbae5bc15a7d38dcc69e4ecda73754eca93e0039a6788b0ba7b",
+  "sessions": [
+    "07102026-Session1"
+  ],
+  "standardized_dandiset_id": "000525",
+  "step": "convert",
+  "task_force_commit": "82560bb69d9b763dc23f5b816e783a970747db20"
+}

@@ -1,0 +1,5 @@
+Converting 1 session(s) across 1 worker(s)
+Session '07102026-Session1' -> ses-20260710
+
+Converted 3 media file(s) into /vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/ember-standardized/000525/sourcedata/rawbids
+Ignored 4 non-media file(s) (e.g. notes.txt, *.srt, *.pv, *.results).

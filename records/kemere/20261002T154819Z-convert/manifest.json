@@ -1,0 +1,80 @@
+{
+  "command": [
+    "python3",
+    "/vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/task-force/labs/kemere/code/convert_raw_to_bids.py",
+    "--raw-dir",
+    "/vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/ember-incoming/000477/sourcedata/raw",
+    "--bids-dir",
+    "/vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/ember-standardized/000525/sourcedata/rawbids",
+    "--species",
+    "Ovis aries",
+    "--overwrite"
+  ],
+  "exit_code": 0,
+  "finished_at": "2026-10-02T15:49:19+00:00",
+  "removed": [],
+  "root": "/vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/ember-standardized/000525",
+  "started_at": "2026-10-02T15:48:56+00:00",
+  "written": [
+    {
+      "path": "sourcedata/rawbids/README",
+      "sha256": "53739d6704bb92f85fdc6665a8dd22ab3c3f7ed7e837f0b4315f513711029ad8",
+      "size": 599
+    },
+    {
+      "path": "sourcedata/rawbids/dataset_description.json",
+      "sha256": "f7996320f76a3fc7a876c1e8e9835ae050d1fa13714834831a999c74fd04d48e",
+      "size": 467
+    },
+    {
+      "path": "sourcedata/rawbids/participants.json",
+      "sha256": "10a2b866e76fc47a2cf9e7174ac2019c4de2b3a97bb3655b999326946e5b4d77",
+      "size": 225
+    },
+    {
+      "path": "sourcedata/rawbids/participants.tsv",
+      "sha256": "616519ea4b37b36c703a30ab8df4cb3b5929c0ff413d75dbeafe0f6e1159bf14",
+      "size": 44
+    },
+    {
+      "path": "sourcedata/rawbids/sub-multi/ses-20260710/beh/sub-multi_ses-20260710_acq-average_recording-overhead_image.json",
+      "sha256": "30c629c2df78f36cb6dab0b197c995342cfbca6a167178d05b5c985f1ea96033",
+      "size": 133
+    },
+    {
+      "path": "sourcedata/rawbids/sub-multi/ses-20260710/beh/sub-multi_ses-20260710_acq-average_recording-overhead_image.png",
+      "sha256": "cf416693e5c7f6077c18bcafe2ead53762853260d40a9431da35575fe67b3c1c",
+      "size": 10224617
+    },
+    {
+      "path": "sourcedata/rawbids/sub-multi/ses-20260710/beh/sub-multi_ses-20260710_acq-singleframe_recording-overhead_image.json",
+      "sha256": "0fc5875b794565795e62afd2c52d57ee82dcbca29b75ec685d5cbf576d433591",
+      "size": 113
+    },
+    {
+      "path": "sourcedata/rawbids/sub-multi/ses-20260710/beh/sub-multi_ses-20260710_acq-singleframe_recording-overhead_image.png",
+      "sha256": "edc04db2cd61e9f1327b19a561f2bf4d8522cc25f322535c5422b0f63db99b4a",
+      "size": 43958169
+    },
+    {
+      "path": "sourcedata/rawbids/sub-multi/ses-20260710/beh/sub-multi_ses-20260710_recording-overhead_video.json",
+      "sha256": "8ef6ce68599fff1d4cdce45d6c57a7d01bed2a9113021f75b5a99557b227a129",
+      "size": 1147
+    },
+    {
+      "path": "sourcedata/rawbids/sub-multi/ses-20260710/beh/sub-multi_ses-20260710_recording-overhead_video.mp4",
+      "sha256": "60a6b7d94f0f68362f5d892922a4337f1a5e8acfee04619c173d8844da35c45c",
+      "size": 16507091339
+    },
+    {
+      "path": "sourcedata/rawbids/sub-multi/ses-20260710/sub-multi_ses-20260710_scans.json",
+      "sha256": "7ff98a01e6575c62b54dfdbfeda61f06fcf2e96136dcac4706bc67f0a71475ad",
+      "size": 295
+    },
+    {
+      "path": "sourcedata/rawbids/sub-multi/ses-20260710/sub-multi_ses-20260710_scans.tsv",
+      "sha256": "1f932972bb22f49aaf60b019fe38b92a7d86f956db207b54ae0df8f9c3fd8d61",
+      "size": 313
+    }
+  ]
+}
