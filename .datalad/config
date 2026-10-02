@@ -1,2 +1,6 @@
 [datalad "dataset"]
 	id = 86d7fcd9-cbde-413b-8423-a7cd6adc0cce
+[datalad "containers.dandi-cli"]
+	updateurl = docker://ghcr.io/brain-bbqs/dandi-cli@sha256:d31fc9269b0fd7e80ab009b158790a0998e9960279efef903d2434b6ef219bee
+	image = envs/dandi-cli.sif
+	cmdexec = duct --fail-time 0 apptainer exec --cleanenv {img} {cmd}
