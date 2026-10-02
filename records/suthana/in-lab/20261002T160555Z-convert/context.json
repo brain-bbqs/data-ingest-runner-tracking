@@ -1,0 +1,12 @@
+{
+  "force_overwrite": true,
+  "image": "docker://ghcr.io/brain-bbqs/suthana-in-lab-r61mh135106-ingest@sha256:1781eb26ff0e398657d27f0fb58643f7a467507eaaa39cd12236d57a3fe2c9af",
+  "incoming_dandiset_id": "000530",
+  "project": "suthana/in-lab",
+  "script_path": "labs/suthana/in-lab/code/_suthana_in_lab_to_nwb.py",
+  "script_sha256": "522eca4f89eaa9a2dbd4598ea34b976d8cdccdf0e065ba08c5ce2c979c26a071",
+  "sessions": [],
+  "standardized_dandiset_id": "000531",
+  "step": "convert",
+  "task_force_commit": "82560bb69d9b763dc23f5b816e783a970747db20"
+}
