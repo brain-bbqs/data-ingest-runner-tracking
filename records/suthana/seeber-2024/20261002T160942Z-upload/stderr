@@ -1,0 +1,6 @@
+INFO:    fuse2fs not found, will not be able to mount EXT3 filesystems
+2026-10-02 16:09:46,914 [ WARNING] Server uses schema version 0.7.0 older than client's 0.8.0 (dandischema library 0.14.0). Library will attempt (but might fail) to downgrade outgoing metadata to this schema version on upload. Server might fail to validate such assets and you might not be able to publish this dandiset until server is upgraded. Alternatively, you may downgrade dandischema and reupload.
+2026-10-02 16:09:49,318 [    INFO] Found 7 files to consider
+/usr/local/lib/python3.13/site-packages/pynwb/misc.py:459: UserWarning: Neither source_timeseries nor source_channels is present in DecompositionSeries. It is recommended to indicate the source timeseries if it is present, or else to link to the corresponding source_channels. (Optional)
+  warnings.warn("Neither source_timeseries nor source_channels is present in DecompositionSeries. It is "
+2026-10-02 16:10:29,653 [    INFO] Logs saved in /home/cbaker/.local/state/dandi-cli/log/2026.10.02-16.09.46Z-310360.log
