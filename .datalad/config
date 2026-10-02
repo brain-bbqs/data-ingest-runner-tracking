@@ -8,3 +8,7 @@
 	updateurl = docker://ghcr.io/brain-bbqs/kemere-r34da059514-ingest@sha256:97cfbf6633bf834bdf15fd77a7049af4674e851b8e96fcce012ccfb35cabda01
 	image = envs/kemere-r34da059514-ingest.sif
 	cmdexec = duct --fail-time 0 apptainer exec --cleanenv {img} {cmd}
+[datalad "containers.shepherd-r34da059723-ingest"]
+	updateurl = docker://ghcr.io/brain-bbqs/shepherd-r34da059723-ingest@sha256:003065a441c22fc19238788cf5b2a880be1be3f133601275511db415b71d0857
+	image = envs/shepherd-r34da059723-ingest.sif
+	cmdexec = duct --fail-time 0 apptainer exec --cleanenv {img} {cmd}
