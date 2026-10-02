@@ -4,3 +4,7 @@
 	updateurl = docker://ghcr.io/brain-bbqs/dandi-cli@sha256:d31fc9269b0fd7e80ab009b158790a0998e9960279efef903d2434b6ef219bee
 	image = envs/dandi-cli.sif
 	cmdexec = duct --fail-time 0 apptainer exec --cleanenv {img} {cmd}
+[datalad "containers.kemere-r34da059514-ingest"]
+	updateurl = docker://ghcr.io/brain-bbqs/kemere-r34da059514-ingest@sha256:97cfbf6633bf834bdf15fd77a7049af4674e851b8e96fcce012ccfb35cabda01
+	image = envs/kemere-r34da059514-ingest.sif
+	cmdexec = duct --fail-time 0 apptainer exec --cleanenv {img} {cmd}
