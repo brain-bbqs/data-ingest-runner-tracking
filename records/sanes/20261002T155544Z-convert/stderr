@@ -1,0 +1,8 @@
+INFO:    fuse2fs not found, will not be able to mount EXT3 filesystems
+Converting sessions:   0%|          | 0/1 [00:00<?, ?session/s]/opt/venv/lib/python3.13/site-packages/hdmf/build/objectmapper.py:1047: IncorrectDatasetShapeBuildWarning: Shape of data does not match any allowed shapes in spec 'AcousticWaveformSeries'
+  warnings.warn(msg, IncorrectDatasetShapeBuildWarning)
+/vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/task-force/labs/sanes/code/_sanes_to_nwb.py:427: FutureWarning: Naming a single compression method and options for `apply_global_compression` is deprecated and will be removed in v0.12.0. Pass lists instead, for example `apply_global_compression(["gzip"], [{"level": 9}])`.
+  backend_configuration.apply_global_compression(
+/opt/venv/lib/python3.13/site-packages/hdmf/build/objectmapper.py:1047: IncorrectDatasetShapeBuildWarning: Shape of data does not match any allowed shapes in spec 'AcousticWaveformSeries'
+  warnings.warn(msg, IncorrectDatasetShapeBuildWarning)
+                                                               Converting sessions:   0%|          | 0/1 [04:53<?, ?session/s]Converting sessions: 100%|██████████| 1/1 [04:53<00:00, 293.16s/session]Converting sessions: 100%|██████████| 1/1 [04:53<00:00, 293.16s/session]
