@@ -33,3 +33,13 @@ datalad containers-list
 
 The `.sif` images are not on GitHub.
 `datalad containers-add --update <name>` with the URL from `datalad.containers.<name>.updateurl` in `.datalad/config` rebuilds one locally, given Apptainer.
+
+<!-- runner-disk-usage:start -->
+## Runner disk usage
+
+Updated by every ingest run, from `df -H` on the drive holding the runner's work directory (`/vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner`). Last updated 2026-10-03 01:48 UTC.
+
+| Filesystem | Size | Used | Avail | Use% | Mounted on |
+| --- | ---: | ---: | ---: | ---: | --- |
+| `sdz/ember` | 101T | 4.2T | 96T | 5% | `/vol/storage/ember` |
+<!-- runner-disk-usage:end -->
