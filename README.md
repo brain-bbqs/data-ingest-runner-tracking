@@ -6,9 +6,7 @@ A [DataLad](https://www.datalad.org) dataset tracking the provenance of every ac
 <!-- runner-disk-usage:start -->
 ## Runner disk usage
 
-Last updated 2026-10-03 01:48 UTC.
+![Runner disk usage](disk-usage.svg)
 
-| Filesystem | Size | Used | Avail | Use% | Mounted on |
-| --- | ---: | ---: | ---: | ---: | --- |
-| `sdz/ember` | 101T | 4.2T | 96T | 5% | `/vol/storage/ember` |
+Updated by every ingest run from `df` on the drive holding the runner's work directory. The full history is in [`disk-usage.csv`](disk-usage.csv).
 <!-- runner-disk-usage:end -->
