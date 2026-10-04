@@ -7,7 +7,7 @@ Nothing in it is edited by hand.
 <!-- runner-disk-usage:start -->
 ## Runner disk usage
 
-Updated by every ingest run, from `df -H` on the drive holding the runner's work directory (`/vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner`). Last updated 2026-10-03 01:48 UTC.
+Last updated 2026-10-03 01:48 UTC.
 
 | Filesystem | Size | Used | Avail | Use% | Mounted on |
 | --- | ---: | ---: | ---: | ---: | --- |
