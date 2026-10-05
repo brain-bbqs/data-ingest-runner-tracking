@@ -16,11 +16,12 @@ An image change is its own `[DATALAD] Update containerized environment` commit.
 
 ## Reading it
 
-Browse `records/` here on GitHub, or clone it and use `git log`:
+Browse `records/` on the [`records` branch](https://github.com/brain-bbqs/data-ingest-runner-tracking/tree/records/records), or clone it and use `git log`:
 
 ```bash
 datalad clone https://github.com/brain-bbqs/data-ingest-runner-tracking
 cd data-ingest-runner-tracking
+git checkout records
 git log --oneline -- records/kemere
 datalad containers-list
 ```
