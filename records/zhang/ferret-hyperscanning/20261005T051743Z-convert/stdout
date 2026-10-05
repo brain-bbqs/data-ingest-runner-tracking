@@ -1,0 +1,56 @@
+Ignoring unexpected entry: /vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/ember-incoming/000480/sourcedata/raw/Ferret_Hyperscanning/0235-0236/04.23.2026/Session_1
+Ignoring unexpected entry: /vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/ember-incoming/000480/sourcedata/raw/Ferret_Hyperscanning/0235-0236/04.23.2026/Session_2
+Ignoring unexpected entry: /vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/ember-incoming/000480/sourcedata/raw/Ferret_Hyperscanning/0235-0237/03.19.2026/Session1
+Ignoring unexpected entry: /vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/ember-incoming/000480/sourcedata/raw/Ferret_Hyperscanning/0235-0237/03.19.2026/Session2
+Ignoring unexpected entry: /vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/ember-incoming/000480/sourcedata/raw/Ferret_Hyperscanning/0235-0237/04.23.2026/Session_1
+Ignoring unexpected entry: /vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/ember-incoming/000480/sourcedata/raw/Ferret_Hyperscanning/0235-0237/04.23.2026/Session_2
+Ignoring unexpected entry: /vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/ember-incoming/000480/sourcedata/raw/Ferret_Hyperscanning/0235-0237/04.28.2026/Session_1
+Ignoring unexpected entry: /vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/ember-incoming/000480/sourcedata/raw/Ferret_Hyperscanning/0235-0237/04.28.2026/Session_2
+Ignoring unexpected entry: /vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/ember-incoming/000480/sourcedata/raw/Ferret_Hyperscanning/0235-0237/05.07.2026/Session_1
+Ignoring unexpected entry: /vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/ember-incoming/000480/sourcedata/raw/Ferret_Hyperscanning/0235-0237/05.07.2026/Session_2
+Ignoring unexpected entry: /vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/ember-incoming/000480/sourcedata/raw/Ferret_Hyperscanning/0235-0237/05.13.2026/Session_1
+Ignoring unexpected entry: /vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/ember-incoming/000480/sourcedata/raw/Ferret_Hyperscanning/0235-0237/05.13.2026/Session_2
+Ignoring unexpected entry: /vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/ember-incoming/000480/sourcedata/raw/Ferret_Hyperscanning/0235-0237/05.20.2026/Session_1
+Ignoring unexpected entry: /vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/ember-incoming/000480/sourcedata/raw/Ferret_Hyperscanning/0235-0237/05.20.2026/Session_2
+Ignoring unexpected entry: /vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/ember-incoming/000480/sourcedata/raw/Ferret_Hyperscanning/0236-0237/03.06.2026/README.txt
+Ignoring unexpected entry: /vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/ember-incoming/000480/sourcedata/raw/Ferret_Hyperscanning/0236-0237/03.08.2026/README.txt
+Ignoring unexpected entry: /vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/ember-incoming/000480/sourcedata/raw/Ferret_Hyperscanning/0236-0237/03.18.2026/Session1
+Ignoring unexpected entry: /vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/ember-incoming/000480/sourcedata/raw/Ferret_Hyperscanning/0236-0237/03.18.2026/Session2
+Ignoring unexpected entry: /vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/ember-incoming/000480/sourcedata/raw/Ferret_Hyperscanning/0236-0237/04.23.2026/Session_1
+Ignoring unexpected entry: /vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/ember-incoming/000480/sourcedata/raw/Ferret_Hyperscanning/0236-0237/04.23.2026/Session_2
+Ignoring unexpected entry: /vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/ember-incoming/000480/sourcedata/raw/Ferret_Hyperscanning/0236-0237/04.28.2026/Session_1
+Ignoring unexpected entry: /vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/ember-incoming/000480/sourcedata/raw/Ferret_Hyperscanning/0236-0237/04.28.2026/Session_2
+Ignoring unrecognized recording: not a recognized recording name: '02355HS6_0236HS5_20260408_134217.rec'
+Ignoring unrecognized recording: not a recognized recording name: '0235HS3_0237HS4_Session1_20260308_142653.rec'
+Ignoring unrecognized recording: not a recognized recording name: '0235HS3_0237HS4_sess1_20260318_111532.rec'
+Ignoring unrecognized recording: not a recognized recording name: '0236HS3_0237HS4_Session1_20260306_114321.rec'
+Ignoring unrecognized recording: not a recognized recording name: '0236HS3_0237HS4_Session1_20260308_130347.rec'
+Ignoring unrecognized recording: not a recognized recording name: '0236HS3_0237HS4_RecordingTest1_20260223_155333.rec'
+Converting 68 recording(s) across 2 worker(s)
+0235HS7_0236HS5_20260402_144945.rec: no video file for camera(s) [14, 46, 58, 67, 68]
+Ignoring unrecognized file in Videos/: cam68-04162026125821-0000_58.367.png
+Ignoring unrecognized file in Videos/: Cam14-Calibration-03132026100948-0000.avi
+Ignoring unrecognized file in Videos/: Cam46-Calibration-03132026101040-0000.avi
+Ignoring unrecognized file in Videos/: Cam58-Calibration-03132026101026-0000.avi
+Ignoring unrecognized file in Videos/: Cam67-Calibration-03132026101009-0000.avi
+Ignoring unrecognized file in Videos/: Cam68-Calibration-03132026100932-0000.avi
+0235HS3_0237HS4_20260313_102520.rec: no calibration file for camera(s) [14, 46, 58, 67, 68]
+0235HS5_0237HS6_20260521_102105.rec: no session-log row for 0235-0237 on 2026-05-21
+0235HS5_0237HS6_20260522_115355.rec: no session-log row for 0235-0237 on 2026-05-22
+Ignoring unrecognized file in Videos/: Cam14-Calibration-03132026124731-0000.avi
+Ignoring unrecognized file in Videos/: Cam46-Calibration-03132026124816-0000.avi
+Ignoring unrecognized file in Videos/: Cam58-Calibration-03132026124802-0000.avi
+Ignoring unrecognized file in Videos/: Cam67-Calibration-03132026124825-0000.avi
+Ignoring unrecognized file in Videos/: Cam68-Calibration-03132026124811-0000.avi
+0236HS3_0237HS4_20260313_125809.rec: no calibration file for camera(s) [14, 46, 58, 67, 68]
+Ignoring unrecognized file in Videos/: Cam14-Calibration-03162026103823-0000.avi
+Ignoring unrecognized file in Videos/: Cam46-Calibration-03162026103922-0000.avi
+Ignoring unrecognized file in Videos/: Cam58-Calibration-03162026103854-0000.avi
+Ignoring unrecognized file in Videos/: Cam67-Calibration-03162026103905-0000.avi
+Ignoring unrecognized file in Videos/: Cam68-Calibration-03162026103842-0000.avi
+0236HS3_0237HS4_20260316_154046.rec: no calibration file for camera(s) [14, 46, 58, 67, 68]
+0236HS3_0237HS4_20260331_101851.rec: no video file for camera(s) [14, 46, 58, 67, 68]
+0236HS3_0237HS4_20260331_101851.rec: no calibration file for camera(s) [14, 46, 58, 67, 68]
+0236HS3_0237HS4_20260331_110624.rec: no video file for camera(s) [14, 46, 58, 67, 68]
+0236HS3_0237HS4_20260331_110624.rec: no calibration file for camera(s) [14, 46, 58, 67, 68]
+Converted 0, skipped 6, failed 68 of 74 recording(s)
