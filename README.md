@@ -6,12 +6,5 @@ A [DataLad](https://www.datalad.org) dataset tracking the provenance of every ac
 <!-- runner-disk-usage:start -->
 ## Runner disk usage
 
-![Runner disk usage](disk-usage.svg)
-
-<!-- runner-disk-usage:start -->
-## Runner disk usage
-
-![Runner disk usage](disk-usage.svg)
-
-Updated by every ingest run from `df` on the drive holding the runner's work directory. The full history is in [`disk-usage.csv`](disk-usage.csv).
+![Runner disk usage](disk-usage/disk-usage.svg)
 <!-- runner-disk-usage:end -->
