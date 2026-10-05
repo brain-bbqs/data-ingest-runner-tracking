@@ -1,7 +1,7 @@
 [datalad "dataset"]
 	id = 86d7fcd9-cbde-413b-8423-a7cd6adc0cce
 [datalad "containers.dandi-cli"]
-	updateurl = docker://ghcr.io/brain-bbqs/dandi-cli@sha256:d31fc9269b0fd7e80ab009b158790a0998e9960279efef903d2434b6ef219bee
+	updateurl = docker://ghcr.io/brain-bbqs/dandi-cli@sha256:eb8621873d3a88ad33caeb65d5c8960fd30d90ee964a5de3108b83900c8e9767
 	image = envs/dandi-cli.sif
 	cmdexec = duct --fail-time 0 apptainer exec --cleanenv {img} {cmd}
 [datalad "containers.kemere-r34da059514-ingest"]
@@ -25,6 +25,6 @@
 	image = envs/suthana-seeber-2024-r61mh135106-ingest.sif
 	cmdexec = duct --fail-time 0 apptainer exec --cleanenv {img} {cmd}
 [datalad "containers.zhang-ferret-hyperscanning-r34da061924-ingest"]
-	updateurl = docker://ghcr.io/brain-bbqs/zhang-ferret-hyperscanning-r34da061924-ingest@sha256:6ca59128418455117c9ee7a465ea89d24bb5ae615097ba8e431c7f2ed0ebe106
+	updateurl = docker://ghcr.io/brain-bbqs/zhang-ferret-hyperscanning-r34da061924-ingest@sha256:5893afbc870a2977385284843a4c98310b269cc528c808d8dd24c5a1dd5bfc90
 	image = envs/zhang-ferret-hyperscanning-r34da061924-ingest.sif
 	cmdexec = duct --fail-time 0 apptainer exec --cleanenv {img} {cmd}
