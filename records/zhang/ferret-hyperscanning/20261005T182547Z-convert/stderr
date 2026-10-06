@@ -1,0 +1,218 @@
+INFO:    fuse2fs not found, will not be able to mount EXT3 filesystems
+Converting recordings:   0%|          | 0/68 [00:00<?, ?rec/s]                                                              Converting recordings:   0%|          | 0/68 [11:06<?, ?rec/s]Converting recordings:   1%|▏         | 1/68 [11:06<12:23:56, 666.22s/rec]                                                                          Converting recordings:   1%|▏         | 1/68 [22:05<12:23:56, 666.22s/rec]Converting recordings:   3%|▎         | 2/68 [22:05<12:08:25, 662.20s/rec]                                                                          Converting recordings:   3%|▎         | 2/68 [34:02<12:08:25, 662.20s/rec]Converting recordings:   4%|▍         | 3/68 [34:02<12:24:31, 687.25s/rec]                                                                          Converting recordings:   4%|▍         | 3/68 [56:49<12:24:31, 687.25s/rec]Converting recordings:   6%|▌         | 4/68 [56:49<16:59:09, 955.46s/rec]                                                                          Converting recordings:   6%|▌         | 4/68 [1:14:39<16:59:09, 955.46s/rec]Converting recordings:   7%|▋         | 5/68 [1:14:39<17:26:44, 996.89s/rec]                                                                            Converting recordings:   7%|▋         | 5/68 [1:20:55<17:26:44, 996.89s/rec]Converting recordings:   9%|▉         | 6/68 [1:20:55<13:31:59, 785.81s/rec]                                                                            Converting recordings:   9%|▉         | 6/68 [1:45:09<13:31:59, 785.81s/rec]Converting recordings:  10%|█         | 7/68 [1:45:09<17:00:45, 1004.03s/rec]                                                                             Converting recordings:  10%|█         | 7/68 [1:50:37<17:00:45, 1004.03s/rec]Converting recordings:  12%|█▏        | 8/68 [1:50:37<13:08:53, 788.89s/rec]                                                                             Converting recordings:  12%|█▏        | 8/68 [2:07:43<13:08:53, 788.89s/rec]Converting recordings:  13%|█▎        | 9/68 [2:07:43<14:08:47, 863.17s/rec]                                                                            Converting recordings:  13%|█▎        | 9/68 [2:22:06<14:08:47, 863.17s/rec]Converting recordings:  15%|█▍        | 10/68 [2:22:06<13:54:18, 863.07s/rec]                                                                             Converting recordings:  15%|█▍        | 10/68 [2:40:33<13:54:18, 863.07s/rec]Converting recordings:  16%|█▌        | 11/68 [2:40:33<14:50:48, 937.69s/rec]                                                                             Converting recordings:  16%|█▌        | 11/68 [2:57:58<14:50:48, 937.69s/rec]Converting recordings:  18%|█▊        | 12/68 [2:57:58<15:05:33, 970.24s/rec]                                                                             Converting recordings:  18%|█▊        | 12/68 [3:07:18<15:05:33, 970.24s/rec]Converting recordings:  19%|█▉        | 13/68 [3:07:18<12:55:38, 846.16s/rec]                                                                             Converting recordings:  19%|█▉        | 13/68 [3:19:38<12:55:38, 846.16s/rec]Converting recordings:  21%|██        | 14/68 [3:19:38<12:12:29, 813.89s/rec]concurrent.futures.process._RemoteTraceback: 
+"""
+Traceback (most recent call last):
+  File "/usr/lib/python3.13/concurrent/futures/process.py", line 254, in _process_worker
+    r = call_item.fn(*call_item.args, **call_item.kwargs)
+  File "/vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/task-force/labs/zhang/ferret-hyperscanning/code/batch_convert.py", line 97, in convert_recording
+    written = convert_session(
+        rec=rec_dir, output_dir=standardized_dir, cfg=cfg, session_log=session_log, overwrite=overwrite
+    )
+  File "/vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/task-force/labs/zhang/ferret-hyperscanning/code/_zhang_ferret_hyperscanning_to_nwb.py", line 489, in convert_session
+    raise FileNotFoundError(f"no merged ephys file at {', '.join(str(path) for path in missing_ephys)}")
+FileNotFoundError: no merged ephys file at /vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/ember-incoming/000480/sourcedata/raw/Ferret_Hyperscanning/0235-0237/03.20.2026/0235HS3_0237HS4_20260320_102109.rec/0237HS4/0235HS3_0237HS4_20260320_102109_0237HS4_merged.rec
+"""
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/task-force/labs/zhang/ferret-hyperscanning/code/batch_convert.py", line 192, in _convert_pending
+    yield rec_dir, future.result(), None
+                   ~~~~~~~~~~~~~^^
+  File "/usr/lib/python3.13/concurrent/futures/_base.py", line 449, in result
+    return self.__get_result()
+           ~~~~~~~~~~~~~~~~~^^
+  File "/usr/lib/python3.13/concurrent/futures/_base.py", line 401, in __get_result
+    raise self._exception
+FileNotFoundError: no merged ephys file at /vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/ember-incoming/000480/sourcedata/raw/Ferret_Hyperscanning/0235-0237/03.20.2026/0235HS3_0237HS4_20260320_102109.rec/0237HS4/0235HS3_0237HS4_20260320_102109_0237HS4_merged.rec
+FAILED: /vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/ember-incoming/000480/sourcedata/raw/Ferret_Hyperscanning/0235-0237/03.20.2026/0235HS3_0237HS4_20260320_102109.rec: no merged ephys file at /vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/ember-incoming/000480/sourcedata/raw/Ferret_Hyperscanning/0235-0237/03.20.2026/0235HS3_0237HS4_20260320_102109.rec/0237HS4/0235HS3_0237HS4_20260320_102109_0237HS4_merged.rec
+Converting recordings:  22%|██▏       | 15/68 [3:19:38<8:22:16, 568.62s/rec] concurrent.futures.process._RemoteTraceback: 
+"""
+Traceback (most recent call last):
+  File "/usr/lib/python3.13/concurrent/futures/process.py", line 254, in _process_worker
+    r = call_item.fn(*call_item.args, **call_item.kwargs)
+  File "/vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/task-force/labs/zhang/ferret-hyperscanning/code/batch_convert.py", line 97, in convert_recording
+    written = convert_session(
+        rec=rec_dir, output_dir=standardized_dir, cfg=cfg, session_log=session_log, overwrite=overwrite
+    )
+  File "/vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/task-force/labs/zhang/ferret-hyperscanning/code/_zhang_ferret_hyperscanning_to_nwb.py", line 489, in convert_session
+    raise FileNotFoundError(f"no merged ephys file at {', '.join(str(path) for path in missing_ephys)}")
+FileNotFoundError: no merged ephys file at /vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/ember-incoming/000480/sourcedata/raw/Ferret_Hyperscanning/0235-0237/03.25.2026/0235HS3_0237HS4_20260325_124806.rec/0235HS3/0235HS3_0237HS4_20260325_124806_0235HS3_merged.rec
+"""
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/task-force/labs/zhang/ferret-hyperscanning/code/batch_convert.py", line 192, in _convert_pending
+    yield rec_dir, future.result(), None
+                   ~~~~~~~~~~~~~^^
+  File "/usr/lib/python3.13/concurrent/futures/_base.py", line 449, in result
+    return self.__get_result()
+           ~~~~~~~~~~~~~~~~~^^
+  File "/usr/lib/python3.13/concurrent/futures/_base.py", line 401, in __get_result
+    raise self._exception
+FileNotFoundError: no merged ephys file at /vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/ember-incoming/000480/sourcedata/raw/Ferret_Hyperscanning/0235-0237/03.25.2026/0235HS3_0237HS4_20260325_124806.rec/0235HS3/0235HS3_0237HS4_20260325_124806_0235HS3_merged.rec
+FAILED: /vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/ember-incoming/000480/sourcedata/raw/Ferret_Hyperscanning/0235-0237/03.25.2026/0235HS3_0237HS4_20260325_124806.rec: no merged ephys file at /vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/ember-incoming/000480/sourcedata/raw/Ferret_Hyperscanning/0235-0237/03.25.2026/0235HS3_0237HS4_20260325_124806.rec/0235HS3/0235HS3_0237HS4_20260325_124806_0235HS3_merged.rec
+                                                                            Converting recordings:  22%|██▏       | 15/68 [3:26:29<8:22:16, 568.62s/rec]Converting recordings:  25%|██▌       | 17/68 [3:26:29<5:40:37, 400.73s/rec]                                                                            Converting recordings:  25%|██▌       | 17/68 [3:36:59<5:40:37, 400.73s/rec]Converting recordings:  26%|██▋       | 18/68 [3:36:59<6:21:23, 457.68s/rec]concurrent.futures.process._RemoteTraceback: 
+"""
+Traceback (most recent call last):
+  File "/usr/lib/python3.13/concurrent/futures/process.py", line 254, in _process_worker
+    r = call_item.fn(*call_item.args, **call_item.kwargs)
+  File "/vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/task-force/labs/zhang/ferret-hyperscanning/code/batch_convert.py", line 97, in convert_recording
+    written = convert_session(
+        rec=rec_dir, output_dir=standardized_dir, cfg=cfg, session_log=session_log, overwrite=overwrite
+    )
+  File "/vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/task-force/labs/zhang/ferret-hyperscanning/code/_zhang_ferret_hyperscanning_to_nwb.py", line 489, in convert_session
+    raise FileNotFoundError(f"no merged ephys file at {', '.join(str(path) for path in missing_ephys)}")
+FileNotFoundError: no merged ephys file at /vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/ember-incoming/000480/sourcedata/raw/Ferret_Hyperscanning/0235-0237/03.30.2026/0235HS3_0237HS4_20260330_150816.rec/0235HS3/0235HS3_0237HS4_20260330_150816_0235HS3_merged.rec, /vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/ember-incoming/000480/sourcedata/raw/Ferret_Hyperscanning/0235-0237/03.30.2026/0235HS3_0237HS4_20260330_150816.rec/0237HS4/0235HS3_0237HS4_20260330_150816_0237HS4_merged.rec
+"""
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/task-force/labs/zhang/ferret-hyperscanning/code/batch_convert.py", line 192, in _convert_pending
+    yield rec_dir, future.result(), None
+                   ~~~~~~~~~~~~~^^
+  File "/usr/lib/python3.13/concurrent/futures/_base.py", line 449, in result
+    return self.__get_result()
+           ~~~~~~~~~~~~~~~~~^^
+  File "/usr/lib/python3.13/concurrent/futures/_base.py", line 401, in __get_result
+    raise self._exception
+FileNotFoundError: no merged ephys file at /vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/ember-incoming/000480/sourcedata/raw/Ferret_Hyperscanning/0235-0237/03.30.2026/0235HS3_0237HS4_20260330_150816.rec/0235HS3/0235HS3_0237HS4_20260330_150816_0235HS3_merged.rec, /vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/ember-incoming/000480/sourcedata/raw/Ferret_Hyperscanning/0235-0237/03.30.2026/0235HS3_0237HS4_20260330_150816.rec/0237HS4/0235HS3_0237HS4_20260330_150816_0237HS4_merged.rec
+FAILED: /vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/ember-incoming/000480/sourcedata/raw/Ferret_Hyperscanning/0235-0237/03.30.2026/0235HS3_0237HS4_20260330_150816.rec: no merged ephys file at /vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/ember-incoming/000480/sourcedata/raw/Ferret_Hyperscanning/0235-0237/03.30.2026/0235HS3_0237HS4_20260330_150816.rec/0235HS3/0235HS3_0237HS4_20260330_150816_0235HS3_merged.rec, /vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/ember-incoming/000480/sourcedata/raw/Ferret_Hyperscanning/0235-0237/03.30.2026/0235HS3_0237HS4_20260330_150816.rec/0237HS4/0235HS3_0237HS4_20260330_150816_0237HS4_merged.rec
+                                                                            Converting recordings:  26%|██▋       | 18/68 [3:46:16<6:21:23, 457.68s/rec]Converting recordings:  29%|██▉       | 20/68 [3:46:16<5:06:32, 383.17s/rec]                                                                            Converting recordings:  29%|██▉       | 20/68 [3:55:56<5:06:32, 383.17s/rec]Converting recordings:  31%|███       | 21/68 [3:55:56<5:35:24, 428.18s/rec]                                                                            Converting recordings:  31%|███       | 21/68 [4:06:40<5:35:24, 428.18s/rec]Converting recordings:  32%|███▏      | 22/68 [4:06:40<6:09:02, 481.35s/rec]                                                                            Converting recordings:  32%|███▏      | 22/68 [4:21:42<6:09:02, 481.35s/rec]Converting recordings:  34%|███▍      | 23/68 [4:21:42<7:23:12, 590.95s/rec]                                                                            Converting recordings:  34%|███▍      | 23/68 [4:23:12<7:23:12, 590.95s/rec]Converting recordings:  35%|███▌      | 24/68 [4:23:12<5:33:47, 455.17s/rec]                                                                            Converting recordings:  35%|███▌      | 24/68 [4:40:56<5:33:47, 455.17s/rec]Converting recordings:  37%|███▋      | 25/68 [4:40:56<7:27:57, 625.07s/rec]                                                                            Converting recordings:  37%|███▋      | 25/68 [4:41:28<7:27:57, 625.07s/rec]Converting recordings:  38%|███▊      | 26/68 [4:41:28<5:19:15, 456.08s/rec]                                                                            Converting recordings:  38%|███▊      | 26/68 [5:02:46<5:19:15, 456.08s/rec]Converting recordings:  40%|███▉      | 27/68 [5:02:46<7:54:06, 693.82s/rec]                                                                            Converting recordings:  40%|███▉      | 27/68 [5:19:07<7:54:06, 693.82s/rec]Converting recordings:  41%|████      | 28/68 [5:19:07<8:38:32, 777.82s/rec]                                                                            Converting recordings:  41%|████      | 28/68 [5:27:20<8:38:32, 777.82s/rec]Converting recordings:  43%|████▎     | 29/68 [5:27:20<7:30:55, 693.72s/rec]concurrent.futures.process._RemoteTraceback: 
+"""
+Traceback (most recent call last):
+  File "/usr/lib/python3.13/concurrent/futures/process.py", line 254, in _process_worker
+    r = call_item.fn(*call_item.args, **call_item.kwargs)
+  File "/vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/task-force/labs/zhang/ferret-hyperscanning/code/batch_convert.py", line 97, in convert_recording
+    written = convert_session(
+        rec=rec_dir, output_dir=standardized_dir, cfg=cfg, session_log=session_log, overwrite=overwrite
+    )
+  File "/vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/task-force/labs/zhang/ferret-hyperscanning/code/_zhang_ferret_hyperscanning_to_nwb.py", line 489, in convert_session
+    raise FileNotFoundError(f"no merged ephys file at {', '.join(str(path) for path in missing_ephys)}")
+FileNotFoundError: no merged ephys file at /vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/ember-incoming/000480/sourcedata/raw/Ferret_Hyperscanning/0235-0237/04.25.2026/0235HS6_0237HS6_20260425_132118.rec/0235HS6/0235HS6_0237HS6_20260425_132118_0235HS6_merged.rec, /vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/ember-incoming/000480/sourcedata/raw/Ferret_Hyperscanning/0235-0237/04.25.2026/0235HS6_0237HS6_20260425_132118.rec/0237HS6/0235HS6_0237HS6_20260425_132118_0237HS6_merged.rec
+"""
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/task-force/labs/zhang/ferret-hyperscanning/code/batch_convert.py", line 192, in _convert_pending
+    yield rec_dir, future.result(), None
+                   ~~~~~~~~~~~~~^^
+  File "/usr/lib/python3.13/concurrent/futures/_base.py", line 449, in result
+    return self.__get_result()
+           ~~~~~~~~~~~~~~~~~^^
+  File "/usr/lib/python3.13/concurrent/futures/_base.py", line 401, in __get_result
+    raise self._exception
+FileNotFoundError: no merged ephys file at /vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/ember-incoming/000480/sourcedata/raw/Ferret_Hyperscanning/0235-0237/04.25.2026/0235HS6_0237HS6_20260425_132118.rec/0235HS6/0235HS6_0237HS6_20260425_132118_0235HS6_merged.rec, /vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/ember-incoming/000480/sourcedata/raw/Ferret_Hyperscanning/0235-0237/04.25.2026/0235HS6_0237HS6_20260425_132118.rec/0237HS6/0235HS6_0237HS6_20260425_132118_0237HS6_merged.rec
+FAILED: /vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/ember-incoming/000480/sourcedata/raw/Ferret_Hyperscanning/0235-0237/04.25.2026/0235HS6_0237HS6_20260425_132118.rec: no merged ephys file at /vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/ember-incoming/000480/sourcedata/raw/Ferret_Hyperscanning/0235-0237/04.25.2026/0235HS6_0237HS6_20260425_132118.rec/0235HS6/0235HS6_0237HS6_20260425_132118_0235HS6_merged.rec, /vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/ember-incoming/000480/sourcedata/raw/Ferret_Hyperscanning/0235-0237/04.25.2026/0235HS6_0237HS6_20260425_132118.rec/0237HS6/0235HS6_0237HS6_20260425_132118_0237HS6_merged.rec
+                                                                            Converting recordings:  43%|████▎     | 29/68 [5:53:18<7:30:55, 693.72s/rec]Converting recordings:  46%|████▌     | 31/68 [5:53:18<7:31:57, 732.90s/rec]                                                                            Converting recordings:  46%|████▌     | 31/68 [6:00:50<7:31:57, 732.90s/rec]Converting recordings:  47%|████▋     | 32/68 [6:00:50<6:38:15, 663.77s/rec]                                                                            Converting recordings:  47%|████▋     | 32/68 [6:28:34<6:38:15, 663.77s/rec]Converting recordings:  49%|████▊     | 33/68 [6:28:34<8:58:54, 923.83s/rec]                                                                            Converting recordings:  49%|████▊     | 33/68 [6:32:52<8:58:54, 923.83s/rec]Converting recordings:  50%|█████     | 34/68 [6:32:52<7:01:18, 743.49s/rec]                                                                            Converting recordings:  50%|█████     | 34/68 [6:59:24<7:01:18, 743.49s/rec]Converting recordings:  51%|█████▏    | 35/68 [6:59:24<8:59:03, 980.11s/rec]                                                                            Converting recordings:  51%|█████▏    | 35/68 [7:01:47<8:59:03, 980.11s/rec]Converting recordings:  53%|█████▎    | 36/68 [7:01:47<6:35:30, 741.58s/rec]                                                                            Converting recordings:  53%|█████▎    | 36/68 [7:31:54<6:35:30, 741.58s/rec]Converting recordings:  54%|█████▍    | 37/68 [7:31:54<9:02:30, 1050.01s/rec]                                                                             Converting recordings:  54%|█████▍    | 37/68 [7:32:23<9:02:30, 1050.01s/rec]Converting recordings:  56%|█████▌    | 38/68 [7:32:23<6:15:37, 751.24s/rec]                                                                             Converting recordings:  56%|█████▌    | 38/68 [7:58:38<6:15:37, 751.24s/rec]Converting recordings:  57%|█████▋    | 39/68 [7:58:38<8:00:27, 994.05s/rec]                                                                            Converting recordings:  57%|█████▋    | 39/68 [8:01:10<8:00:27, 994.05s/rec]Converting recordings:  59%|█████▉    | 40/68 [8:01:10<5:47:25, 744.48s/rec]                                                                            Converting recordings:  59%|█████▉    | 40/68 [8:05:57<5:47:25, 744.48s/rec]Converting recordings:  60%|██████    | 41/68 [8:05:57<4:33:55, 608.71s/rec]                                                                            Converting recordings:  60%|██████    | 41/68 [8:13:35<4:33:55, 608.71s/rec]Converting recordings:  62%|██████▏   | 42/68 [8:13:35<4:04:12, 563.57s/rec]                                                                            Converting recordings:  62%|██████▏   | 42/68 [8:17:24<4:04:12, 563.57s/rec]Converting recordings:  63%|██████▎   | 43/68 [8:17:24<3:13:14, 463.77s/rec]                                                                            Converting recordings:  63%|██████▎   | 43/68 [8:18:09<3:13:14, 463.77s/rec]Converting recordings:  65%|██████▍   | 44/68 [8:18:09<2:15:22, 338.45s/rec]                                                                            Converting recordings:  65%|██████▍   | 44/68 [8:29:47<2:15:22, 338.45s/rec]Converting recordings:  66%|██████▌   | 45/68 [8:29:47<2:50:59, 446.06s/rec]                                                                            Converting recordings:  66%|██████▌   | 45/68 [8:30:01<2:50:59, 446.06s/rec]Converting recordings:  68%|██████▊   | 46/68 [8:30:01<1:56:03, 316.50s/rec]                                                                            Converting recordings:  68%|██████▊   | 46/68 [8:39:00<1:56:03, 316.50s/rec]Converting recordings:  69%|██████▉   | 47/68 [8:39:00<2:14:08, 383.26s/rec]                                                                            Converting recordings:  69%|██████▉   | 47/68 [8:40:06<2:14:08, 383.26s/rec]Converting recordings:  71%|███████   | 48/68 [8:40:06<1:36:02, 288.13s/rec]concurrent.futures.process._RemoteTraceback: 
+"""
+Traceback (most recent call last):
+  File "/usr/lib/python3.13/concurrent/futures/process.py", line 254, in _process_worker
+    r = call_item.fn(*call_item.args, **call_item.kwargs)
+  File "/vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/task-force/labs/zhang/ferret-hyperscanning/code/batch_convert.py", line 97, in convert_recording
+    written = convert_session(
+        rec=rec_dir, output_dir=standardized_dir, cfg=cfg, session_log=session_log, overwrite=overwrite
+    )
+  File "/vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/task-force/labs/zhang/ferret-hyperscanning/code/_zhang_ferret_hyperscanning_to_nwb.py", line 489, in convert_session
+    raise FileNotFoundError(f"no merged ephys file at {', '.join(str(path) for path in missing_ephys)}")
+FileNotFoundError: no merged ephys file at /vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/ember-incoming/000480/sourcedata/raw/Ferret_Hyperscanning/0236-0237/03.31.2026/0236HS3_0237HS4_20260331_101851.rec/0236HS3/0236HS3_0237HS4_20260331_101851_0236HS3_merged.rec, /vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/ember-incoming/000480/sourcedata/raw/Ferret_Hyperscanning/0236-0237/03.31.2026/0236HS3_0237HS4_20260331_101851.rec/0237HS4/0236HS3_0237HS4_20260331_101851_0237HS4_merged.rec
+"""
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/task-force/labs/zhang/ferret-hyperscanning/code/batch_convert.py", line 192, in _convert_pending
+    yield rec_dir, future.result(), None
+                   ~~~~~~~~~~~~~^^
+  File "/usr/lib/python3.13/concurrent/futures/_base.py", line 449, in result
+    return self.__get_result()
+           ~~~~~~~~~~~~~~~~~^^
+  File "/usr/lib/python3.13/concurrent/futures/_base.py", line 401, in __get_result
+    raise self._exception
+FileNotFoundError: no merged ephys file at /vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/ember-incoming/000480/sourcedata/raw/Ferret_Hyperscanning/0236-0237/03.31.2026/0236HS3_0237HS4_20260331_101851.rec/0236HS3/0236HS3_0237HS4_20260331_101851_0236HS3_merged.rec, /vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/ember-incoming/000480/sourcedata/raw/Ferret_Hyperscanning/0236-0237/03.31.2026/0236HS3_0237HS4_20260331_101851.rec/0237HS4/0236HS3_0237HS4_20260331_101851_0237HS4_merged.rec
+FAILED: /vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/ember-incoming/000480/sourcedata/raw/Ferret_Hyperscanning/0236-0237/03.31.2026/0236HS3_0237HS4_20260331_101851.rec: no merged ephys file at /vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/ember-incoming/000480/sourcedata/raw/Ferret_Hyperscanning/0236-0237/03.31.2026/0236HS3_0237HS4_20260331_101851.rec/0236HS3/0236HS3_0237HS4_20260331_101851_0236HS3_merged.rec, /vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/ember-incoming/000480/sourcedata/raw/Ferret_Hyperscanning/0236-0237/03.31.2026/0236HS3_0237HS4_20260331_101851.rec/0237HS4/0236HS3_0237HS4_20260331_101851_0237HS4_merged.rec
+concurrent.futures.process._RemoteTraceback: 
+"""
+Traceback (most recent call last):
+  File "/usr/lib/python3.13/concurrent/futures/process.py", line 254, in _process_worker
+    r = call_item.fn(*call_item.args, **call_item.kwargs)
+  File "/vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/task-force/labs/zhang/ferret-hyperscanning/code/batch_convert.py", line 97, in convert_recording
+    written = convert_session(
+        rec=rec_dir, output_dir=standardized_dir, cfg=cfg, session_log=session_log, overwrite=overwrite
+    )
+  File "/vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/task-force/labs/zhang/ferret-hyperscanning/code/_zhang_ferret_hyperscanning_to_nwb.py", line 489, in convert_session
+    raise FileNotFoundError(f"no merged ephys file at {', '.join(str(path) for path in missing_ephys)}")
+FileNotFoundError: no merged ephys file at /vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/ember-incoming/000480/sourcedata/raw/Ferret_Hyperscanning/0236-0237/03.31.2026/0236HS3_0237HS4_20260331_110624.rec/0236HS3/0236HS3_0237HS4_20260331_110624_0236HS3_merged.rec, /vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/ember-incoming/000480/sourcedata/raw/Ferret_Hyperscanning/0236-0237/03.31.2026/0236HS3_0237HS4_20260331_110624.rec/0237HS4/0236HS3_0237HS4_20260331_110624_0237HS4_merged.rec
+"""
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/task-force/labs/zhang/ferret-hyperscanning/code/batch_convert.py", line 192, in _convert_pending
+    yield rec_dir, future.result(), None
+                   ~~~~~~~~~~~~~^^
+  File "/usr/lib/python3.13/concurrent/futures/_base.py", line 449, in result
+    return self.__get_result()
+           ~~~~~~~~~~~~~~~~~^^
+  File "/usr/lib/python3.13/concurrent/futures/_base.py", line 401, in __get_result
+    raise self._exception
+FileNotFoundError: no merged ephys file at /vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/ember-incoming/000480/sourcedata/raw/Ferret_Hyperscanning/0236-0237/03.31.2026/0236HS3_0237HS4_20260331_110624.rec/0236HS3/0236HS3_0237HS4_20260331_110624_0236HS3_merged.rec, /vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/ember-incoming/000480/sourcedata/raw/Ferret_Hyperscanning/0236-0237/03.31.2026/0236HS3_0237HS4_20260331_110624.rec/0237HS4/0236HS3_0237HS4_20260331_110624_0237HS4_merged.rec
+FAILED: /vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/ember-incoming/000480/sourcedata/raw/Ferret_Hyperscanning/0236-0237/03.31.2026/0236HS3_0237HS4_20260331_110624.rec: no merged ephys file at /vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/ember-incoming/000480/sourcedata/raw/Ferret_Hyperscanning/0236-0237/03.31.2026/0236HS3_0237HS4_20260331_110624.rec/0236HS3/0236HS3_0237HS4_20260331_110624_0236HS3_merged.rec, /vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/ember-incoming/000480/sourcedata/raw/Ferret_Hyperscanning/0236-0237/03.31.2026/0236HS3_0237HS4_20260331_110624.rec/0237HS4/0236HS3_0237HS4_20260331_110624_0237HS4_merged.rec
+concurrent.futures.process._RemoteTraceback: 
+"""
+Traceback (most recent call last):
+  File "/usr/lib/python3.13/concurrent/futures/process.py", line 254, in _process_worker
+    r = call_item.fn(*call_item.args, **call_item.kwargs)
+  File "/vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/task-force/labs/zhang/ferret-hyperscanning/code/batch_convert.py", line 97, in convert_recording
+    written = convert_session(
+        rec=rec_dir, output_dir=standardized_dir, cfg=cfg, session_log=session_log, overwrite=overwrite
+    )
+  File "/vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/task-force/labs/zhang/ferret-hyperscanning/code/_zhang_ferret_hyperscanning_to_nwb.py", line 489, in convert_session
+    raise FileNotFoundError(f"no merged ephys file at {', '.join(str(path) for path in missing_ephys)}")
+FileNotFoundError: no merged ephys file at /vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/ember-incoming/000480/sourcedata/raw/Ferret_Hyperscanning/0236-0237/04.01.2026/0236HS3_0237HS4_20260401_130419.rec/0236HS3/0236HS3_0237HS4_20260401_130419_0236HS3_merged.rec, /vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/ember-incoming/000480/sourcedata/raw/Ferret_Hyperscanning/0236-0237/04.01.2026/0236HS3_0237HS4_20260401_130419.rec/0237HS4/0236HS3_0237HS4_20260401_130419_0237HS4_merged.rec
+"""
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/task-force/labs/zhang/ferret-hyperscanning/code/batch_convert.py", line 192, in _convert_pending
+    yield rec_dir, future.result(), None
+                   ~~~~~~~~~~~~~^^
+  File "/usr/lib/python3.13/concurrent/futures/_base.py", line 449, in result
+    return self.__get_result()
+           ~~~~~~~~~~~~~~~~~^^
+  File "/usr/lib/python3.13/concurrent/futures/_base.py", line 401, in __get_result
+    raise self._exception
+FileNotFoundError: no merged ephys file at /vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/ember-incoming/000480/sourcedata/raw/Ferret_Hyperscanning/0236-0237/04.01.2026/0236HS3_0237HS4_20260401_130419.rec/0236HS3/0236HS3_0237HS4_20260401_130419_0236HS3_merged.rec, /vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/ember-incoming/000480/sourcedata/raw/Ferret_Hyperscanning/0236-0237/04.01.2026/0236HS3_0237HS4_20260401_130419.rec/0237HS4/0236HS3_0237HS4_20260401_130419_0237HS4_merged.rec
+FAILED: /vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/ember-incoming/000480/sourcedata/raw/Ferret_Hyperscanning/0236-0237/04.01.2026/0236HS3_0237HS4_20260401_130419.rec: no merged ephys file at /vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/ember-incoming/000480/sourcedata/raw/Ferret_Hyperscanning/0236-0237/04.01.2026/0236HS3_0237HS4_20260401_130419.rec/0236HS3/0236HS3_0237HS4_20260401_130419_0236HS3_merged.rec, /vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/ember-incoming/000480/sourcedata/raw/Ferret_Hyperscanning/0236-0237/04.01.2026/0236HS3_0237HS4_20260401_130419.rec/0237HS4/0236HS3_0237HS4_20260401_130419_0237HS4_merged.rec
+                                                                            Converting recordings:  71%|███████   | 48/68 [8:52:41<1:36:02, 288.13s/rec]Converting recordings:  76%|███████▋  | 52/68 [8:52:41<1:00:06, 225.39s/rec]concurrent.futures.process._RemoteTraceback: 
+"""
+Traceback (most recent call last):
+  File "/usr/lib/python3.13/concurrent/futures/process.py", line 254, in _process_worker
+    r = call_item.fn(*call_item.args, **call_item.kwargs)
+  File "/vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/task-force/labs/zhang/ferret-hyperscanning/code/batch_convert.py", line 97, in convert_recording
+    written = convert_session(
+        rec=rec_dir, output_dir=standardized_dir, cfg=cfg, session_log=session_log, overwrite=overwrite
+    )
+  File "/vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/task-force/labs/zhang/ferret-hyperscanning/code/_zhang_ferret_hyperscanning_to_nwb.py", line 489, in convert_session
+    raise FileNotFoundError(f"no merged ephys file at {', '.join(str(path) for path in missing_ephys)}")
+FileNotFoundError: no merged ephys file at /vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/ember-incoming/000480/sourcedata/raw/Ferret_Hyperscanning/0236-0237/04.08.2026/0236HS5_0237HS6_20260408_155939.rec/0237HS6/0236HS5_0237HS6_20260408_155939_0237HS6_merged.rec
+"""
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/task-force/labs/zhang/ferret-hyperscanning/code/batch_convert.py", line 192, in _convert_pending
+    yield rec_dir, future.result(), None
+                   ~~~~~~~~~~~~~^^
+  File "/usr/lib/python3.13/concurrent/futures/_base.py", line 449, in result
+    return self.__get_result()
+           ~~~~~~~~~~~~~~~~~^^
+  File "/usr/lib/python3.13/concurrent/futures/_base.py", line 401, in __get_result
+    raise self._exception
+FileNotFoundError: no merged ephys file at /vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/ember-incoming/000480/sourcedata/raw/Ferret_Hyperscanning/0236-0237/04.08.2026/0236HS5_0237HS6_20260408_155939.rec/0237HS6/0236HS5_0237HS6_20260408_155939_0237HS6_merged.rec
+FAILED: /vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/ember-incoming/000480/sourcedata/raw/Ferret_Hyperscanning/0236-0237/04.08.2026/0236HS5_0237HS6_20260408_155939.rec: no merged ephys file at /vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/ember-incoming/000480/sourcedata/raw/Ferret_Hyperscanning/0236-0237/04.08.2026/0236HS5_0237HS6_20260408_155939.rec/0237HS6/0236HS5_0237HS6_20260408_155939_0237HS6_merged.rec
+                                                                            Converting recordings:  76%|███████▋  | 52/68 [8:54:26<1:00:06, 225.39s/rec]Converting recordings:  79%|███████▉  | 54/68 [8:54:26<40:03, 171.65s/rec]                                                                            Converting recordings:  79%|███████▉  | 54/68 [9:07:21<40:03, 171.65s/rec]Converting recordings:  81%|████████  | 55/68 [9:07:21<1:00:57, 281.37s/rec]                                                                            Converting recordings:  81%|████████  | 55/68 [9:10:25<1:00:57, 281.37s/rec]Converting recordings:  82%|████████▏ | 56/68 [9:10:25<52:13, 261.17s/rec]                                                                            Converting recordings:  82%|████████▏ | 56/68 [9:26:59<52:13, 261.17s/rec]Converting recordings:  84%|████████▍ | 57/68 [9:26:59<1:18:27, 427.92s/rec]                                                                            Converting recordings:  84%|████████▍ | 57/68 [9:27:31<1:18:27, 427.92s/rec]Converting recordings:  85%|████████▌ | 58/68 [9:27:31<55:07, 330.74s/rec]                                                                            Converting recordings:  85%|████████▌ | 58/68 [9:47:17<55:07, 330.74s/rec]Converting recordings:  87%|████████▋ | 59/68 [9:47:17<1:22:55, 552.78s/rec]                                                                            Converting recordings:  87%|████████▋ | 59/68 [9:49:56<1:22:55, 552.78s/rec]Converting recordings:  88%|████████▊ | 60/68 [9:49:56<59:29, 446.13s/rec]                                                                            Converting recordings:  88%|████████▊ | 60/68 [10:05:14<59:29, 446.13s/rec]Converting recordings:  90%|████████▉ | 61/68 [10:05:14<1:07:24, 577.82s/rec]                                                                             Converting recordings:  90%|████████▉ | 61/68 [10:10:24<1:07:24, 577.82s/rec]Converting recordings:  91%|█████████ | 62/68 [10:10:24<50:09, 501.56s/rec]                                                                             Converting recordings:  91%|█████████ | 62/68 [10:26:56<50:09, 501.56s/rec]Converting recordings:  93%|█████████▎| 63/68 [10:26:56<53:36, 643.21s/rec]                                                                           Converting recordings:  93%|█████████▎| 63/68 [10:32:54<53:36, 643.21s/rec]Converting recordings:  94%|█████████▍| 64/68 [10:32:54<37:19, 559.81s/rec]                                                                           Converting recordings:  94%|█████████▍| 64/68 [10:52:53<37:19, 559.81s/rec]Converting recordings:  96%|█████████▌| 65/68 [10:52:53<37:24, 748.09s/rec]                                                                           Converting recordings:  96%|█████████▌| 65/68 [10:53:55<37:24, 748.09s/rec]Converting recordings:  97%|█████████▋| 66/68 [10:53:55<18:09, 544.94s/rec]                                                                           Converting recordings:  97%|█████████▋| 66/68 [11:08:16<18:09, 544.94s/rec]Converting recordings:  99%|█████████▊| 67/68 [11:08:16<10:38, 638.93s/rec]                                                                           Converting recordings:  99%|█████████▊| 67/68 [11:15:18<10:38, 638.93s/rec]Converting recordings: 100%|██████████| 68/68 [11:15:18<00:00, 574.29s/rec]Converting recordings: 100%|██████████| 68/68 [11:15:20<00:00, 595.88s/rec]
