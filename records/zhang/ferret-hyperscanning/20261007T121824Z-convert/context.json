@@ -1,0 +1,21 @@
+{
+  "force_overwrite": false,
+  "image": "docker://ghcr.io/brain-bbqs/zhang-ferret-hyperscanning-r34da061924-ingest@sha256:c6b52c99f8fed97a3692f86a8b5946db52088a765694f6b5062fc41de640776e",
+  "incoming_dandiset_id": "000480",
+  "project": "zhang/ferret-hyperscanning",
+  "script_path": "labs/zhang/ferret-hyperscanning/code/_zhang_ferret_hyperscanning_to_nwb.py",
+  "script_sha256": "c82772700a4bc119dedb97f528242d7381b4aee382f990f06cfcfc5a431e9489",
+  "sessions": [
+    "0235HS3_0237HS4_20260320_102109.rec",
+    "0235HS3_0237HS4_20260325_124806.rec",
+    "0235HS3_0237HS4_20260330_150816.rec",
+    "0235HS6_0237HS6_20260425_132118.rec",
+    "0236HS3_0237HS4_20260331_101851.rec",
+    "0236HS3_0237HS4_20260331_110624.rec",
+    "0236HS3_0237HS4_20260401_130419.rec",
+    "0236HS5_0237HS6_20260408_155939.rec"
+  ],
+  "standardized_dandiset_id": "000547",
+  "step": "convert",
+  "task_force_commit": "fd504a03f3f1dc98824225743aa4998e3920f954"
+}
