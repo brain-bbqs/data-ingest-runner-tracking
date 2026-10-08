@@ -1,0 +1,6 @@
+{
+  "image": "docker://ghcr.io/brain-bbqs/dandi-cli@sha256:551f7aff1ff4f2f990680c71db277d80a32fe4106f3fdbb0c9c1bc39698587ec",
+  "project": "inman",
+  "standardized_dandiset_id": "000526",
+  "step": "upload"
+}

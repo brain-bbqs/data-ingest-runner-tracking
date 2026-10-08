@@ -1,0 +1,4 @@
+INFO:    fuse2fs not found, will not be able to mount EXT3 filesystems
+2026-10-08 15:46:41,895 [ WARNING] Server uses schema version 0.7.0 older than client's 0.8.0 (dandischema library 0.14.0). Library will attempt (but might fail) to downgrade outgoing metadata to this schema version on upload. Server might fail to validate such assets and you might not be able to publish this dandiset until server is upgraded. Alternatively, you may downgrade dandischema and reupload.
+2026-10-08 15:46:44,349 [    INFO] Found 2 files to consider
+2026-10-08 15:46:48,872 [    INFO] Logs saved in /home/cbaker/.local/state/dandi-cli/log/2026.10.08-15.46.41Z-96756.log

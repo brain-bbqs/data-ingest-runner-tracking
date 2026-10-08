@@ -1,0 +1,5 @@
+PATH                                       SIZE    ERRORS  PROGRESS STATUS                MESSAGE                       
+dandiset.yaml                              2.4 kB                   skipped               should be edited online       
+sub-3/sub-3_ses-walk1_behavior+ecephys.nwb 44.7 MB   0         100% done                  exists (older) - reuploading  
+Summary:                                   44.7 MB         9.9 MB/s 1 skipped             1 should be edited online     
+                                                                    1 done                1 exists (older) - reuploading
