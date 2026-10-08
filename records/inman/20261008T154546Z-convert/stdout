@@ -1,0 +1,4 @@
+Converting 1 walk file(s) across 1 worker(s)
+Wrote NWB file to: /vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/ember-standardized/000526/sub-3/sub-3_ses-walk1_behavior+ecephys.nwb
+Converted /vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/ember-incoming/000519/sourcedata/raw/sample-1/RWNApp_RW3_Walk1_restructured.mat (subject 3, walk 1) -> /vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/ember-standardized/000526/sub-3/sub-3_ses-walk1_behavior+ecephys.nwb
+Converted 1, skipped 0, failed 0 of 1 walk file(s)

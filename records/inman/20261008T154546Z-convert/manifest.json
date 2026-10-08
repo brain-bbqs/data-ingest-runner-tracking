@@ -1,0 +1,26 @@
+{
+  "command": [
+    "python3",
+    "-m",
+    "labs.inman.code.batch_convert",
+    "--input",
+    "/vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/ember-incoming/000519",
+    "--output",
+    "/vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/ember-standardized/000526",
+    "--config",
+    "/vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/task-force/labs/inman/code/config.yaml",
+    "--overwrite"
+  ],
+  "exit_code": 0,
+  "finished_at": "2026-10-08T15:46:33+00:00",
+  "removed": [],
+  "root": "/vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/ember-standardized/000526",
+  "started_at": "2026-10-08T15:46:16+00:00",
+  "written": [
+    {
+      "path": "sub-3/sub-3_ses-walk1_behavior+ecephys.nwb",
+      "sha256": "0354b5025e42426229e7da3c3c85f699f4af85a6f98ee2c0973bdb599628d4f5",
+      "size": 44735582
+    }
+  ]
+}

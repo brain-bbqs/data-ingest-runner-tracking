@@ -1,0 +1,6 @@
+INFO:    fuse2fs not found, will not be able to mount EXT3 filesystems
+Converting walks:   0%|          | 0/1 [00:00<?, ?walk/s]/opt/venv/lib/python3.13/site-packages/hdmf/container.py:575: UserWarning: The linked table for DynamicTableRegion 'electrodes' does not share an ancestor with the DynamicTableRegion.
+  child._validate_on_set_parent()
+/vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/task-force/labs/inman/code/_inman_to_nwb.py:467: FutureWarning: Naming a single compression method and options for `apply_global_compression` is deprecated and will be removed in v0.12.0. Pass lists instead, for example `apply_global_compression(["gzip"], [{"level": 9}])`.
+  backend_configuration.apply_global_compression(
+                                                         Converting walks:   0%|          | 0/1 [00:13<?, ?walk/s]Converting walks: 100%|██████████| 1/1 [00:13<00:00, 13.47s/walk]Converting walks: 100%|██████████| 1/1 [00:13<00:00, 13.47s/walk]
