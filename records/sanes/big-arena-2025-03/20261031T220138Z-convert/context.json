@@ -1,0 +1,15 @@
+{
+  "force_overwrite": true,
+  "image": "docker://ghcr.io/brain-bbqs/sanes-r34da059513-ingest@sha256:5dfdb8d4dccd53a2762224361435164b68072fc3cc1084f6e2dc4bd131430c52",
+  "incoming_dandiset_id": "000602",
+  "project": "sanes/big-arena-2025-03",
+  "script_path": "labs/sanes/code/_sanes_to_nwb.py",
+  "script_sha256": "173cfcda79b4e5c54180856c8722048df31b5a559559cb780ee3ed36e1bda3c8",
+  "sessions": [
+    "experiment_235",
+    "experiment_237"
+  ],
+  "standardized_dandiset_id": "000630",
+  "step": "convert",
+  "task_force_commit": "1ffc237fd4bd78416267b8a5c54b63518008d7fd"
+}
