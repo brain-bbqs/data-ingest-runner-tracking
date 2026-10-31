@@ -1,0 +1,6 @@
+{
+  "image": "docker://ghcr.io/brain-bbqs/dandi-cli@sha256:b039ded022258029d0f1cdb1225f25974f022a08fa993068fe0ea52e0d879042",
+  "project": "sanes/big-arena-2024-12",
+  "standardized_dandiset_id": "000629",
+  "step": "upload"
+}
