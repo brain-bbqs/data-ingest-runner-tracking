@@ -1,0 +1,9 @@
+INFO:    fuse2fs not found, will not be able to mount EXT3 filesystems
+Converting sessions:   0%|          | 0/1 [00:00<?, ?session/s]Traceback (most recent call last):
+  File "/vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/task-force/labs/sanes/code/batch_convert.py", line 90, in convert_batch
+    output_path = build_nwb(session_dir=session_dir, output_dir=output_dir, config_path=config_path)
+  File "/vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/task-force/labs/sanes/code/_sanes_to_nwb.py", line 380, in build_nwb
+    raise ValueError(f"Video frame rate changes between chunks of {session_dir}")
+ValueError: Video frame rate changes between chunks of /vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/ember-incoming/000522/sourcedata/raw/experiment_135
+FAILED: /vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/ember-incoming/000522/sourcedata/raw/experiment_135: Video frame rate changes between chunks of /vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/ember-incoming/000522/sourcedata/raw/experiment_135
+Converting sessions: 100%|██████████| 1/1 [00:03<00:00,  3.74s/session]Converting sessions: 100%|██████████| 1/1 [00:03<00:00,  3.74s/session]
