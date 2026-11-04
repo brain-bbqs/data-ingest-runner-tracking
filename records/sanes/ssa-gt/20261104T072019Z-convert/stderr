@@ -1,0 +1,576 @@
+INFO:    fuse2fs not found, will not be able to mount EXT3 filesystems
+Converting sessions:   0%|          | 0/64 [00:00<?, ?session/s]Traceback (most recent call last):
+  File "/vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/task-force/labs/sanes/code/batch_convert.py", line 90, in convert_batch
+    output_path = build_nwb(session_dir=session_dir, output_dir=output_dir, config_path=config_path)
+  File "/vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/task-force/labs/sanes/code/_sanes_to_nwb.py", line 380, in build_nwb
+    raise ValueError(f"Video frame rate changes between chunks of {session_dir}")
+ValueError: Video frame rate changes between chunks of /vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/ember-incoming/000524/sourcedata/raw/ssa_gt_data/experiment_280
+FAILED: /vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/ember-incoming/000524/sourcedata/raw/ssa_gt_data/experiment_280: Video frame rate changes between chunks of /vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/ember-incoming/000524/sourcedata/raw/ssa_gt_data/experiment_280
+Converting sessions:   2%|▏         | 1/64 [00:32<33:48, 32.19s/session]Traceback (most recent call last):
+  File "/vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/task-force/labs/sanes/code/batch_convert.py", line 90, in convert_batch
+    output_path = build_nwb(session_dir=session_dir, output_dir=output_dir, config_path=config_path)
+  File "/vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/task-force/labs/sanes/code/_sanes_to_nwb.py", line 360, in build_nwb
+    session_start = _session_start(session_dir=session_dir, cfg=cfg)
+  File "/vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/task-force/labs/sanes/code/_sanes_to_nwb.py", line 145, in _session_start
+    raise ValueError(f"No 'Started Experiment Now' entry found in {logs[0]}")
+ValueError: No 'Started Experiment Now' entry found in /vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/ember-incoming/000524/sourcedata/raw/ssa_gt_data/experiment_281/experiment_281_log_2025-08-13_14-49-42.txt
+FAILED: /vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/ember-incoming/000524/sourcedata/raw/ssa_gt_data/experiment_281: No 'Started Experiment Now' entry found in /vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/ember-incoming/000524/sourcedata/raw/ssa_gt_data/experiment_281/experiment_281_log_2025-08-13_14-49-42.txt
+Traceback (most recent call last):
+  File "/vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/task-force/labs/sanes/code/batch_convert.py", line 90, in convert_batch
+    output_path = build_nwb(session_dir=session_dir, output_dir=output_dir, config_path=config_path)
+  File "/vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/task-force/labs/sanes/code/_sanes_to_nwb.py", line 360, in build_nwb
+    session_start = _session_start(session_dir=session_dir, cfg=cfg)
+  File "/vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/task-force/labs/sanes/code/_sanes_to_nwb.py", line 145, in _session_start
+    raise ValueError(f"No 'Started Experiment Now' entry found in {logs[0]}")
+ValueError: No 'Started Experiment Now' entry found in /vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/ember-incoming/000524/sourcedata/raw/ssa_gt_data/experiment_282/experiment_282_log_2025-09-03_13-16-50.txt
+FAILED: /vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/ember-incoming/000524/sourcedata/raw/ssa_gt_data/experiment_282: No 'Started Experiment Now' entry found in /vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/ember-incoming/000524/sourcedata/raw/ssa_gt_data/experiment_282/experiment_282_log_2025-09-03_13-16-50.txt
+Traceback (most recent call last):
+  File "/vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/task-force/labs/sanes/code/batch_convert.py", line 90, in convert_batch
+    output_path = build_nwb(session_dir=session_dir, output_dir=output_dir, config_path=config_path)
+  File "/vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/task-force/labs/sanes/code/_sanes_to_nwb.py", line 360, in build_nwb
+    session_start = _session_start(session_dir=session_dir, cfg=cfg)
+  File "/vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/task-force/labs/sanes/code/_sanes_to_nwb.py", line 145, in _session_start
+    raise ValueError(f"No 'Started Experiment Now' entry found in {logs[0]}")
+ValueError: No 'Started Experiment Now' entry found in /vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/ember-incoming/000524/sourcedata/raw/ssa_gt_data/experiment_283/experiment_283_log_2025-09-03_15-05-24.txt
+FAILED: /vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/ember-incoming/000524/sourcedata/raw/ssa_gt_data/experiment_283: No 'Started Experiment Now' entry found in /vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/ember-incoming/000524/sourcedata/raw/ssa_gt_data/experiment_283/experiment_283_log_2025-09-03_15-05-24.txt
+Traceback (most recent call last):
+  File "/vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/task-force/labs/sanes/code/batch_convert.py", line 90, in convert_batch
+    output_path = build_nwb(session_dir=session_dir, output_dir=output_dir, config_path=config_path)
+  File "/vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/task-force/labs/sanes/code/_sanes_to_nwb.py", line 360, in build_nwb
+    session_start = _session_start(session_dir=session_dir, cfg=cfg)
+  File "/vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/task-force/labs/sanes/code/_sanes_to_nwb.py", line 145, in _session_start
+    raise ValueError(f"No 'Started Experiment Now' entry found in {logs[0]}")
+ValueError: No 'Started Experiment Now' entry found in /vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/ember-incoming/000524/sourcedata/raw/ssa_gt_data/experiment_284/experiment_284_log_2025-09-04_14-06-19.txt
+FAILED: /vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/ember-incoming/000524/sourcedata/raw/ssa_gt_data/experiment_284: No 'Started Experiment Now' entry found in /vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/ember-incoming/000524/sourcedata/raw/ssa_gt_data/experiment_284/experiment_284_log_2025-09-04_14-06-19.txt
+Traceback (most recent call last):
+  File "/vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/task-force/labs/sanes/code/batch_convert.py", line 90, in convert_batch
+    output_path = build_nwb(session_dir=session_dir, output_dir=output_dir, config_path=config_path)
+  File "/vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/task-force/labs/sanes/code/_sanes_to_nwb.py", line 360, in build_nwb
+    session_start = _session_start(session_dir=session_dir, cfg=cfg)
+  File "/vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/task-force/labs/sanes/code/_sanes_to_nwb.py", line 145, in _session_start
+    raise ValueError(f"No 'Started Experiment Now' entry found in {logs[0]}")
+ValueError: No 'Started Experiment Now' entry found in /vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/ember-incoming/000524/sourcedata/raw/ssa_gt_data/experiment_285/experiment_285_log_2025-09-04_14-23-12.txt
+FAILED: /vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/ember-incoming/000524/sourcedata/raw/ssa_gt_data/experiment_285: No 'Started Experiment Now' entry found in /vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/ember-incoming/000524/sourcedata/raw/ssa_gt_data/experiment_285/experiment_285_log_2025-09-04_14-23-12.txt
+Traceback (most recent call last):
+  File "/vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/task-force/labs/sanes/code/batch_convert.py", line 90, in convert_batch
+    output_path = build_nwb(session_dir=session_dir, output_dir=output_dir, config_path=config_path)
+  File "/vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/task-force/labs/sanes/code/_sanes_to_nwb.py", line 360, in build_nwb
+    session_start = _session_start(session_dir=session_dir, cfg=cfg)
+  File "/vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/task-force/labs/sanes/code/_sanes_to_nwb.py", line 145, in _session_start
+    raise ValueError(f"No 'Started Experiment Now' entry found in {logs[0]}")
+ValueError: No 'Started Experiment Now' entry found in /vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/ember-incoming/000524/sourcedata/raw/ssa_gt_data/experiment_286/experiment_286_log_2025-09-04_15-18-35.txt
+FAILED: /vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/ember-incoming/000524/sourcedata/raw/ssa_gt_data/experiment_286: No 'Started Experiment Now' entry found in /vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/ember-incoming/000524/sourcedata/raw/ssa_gt_data/experiment_286/experiment_286_log_2025-09-04_15-18-35.txt
+Traceback (most recent call last):
+  File "/vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/task-force/labs/sanes/code/batch_convert.py", line 90, in convert_batch
+    output_path = build_nwb(session_dir=session_dir, output_dir=output_dir, config_path=config_path)
+  File "/vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/task-force/labs/sanes/code/_sanes_to_nwb.py", line 360, in build_nwb
+    session_start = _session_start(session_dir=session_dir, cfg=cfg)
+  File "/vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/task-force/labs/sanes/code/_sanes_to_nwb.py", line 145, in _session_start
+    raise ValueError(f"No 'Started Experiment Now' entry found in {logs[0]}")
+ValueError: No 'Started Experiment Now' entry found in /vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/ember-incoming/000524/sourcedata/raw/ssa_gt_data/experiment_287/experiment_287_log_2025-09-04_16-11-52.txt
+FAILED: /vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/ember-incoming/000524/sourcedata/raw/ssa_gt_data/experiment_287: No 'Started Experiment Now' entry found in /vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/ember-incoming/000524/sourcedata/raw/ssa_gt_data/experiment_287/experiment_287_log_2025-09-04_16-11-52.txt
+Traceback (most recent call last):
+  File "/vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/task-force/labs/sanes/code/batch_convert.py", line 90, in convert_batch
+    output_path = build_nwb(session_dir=session_dir, output_dir=output_dir, config_path=config_path)
+  File "/vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/task-force/labs/sanes/code/_sanes_to_nwb.py", line 360, in build_nwb
+    session_start = _session_start(session_dir=session_dir, cfg=cfg)
+  File "/vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/task-force/labs/sanes/code/_sanes_to_nwb.py", line 145, in _session_start
+    raise ValueError(f"No 'Started Experiment Now' entry found in {logs[0]}")
+ValueError: No 'Started Experiment Now' entry found in /vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/ember-incoming/000524/sourcedata/raw/ssa_gt_data/experiment_288/experiment_288_log_2025-09-04_16-37-25.txt
+FAILED: /vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/ember-incoming/000524/sourcedata/raw/ssa_gt_data/experiment_288: No 'Started Experiment Now' entry found in /vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/ember-incoming/000524/sourcedata/raw/ssa_gt_data/experiment_288/experiment_288_log_2025-09-04_16-37-25.txt
+Traceback (most recent call last):
+  File "/vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/task-force/labs/sanes/code/batch_convert.py", line 90, in convert_batch
+    output_path = build_nwb(session_dir=session_dir, output_dir=output_dir, config_path=config_path)
+  File "/vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/task-force/labs/sanes/code/_sanes_to_nwb.py", line 360, in build_nwb
+    session_start = _session_start(session_dir=session_dir, cfg=cfg)
+  File "/vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/task-force/labs/sanes/code/_sanes_to_nwb.py", line 145, in _session_start
+    raise ValueError(f"No 'Started Experiment Now' entry found in {logs[0]}")
+ValueError: No 'Started Experiment Now' entry found in /vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/ember-incoming/000524/sourcedata/raw/ssa_gt_data/experiment_308/experiment_308_log_2025-09-18_12-54-26.txt
+FAILED: /vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/ember-incoming/000524/sourcedata/raw/ssa_gt_data/experiment_308: No 'Started Experiment Now' entry found in /vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/ember-incoming/000524/sourcedata/raw/ssa_gt_data/experiment_308/experiment_308_log_2025-09-18_12-54-26.txt
+Traceback (most recent call last):
+  File "/vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/task-force/labs/sanes/code/batch_convert.py", line 90, in convert_batch
+    output_path = build_nwb(session_dir=session_dir, output_dir=output_dir, config_path=config_path)
+  File "/vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/task-force/labs/sanes/code/_sanes_to_nwb.py", line 360, in build_nwb
+    session_start = _session_start(session_dir=session_dir, cfg=cfg)
+  File "/vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/task-force/labs/sanes/code/_sanes_to_nwb.py", line 145, in _session_start
+    raise ValueError(f"No 'Started Experiment Now' entry found in {logs[0]}")
+ValueError: No 'Started Experiment Now' entry found in /vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/ember-incoming/000524/sourcedata/raw/ssa_gt_data/experiment_309/experiment_309_log_2025-09-18_14-00-03.txt
+FAILED: /vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/ember-incoming/000524/sourcedata/raw/ssa_gt_data/experiment_309: No 'Started Experiment Now' entry found in /vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/ember-incoming/000524/sourcedata/raw/ssa_gt_data/experiment_309/experiment_309_log_2025-09-18_14-00-03.txt
+Traceback (most recent call last):
+  File "/vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/task-force/labs/sanes/code/batch_convert.py", line 90, in convert_batch
+    output_path = build_nwb(session_dir=session_dir, output_dir=output_dir, config_path=config_path)
+  File "/vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/task-force/labs/sanes/code/_sanes_to_nwb.py", line 360, in build_nwb
+    session_start = _session_start(session_dir=session_dir, cfg=cfg)
+  File "/vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/task-force/labs/sanes/code/_sanes_to_nwb.py", line 145, in _session_start
+    raise ValueError(f"No 'Started Experiment Now' entry found in {logs[0]}")
+ValueError: No 'Started Experiment Now' entry found in /vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/ember-incoming/000524/sourcedata/raw/ssa_gt_data/experiment_310/experiment_310_log_2025-09-18_15-00-40.txt
+FAILED: /vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/ember-incoming/000524/sourcedata/raw/ssa_gt_data/experiment_310: No 'Started Experiment Now' entry found in /vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/ember-incoming/000524/sourcedata/raw/ssa_gt_data/experiment_310/experiment_310_log_2025-09-18_15-00-40.txt
+Traceback (most recent call last):
+  File "/vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/task-force/labs/sanes/code/batch_convert.py", line 90, in convert_batch
+    output_path = build_nwb(session_dir=session_dir, output_dir=output_dir, config_path=config_path)
+  File "/vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/task-force/labs/sanes/code/_sanes_to_nwb.py", line 360, in build_nwb
+    session_start = _session_start(session_dir=session_dir, cfg=cfg)
+  File "/vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/task-force/labs/sanes/code/_sanes_to_nwb.py", line 145, in _session_start
+    raise ValueError(f"No 'Started Experiment Now' entry found in {logs[0]}")
+ValueError: No 'Started Experiment Now' entry found in /vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/ember-incoming/000524/sourcedata/raw/ssa_gt_data/experiment_311/experiment_311_log_2025-09-18_15-53-39.txt
+FAILED: /vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/ember-incoming/000524/sourcedata/raw/ssa_gt_data/experiment_311: No 'Started Experiment Now' entry found in /vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/ember-incoming/000524/sourcedata/raw/ssa_gt_data/experiment_311/experiment_311_log_2025-09-18_15-53-39.txt
+Traceback (most recent call last):
+  File "/vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/task-force/labs/sanes/code/batch_convert.py", line 90, in convert_batch
+    output_path = build_nwb(session_dir=session_dir, output_dir=output_dir, config_path=config_path)
+  File "/vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/task-force/labs/sanes/code/_sanes_to_nwb.py", line 360, in build_nwb
+    session_start = _session_start(session_dir=session_dir, cfg=cfg)
+  File "/vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/task-force/labs/sanes/code/_sanes_to_nwb.py", line 145, in _session_start
+    raise ValueError(f"No 'Started Experiment Now' entry found in {logs[0]}")
+ValueError: No 'Started Experiment Now' entry found in /vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/ember-incoming/000524/sourcedata/raw/ssa_gt_data/experiment_312/experiment_312_log_2025-09-19_14-31-57.txt
+FAILED: /vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/ember-incoming/000524/sourcedata/raw/ssa_gt_data/experiment_312: No 'Started Experiment Now' entry found in /vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/ember-incoming/000524/sourcedata/raw/ssa_gt_data/experiment_312/experiment_312_log_2025-09-19_14-31-57.txt
+Traceback (most recent call last):
+  File "/vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/task-force/labs/sanes/code/batch_convert.py", line 90, in convert_batch
+    output_path = build_nwb(session_dir=session_dir, output_dir=output_dir, config_path=config_path)
+  File "/vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/task-force/labs/sanes/code/_sanes_to_nwb.py", line 360, in build_nwb
+    session_start = _session_start(session_dir=session_dir, cfg=cfg)
+  File "/vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/task-force/labs/sanes/code/_sanes_to_nwb.py", line 145, in _session_start
+    raise ValueError(f"No 'Started Experiment Now' entry found in {logs[0]}")
+ValueError: No 'Started Experiment Now' entry found in /vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/ember-incoming/000524/sourcedata/raw/ssa_gt_data/experiment_313/experiment_313_log_2025-09-19_16-34-37.txt
+FAILED: /vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/ember-incoming/000524/sourcedata/raw/ssa_gt_data/experiment_313: No 'Started Experiment Now' entry found in /vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/ember-incoming/000524/sourcedata/raw/ssa_gt_data/experiment_313/experiment_313_log_2025-09-19_16-34-37.txt
+Traceback (most recent call last):
+  File "/vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/task-force/labs/sanes/code/batch_convert.py", line 90, in convert_batch
+    output_path = build_nwb(session_dir=session_dir, output_dir=output_dir, config_path=config_path)
+  File "/vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/task-force/labs/sanes/code/_sanes_to_nwb.py", line 360, in build_nwb
+    session_start = _session_start(session_dir=session_dir, cfg=cfg)
+  File "/vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/task-force/labs/sanes/code/_sanes_to_nwb.py", line 145, in _session_start
+    raise ValueError(f"No 'Started Experiment Now' entry found in {logs[0]}")
+ValueError: No 'Started Experiment Now' entry found in /vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/ember-incoming/000524/sourcedata/raw/ssa_gt_data/experiment_314/experiment_314_log_2025-09-22_12-46-43.txt
+FAILED: /vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/ember-incoming/000524/sourcedata/raw/ssa_gt_data/experiment_314: No 'Started Experiment Now' entry found in /vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/ember-incoming/000524/sourcedata/raw/ssa_gt_data/experiment_314/experiment_314_log_2025-09-22_12-46-43.txt
+Traceback (most recent call last):
+  File "/vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/task-force/labs/sanes/code/batch_convert.py", line 90, in convert_batch
+    output_path = build_nwb(session_dir=session_dir, output_dir=output_dir, config_path=config_path)
+  File "/vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/task-force/labs/sanes/code/_sanes_to_nwb.py", line 360, in build_nwb
+    session_start = _session_start(session_dir=session_dir, cfg=cfg)
+  File "/vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/task-force/labs/sanes/code/_sanes_to_nwb.py", line 145, in _session_start
+    raise ValueError(f"No 'Started Experiment Now' entry found in {logs[0]}")
+ValueError: No 'Started Experiment Now' entry found in /vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/ember-incoming/000524/sourcedata/raw/ssa_gt_data/experiment_315/experiment_315_log_2025-09-22_13-50-08.txt
+FAILED: /vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/ember-incoming/000524/sourcedata/raw/ssa_gt_data/experiment_315: No 'Started Experiment Now' entry found in /vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/ember-incoming/000524/sourcedata/raw/ssa_gt_data/experiment_315/experiment_315_log_2025-09-22_13-50-08.txt
+Traceback (most recent call last):
+  File "/vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/task-force/labs/sanes/code/batch_convert.py", line 90, in convert_batch
+    output_path = build_nwb(session_dir=session_dir, output_dir=output_dir, config_path=config_path)
+  File "/vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/task-force/labs/sanes/code/_sanes_to_nwb.py", line 360, in build_nwb
+    session_start = _session_start(session_dir=session_dir, cfg=cfg)
+  File "/vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/task-force/labs/sanes/code/_sanes_to_nwb.py", line 145, in _session_start
+    raise ValueError(f"No 'Started Experiment Now' entry found in {logs[0]}")
+ValueError: No 'Started Experiment Now' entry found in /vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/ember-incoming/000524/sourcedata/raw/ssa_gt_data/experiment_316/experiment_316_log_2025-09-22_14-56-27.txt
+FAILED: /vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/ember-incoming/000524/sourcedata/raw/ssa_gt_data/experiment_316: No 'Started Experiment Now' entry found in /vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/ember-incoming/000524/sourcedata/raw/ssa_gt_data/experiment_316/experiment_316_log_2025-09-22_14-56-27.txt
+Traceback (most recent call last):
+  File "/vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/task-force/labs/sanes/code/batch_convert.py", line 90, in convert_batch
+    output_path = build_nwb(session_dir=session_dir, output_dir=output_dir, config_path=config_path)
+  File "/vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/task-force/labs/sanes/code/_sanes_to_nwb.py", line 360, in build_nwb
+    session_start = _session_start(session_dir=session_dir, cfg=cfg)
+  File "/vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/task-force/labs/sanes/code/_sanes_to_nwb.py", line 145, in _session_start
+    raise ValueError(f"No 'Started Experiment Now' entry found in {logs[0]}")
+ValueError: No 'Started Experiment Now' entry found in /vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/ember-incoming/000524/sourcedata/raw/ssa_gt_data/experiment_317/experiment_317_log_2025-09-22_15-44-16.txt
+FAILED: /vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/ember-incoming/000524/sourcedata/raw/ssa_gt_data/experiment_317: No 'Started Experiment Now' entry found in /vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/ember-incoming/000524/sourcedata/raw/ssa_gt_data/experiment_317/experiment_317_log_2025-09-22_15-44-16.txt
+Traceback (most recent call last):
+  File "/vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/task-force/labs/sanes/code/batch_convert.py", line 90, in convert_batch
+    output_path = build_nwb(session_dir=session_dir, output_dir=output_dir, config_path=config_path)
+  File "/vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/task-force/labs/sanes/code/_sanes_to_nwb.py", line 360, in build_nwb
+    session_start = _session_start(session_dir=session_dir, cfg=cfg)
+  File "/vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/task-force/labs/sanes/code/_sanes_to_nwb.py", line 145, in _session_start
+    raise ValueError(f"No 'Started Experiment Now' entry found in {logs[0]}")
+ValueError: No 'Started Experiment Now' entry found in /vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/ember-incoming/000524/sourcedata/raw/ssa_gt_data/experiment_318/experiment_318_log_2025-09-23_12-54-29.txt
+FAILED: /vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/ember-incoming/000524/sourcedata/raw/ssa_gt_data/experiment_318: No 'Started Experiment Now' entry found in /vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/ember-incoming/000524/sourcedata/raw/ssa_gt_data/experiment_318/experiment_318_log_2025-09-23_12-54-29.txt
+Traceback (most recent call last):
+  File "/vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/task-force/labs/sanes/code/batch_convert.py", line 90, in convert_batch
+    output_path = build_nwb(session_dir=session_dir, output_dir=output_dir, config_path=config_path)
+  File "/vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/task-force/labs/sanes/code/_sanes_to_nwb.py", line 360, in build_nwb
+    session_start = _session_start(session_dir=session_dir, cfg=cfg)
+  File "/vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/task-force/labs/sanes/code/_sanes_to_nwb.py", line 145, in _session_start
+    raise ValueError(f"No 'Started Experiment Now' entry found in {logs[0]}")
+ValueError: No 'Started Experiment Now' entry found in /vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/ember-incoming/000524/sourcedata/raw/ssa_gt_data/experiment_319/experiment_319_log_2025-09-23_15-19-52.txt
+FAILED: /vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/ember-incoming/000524/sourcedata/raw/ssa_gt_data/experiment_319: No 'Started Experiment Now' entry found in /vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/ember-incoming/000524/sourcedata/raw/ssa_gt_data/experiment_319/experiment_319_log_2025-09-23_15-19-52.txt
+Converting sessions:  33%|███▎      | 21/64 [00:32<00:47,  1.09s/session]Traceback (most recent call last):
+  File "/vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/task-force/labs/sanes/code/batch_convert.py", line 90, in convert_batch
+    output_path = build_nwb(session_dir=session_dir, output_dir=output_dir, config_path=config_path)
+  File "/vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/task-force/labs/sanes/code/_sanes_to_nwb.py", line 360, in build_nwb
+    session_start = _session_start(session_dir=session_dir, cfg=cfg)
+  File "/vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/task-force/labs/sanes/code/_sanes_to_nwb.py", line 145, in _session_start
+    raise ValueError(f"No 'Started Experiment Now' entry found in {logs[0]}")
+ValueError: No 'Started Experiment Now' entry found in /vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/ember-incoming/000524/sourcedata/raw/ssa_gt_data/experiment_320/experiment_320_log_2025-09-23_15-57-23.txt
+FAILED: /vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/ember-incoming/000524/sourcedata/raw/ssa_gt_data/experiment_320: No 'Started Experiment Now' entry found in /vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/ember-incoming/000524/sourcedata/raw/ssa_gt_data/experiment_320/experiment_320_log_2025-09-23_15-57-23.txt
+Traceback (most recent call last):
+  File "/vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/task-force/labs/sanes/code/batch_convert.py", line 90, in convert_batch
+    output_path = build_nwb(session_dir=session_dir, output_dir=output_dir, config_path=config_path)
+  File "/vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/task-force/labs/sanes/code/_sanes_to_nwb.py", line 360, in build_nwb
+    session_start = _session_start(session_dir=session_dir, cfg=cfg)
+  File "/vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/task-force/labs/sanes/code/_sanes_to_nwb.py", line 145, in _session_start
+    raise ValueError(f"No 'Started Experiment Now' entry found in {logs[0]}")
+ValueError: No 'Started Experiment Now' entry found in /vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/ember-incoming/000524/sourcedata/raw/ssa_gt_data/experiment_321/experiment_321_log_2025-09-23_16-51-36.txt
+FAILED: /vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/ember-incoming/000524/sourcedata/raw/ssa_gt_data/experiment_321: No 'Started Experiment Now' entry found in /vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/ember-incoming/000524/sourcedata/raw/ssa_gt_data/experiment_321/experiment_321_log_2025-09-23_16-51-36.txt
+Traceback (most recent call last):
+  File "/vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/task-force/labs/sanes/code/batch_convert.py", line 90, in convert_batch
+    output_path = build_nwb(session_dir=session_dir, output_dir=output_dir, config_path=config_path)
+  File "/vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/task-force/labs/sanes/code/_sanes_to_nwb.py", line 360, in build_nwb
+    session_start = _session_start(session_dir=session_dir, cfg=cfg)
+  File "/vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/task-force/labs/sanes/code/_sanes_to_nwb.py", line 145, in _session_start
+    raise ValueError(f"No 'Started Experiment Now' entry found in {logs[0]}")
+ValueError: No 'Started Experiment Now' entry found in /vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/ember-incoming/000524/sourcedata/raw/ssa_gt_data/experiment_345/experiment_345_log_2025-10-21_15-24-12.txt
+FAILED: /vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/ember-incoming/000524/sourcedata/raw/ssa_gt_data/experiment_345: No 'Started Experiment Now' entry found in /vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/ember-incoming/000524/sourcedata/raw/ssa_gt_data/experiment_345/experiment_345_log_2025-10-21_15-24-12.txt
+Traceback (most recent call last):
+  File "/vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/task-force/labs/sanes/code/batch_convert.py", line 90, in convert_batch
+    output_path = build_nwb(session_dir=session_dir, output_dir=output_dir, config_path=config_path)
+  File "/vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/task-force/labs/sanes/code/_sanes_to_nwb.py", line 360, in build_nwb
+    session_start = _session_start(session_dir=session_dir, cfg=cfg)
+  File "/vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/task-force/labs/sanes/code/_sanes_to_nwb.py", line 145, in _session_start
+    raise ValueError(f"No 'Started Experiment Now' entry found in {logs[0]}")
+ValueError: No 'Started Experiment Now' entry found in /vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/ember-incoming/000524/sourcedata/raw/ssa_gt_data/experiment_346/experiment_346_log_2025-10-21_16-41-42.txt
+FAILED: /vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/ember-incoming/000524/sourcedata/raw/ssa_gt_data/experiment_346: No 'Started Experiment Now' entry found in /vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/ember-incoming/000524/sourcedata/raw/ssa_gt_data/experiment_346/experiment_346_log_2025-10-21_16-41-42.txt
+Traceback (most recent call last):
+  File "/vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/task-force/labs/sanes/code/batch_convert.py", line 90, in convert_batch
+    output_path = build_nwb(session_dir=session_dir, output_dir=output_dir, config_path=config_path)
+  File "/vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/task-force/labs/sanes/code/_sanes_to_nwb.py", line 360, in build_nwb
+    session_start = _session_start(session_dir=session_dir, cfg=cfg)
+  File "/vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/task-force/labs/sanes/code/_sanes_to_nwb.py", line 145, in _session_start
+    raise ValueError(f"No 'Started Experiment Now' entry found in {logs[0]}")
+ValueError: No 'Started Experiment Now' entry found in /vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/ember-incoming/000524/sourcedata/raw/ssa_gt_data/experiment_347/experiment_347_log_2025-10-22_14-10-14.txt
+FAILED: /vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/ember-incoming/000524/sourcedata/raw/ssa_gt_data/experiment_347: No 'Started Experiment Now' entry found in /vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/ember-incoming/000524/sourcedata/raw/ssa_gt_data/experiment_347/experiment_347_log_2025-10-22_14-10-14.txt
+Traceback (most recent call last):
+  File "/vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/task-force/labs/sanes/code/batch_convert.py", line 90, in convert_batch
+    output_path = build_nwb(session_dir=session_dir, output_dir=output_dir, config_path=config_path)
+  File "/vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/task-force/labs/sanes/code/_sanes_to_nwb.py", line 360, in build_nwb
+    session_start = _session_start(session_dir=session_dir, cfg=cfg)
+  File "/vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/task-force/labs/sanes/code/_sanes_to_nwb.py", line 145, in _session_start
+    raise ValueError(f"No 'Started Experiment Now' entry found in {logs[0]}")
+ValueError: No 'Started Experiment Now' entry found in /vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/ember-incoming/000524/sourcedata/raw/ssa_gt_data/experiment_348/experiment_348_log_2025-10-23_13-51-23.txt
+FAILED: /vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/ember-incoming/000524/sourcedata/raw/ssa_gt_data/experiment_348: No 'Started Experiment Now' entry found in /vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/ember-incoming/000524/sourcedata/raw/ssa_gt_data/experiment_348/experiment_348_log_2025-10-23_13-51-23.txt
+Traceback (most recent call last):
+  File "/vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/task-force/labs/sanes/code/batch_convert.py", line 90, in convert_batch
+    output_path = build_nwb(session_dir=session_dir, output_dir=output_dir, config_path=config_path)
+  File "/vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/task-force/labs/sanes/code/_sanes_to_nwb.py", line 360, in build_nwb
+    session_start = _session_start(session_dir=session_dir, cfg=cfg)
+  File "/vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/task-force/labs/sanes/code/_sanes_to_nwb.py", line 145, in _session_start
+    raise ValueError(f"No 'Started Experiment Now' entry found in {logs[0]}")
+ValueError: No 'Started Experiment Now' entry found in /vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/ember-incoming/000524/sourcedata/raw/ssa_gt_data/experiment_349/experiment_349_log_2025-10-23_15-00-18.txt
+FAILED: /vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/ember-incoming/000524/sourcedata/raw/ssa_gt_data/experiment_349: No 'Started Experiment Now' entry found in /vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/ember-incoming/000524/sourcedata/raw/ssa_gt_data/experiment_349/experiment_349_log_2025-10-23_15-00-18.txt
+Traceback (most recent call last):
+  File "/vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/task-force/labs/sanes/code/batch_convert.py", line 90, in convert_batch
+    output_path = build_nwb(session_dir=session_dir, output_dir=output_dir, config_path=config_path)
+  File "/vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/task-force/labs/sanes/code/_sanes_to_nwb.py", line 360, in build_nwb
+    session_start = _session_start(session_dir=session_dir, cfg=cfg)
+  File "/vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/task-force/labs/sanes/code/_sanes_to_nwb.py", line 145, in _session_start
+    raise ValueError(f"No 'Started Experiment Now' entry found in {logs[0]}")
+ValueError: No 'Started Experiment Now' entry found in /vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/ember-incoming/000524/sourcedata/raw/ssa_gt_data/experiment_350/experiment_350_log_2025-10-23_16-22-54.txt
+FAILED: /vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/ember-incoming/000524/sourcedata/raw/ssa_gt_data/experiment_350: No 'Started Experiment Now' entry found in /vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/ember-incoming/000524/sourcedata/raw/ssa_gt_data/experiment_350/experiment_350_log_2025-10-23_16-22-54.txt
+Traceback (most recent call last):
+  File "/vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/task-force/labs/sanes/code/batch_convert.py", line 90, in convert_batch
+    output_path = build_nwb(session_dir=session_dir, output_dir=output_dir, config_path=config_path)
+  File "/vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/task-force/labs/sanes/code/_sanes_to_nwb.py", line 360, in build_nwb
+    session_start = _session_start(session_dir=session_dir, cfg=cfg)
+  File "/vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/task-force/labs/sanes/code/_sanes_to_nwb.py", line 145, in _session_start
+    raise ValueError(f"No 'Started Experiment Now' entry found in {logs[0]}")
+ValueError: No 'Started Experiment Now' entry found in /vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/ember-incoming/000524/sourcedata/raw/ssa_gt_data/experiment_351/experiment_351_log_2025-10-24_15-30-44.txt
+FAILED: /vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/ember-incoming/000524/sourcedata/raw/ssa_gt_data/experiment_351: No 'Started Experiment Now' entry found in /vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/ember-incoming/000524/sourcedata/raw/ssa_gt_data/experiment_351/experiment_351_log_2025-10-24_15-30-44.txt
+Traceback (most recent call last):
+  File "/vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/task-force/labs/sanes/code/batch_convert.py", line 90, in convert_batch
+    output_path = build_nwb(session_dir=session_dir, output_dir=output_dir, config_path=config_path)
+  File "/vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/task-force/labs/sanes/code/_sanes_to_nwb.py", line 360, in build_nwb
+    session_start = _session_start(session_dir=session_dir, cfg=cfg)
+  File "/vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/task-force/labs/sanes/code/_sanes_to_nwb.py", line 145, in _session_start
+    raise ValueError(f"No 'Started Experiment Now' entry found in {logs[0]}")
+ValueError: No 'Started Experiment Now' entry found in /vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/ember-incoming/000524/sourcedata/raw/ssa_gt_data/experiment_384/experiment_384_log_2025-11-17_12-49-19.txt
+FAILED: /vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/ember-incoming/000524/sourcedata/raw/ssa_gt_data/experiment_384: No 'Started Experiment Now' entry found in /vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/ember-incoming/000524/sourcedata/raw/ssa_gt_data/experiment_384/experiment_384_log_2025-11-17_12-49-19.txt
+Traceback (most recent call last):
+  File "/vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/task-force/labs/sanes/code/batch_convert.py", line 90, in convert_batch
+    output_path = build_nwb(session_dir=session_dir, output_dir=output_dir, config_path=config_path)
+  File "/vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/task-force/labs/sanes/code/_sanes_to_nwb.py", line 360, in build_nwb
+    session_start = _session_start(session_dir=session_dir, cfg=cfg)
+  File "/vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/task-force/labs/sanes/code/_sanes_to_nwb.py", line 145, in _session_start
+    raise ValueError(f"No 'Started Experiment Now' entry found in {logs[0]}")
+ValueError: No 'Started Experiment Now' entry found in /vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/ember-incoming/000524/sourcedata/raw/ssa_gt_data/experiment_385/experiment_385_log_2025-11-17_13-04-02.txt
+FAILED: /vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/ember-incoming/000524/sourcedata/raw/ssa_gt_data/experiment_385: No 'Started Experiment Now' entry found in /vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/ember-incoming/000524/sourcedata/raw/ssa_gt_data/experiment_385/experiment_385_log_2025-11-17_13-04-02.txt
+Traceback (most recent call last):
+  File "/vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/task-force/labs/sanes/code/batch_convert.py", line 90, in convert_batch
+    output_path = build_nwb(session_dir=session_dir, output_dir=output_dir, config_path=config_path)
+  File "/vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/task-force/labs/sanes/code/_sanes_to_nwb.py", line 360, in build_nwb
+    session_start = _session_start(session_dir=session_dir, cfg=cfg)
+  File "/vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/task-force/labs/sanes/code/_sanes_to_nwb.py", line 145, in _session_start
+    raise ValueError(f"No 'Started Experiment Now' entry found in {logs[0]}")
+ValueError: No 'Started Experiment Now' entry found in /vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/ember-incoming/000524/sourcedata/raw/ssa_gt_data/experiment_387/experiment_387_log_2025-11-17_14-12-00.txt
+FAILED: /vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/ember-incoming/000524/sourcedata/raw/ssa_gt_data/experiment_387: No 'Started Experiment Now' entry found in /vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/ember-incoming/000524/sourcedata/raw/ssa_gt_data/experiment_387/experiment_387_log_2025-11-17_14-12-00.txt
+Traceback (most recent call last):
+  File "/vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/task-force/labs/sanes/code/batch_convert.py", line 90, in convert_batch
+    output_path = build_nwb(session_dir=session_dir, output_dir=output_dir, config_path=config_path)
+  File "/vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/task-force/labs/sanes/code/_sanes_to_nwb.py", line 360, in build_nwb
+    session_start = _session_start(session_dir=session_dir, cfg=cfg)
+  File "/vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/task-force/labs/sanes/code/_sanes_to_nwb.py", line 145, in _session_start
+    raise ValueError(f"No 'Started Experiment Now' entry found in {logs[0]}")
+ValueError: No 'Started Experiment Now' entry found in /vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/ember-incoming/000524/sourcedata/raw/ssa_gt_data/experiment_388/experiment_388_log_2025-11-18_13-24-27.txt
+FAILED: /vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/ember-incoming/000524/sourcedata/raw/ssa_gt_data/experiment_388: No 'Started Experiment Now' entry found in /vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/ember-incoming/000524/sourcedata/raw/ssa_gt_data/experiment_388/experiment_388_log_2025-11-18_13-24-27.txt
+Traceback (most recent call last):
+  File "/vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/task-force/labs/sanes/code/batch_convert.py", line 90, in convert_batch
+    output_path = build_nwb(session_dir=session_dir, output_dir=output_dir, config_path=config_path)
+  File "/vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/task-force/labs/sanes/code/_sanes_to_nwb.py", line 360, in build_nwb
+    session_start = _session_start(session_dir=session_dir, cfg=cfg)
+  File "/vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/task-force/labs/sanes/code/_sanes_to_nwb.py", line 145, in _session_start
+    raise ValueError(f"No 'Started Experiment Now' entry found in {logs[0]}")
+ValueError: No 'Started Experiment Now' entry found in /vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/ember-incoming/000524/sourcedata/raw/ssa_gt_data/experiment_389/experiment_389_log_2025-11-18_14-24-22.txt
+FAILED: /vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/ember-incoming/000524/sourcedata/raw/ssa_gt_data/experiment_389: No 'Started Experiment Now' entry found in /vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/ember-incoming/000524/sourcedata/raw/ssa_gt_data/experiment_389/experiment_389_log_2025-11-18_14-24-22.txt
+Traceback (most recent call last):
+  File "/vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/task-force/labs/sanes/code/batch_convert.py", line 90, in convert_batch
+    output_path = build_nwb(session_dir=session_dir, output_dir=output_dir, config_path=config_path)
+  File "/vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/task-force/labs/sanes/code/_sanes_to_nwb.py", line 360, in build_nwb
+    session_start = _session_start(session_dir=session_dir, cfg=cfg)
+  File "/vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/task-force/labs/sanes/code/_sanes_to_nwb.py", line 145, in _session_start
+    raise ValueError(f"No 'Started Experiment Now' entry found in {logs[0]}")
+ValueError: No 'Started Experiment Now' entry found in /vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/ember-incoming/000524/sourcedata/raw/ssa_gt_data/experiment_395/experiment_395_log_2025-11-18_15-29-17.txt
+FAILED: /vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/ember-incoming/000524/sourcedata/raw/ssa_gt_data/experiment_395: No 'Started Experiment Now' entry found in /vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/ember-incoming/000524/sourcedata/raw/ssa_gt_data/experiment_395/experiment_395_log_2025-11-18_15-29-17.txt
+Traceback (most recent call last):
+  File "/vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/task-force/labs/sanes/code/batch_convert.py", line 90, in convert_batch
+    output_path = build_nwb(session_dir=session_dir, output_dir=output_dir, config_path=config_path)
+  File "/vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/task-force/labs/sanes/code/_sanes_to_nwb.py", line 360, in build_nwb
+    session_start = _session_start(session_dir=session_dir, cfg=cfg)
+  File "/vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/task-force/labs/sanes/code/_sanes_to_nwb.py", line 145, in _session_start
+    raise ValueError(f"No 'Started Experiment Now' entry found in {logs[0]}")
+ValueError: No 'Started Experiment Now' entry found in /vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/ember-incoming/000524/sourcedata/raw/ssa_gt_data/experiment_396/experiment_396_log_2025-11-18_16-09-45.txt
+FAILED: /vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/ember-incoming/000524/sourcedata/raw/ssa_gt_data/experiment_396: No 'Started Experiment Now' entry found in /vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/ember-incoming/000524/sourcedata/raw/ssa_gt_data/experiment_396/experiment_396_log_2025-11-18_16-09-45.txt
+Traceback (most recent call last):
+  File "/vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/task-force/labs/sanes/code/batch_convert.py", line 90, in convert_batch
+    output_path = build_nwb(session_dir=session_dir, output_dir=output_dir, config_path=config_path)
+  File "/vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/task-force/labs/sanes/code/_sanes_to_nwb.py", line 360, in build_nwb
+    session_start = _session_start(session_dir=session_dir, cfg=cfg)
+  File "/vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/task-force/labs/sanes/code/_sanes_to_nwb.py", line 145, in _session_start
+    raise ValueError(f"No 'Started Experiment Now' entry found in {logs[0]}")
+ValueError: No 'Started Experiment Now' entry found in /vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/ember-incoming/000524/sourcedata/raw/ssa_gt_data/experiment_398/experiment_398_log_2025-11-19_15-20-58.txt
+FAILED: /vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/ember-incoming/000524/sourcedata/raw/ssa_gt_data/experiment_398: No 'Started Experiment Now' entry found in /vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/ember-incoming/000524/sourcedata/raw/ssa_gt_data/experiment_398/experiment_398_log_2025-11-19_15-20-58.txt
+Traceback (most recent call last):
+  File "/vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/task-force/labs/sanes/code/batch_convert.py", line 90, in convert_batch
+    output_path = build_nwb(session_dir=session_dir, output_dir=output_dir, config_path=config_path)
+  File "/vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/task-force/labs/sanes/code/_sanes_to_nwb.py", line 360, in build_nwb
+    session_start = _session_start(session_dir=session_dir, cfg=cfg)
+  File "/vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/task-force/labs/sanes/code/_sanes_to_nwb.py", line 145, in _session_start
+    raise ValueError(f"No 'Started Experiment Now' entry found in {logs[0]}")
+ValueError: No 'Started Experiment Now' entry found in /vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/ember-incoming/000524/sourcedata/raw/ssa_gt_data/experiment_400/experiment_400_log_2025-11-20_14-59-52.txt
+FAILED: /vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/ember-incoming/000524/sourcedata/raw/ssa_gt_data/experiment_400: No 'Started Experiment Now' entry found in /vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/ember-incoming/000524/sourcedata/raw/ssa_gt_data/experiment_400/experiment_400_log_2025-11-20_14-59-52.txt
+Traceback (most recent call last):
+  File "/vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/task-force/labs/sanes/code/batch_convert.py", line 90, in convert_batch
+    output_path = build_nwb(session_dir=session_dir, output_dir=output_dir, config_path=config_path)
+  File "/vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/task-force/labs/sanes/code/_sanes_to_nwb.py", line 360, in build_nwb
+    session_start = _session_start(session_dir=session_dir, cfg=cfg)
+  File "/vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/task-force/labs/sanes/code/_sanes_to_nwb.py", line 145, in _session_start
+    raise ValueError(f"No 'Started Experiment Now' entry found in {logs[0]}")
+ValueError: No 'Started Experiment Now' entry found in /vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/ember-incoming/000524/sourcedata/raw/ssa_gt_data/experiment_401/experiment_401_log_2025-11-20_15-57-23.txt
+FAILED: /vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/ember-incoming/000524/sourcedata/raw/ssa_gt_data/experiment_401: No 'Started Experiment Now' entry found in /vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/ember-incoming/000524/sourcedata/raw/ssa_gt_data/experiment_401/experiment_401_log_2025-11-20_15-57-23.txt
+Traceback (most recent call last):
+  File "/vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/task-force/labs/sanes/code/batch_convert.py", line 90, in convert_batch
+    output_path = build_nwb(session_dir=session_dir, output_dir=output_dir, config_path=config_path)
+  File "/vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/task-force/labs/sanes/code/_sanes_to_nwb.py", line 360, in build_nwb
+    session_start = _session_start(session_dir=session_dir, cfg=cfg)
+  File "/vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/task-force/labs/sanes/code/_sanes_to_nwb.py", line 145, in _session_start
+    raise ValueError(f"No 'Started Experiment Now' entry found in {logs[0]}")
+ValueError: No 'Started Experiment Now' entry found in /vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/ember-incoming/000524/sourcedata/raw/ssa_gt_data/experiment_402/experiment_402_log_2025-11-20_17-29-51.txt
+FAILED: /vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/ember-incoming/000524/sourcedata/raw/ssa_gt_data/experiment_402: No 'Started Experiment Now' entry found in /vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/ember-incoming/000524/sourcedata/raw/ssa_gt_data/experiment_402/experiment_402_log_2025-11-20_17-29-51.txt
+Traceback (most recent call last):
+  File "/vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/task-force/labs/sanes/code/batch_convert.py", line 90, in convert_batch
+    output_path = build_nwb(session_dir=session_dir, output_dir=output_dir, config_path=config_path)
+  File "/vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/task-force/labs/sanes/code/_sanes_to_nwb.py", line 360, in build_nwb
+    session_start = _session_start(session_dir=session_dir, cfg=cfg)
+  File "/vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/task-force/labs/sanes/code/_sanes_to_nwb.py", line 145, in _session_start
+    raise ValueError(f"No 'Started Experiment Now' entry found in {logs[0]}")
+ValueError: No 'Started Experiment Now' entry found in /vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/ember-incoming/000524/sourcedata/raw/ssa_gt_data/experiment_403/experiment_403_log_2025-11-21_14-11-09.txt
+FAILED: /vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/ember-incoming/000524/sourcedata/raw/ssa_gt_data/experiment_403: No 'Started Experiment Now' entry found in /vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/ember-incoming/000524/sourcedata/raw/ssa_gt_data/experiment_403/experiment_403_log_2025-11-21_14-11-09.txt
+Traceback (most recent call last):
+  File "/vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/task-force/labs/sanes/code/batch_convert.py", line 90, in convert_batch
+    output_path = build_nwb(session_dir=session_dir, output_dir=output_dir, config_path=config_path)
+  File "/vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/task-force/labs/sanes/code/_sanes_to_nwb.py", line 360, in build_nwb
+    session_start = _session_start(session_dir=session_dir, cfg=cfg)
+  File "/vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/task-force/labs/sanes/code/_sanes_to_nwb.py", line 145, in _session_start
+    raise ValueError(f"No 'Started Experiment Now' entry found in {logs[0]}")
+ValueError: No 'Started Experiment Now' entry found in /vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/ember-incoming/000524/sourcedata/raw/ssa_gt_data/experiment_404/experiment_404_log_2025-11-21_15-43-59.txt
+FAILED: /vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/ember-incoming/000524/sourcedata/raw/ssa_gt_data/experiment_404: No 'Started Experiment Now' entry found in /vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/ember-incoming/000524/sourcedata/raw/ssa_gt_data/experiment_404/experiment_404_log_2025-11-21_15-43-59.txt
+Traceback (most recent call last):
+  File "/vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/task-force/labs/sanes/code/batch_convert.py", line 90, in convert_batch
+    output_path = build_nwb(session_dir=session_dir, output_dir=output_dir, config_path=config_path)
+  File "/vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/task-force/labs/sanes/code/_sanes_to_nwb.py", line 360, in build_nwb
+    session_start = _session_start(session_dir=session_dir, cfg=cfg)
+  File "/vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/task-force/labs/sanes/code/_sanes_to_nwb.py", line 145, in _session_start
+    raise ValueError(f"No 'Started Experiment Now' entry found in {logs[0]}")
+ValueError: No 'Started Experiment Now' entry found in /vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/ember-incoming/000524/sourcedata/raw/ssa_gt_data/experiment_405/experiment_405_log_2025-11-21_16-01-16.txt
+FAILED: /vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/ember-incoming/000524/sourcedata/raw/ssa_gt_data/experiment_405: No 'Started Experiment Now' entry found in /vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/ember-incoming/000524/sourcedata/raw/ssa_gt_data/experiment_405/experiment_405_log_2025-11-21_16-01-16.txt
+Traceback (most recent call last):
+  File "/vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/task-force/labs/sanes/code/batch_convert.py", line 90, in convert_batch
+    output_path = build_nwb(session_dir=session_dir, output_dir=output_dir, config_path=config_path)
+  File "/vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/task-force/labs/sanes/code/_sanes_to_nwb.py", line 360, in build_nwb
+    session_start = _session_start(session_dir=session_dir, cfg=cfg)
+  File "/vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/task-force/labs/sanes/code/_sanes_to_nwb.py", line 145, in _session_start
+    raise ValueError(f"No 'Started Experiment Now' entry found in {logs[0]}")
+ValueError: No 'Started Experiment Now' entry found in /vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/ember-incoming/000524/sourcedata/raw/ssa_gt_data/experiment_408/experiment_408_log_2025-11-24_14-52-36.txt
+FAILED: /vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/ember-incoming/000524/sourcedata/raw/ssa_gt_data/experiment_408: No 'Started Experiment Now' entry found in /vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/ember-incoming/000524/sourcedata/raw/ssa_gt_data/experiment_408/experiment_408_log_2025-11-24_14-52-36.txt
+Traceback (most recent call last):
+  File "/vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/task-force/labs/sanes/code/batch_convert.py", line 90, in convert_batch
+    output_path = build_nwb(session_dir=session_dir, output_dir=output_dir, config_path=config_path)
+  File "/vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/task-force/labs/sanes/code/_sanes_to_nwb.py", line 360, in build_nwb
+    session_start = _session_start(session_dir=session_dir, cfg=cfg)
+  File "/vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/task-force/labs/sanes/code/_sanes_to_nwb.py", line 145, in _session_start
+    raise ValueError(f"No 'Started Experiment Now' entry found in {logs[0]}")
+ValueError: No 'Started Experiment Now' entry found in /vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/ember-incoming/000524/sourcedata/raw/ssa_gt_data/experiment_411/experiment_411_log_2025-11-24_17-10-07.txt
+FAILED: /vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/ember-incoming/000524/sourcedata/raw/ssa_gt_data/experiment_411: No 'Started Experiment Now' entry found in /vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/ember-incoming/000524/sourcedata/raw/ssa_gt_data/experiment_411/experiment_411_log_2025-11-24_17-10-07.txt
+Traceback (most recent call last):
+  File "/vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/task-force/labs/sanes/code/batch_convert.py", line 90, in convert_batch
+    output_path = build_nwb(session_dir=session_dir, output_dir=output_dir, config_path=config_path)
+  File "/vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/task-force/labs/sanes/code/_sanes_to_nwb.py", line 360, in build_nwb
+    session_start = _session_start(session_dir=session_dir, cfg=cfg)
+  File "/vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/task-force/labs/sanes/code/_sanes_to_nwb.py", line 145, in _session_start
+    raise ValueError(f"No 'Started Experiment Now' entry found in {logs[0]}")
+ValueError: No 'Started Experiment Now' entry found in /vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/ember-incoming/000524/sourcedata/raw/ssa_gt_data/experiment_412/experiment_412_log_2025-11-24_17-30-10.txt
+FAILED: /vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/ember-incoming/000524/sourcedata/raw/ssa_gt_data/experiment_412: No 'Started Experiment Now' entry found in /vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/ember-incoming/000524/sourcedata/raw/ssa_gt_data/experiment_412/experiment_412_log_2025-11-24_17-30-10.txt
+Traceback (most recent call last):
+  File "/vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/task-force/labs/sanes/code/batch_convert.py", line 90, in convert_batch
+    output_path = build_nwb(session_dir=session_dir, output_dir=output_dir, config_path=config_path)
+  File "/vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/task-force/labs/sanes/code/_sanes_to_nwb.py", line 360, in build_nwb
+    session_start = _session_start(session_dir=session_dir, cfg=cfg)
+  File "/vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/task-force/labs/sanes/code/_sanes_to_nwb.py", line 145, in _session_start
+    raise ValueError(f"No 'Started Experiment Now' entry found in {logs[0]}")
+ValueError: No 'Started Experiment Now' entry found in /vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/ember-incoming/000524/sourcedata/raw/ssa_gt_data/experiment_413/experiment_413_log_2025-11-24_17-41-54.txt
+FAILED: /vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/ember-incoming/000524/sourcedata/raw/ssa_gt_data/experiment_413: No 'Started Experiment Now' entry found in /vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/ember-incoming/000524/sourcedata/raw/ssa_gt_data/experiment_413/experiment_413_log_2025-11-24_17-41-54.txt
+Traceback (most recent call last):
+  File "/vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/task-force/labs/sanes/code/batch_convert.py", line 90, in convert_batch
+    output_path = build_nwb(session_dir=session_dir, output_dir=output_dir, config_path=config_path)
+  File "/vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/task-force/labs/sanes/code/_sanes_to_nwb.py", line 360, in build_nwb
+    session_start = _session_start(session_dir=session_dir, cfg=cfg)
+  File "/vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/task-force/labs/sanes/code/_sanes_to_nwb.py", line 145, in _session_start
+    raise ValueError(f"No 'Started Experiment Now' entry found in {logs[0]}")
+ValueError: No 'Started Experiment Now' entry found in /vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/ember-incoming/000524/sourcedata/raw/ssa_gt_data/experiment_414/experiment_414_log_2025-11-25_13-25-43.txt
+FAILED: /vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/ember-incoming/000524/sourcedata/raw/ssa_gt_data/experiment_414: No 'Started Experiment Now' entry found in /vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/ember-incoming/000524/sourcedata/raw/ssa_gt_data/experiment_414/experiment_414_log_2025-11-25_13-25-43.txt
+Traceback (most recent call last):
+  File "/vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/task-force/labs/sanes/code/batch_convert.py", line 90, in convert_batch
+    output_path = build_nwb(session_dir=session_dir, output_dir=output_dir, config_path=config_path)
+  File "/vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/task-force/labs/sanes/code/_sanes_to_nwb.py", line 360, in build_nwb
+    session_start = _session_start(session_dir=session_dir, cfg=cfg)
+  File "/vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/task-force/labs/sanes/code/_sanes_to_nwb.py", line 145, in _session_start
+    raise ValueError(f"No 'Started Experiment Now' entry found in {logs[0]}")
+ValueError: No 'Started Experiment Now' entry found in /vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/ember-incoming/000524/sourcedata/raw/ssa_gt_data/experiment_416/experiment_416_log_2025-11-25_13-37-50.txt
+FAILED: /vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/ember-incoming/000524/sourcedata/raw/ssa_gt_data/experiment_416: No 'Started Experiment Now' entry found in /vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/ember-incoming/000524/sourcedata/raw/ssa_gt_data/experiment_416/experiment_416_log_2025-11-25_13-37-50.txt
+Traceback (most recent call last):
+  File "/vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/task-force/labs/sanes/code/batch_convert.py", line 90, in convert_batch
+    output_path = build_nwb(session_dir=session_dir, output_dir=output_dir, config_path=config_path)
+  File "/vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/task-force/labs/sanes/code/_sanes_to_nwb.py", line 360, in build_nwb
+    session_start = _session_start(session_dir=session_dir, cfg=cfg)
+  File "/vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/task-force/labs/sanes/code/_sanes_to_nwb.py", line 145, in _session_start
+    raise ValueError(f"No 'Started Experiment Now' entry found in {logs[0]}")
+ValueError: No 'Started Experiment Now' entry found in /vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/ember-incoming/000524/sourcedata/raw/ssa_gt_data/experiment_417/experiment_417_log_2025-11-25_16-27-57.txt
+FAILED: /vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/ember-incoming/000524/sourcedata/raw/ssa_gt_data/experiment_417: No 'Started Experiment Now' entry found in /vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/ember-incoming/000524/sourcedata/raw/ssa_gt_data/experiment_417/experiment_417_log_2025-11-25_16-27-57.txt
+Traceback (most recent call last):
+  File "/vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/task-force/labs/sanes/code/batch_convert.py", line 90, in convert_batch
+    output_path = build_nwb(session_dir=session_dir, output_dir=output_dir, config_path=config_path)
+  File "/vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/task-force/labs/sanes/code/_sanes_to_nwb.py", line 360, in build_nwb
+    session_start = _session_start(session_dir=session_dir, cfg=cfg)
+  File "/vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/task-force/labs/sanes/code/_sanes_to_nwb.py", line 145, in _session_start
+    raise ValueError(f"No 'Started Experiment Now' entry found in {logs[0]}")
+ValueError: No 'Started Experiment Now' entry found in /vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/ember-incoming/000524/sourcedata/raw/ssa_gt_data/experiment_420/experiment_420_log_2025-12-01_14-40-51.txt
+FAILED: /vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/ember-incoming/000524/sourcedata/raw/ssa_gt_data/experiment_420: No 'Started Experiment Now' entry found in /vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/ember-incoming/000524/sourcedata/raw/ssa_gt_data/experiment_420/experiment_420_log_2025-12-01_14-40-51.txt
+Converting sessions:  81%|████████▏ | 52/64 [00:32<00:04,  2.85session/s]Traceback (most recent call last):
+  File "/vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/task-force/labs/sanes/code/batch_convert.py", line 90, in convert_batch
+    output_path = build_nwb(session_dir=session_dir, output_dir=output_dir, config_path=config_path)
+  File "/vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/task-force/labs/sanes/code/_sanes_to_nwb.py", line 360, in build_nwb
+    session_start = _session_start(session_dir=session_dir, cfg=cfg)
+  File "/vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/task-force/labs/sanes/code/_sanes_to_nwb.py", line 145, in _session_start
+    raise ValueError(f"No 'Started Experiment Now' entry found in {logs[0]}")
+ValueError: No 'Started Experiment Now' entry found in /vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/ember-incoming/000524/sourcedata/raw/ssa_gt_data/experiment_422/experiment_422_log_2025-12-02_14-56-12.txt
+FAILED: /vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/ember-incoming/000524/sourcedata/raw/ssa_gt_data/experiment_422: No 'Started Experiment Now' entry found in /vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/ember-incoming/000524/sourcedata/raw/ssa_gt_data/experiment_422/experiment_422_log_2025-12-02_14-56-12.txt
+Traceback (most recent call last):
+  File "/vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/task-force/labs/sanes/code/batch_convert.py", line 90, in convert_batch
+    output_path = build_nwb(session_dir=session_dir, output_dir=output_dir, config_path=config_path)
+  File "/vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/task-force/labs/sanes/code/_sanes_to_nwb.py", line 360, in build_nwb
+    session_start = _session_start(session_dir=session_dir, cfg=cfg)
+  File "/vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/task-force/labs/sanes/code/_sanes_to_nwb.py", line 145, in _session_start
+    raise ValueError(f"No 'Started Experiment Now' entry found in {logs[0]}")
+ValueError: No 'Started Experiment Now' entry found in /vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/ember-incoming/000524/sourcedata/raw/ssa_gt_data/experiment_423/experiment_423_log_2025-12-03_14-16-11.txt
+FAILED: /vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/ember-incoming/000524/sourcedata/raw/ssa_gt_data/experiment_423: No 'Started Experiment Now' entry found in /vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/ember-incoming/000524/sourcedata/raw/ssa_gt_data/experiment_423/experiment_423_log_2025-12-03_14-16-11.txt
+Traceback (most recent call last):
+  File "/vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/task-force/labs/sanes/code/batch_convert.py", line 90, in convert_batch
+    output_path = build_nwb(session_dir=session_dir, output_dir=output_dir, config_path=config_path)
+  File "/vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/task-force/labs/sanes/code/_sanes_to_nwb.py", line 360, in build_nwb
+    session_start = _session_start(session_dir=session_dir, cfg=cfg)
+  File "/vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/task-force/labs/sanes/code/_sanes_to_nwb.py", line 145, in _session_start
+    raise ValueError(f"No 'Started Experiment Now' entry found in {logs[0]}")
+ValueError: No 'Started Experiment Now' entry found in /vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/ember-incoming/000524/sourcedata/raw/ssa_gt_data/experiment_426/experiment_426_log_2025-12-09_14-07-03.txt
+FAILED: /vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/ember-incoming/000524/sourcedata/raw/ssa_gt_data/experiment_426: No 'Started Experiment Now' entry found in /vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/ember-incoming/000524/sourcedata/raw/ssa_gt_data/experiment_426/experiment_426_log_2025-12-09_14-07-03.txt
+Traceback (most recent call last):
+  File "/vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/task-force/labs/sanes/code/batch_convert.py", line 90, in convert_batch
+    output_path = build_nwb(session_dir=session_dir, output_dir=output_dir, config_path=config_path)
+  File "/vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/task-force/labs/sanes/code/_sanes_to_nwb.py", line 360, in build_nwb
+    session_start = _session_start(session_dir=session_dir, cfg=cfg)
+  File "/vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/task-force/labs/sanes/code/_sanes_to_nwb.py", line 145, in _session_start
+    raise ValueError(f"No 'Started Experiment Now' entry found in {logs[0]}")
+ValueError: No 'Started Experiment Now' entry found in /vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/ember-incoming/000524/sourcedata/raw/ssa_gt_data/experiment_433/experiment_433_log_2025-12-11_16-53-04.txt
+FAILED: /vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/ember-incoming/000524/sourcedata/raw/ssa_gt_data/experiment_433: No 'Started Experiment Now' entry found in /vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/ember-incoming/000524/sourcedata/raw/ssa_gt_data/experiment_433/experiment_433_log_2025-12-11_16-53-04.txt
+Traceback (most recent call last):
+  File "/vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/task-force/labs/sanes/code/batch_convert.py", line 90, in convert_batch
+    output_path = build_nwb(session_dir=session_dir, output_dir=output_dir, config_path=config_path)
+  File "/vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/task-force/labs/sanes/code/_sanes_to_nwb.py", line 360, in build_nwb
+    session_start = _session_start(session_dir=session_dir, cfg=cfg)
+  File "/vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/task-force/labs/sanes/code/_sanes_to_nwb.py", line 145, in _session_start
+    raise ValueError(f"No 'Started Experiment Now' entry found in {logs[0]}")
+ValueError: No 'Started Experiment Now' entry found in /vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/ember-incoming/000524/sourcedata/raw/ssa_gt_data/experiment_436/experiment_436_log_2025-12-12_16-56-50.txt
+FAILED: /vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/ember-incoming/000524/sourcedata/raw/ssa_gt_data/experiment_436: No 'Started Experiment Now' entry found in /vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/ember-incoming/000524/sourcedata/raw/ssa_gt_data/experiment_436/experiment_436_log_2025-12-12_16-56-50.txt
+Traceback (most recent call last):
+  File "/vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/task-force/labs/sanes/code/batch_convert.py", line 90, in convert_batch
+    output_path = build_nwb(session_dir=session_dir, output_dir=output_dir, config_path=config_path)
+  File "/vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/task-force/labs/sanes/code/_sanes_to_nwb.py", line 360, in build_nwb
+    session_start = _session_start(session_dir=session_dir, cfg=cfg)
+  File "/vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/task-force/labs/sanes/code/_sanes_to_nwb.py", line 145, in _session_start
+    raise ValueError(f"No 'Started Experiment Now' entry found in {logs[0]}")
+ValueError: No 'Started Experiment Now' entry found in /vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/ember-incoming/000524/sourcedata/raw/ssa_gt_data/experiment_437/experiment_437_log_2025-12-15_16-14-17.txt
+FAILED: /vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/ember-incoming/000524/sourcedata/raw/ssa_gt_data/experiment_437: No 'Started Experiment Now' entry found in /vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/ember-incoming/000524/sourcedata/raw/ssa_gt_data/experiment_437/experiment_437_log_2025-12-15_16-14-17.txt
+Traceback (most recent call last):
+  File "/vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/task-force/labs/sanes/code/batch_convert.py", line 90, in convert_batch
+    output_path = build_nwb(session_dir=session_dir, output_dir=output_dir, config_path=config_path)
+  File "/vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/task-force/labs/sanes/code/_sanes_to_nwb.py", line 360, in build_nwb
+    session_start = _session_start(session_dir=session_dir, cfg=cfg)
+  File "/vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/task-force/labs/sanes/code/_sanes_to_nwb.py", line 145, in _session_start
+    raise ValueError(f"No 'Started Experiment Now' entry found in {logs[0]}")
+ValueError: No 'Started Experiment Now' entry found in /vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/ember-incoming/000524/sourcedata/raw/ssa_gt_data/experiment_438/experiment_438_log_2025-12-16_14-38-04.txt
+FAILED: /vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/ember-incoming/000524/sourcedata/raw/ssa_gt_data/experiment_438: No 'Started Experiment Now' entry found in /vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/ember-incoming/000524/sourcedata/raw/ssa_gt_data/experiment_438/experiment_438_log_2025-12-16_14-38-04.txt
+Traceback (most recent call last):
+  File "/vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/task-force/labs/sanes/code/batch_convert.py", line 90, in convert_batch
+    output_path = build_nwb(session_dir=session_dir, output_dir=output_dir, config_path=config_path)
+  File "/vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/task-force/labs/sanes/code/_sanes_to_nwb.py", line 360, in build_nwb
+    session_start = _session_start(session_dir=session_dir, cfg=cfg)
+  File "/vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/task-force/labs/sanes/code/_sanes_to_nwb.py", line 145, in _session_start
+    raise ValueError(f"No 'Started Experiment Now' entry found in {logs[0]}")
+ValueError: No 'Started Experiment Now' entry found in /vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/ember-incoming/000524/sourcedata/raw/ssa_gt_data/experiment_439/experiment_439_log_2025-12-17_14-03-20.txt
+FAILED: /vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/ember-incoming/000524/sourcedata/raw/ssa_gt_data/experiment_439: No 'Started Experiment Now' entry found in /vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/ember-incoming/000524/sourcedata/raw/ssa_gt_data/experiment_439/experiment_439_log_2025-12-17_14-03-20.txt
+Traceback (most recent call last):
+  File "/vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/task-force/labs/sanes/code/batch_convert.py", line 90, in convert_batch
+    output_path = build_nwb(session_dir=session_dir, output_dir=output_dir, config_path=config_path)
+  File "/vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/task-force/labs/sanes/code/_sanes_to_nwb.py", line 360, in build_nwb
+    session_start = _session_start(session_dir=session_dir, cfg=cfg)
+  File "/vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/task-force/labs/sanes/code/_sanes_to_nwb.py", line 145, in _session_start
+    raise ValueError(f"No 'Started Experiment Now' entry found in {logs[0]}")
+ValueError: No 'Started Experiment Now' entry found in /vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/ember-incoming/000524/sourcedata/raw/ssa_gt_data/experiment_442/experiment_442_log_2025-12-19_12-31-46.txt
+FAILED: /vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/ember-incoming/000524/sourcedata/raw/ssa_gt_data/experiment_442: No 'Started Experiment Now' entry found in /vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/ember-incoming/000524/sourcedata/raw/ssa_gt_data/experiment_442/experiment_442_log_2025-12-19_12-31-46.txt
+Traceback (most recent call last):
+  File "/vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/task-force/labs/sanes/code/batch_convert.py", line 90, in convert_batch
+    output_path = build_nwb(session_dir=session_dir, output_dir=output_dir, config_path=config_path)
+  File "/vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/task-force/labs/sanes/code/_sanes_to_nwb.py", line 360, in build_nwb
+    session_start = _session_start(session_dir=session_dir, cfg=cfg)
+  File "/vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/task-force/labs/sanes/code/_sanes_to_nwb.py", line 145, in _session_start
+    raise ValueError(f"No 'Started Experiment Now' entry found in {logs[0]}")
+ValueError: No 'Started Experiment Now' entry found in /vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/ember-incoming/000524/sourcedata/raw/ssa_gt_data/experiment_443/experiment_443_log_2025-12-19_16-21-22.txt
+FAILED: /vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/ember-incoming/000524/sourcedata/raw/ssa_gt_data/experiment_443: No 'Started Experiment Now' entry found in /vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/ember-incoming/000524/sourcedata/raw/ssa_gt_data/experiment_443/experiment_443_log_2025-12-19_16-21-22.txt
+Traceback (most recent call last):
+  File "/vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/task-force/labs/sanes/code/batch_convert.py", line 90, in convert_batch
+    output_path = build_nwb(session_dir=session_dir, output_dir=output_dir, config_path=config_path)
+  File "/vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/task-force/labs/sanes/code/_sanes_to_nwb.py", line 360, in build_nwb
+    session_start = _session_start(session_dir=session_dir, cfg=cfg)
+  File "/vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/task-force/labs/sanes/code/_sanes_to_nwb.py", line 145, in _session_start
+    raise ValueError(f"No 'Started Experiment Now' entry found in {logs[0]}")
+ValueError: No 'Started Experiment Now' entry found in /vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/ember-incoming/000524/sourcedata/raw/ssa_gt_data/experiment_444/experiment_444_log_2025-12-22_14-05-00.txt
+FAILED: /vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/ember-incoming/000524/sourcedata/raw/ssa_gt_data/experiment_444: No 'Started Experiment Now' entry found in /vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/ember-incoming/000524/sourcedata/raw/ssa_gt_data/experiment_444/experiment_444_log_2025-12-22_14-05-00.txt
+Traceback (most recent call last):
+  File "/vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/task-force/labs/sanes/code/batch_convert.py", line 90, in convert_batch
+    output_path = build_nwb(session_dir=session_dir, output_dir=output_dir, config_path=config_path)
+  File "/vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/task-force/labs/sanes/code/_sanes_to_nwb.py", line 360, in build_nwb
+    session_start = _session_start(session_dir=session_dir, cfg=cfg)
+  File "/vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/task-force/labs/sanes/code/_sanes_to_nwb.py", line 145, in _session_start
+    raise ValueError(f"No 'Started Experiment Now' entry found in {logs[0]}")
+ValueError: No 'Started Experiment Now' entry found in /vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/ember-incoming/000524/sourcedata/raw/ssa_gt_data/experiment_445/experiment_445_log_2025-12-23_15-43-53.txt
+FAILED: /vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/ember-incoming/000524/sourcedata/raw/ssa_gt_data/experiment_445: No 'Started Experiment Now' entry found in /vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/ember-incoming/000524/sourcedata/raw/ssa_gt_data/experiment_445/experiment_445_log_2025-12-23_15-43-53.txt
+Converting sessions: 100%|██████████| 64/64 [00:32<00:00,  1.97session/s]
