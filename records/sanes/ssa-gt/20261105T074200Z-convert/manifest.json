@@ -1,0 +1,19 @@
+{
+  "command": [
+    "python3",
+    "/vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/task-force/labs/sanes/code/batch_convert.py",
+    "--input",
+    "/vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/ember-incoming/000524/sourcedata/raw/ssa_gt_data",
+    "--output",
+    "/vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/ember-standardized/000606",
+    "--config",
+    "/vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/task-force/labs/sanes/code/config_ssa_gt.yaml",
+    "--overwrite"
+  ],
+  "exit_code": 1,
+  "finished_at": "2026-11-05T07:42:38+00:00",
+  "removed": [],
+  "root": "/vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/ember-standardized/000606",
+  "started_at": "2026-11-05T07:42:02+00:00",
+  "written": []
+}
