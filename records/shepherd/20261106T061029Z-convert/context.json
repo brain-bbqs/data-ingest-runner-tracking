@@ -1,0 +1,12 @@
+{
+  "force_overwrite": true,
+  "image": "docker://ghcr.io/brain-bbqs/shepherd-r34da059723-ingest@sha256:c2eba221e33387eb4c726477aa2ab5817ef0703f84e5504b4c1b6cf087f69609",
+  "incoming_dandiset_id": "000528",
+  "project": "shepherd",
+  "script_path": "labs/shepherd/code/shepherd_to_nwb.py",
+  "script_sha256": "da0f1468269ef77e3f42bf152e54cc412b8aa8368e4782058a9358f82b715580",
+  "sessions": [],
+  "standardized_dandiset_id": "000529",
+  "step": "convert",
+  "task_force_commit": "6a07c4ae238b84ac95be450d0b0a1603b114b45e"
+}
