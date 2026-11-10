@@ -1,0 +1,6 @@
+INFO:    fuse2fs not found, will not be able to mount EXT3 filesystems
+2026-11-10 04:09:24,648 [ WARNING] Server uses schema version 0.7.0 older than client's 0.8.0 (dandischema library 0.14.0). Library will attempt (but might fail) to downgrade outgoing metadata to this schema version on upload. Server might fail to validate such assets and you might not be able to publish this dandiset until server is upgraded. Alternatively, you may downgrade dandischema and reupload.
+2026-11-10 04:09:27,293 [    INFO] Found 127 files to consider
+2026-11-10 04:19:03,623 [ WARNING] One or more assets failed validation. Use `dandi validate --load /home/cbaker/.local/state/dandi-cli/log/2026.11.10-04.09.24Z-2014270_validation.jsonl` to review the saved results.
+2026-11-10 04:19:04,207 [    INFO] Logs saved in /home/cbaker/.local/state/dandi-cli/log/2026.11.10-04.09.24Z-2014270.log
+Error: File failed validation. Check log or run 'dandi validate /vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/ember-standardized/000606/sub-00/sub-00_ses-experiment284.nwb' to see detailed validation errors.
