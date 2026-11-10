@@ -1,0 +1,7 @@
+{
+  "failed": {
+    "experiment_235": "Invalid or duplicate sync.csv filename: channel_0_0",
+    "experiment_237": "Invalid or duplicate sync.csv filename: channel_0_0"
+  },
+  "pending": {}
+}

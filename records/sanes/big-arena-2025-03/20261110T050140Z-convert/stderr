@@ -1,0 +1,24 @@
+INFO:    fuse2fs not found, will not be able to mount EXT3 filesystems
+Converting sessions:   0%|          | 0/2 [00:00<?, ?session/s]Traceback (most recent call last):
+  File "/vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/task-force/labs/sanes/code/batch_convert.py", line 130, in convert_batch
+    output_path = build_nwb(session_dir=session_dir, output_dir=output_dir, config_path=config_path)
+  File "/vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/task-force/labs/sanes/code/_sanes_to_nwb.py", line 425, in build_nwb
+    output_path = _build_synced_nwb(session_dir=session_dir, output_dir=output_dir, cfg=cfg)
+  File "/vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/task-force/labs/sanes/code/_sanes_to_nwb.py", line 845, in _build_synced_nwb
+    rows = _read_sync_manifest(folder=folder, timezone=cfg["session"]["timezone"])
+  File "/vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/task-force/labs/sanes/code/_sanes_to_nwb.py", line 619, in _read_sync_manifest
+    raise ValueError(f"Invalid or duplicate sync.csv filename: {name}")
+ValueError: Invalid or duplicate sync.csv filename: channel_0_0
+FAILED: /vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/ember-incoming/000602/sourcedata/raw/experiment_235: Invalid or duplicate sync.csv filename: channel_0_0
+Traceback (most recent call last):
+  File "/vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/task-force/labs/sanes/code/batch_convert.py", line 130, in convert_batch
+    output_path = build_nwb(session_dir=session_dir, output_dir=output_dir, config_path=config_path)
+  File "/vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/task-force/labs/sanes/code/_sanes_to_nwb.py", line 425, in build_nwb
+    output_path = _build_synced_nwb(session_dir=session_dir, output_dir=output_dir, cfg=cfg)
+  File "/vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/task-force/labs/sanes/code/_sanes_to_nwb.py", line 845, in _build_synced_nwb
+    rows = _read_sync_manifest(folder=folder, timezone=cfg["session"]["timezone"])
+  File "/vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/task-force/labs/sanes/code/_sanes_to_nwb.py", line 619, in _read_sync_manifest
+    raise ValueError(f"Invalid or duplicate sync.csv filename: {name}")
+ValueError: Invalid or duplicate sync.csv filename: channel_0_0
+FAILED: /vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/ember-incoming/000602/sourcedata/raw/experiment_237: Invalid or duplicate sync.csv filename: channel_0_0
+Converting sessions: 100%|██████████| 2/2 [00:00<00:00, 40.16session/s]
