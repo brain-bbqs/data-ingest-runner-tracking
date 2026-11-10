@@ -1,0 +1,312 @@
+INFO:    fuse2fs not found, will not be able to mount EXT3 filesystems
+Converting sessions:   0%|          | 0/64 [00:00<?, ?session/s]                                                                Converting sessions:   0%|          | 0/64 [1:37:37<?, ?session/s]Converting sessions:   2%|▏         | 1/64 [1:37:37<102:30:37, 5857.74s/session]                                                                                Converting sessions:   2%|▏         | 1/64 [2:17:03<102:30:37, 5857.74s/session]Converting sessions:   3%|▎         | 2/64 [2:17:03<65:30:27, 3803.68s/session]                                                                                Converting sessions:   3%|▎         | 2/64 [3:09:54<65:30:27, 3803.68s/session]Converting sessions:   5%|▍         | 3/64 [3:09:54<59:33:19, 3514.75s/session]                                                                               Converting sessions:   5%|▍         | 3/64 [4:17:45<59:33:19, 3514.75s/session]Converting sessions:   6%|▋         | 4/64 [4:17:45<62:14:10, 3734.17s/session]                                                                               Converting sessions:   6%|▋         | 4/64 [4:25:58<62:14:10, 3734.17s/session]Converting sessions:   8%|▊         | 5/64 [4:25:58<42:02:49, 2565.59s/session]                                                                               Converting sessions:   8%|▊         | 5/64 [4:50:39<42:02:49, 2565.59s/session]Converting sessions:   9%|▉         | 6/64 [4:50:39<35:23:42, 2196.94s/session]                                                                               Converting sessions:   9%|▉         | 6/64 [5:17:51<35:23:42, 2196.94s/session]Converting sessions:  11%|█         | 7/64 [5:17:51<31:51:22, 2011.97s/session]                                                                               Converting sessions:  11%|█         | 7/64 [5:28:30<31:51:22, 2011.97s/session]Converting sessions:  12%|█▎        | 8/64 [5:28:30<24:29:51, 1574.86s/session]                                                                               Converting sessions:  12%|█▎        | 8/64 [5:35:38<24:29:51, 1574.86s/session]Converting sessions:  14%|█▍        | 9/64 [5:35:38<18:35:12, 1216.60s/session]                                                                               Converting sessions:  14%|█▍        | 9/64 [6:07:21<18:35:12, 1216.60s/session]Converting sessions:  16%|█▌        | 10/64 [6:07:21<21:25:26, 1428.26s/session]                                                                                Converting sessions:  16%|█▌        | 10/64 [6:35:56<21:25:26, 1428.26s/session]Converting sessions:  17%|█▋        | 11/64 [6:35:56<22:19:12, 1516.08s/session]                                                                                Converting sessions:  17%|█▋        | 11/64 [7:01:01<22:19:12, 1516.08s/session]Converting sessions:  19%|█▉        | 12/64 [7:01:01<21:51:03, 1512.77s/session]                                                                                Converting sessions:  19%|█▉        | 12/64 [7:11:02<21:51:03, 1512.77s/session]Converting sessions:  20%|██        | 13/64 [7:11:02<17:31:07, 1236.61s/session]                                                                                Converting sessions:  20%|██        | 13/64 [8:10:32<17:31:07, 1236.61s/session]Converting sessions:  22%|██▏       | 14/64 [8:10:32<26:57:44, 1941.28s/session]                                                                                Converting sessions:  22%|██▏       | 14/64 [8:35:52<26:57:44, 1941.28s/session]Converting sessions:  23%|██▎       | 15/64 [8:35:52<24:41:50, 1814.50s/session]                                                                                Converting sessions:  23%|██▎       | 15/64 [9:06:36<24:41:50, 1814.50s/session]Converting sessions:  25%|██▌       | 16/64 [9:06:36<24:18:31, 1823.15s/session]                                                                                Converting sessions:  25%|██▌       | 16/64 [9:35:08<24:18:31, 1823.15s/session]Converting sessions:  27%|██▋       | 17/64 [9:35:08<23:21:55, 1789.68s/session]                                                                                Converting sessions:  27%|██▋       | 17/64 [9:54:23<23:21:55, 1789.68s/session]Converting sessions:  28%|██▊       | 18/64 [9:54:23<20:26:04, 1599.23s/session]                                                                                Converting sessions:  28%|██▊       | 18/64 [10:43:26<20:26:04, 1599.23s/session]Converting sessions:  30%|██▉       | 19/64 [10:43:26<25:02:00, 2002.68s/session]                                                                                 Converting sessions:  30%|██▉       | 19/64 [11:37:25<25:02:00, 2002.68s/session]Converting sessions:  31%|███▏      | 20/64 [11:37:25<29:00:45, 2373.75s/session]                                                                                 Converting sessions:  31%|███▏      | 20/64 [11:52:36<29:00:45, 2373.75s/session]Converting sessions:  33%|███▎      | 21/64 [11:52:36<23:06:43, 1934.97s/session]                                                                                 Converting sessions:  33%|███▎      | 21/64 [12:19:01<23:06:43, 1934.97s/session]Converting sessions:  34%|███▍      | 22/64 [12:19:01<21:20:51, 1829.80s/session]                                                                                 Converting sessions:  34%|███▍      | 22/64 [12:31:12<21:20:51, 1829.80s/session]Converting sessions:  36%|███▌      | 23/64 [12:31:12<17:05:07, 1500.18s/session]                                                                                 Converting sessions:  36%|███▌      | 23/64 [13:07:45<17:05:07, 1500.18s/session]Converting sessions:  38%|███▊      | 24/64 [13:07:45<18:58:33, 1707.83s/session]                                                                                 Converting sessions:  38%|███▊      | 24/64 [13:26:17<18:58:33, 1707.83s/session]Converting sessions:  39%|███▉      | 25/64 [13:26:17<16:33:56, 1529.15s/session]                                                                                 Converting sessions:  39%|███▉      | 25/64 [15:00:19<16:33:56, 1529.15s/session]Converting sessions:  41%|████      | 26/64 [15:00:19<29:10:02, 2763.24s/session]                                                                                 Converting sessions:  41%|████      | 26/64 [15:35:08<29:10:02, 2763.24s/session]Converting sessions:  42%|████▏     | 27/64 [15:35:08<26:19:06, 2560.72s/session]                                                                                 Converting sessions:  42%|████▏     | 27/64 [16:17:31<26:19:06, 2560.72s/session]Converting sessions:  44%|████▍     | 28/64 [16:17:31<25:33:22, 2555.62s/session]                                                                                 Converting sessions:  44%|████▍     | 28/64 [17:06:23<25:33:22, 2555.62s/session]Converting sessions:  45%|████▌     | 29/64 [17:06:23<25:56:33, 2668.39s/session]                                                                                 Converting sessions:  45%|████▌     | 29/64 [18:17:36<25:56:33, 2668.39s/session]Converting sessions:  47%|████▋     | 30/64 [18:17:36<29:44:52, 3149.77s/session]Traceback (most recent call last):
+  File "/vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/task-force/labs/sanes/code/batch_convert.py", line 130, in convert_batch
+    output_path = build_nwb(session_dir=session_dir, output_dir=output_dir, config_path=config_path)
+  File "/vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/task-force/labs/sanes/code/_sanes_to_nwb.py", line 435, in build_nwb
+    audio_layouts = [_chunk_audio(chunk) for chunk in chunks]
+                     ~~~~~~~~~~~~^^^^^^^
+  File "/vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/task-force/labs/sanes/code/_sanes_to_nwb.py", line 106, in _chunk_audio
+    raise ValueError(f"Audio channels are not synchronized in {chunk}")
+ValueError: Audio channels are not synchronized in /vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/ember-incoming/000524/sourcedata/raw/ssa_gt_data/experiment_384/idx_005
+FAILED: /vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/ember-incoming/000524/sourcedata/raw/ssa_gt_data/experiment_384: Audio channels are not synchronized in /vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/ember-incoming/000524/sourcedata/raw/ssa_gt_data/experiment_384/idx_005
+Converting sessions:  48%|████▊     | 31/64 [18:17:39<20:13:16, 2205.94s/session]Traceback (most recent call last):
+  File "/vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/task-force/labs/sanes/code/batch_convert.py", line 130, in convert_batch
+    output_path = build_nwb(session_dir=session_dir, output_dir=output_dir, config_path=config_path)
+  File "/vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/task-force/labs/sanes/code/_sanes_to_nwb.py", line 435, in build_nwb
+    audio_layouts = [_chunk_audio(chunk) for chunk in chunks]
+                     ~~~~~~~~~~~~^^^^^^^
+  File "/vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/task-force/labs/sanes/code/_sanes_to_nwb.py", line 106, in _chunk_audio
+    raise ValueError(f"Audio channels are not synchronized in {chunk}")
+ValueError: Audio channels are not synchronized in /vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/ember-incoming/000524/sourcedata/raw/ssa_gt_data/experiment_385/idx_007
+FAILED: /vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/ember-incoming/000524/sourcedata/raw/ssa_gt_data/experiment_385: Audio channels are not synchronized in /vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/ember-incoming/000524/sourcedata/raw/ssa_gt_data/experiment_385/idx_007
+Converting sessions:  50%|█████     | 32/64 [18:17:44<13:44:20, 1545.64s/session]Traceback (most recent call last):
+  File "/vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/task-force/labs/sanes/code/batch_convert.py", line 130, in convert_batch
+    output_path = build_nwb(session_dir=session_dir, output_dir=output_dir, config_path=config_path)
+  File "/vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/task-force/labs/sanes/code/_sanes_to_nwb.py", line 435, in build_nwb
+    audio_layouts = [_chunk_audio(chunk) for chunk in chunks]
+                     ~~~~~~~~~~~~^^^^^^^
+  File "/vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/task-force/labs/sanes/code/_sanes_to_nwb.py", line 106, in _chunk_audio
+    raise ValueError(f"Audio channels are not synchronized in {chunk}")
+ValueError: Audio channels are not synchronized in /vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/ember-incoming/000524/sourcedata/raw/ssa_gt_data/experiment_387/idx_014
+FAILED: /vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/ember-incoming/000524/sourcedata/raw/ssa_gt_data/experiment_387: Audio channels are not synchronized in /vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/ember-incoming/000524/sourcedata/raw/ssa_gt_data/experiment_387/idx_014
+Converting sessions:  52%|█████▏    | 33/64 [18:17:53<9:20:18, 1084.48s/session] Traceback (most recent call last):
+  File "/vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/task-force/labs/sanes/code/batch_convert.py", line 130, in convert_batch
+    output_path = build_nwb(session_dir=session_dir, output_dir=output_dir, config_path=config_path)
+  File "/vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/task-force/labs/sanes/code/_sanes_to_nwb.py", line 435, in build_nwb
+    audio_layouts = [_chunk_audio(chunk) for chunk in chunks]
+                     ~~~~~~~~~~~~^^^^^^^
+  File "/vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/task-force/labs/sanes/code/_sanes_to_nwb.py", line 106, in _chunk_audio
+    raise ValueError(f"Audio channels are not synchronized in {chunk}")
+ValueError: Audio channels are not synchronized in /vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/ember-incoming/000524/sourcedata/raw/ssa_gt_data/experiment_388/idx_020
+FAILED: /vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/ember-incoming/000524/sourcedata/raw/ssa_gt_data/experiment_388: Audio channels are not synchronized in /vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/ember-incoming/000524/sourcedata/raw/ssa_gt_data/experiment_388/idx_020
+Converting sessions:  53%|█████▎    | 34/64 [18:18:05<6:21:21, 762.72s/session] Traceback (most recent call last):
+  File "/vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/task-force/labs/sanes/code/batch_convert.py", line 130, in convert_batch
+    output_path = build_nwb(session_dir=session_dir, output_dir=output_dir, config_path=config_path)
+  File "/vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/task-force/labs/sanes/code/_sanes_to_nwb.py", line 435, in build_nwb
+    audio_layouts = [_chunk_audio(chunk) for chunk in chunks]
+                     ~~~~~~~~~~~~^^^^^^^
+  File "/vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/task-force/labs/sanes/code/_sanes_to_nwb.py", line 106, in _chunk_audio
+    raise ValueError(f"Audio channels are not synchronized in {chunk}")
+ValueError: Audio channels are not synchronized in /vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/ember-incoming/000524/sourcedata/raw/ssa_gt_data/experiment_389/idx_007
+FAILED: /vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/ember-incoming/000524/sourcedata/raw/ssa_gt_data/experiment_389: Audio channels are not synchronized in /vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/ember-incoming/000524/sourcedata/raw/ssa_gt_data/experiment_389/idx_007
+Converting sessions:  55%|█████▍    | 35/64 [18:18:10<4:18:44, 535.34s/session]Traceback (most recent call last):
+  File "/vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/task-force/labs/sanes/code/batch_convert.py", line 130, in convert_batch
+    output_path = build_nwb(session_dir=session_dir, output_dir=output_dir, config_path=config_path)
+  File "/vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/task-force/labs/sanes/code/_sanes_to_nwb.py", line 435, in build_nwb
+    audio_layouts = [_chunk_audio(chunk) for chunk in chunks]
+                     ~~~~~~~~~~~~^^^^^^^
+  File "/vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/task-force/labs/sanes/code/_sanes_to_nwb.py", line 106, in _chunk_audio
+    raise ValueError(f"Audio channels are not synchronized in {chunk}")
+ValueError: Audio channels are not synchronized in /vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/ember-incoming/000524/sourcedata/raw/ssa_gt_data/experiment_395/idx_013
+FAILED: /vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/ember-incoming/000524/sourcedata/raw/ssa_gt_data/experiment_395: Audio channels are not synchronized in /vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/ember-incoming/000524/sourcedata/raw/ssa_gt_data/experiment_395/idx_013
+Converting sessions:  56%|█████▋    | 36/64 [18:18:18<2:56:03, 377.26s/session]Traceback (most recent call last):
+  File "/vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/task-force/labs/sanes/code/batch_convert.py", line 130, in convert_batch
+    output_path = build_nwb(session_dir=session_dir, output_dir=output_dir, config_path=config_path)
+  File "/vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/task-force/labs/sanes/code/_sanes_to_nwb.py", line 435, in build_nwb
+    audio_layouts = [_chunk_audio(chunk) for chunk in chunks]
+                     ~~~~~~~~~~~~^^^^^^^
+  File "/vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/task-force/labs/sanes/code/_sanes_to_nwb.py", line 106, in _chunk_audio
+    raise ValueError(f"Audio channels are not synchronized in {chunk}")
+ValueError: Audio channels are not synchronized in /vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/ember-incoming/000524/sourcedata/raw/ssa_gt_data/experiment_396/idx_002
+FAILED: /vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/ember-incoming/000524/sourcedata/raw/ssa_gt_data/experiment_396: Audio channels are not synchronized in /vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/ember-incoming/000524/sourcedata/raw/ssa_gt_data/experiment_396/idx_002
+Converting sessions:  58%|█████▊    | 37/64 [18:18:20<1:59:05, 264.64s/session]Traceback (most recent call last):
+  File "/vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/task-force/labs/sanes/code/batch_convert.py", line 130, in convert_batch
+    output_path = build_nwb(session_dir=session_dir, output_dir=output_dir, config_path=config_path)
+  File "/vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/task-force/labs/sanes/code/_sanes_to_nwb.py", line 435, in build_nwb
+    audio_layouts = [_chunk_audio(chunk) for chunk in chunks]
+                     ~~~~~~~~~~~~^^^^^^^
+  File "/vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/task-force/labs/sanes/code/_sanes_to_nwb.py", line 106, in _chunk_audio
+    raise ValueError(f"Audio channels are not synchronized in {chunk}")
+ValueError: Audio channels are not synchronized in /vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/ember-incoming/000524/sourcedata/raw/ssa_gt_data/experiment_398/idx_005
+FAILED: /vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/ember-incoming/000524/sourcedata/raw/ssa_gt_data/experiment_398: Audio channels are not synchronized in /vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/ember-incoming/000524/sourcedata/raw/ssa_gt_data/experiment_398/idx_005
+Converting sessions:  59%|█████▉    | 38/64 [18:18:24<1:20:45, 186.38s/session]Traceback (most recent call last):
+  File "/vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/task-force/labs/sanes/code/batch_convert.py", line 130, in convert_batch
+    output_path = build_nwb(session_dir=session_dir, output_dir=output_dir, config_path=config_path)
+  File "/vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/task-force/labs/sanes/code/_sanes_to_nwb.py", line 435, in build_nwb
+    audio_layouts = [_chunk_audio(chunk) for chunk in chunks]
+                     ~~~~~~~~~~~~^^^^^^^
+  File "/vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/task-force/labs/sanes/code/_sanes_to_nwb.py", line 106, in _chunk_audio
+    raise ValueError(f"Audio channels are not synchronized in {chunk}")
+ValueError: Audio channels are not synchronized in /vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/ember-incoming/000524/sourcedata/raw/ssa_gt_data/experiment_400/idx_025
+FAILED: /vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/ember-incoming/000524/sourcedata/raw/ssa_gt_data/experiment_400: Audio channels are not synchronized in /vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/ember-incoming/000524/sourcedata/raw/ssa_gt_data/experiment_400/idx_025
+Converting sessions:  61%|██████    | 39/64 [18:18:40<56:21, 135.25s/session]  Traceback (most recent call last):
+  File "/vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/task-force/labs/sanes/code/batch_convert.py", line 130, in convert_batch
+    output_path = build_nwb(session_dir=session_dir, output_dir=output_dir, config_path=config_path)
+  File "/vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/task-force/labs/sanes/code/_sanes_to_nwb.py", line 435, in build_nwb
+    audio_layouts = [_chunk_audio(chunk) for chunk in chunks]
+                     ~~~~~~~~~~~~^^^^^^^
+  File "/vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/task-force/labs/sanes/code/_sanes_to_nwb.py", line 106, in _chunk_audio
+    raise ValueError(f"Audio channels are not synchronized in {chunk}")
+ValueError: Audio channels are not synchronized in /vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/ember-incoming/000524/sourcedata/raw/ssa_gt_data/experiment_401/idx_006
+FAILED: /vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/ember-incoming/000524/sourcedata/raw/ssa_gt_data/experiment_401: Audio channels are not synchronized in /vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/ember-incoming/000524/sourcedata/raw/ssa_gt_data/experiment_401/idx_006
+Converting sessions:  62%|██████▎   | 40/64 [18:18:44<38:23, 95.97s/session] Traceback (most recent call last):
+  File "/vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/task-force/labs/sanes/code/batch_convert.py", line 130, in convert_batch
+    output_path = build_nwb(session_dir=session_dir, output_dir=output_dir, config_path=config_path)
+  File "/vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/task-force/labs/sanes/code/_sanes_to_nwb.py", line 435, in build_nwb
+    audio_layouts = [_chunk_audio(chunk) for chunk in chunks]
+                     ~~~~~~~~~~~~^^^^^^^
+  File "/vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/task-force/labs/sanes/code/_sanes_to_nwb.py", line 106, in _chunk_audio
+    raise ValueError(f"Audio channels are not synchronized in {chunk}")
+ValueError: Audio channels are not synchronized in /vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/ember-incoming/000524/sourcedata/raw/ssa_gt_data/experiment_402/idx_012
+FAILED: /vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/ember-incoming/000524/sourcedata/raw/ssa_gt_data/experiment_402: Audio channels are not synchronized in /vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/ember-incoming/000524/sourcedata/raw/ssa_gt_data/experiment_402/idx_012
+Converting sessions:  64%|██████▍   | 41/64 [18:18:51<26:37, 69.45s/session]Traceback (most recent call last):
+  File "/vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/task-force/labs/sanes/code/batch_convert.py", line 130, in convert_batch
+    output_path = build_nwb(session_dir=session_dir, output_dir=output_dir, config_path=config_path)
+  File "/vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/task-force/labs/sanes/code/_sanes_to_nwb.py", line 435, in build_nwb
+    audio_layouts = [_chunk_audio(chunk) for chunk in chunks]
+                     ~~~~~~~~~~~~^^^^^^^
+  File "/vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/task-force/labs/sanes/code/_sanes_to_nwb.py", line 106, in _chunk_audio
+    raise ValueError(f"Audio channels are not synchronized in {chunk}")
+ValueError: Audio channels are not synchronized in /vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/ember-incoming/000524/sourcedata/raw/ssa_gt_data/experiment_403/idx_008
+FAILED: /vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/ember-incoming/000524/sourcedata/raw/ssa_gt_data/experiment_403: Audio channels are not synchronized in /vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/ember-incoming/000524/sourcedata/raw/ssa_gt_data/experiment_403/idx_008
+Converting sessions:  66%|██████▌   | 42/64 [18:18:56<18:22, 50.11s/session]Traceback (most recent call last):
+  File "/vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/task-force/labs/sanes/code/batch_convert.py", line 130, in convert_batch
+    output_path = build_nwb(session_dir=session_dir, output_dir=output_dir, config_path=config_path)
+  File "/vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/task-force/labs/sanes/code/_sanes_to_nwb.py", line 435, in build_nwb
+    audio_layouts = [_chunk_audio(chunk) for chunk in chunks]
+                     ~~~~~~~~~~~~^^^^^^^
+  File "/vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/task-force/labs/sanes/code/_sanes_to_nwb.py", line 106, in _chunk_audio
+    raise ValueError(f"Audio channels are not synchronized in {chunk}")
+ValueError: Audio channels are not synchronized in /vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/ember-incoming/000524/sourcedata/raw/ssa_gt_data/experiment_404/idx_003
+FAILED: /vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/ember-incoming/000524/sourcedata/raw/ssa_gt_data/experiment_404: Audio channels are not synchronized in /vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/ember-incoming/000524/sourcedata/raw/ssa_gt_data/experiment_404/idx_003
+Converting sessions:  67%|██████▋   | 43/64 [18:18:59<12:31, 35.80s/session]Traceback (most recent call last):
+  File "/vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/task-force/labs/sanes/code/batch_convert.py", line 130, in convert_batch
+    output_path = build_nwb(session_dir=session_dir, output_dir=output_dir, config_path=config_path)
+  File "/vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/task-force/labs/sanes/code/_sanes_to_nwb.py", line 435, in build_nwb
+    audio_layouts = [_chunk_audio(chunk) for chunk in chunks]
+                     ~~~~~~~~~~~~^^^^^^^
+  File "/vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/task-force/labs/sanes/code/_sanes_to_nwb.py", line 106, in _chunk_audio
+    raise ValueError(f"Audio channels are not synchronized in {chunk}")
+ValueError: Audio channels are not synchronized in /vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/ember-incoming/000524/sourcedata/raw/ssa_gt_data/experiment_405/idx_015
+FAILED: /vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/ember-incoming/000524/sourcedata/raw/ssa_gt_data/experiment_405: Audio channels are not synchronized in /vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/ember-incoming/000524/sourcedata/raw/ssa_gt_data/experiment_405/idx_015
+Converting sessions:  69%|██████▉   | 44/64 [18:19:08<09:15, 27.76s/session]Traceback (most recent call last):
+  File "/vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/task-force/labs/sanes/code/batch_convert.py", line 130, in convert_batch
+    output_path = build_nwb(session_dir=session_dir, output_dir=output_dir, config_path=config_path)
+  File "/vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/task-force/labs/sanes/code/_sanes_to_nwb.py", line 435, in build_nwb
+    audio_layouts = [_chunk_audio(chunk) for chunk in chunks]
+                     ~~~~~~~~~~~~^^^^^^^
+  File "/vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/task-force/labs/sanes/code/_sanes_to_nwb.py", line 106, in _chunk_audio
+    raise ValueError(f"Audio channels are not synchronized in {chunk}")
+ValueError: Audio channels are not synchronized in /vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/ember-incoming/000524/sourcedata/raw/ssa_gt_data/experiment_408/idx_018
+FAILED: /vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/ember-incoming/000524/sourcedata/raw/ssa_gt_data/experiment_408: Audio channels are not synchronized in /vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/ember-incoming/000524/sourcedata/raw/ssa_gt_data/experiment_408/idx_018
+Converting sessions:  70%|███████   | 45/64 [18:19:19<07:12, 22.76s/session]Traceback (most recent call last):
+  File "/vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/task-force/labs/sanes/code/batch_convert.py", line 130, in convert_batch
+    output_path = build_nwb(session_dir=session_dir, output_dir=output_dir, config_path=config_path)
+  File "/vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/task-force/labs/sanes/code/_sanes_to_nwb.py", line 435, in build_nwb
+    audio_layouts = [_chunk_audio(chunk) for chunk in chunks]
+                     ~~~~~~~~~~~~^^^^^^^
+  File "/vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/task-force/labs/sanes/code/_sanes_to_nwb.py", line 106, in _chunk_audio
+    raise ValueError(f"Audio channels are not synchronized in {chunk}")
+ValueError: Audio channels are not synchronized in /vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/ember-incoming/000524/sourcedata/raw/ssa_gt_data/experiment_411/idx_008
+FAILED: /vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/ember-incoming/000524/sourcedata/raw/ssa_gt_data/experiment_411: Audio channels are not synchronized in /vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/ember-incoming/000524/sourcedata/raw/ssa_gt_data/experiment_411/idx_008
+Converting sessions:  72%|███████▏  | 46/64 [18:19:24<05:14, 17.49s/session]Traceback (most recent call last):
+  File "/vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/task-force/labs/sanes/code/batch_convert.py", line 130, in convert_batch
+    output_path = build_nwb(session_dir=session_dir, output_dir=output_dir, config_path=config_path)
+  File "/vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/task-force/labs/sanes/code/_sanes_to_nwb.py", line 435, in build_nwb
+    audio_layouts = [_chunk_audio(chunk) for chunk in chunks]
+                     ~~~~~~~~~~~~^^^^^^^
+  File "/vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/task-force/labs/sanes/code/_sanes_to_nwb.py", line 106, in _chunk_audio
+    raise ValueError(f"Audio channels are not synchronized in {chunk}")
+ValueError: Audio channels are not synchronized in /vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/ember-incoming/000524/sourcedata/raw/ssa_gt_data/experiment_412/idx_004
+FAILED: /vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/ember-incoming/000524/sourcedata/raw/ssa_gt_data/experiment_412: Audio channels are not synchronized in /vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/ember-incoming/000524/sourcedata/raw/ssa_gt_data/experiment_412/idx_004
+Converting sessions:  73%|███████▎  | 47/64 [18:19:27<03:41, 13.05s/session]Traceback (most recent call last):
+  File "/vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/task-force/labs/sanes/code/batch_convert.py", line 130, in convert_batch
+    output_path = build_nwb(session_dir=session_dir, output_dir=output_dir, config_path=config_path)
+  File "/vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/task-force/labs/sanes/code/_sanes_to_nwb.py", line 435, in build_nwb
+    audio_layouts = [_chunk_audio(chunk) for chunk in chunks]
+                     ~~~~~~~~~~~~^^^^^^^
+  File "/vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/task-force/labs/sanes/code/_sanes_to_nwb.py", line 106, in _chunk_audio
+    raise ValueError(f"Audio channels are not synchronized in {chunk}")
+ValueError: Audio channels are not synchronized in /vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/ember-incoming/000524/sourcedata/raw/ssa_gt_data/experiment_413/idx_006
+FAILED: /vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/ember-incoming/000524/sourcedata/raw/ssa_gt_data/experiment_413: Audio channels are not synchronized in /vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/ember-incoming/000524/sourcedata/raw/ssa_gt_data/experiment_413/idx_006
+Converting sessions:  75%|███████▌  | 48/64 [18:19:31<02:44, 10.26s/session]Traceback (most recent call last):
+  File "/vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/task-force/labs/sanes/code/batch_convert.py", line 130, in convert_batch
+    output_path = build_nwb(session_dir=session_dir, output_dir=output_dir, config_path=config_path)
+  File "/vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/task-force/labs/sanes/code/_sanes_to_nwb.py", line 435, in build_nwb
+    audio_layouts = [_chunk_audio(chunk) for chunk in chunks]
+                     ~~~~~~~~~~~~^^^^^^^
+  File "/vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/task-force/labs/sanes/code/_sanes_to_nwb.py", line 106, in _chunk_audio
+    raise ValueError(f"Audio channels are not synchronized in {chunk}")
+ValueError: Audio channels are not synchronized in /vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/ember-incoming/000524/sourcedata/raw/ssa_gt_data/experiment_414/idx_002
+FAILED: /vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/ember-incoming/000524/sourcedata/raw/ssa_gt_data/experiment_414: Audio channels are not synchronized in /vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/ember-incoming/000524/sourcedata/raw/ssa_gt_data/experiment_414/idx_002
+Converting sessions:  77%|███████▋  | 49/64 [18:19:32<01:55,  7.73s/session]Traceback (most recent call last):
+  File "/vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/task-force/labs/sanes/code/batch_convert.py", line 130, in convert_batch
+    output_path = build_nwb(session_dir=session_dir, output_dir=output_dir, config_path=config_path)
+  File "/vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/task-force/labs/sanes/code/_sanes_to_nwb.py", line 435, in build_nwb
+    audio_layouts = [_chunk_audio(chunk) for chunk in chunks]
+                     ~~~~~~~~~~~~^^^^^^^
+  File "/vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/task-force/labs/sanes/code/_sanes_to_nwb.py", line 106, in _chunk_audio
+    raise ValueError(f"Audio channels are not synchronized in {chunk}")
+ValueError: Audio channels are not synchronized in /vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/ember-incoming/000524/sourcedata/raw/ssa_gt_data/experiment_416/idx_023
+FAILED: /vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/ember-incoming/000524/sourcedata/raw/ssa_gt_data/experiment_416: Audio channels are not synchronized in /vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/ember-incoming/000524/sourcedata/raw/ssa_gt_data/experiment_416/idx_023
+Converting sessions:  78%|███████▊  | 50/64 [18:19:47<02:15,  9.65s/session]Traceback (most recent call last):
+  File "/vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/task-force/labs/sanes/code/batch_convert.py", line 130, in convert_batch
+    output_path = build_nwb(session_dir=session_dir, output_dir=output_dir, config_path=config_path)
+  File "/vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/task-force/labs/sanes/code/_sanes_to_nwb.py", line 435, in build_nwb
+    audio_layouts = [_chunk_audio(chunk) for chunk in chunks]
+                     ~~~~~~~~~~~~^^^^^^^
+  File "/vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/task-force/labs/sanes/code/_sanes_to_nwb.py", line 106, in _chunk_audio
+    raise ValueError(f"Audio channels are not synchronized in {chunk}")
+ValueError: Audio channels are not synchronized in /vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/ember-incoming/000524/sourcedata/raw/ssa_gt_data/experiment_417/idx_017
+FAILED: /vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/ember-incoming/000524/sourcedata/raw/ssa_gt_data/experiment_417: Audio channels are not synchronized in /vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/ember-incoming/000524/sourcedata/raw/ssa_gt_data/experiment_417/idx_017
+Converting sessions:  80%|███████▉  | 51/64 [18:19:58<02:11, 10.09s/session]Traceback (most recent call last):
+  File "/vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/task-force/labs/sanes/code/batch_convert.py", line 130, in convert_batch
+    output_path = build_nwb(session_dir=session_dir, output_dir=output_dir, config_path=config_path)
+  File "/vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/task-force/labs/sanes/code/_sanes_to_nwb.py", line 435, in build_nwb
+    audio_layouts = [_chunk_audio(chunk) for chunk in chunks]
+                     ~~~~~~~~~~~~^^^^^^^
+  File "/vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/task-force/labs/sanes/code/_sanes_to_nwb.py", line 106, in _chunk_audio
+    raise ValueError(f"Audio channels are not synchronized in {chunk}")
+ValueError: Audio channels are not synchronized in /vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/ember-incoming/000524/sourcedata/raw/ssa_gt_data/experiment_420/idx_037
+FAILED: /vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/ember-incoming/000524/sourcedata/raw/ssa_gt_data/experiment_420: Audio channels are not synchronized in /vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/ember-incoming/000524/sourcedata/raw/ssa_gt_data/experiment_420/idx_037
+Converting sessions:  81%|████████▏ | 52/64 [18:20:21<02:48, 14.08s/session]Traceback (most recent call last):
+  File "/vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/task-force/labs/sanes/code/batch_convert.py", line 130, in convert_batch
+    output_path = build_nwb(session_dir=session_dir, output_dir=output_dir, config_path=config_path)
+  File "/vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/task-force/labs/sanes/code/_sanes_to_nwb.py", line 435, in build_nwb
+    audio_layouts = [_chunk_audio(chunk) for chunk in chunks]
+                     ~~~~~~~~~~~~^^^^^^^
+  File "/vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/task-force/labs/sanes/code/_sanes_to_nwb.py", line 106, in _chunk_audio
+    raise ValueError(f"Audio channels are not synchronized in {chunk}")
+ValueError: Audio channels are not synchronized in /vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/ember-incoming/000524/sourcedata/raw/ssa_gt_data/experiment_422/idx_032
+FAILED: /vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/ember-incoming/000524/sourcedata/raw/ssa_gt_data/experiment_422: Audio channels are not synchronized in /vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/ember-incoming/000524/sourcedata/raw/ssa_gt_data/experiment_422/idx_032
+Converting sessions:  83%|████████▎ | 53/64 [18:20:40<02:51, 15.56s/session]Traceback (most recent call last):
+  File "/vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/task-force/labs/sanes/code/batch_convert.py", line 130, in convert_batch
+    output_path = build_nwb(session_dir=session_dir, output_dir=output_dir, config_path=config_path)
+  File "/vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/task-force/labs/sanes/code/_sanes_to_nwb.py", line 435, in build_nwb
+    audio_layouts = [_chunk_audio(chunk) for chunk in chunks]
+                     ~~~~~~~~~~~~^^^^^^^
+  File "/vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/task-force/labs/sanes/code/_sanes_to_nwb.py", line 106, in _chunk_audio
+    raise ValueError(f"Audio channels are not synchronized in {chunk}")
+ValueError: Audio channels are not synchronized in /vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/ember-incoming/000524/sourcedata/raw/ssa_gt_data/experiment_423/idx_014
+FAILED: /vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/ember-incoming/000524/sourcedata/raw/ssa_gt_data/experiment_423: Audio channels are not synchronized in /vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/ember-incoming/000524/sourcedata/raw/ssa_gt_data/experiment_423/idx_014
+Converting sessions:  84%|████████▍ | 54/64 [18:20:49<02:16, 13.63s/session]Traceback (most recent call last):
+  File "/vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/task-force/labs/sanes/code/batch_convert.py", line 130, in convert_batch
+    output_path = build_nwb(session_dir=session_dir, output_dir=output_dir, config_path=config_path)
+  File "/vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/task-force/labs/sanes/code/_sanes_to_nwb.py", line 435, in build_nwb
+    audio_layouts = [_chunk_audio(chunk) for chunk in chunks]
+                     ~~~~~~~~~~~~^^^^^^^
+  File "/vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/task-force/labs/sanes/code/_sanes_to_nwb.py", line 106, in _chunk_audio
+    raise ValueError(f"Audio channels are not synchronized in {chunk}")
+ValueError: Audio channels are not synchronized in /vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/ember-incoming/000524/sourcedata/raw/ssa_gt_data/experiment_426/idx_017
+FAILED: /vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/ember-incoming/000524/sourcedata/raw/ssa_gt_data/experiment_426: Audio channels are not synchronized in /vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/ember-incoming/000524/sourcedata/raw/ssa_gt_data/experiment_426/idx_017
+Converting sessions:  86%|████████▌ | 55/64 [18:21:00<01:55, 12.81s/session]                                                                            Converting sessions:  86%|████████▌ | 55/64 [19:02:55<01:55, 12.81s/session]Converting sessions:  88%|████████▊ | 56/64 [19:02:55<1:41:48, 763.53s/session]                                                                               Converting sessions:  88%|████████▊ | 56/64 [19:36:18<1:41:48, 763.53s/session]Converting sessions:  89%|████████▉ | 57/64 [19:36:18<2:12:26, 1135.15s/session]Traceback (most recent call last):
+  File "/vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/task-force/labs/sanes/code/batch_convert.py", line 130, in convert_batch
+    output_path = build_nwb(session_dir=session_dir, output_dir=output_dir, config_path=config_path)
+  File "/vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/task-force/labs/sanes/code/_sanes_to_nwb.py", line 435, in build_nwb
+    audio_layouts = [_chunk_audio(chunk) for chunk in chunks]
+                     ~~~~~~~~~~~~^^^^^^^
+  File "/vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/task-force/labs/sanes/code/_sanes_to_nwb.py", line 106, in _chunk_audio
+    raise ValueError(f"Audio channels are not synchronized in {chunk}")
+ValueError: Audio channels are not synchronized in /vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/ember-incoming/000524/sourcedata/raw/ssa_gt_data/experiment_437/idx_029
+FAILED: /vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/ember-incoming/000524/sourcedata/raw/ssa_gt_data/experiment_437: Audio channels are not synchronized in /vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/ember-incoming/000524/sourcedata/raw/ssa_gt_data/experiment_437/idx_029
+Converting sessions:  91%|█████████ | 58/64 [19:36:35<1:19:59, 799.92s/session] Traceback (most recent call last):
+  File "/vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/task-force/labs/sanes/code/batch_convert.py", line 130, in convert_batch
+    output_path = build_nwb(session_dir=session_dir, output_dir=output_dir, config_path=config_path)
+  File "/vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/task-force/labs/sanes/code/_sanes_to_nwb.py", line 435, in build_nwb
+    audio_layouts = [_chunk_audio(chunk) for chunk in chunks]
+                     ~~~~~~~~~~~~^^^^^^^
+  File "/vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/task-force/labs/sanes/code/_sanes_to_nwb.py", line 106, in _chunk_audio
+    raise ValueError(f"Audio channels are not synchronized in {chunk}")
+ValueError: Audio channels are not synchronized in /vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/ember-incoming/000524/sourcedata/raw/ssa_gt_data/experiment_438/idx_032
+FAILED: /vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/ember-incoming/000524/sourcedata/raw/ssa_gt_data/experiment_438: Audio channels are not synchronized in /vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/ember-incoming/000524/sourcedata/raw/ssa_gt_data/experiment_438/idx_032
+Converting sessions:  92%|█████████▏| 59/64 [19:36:53<47:06, 565.38s/session]  Traceback (most recent call last):
+  File "/vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/task-force/labs/sanes/code/batch_convert.py", line 130, in convert_batch
+    output_path = build_nwb(session_dir=session_dir, output_dir=output_dir, config_path=config_path)
+  File "/vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/task-force/labs/sanes/code/_sanes_to_nwb.py", line 435, in build_nwb
+    audio_layouts = [_chunk_audio(chunk) for chunk in chunks]
+                     ~~~~~~~~~~~~^^^^^^^
+  File "/vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/task-force/labs/sanes/code/_sanes_to_nwb.py", line 106, in _chunk_audio
+    raise ValueError(f"Audio channels are not synchronized in {chunk}")
+ValueError: Audio channels are not synchronized in /vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/ember-incoming/000524/sourcedata/raw/ssa_gt_data/experiment_439/idx_029
+FAILED: /vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/ember-incoming/000524/sourcedata/raw/ssa_gt_data/experiment_439: Audio channels are not synchronized in /vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/ember-incoming/000524/sourcedata/raw/ssa_gt_data/experiment_439/idx_029
+Converting sessions:  94%|█████████▍| 60/64 [19:37:11<26:44, 401.16s/session]Traceback (most recent call last):
+  File "/vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/task-force/labs/sanes/code/batch_convert.py", line 130, in convert_batch
+    output_path = build_nwb(session_dir=session_dir, output_dir=output_dir, config_path=config_path)
+  File "/vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/task-force/labs/sanes/code/_sanes_to_nwb.py", line 435, in build_nwb
+    audio_layouts = [_chunk_audio(chunk) for chunk in chunks]
+                     ~~~~~~~~~~~~^^^^^^^
+  File "/vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/task-force/labs/sanes/code/_sanes_to_nwb.py", line 106, in _chunk_audio
+    raise ValueError(f"Audio channels are not synchronized in {chunk}")
+ValueError: Audio channels are not synchronized in /vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/ember-incoming/000524/sourcedata/raw/ssa_gt_data/experiment_442/idx_018
+FAILED: /vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/ember-incoming/000524/sourcedata/raw/ssa_gt_data/experiment_442: Audio channels are not synchronized in /vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/ember-incoming/000524/sourcedata/raw/ssa_gt_data/experiment_442/idx_018
+Converting sessions:  95%|█████████▌| 61/64 [19:37:22<14:11, 283.97s/session]                                                                             Converting sessions:  95%|█████████▌| 61/64 [19:46:32<14:11, 283.97s/session]Converting sessions:  97%|█████████▋| 62/64 [19:46:32<12:07, 363.67s/session]Traceback (most recent call last):
+  File "/vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/task-force/labs/sanes/code/batch_convert.py", line 130, in convert_batch
+    output_path = build_nwb(session_dir=session_dir, output_dir=output_dir, config_path=config_path)
+  File "/vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/task-force/labs/sanes/code/_sanes_to_nwb.py", line 435, in build_nwb
+    audio_layouts = [_chunk_audio(chunk) for chunk in chunks]
+                     ~~~~~~~~~~~~^^^^^^^
+  File "/vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/task-force/labs/sanes/code/_sanes_to_nwb.py", line 106, in _chunk_audio
+    raise ValueError(f"Audio channels are not synchronized in {chunk}")
+ValueError: Audio channels are not synchronized in /vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/ember-incoming/000524/sourcedata/raw/ssa_gt_data/experiment_444/idx_023
+FAILED: /vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/ember-incoming/000524/sourcedata/raw/ssa_gt_data/experiment_444: Audio channels are not synchronized in /vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/ember-incoming/000524/sourcedata/raw/ssa_gt_data/experiment_444/idx_023
+Converting sessions:  98%|█████████▊| 63/64 [19:46:47<04:19, 259.32s/session]Traceback (most recent call last):
+  File "/vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/task-force/labs/sanes/code/batch_convert.py", line 130, in convert_batch
+    output_path = build_nwb(session_dir=session_dir, output_dir=output_dir, config_path=config_path)
+  File "/vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/task-force/labs/sanes/code/_sanes_to_nwb.py", line 435, in build_nwb
+    audio_layouts = [_chunk_audio(chunk) for chunk in chunks]
+                     ~~~~~~~~~~~~^^^^^^^
+  File "/vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/task-force/labs/sanes/code/_sanes_to_nwb.py", line 106, in _chunk_audio
+    raise ValueError(f"Audio channels are not synchronized in {chunk}")
+ValueError: Audio channels are not synchronized in /vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/ember-incoming/000524/sourcedata/raw/ssa_gt_data/experiment_445/idx_014
+FAILED: /vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/ember-incoming/000524/sourcedata/raw/ssa_gt_data/experiment_445: Audio channels are not synchronized in /vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/ember-incoming/000524/sourcedata/raw/ssa_gt_data/experiment_445/idx_014
+Converting sessions: 100%|██████████| 64/64 [19:46:56<00:00, 184.17s/session]Converting sessions: 100%|██████████| 64/64 [19:46:56<00:00, 1112.76s/session]
