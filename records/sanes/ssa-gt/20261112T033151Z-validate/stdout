@@ -1,0 +1,588 @@
+[NWBI.check_subject_age] /vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/ember-standardized/000606/sub-00/sub-00_ses-experiment282.nwb — Subject age, 'PROVISIONAL', does not follow ISO 8601 duration format, e.g. 'P2Y' for 2 years or 'P23W' for 23 weeks. You may also specify a range using a '/' separator, e.g., 'P1D/P3D' for an age range somewhere from 1 to 3 days. If you cannot specify the upper bound of the range, you may leave the right side blank, e.g., 'P90Y/' means 90 years old or older.
+[NWBI.check_subject_age] /vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/ember-standardized/000606/sub-00/sub-00_ses-experiment285.nwb — Subject age, 'PROVISIONAL', does not follow ISO 8601 duration format, e.g. 'P2Y' for 2 years or 'P23W' for 23 weeks. You may also specify a range using a '/' separator, e.g., 'P1D/P3D' for an age range somewhere from 1 to 3 days. If you cannot specify the upper bound of the range, you may leave the right side blank, e.g., 'P90Y/' means 90 years old or older.
+[NWBI.check_subject_age] /vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/ember-standardized/000606/sub-00/sub-00_ses-experiment345.nwb — Subject age, 'PROVISIONAL', does not follow ISO 8601 duration format, e.g. 'P2Y' for 2 years or 'P23W' for 23 weeks. You may also specify a range using a '/' separator, e.g., 'P1D/P3D' for an age range somewhere from 1 to 3 days. If you cannot specify the upper bound of the range, you may leave the right side blank, e.g., 'P90Y/' means 90 years old or older.
+[NWBI.check_subject_age] /vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/ember-standardized/000606/sub-00/sub-00_ses-experiment321.nwb — Subject age, 'PROVISIONAL', does not follow ISO 8601 duration format, e.g. 'P2Y' for 2 years or 'P23W' for 23 weeks. You may also specify a range using a '/' separator, e.g., 'P1D/P3D' for an age range somewhere from 1 to 3 days. If you cannot specify the upper bound of the range, you may leave the right side blank, e.g., 'P90Y/' means 90 years old or older.
+[NWBI.check_subject_age] /vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/ember-standardized/000606/sub-00/sub-00_ses-experiment314.nwb — Subject age, 'PROVISIONAL', does not follow ISO 8601 duration format, e.g. 'P2Y' for 2 years or 'P23W' for 23 weeks. You may also specify a range using a '/' separator, e.g., 'P1D/P3D' for an age range somewhere from 1 to 3 days. If you cannot specify the upper bound of the range, you may leave the right side blank, e.g., 'P90Y/' means 90 years old or older.
+[NWBI.check_subject_age] /vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/ember-standardized/000606/sub-00/sub-00_ses-experiment313.nwb — Subject age, 'PROVISIONAL', does not follow ISO 8601 duration format, e.g. 'P2Y' for 2 years or 'P23W' for 23 weeks. You may also specify a range using a '/' separator, e.g., 'P1D/P3D' for an age range somewhere from 1 to 3 days. If you cannot specify the upper bound of the range, you may leave the right side blank, e.g., 'P90Y/' means 90 years old or older.
+[NWBI.check_subject_age] /vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/ember-standardized/000606/sub-00/sub-00_ses-experiment284.nwb — Subject age, 'PROVISIONAL', does not follow ISO 8601 duration format, e.g. 'P2Y' for 2 years or 'P23W' for 23 weeks. You may also specify a range using a '/' separator, e.g., 'P1D/P3D' for an age range somewhere from 1 to 3 days. If you cannot specify the upper bound of the range, you may leave the right side blank, e.g., 'P90Y/' means 90 years old or older.
+[NWBI.check_subject_age] /vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/ember-standardized/000606/sub-00/sub-00_ses-experiment283.nwb — Subject age, 'PROVISIONAL', does not follow ISO 8601 duration format, e.g. 'P2Y' for 2 years or 'P23W' for 23 weeks. You may also specify a range using a '/' separator, e.g., 'P1D/P3D' for an age range somewhere from 1 to 3 days. If you cannot specify the upper bound of the range, you may leave the right side blank, e.g., 'P90Y/' means 90 years old or older.
+[NWBI.check_subject_age] /vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/ember-standardized/000606/sub-00/sub-00_ses-experiment312.nwb — Subject age, 'PROVISIONAL', does not follow ISO 8601 duration format, e.g. 'P2Y' for 2 years or 'P23W' for 23 weeks. You may also specify a range using a '/' separator, e.g., 'P1D/P3D' for an age range somewhere from 1 to 3 days. If you cannot specify the upper bound of the range, you may leave the right side blank, e.g., 'P90Y/' means 90 years old or older.
+[NWBI.check_subject_age] /vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/ember-standardized/000606/sub-00/sub-00_ses-experiment315.nwb — Subject age, 'PROVISIONAL', does not follow ISO 8601 duration format, e.g. 'P2Y' for 2 years or 'P23W' for 23 weeks. You may also specify a range using a '/' separator, e.g., 'P1D/P3D' for an age range somewhere from 1 to 3 days. If you cannot specify the upper bound of the range, you may leave the right side blank, e.g., 'P90Y/' means 90 years old or older.
+[NWBI.check_subject_age] /vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/ember-standardized/000606/sub-00/sub-00_ses-experiment320.nwb — Subject age, 'PROVISIONAL', does not follow ISO 8601 duration format, e.g. 'P2Y' for 2 years or 'P23W' for 23 weeks. You may also specify a range using a '/' separator, e.g., 'P1D/P3D' for an age range somewhere from 1 to 3 days. If you cannot specify the upper bound of the range, you may leave the right side blank, e.g., 'P90Y/' means 90 years old or older.
+[NWBI.check_subject_age] /vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/ember-standardized/000606/sub-00/sub-00_ses-experiment318.nwb — Subject age, 'PROVISIONAL', does not follow ISO 8601 duration format, e.g. 'P2Y' for 2 years or 'P23W' for 23 weeks. You may also specify a range using a '/' separator, e.g., 'P1D/P3D' for an age range somewhere from 1 to 3 days. If you cannot specify the upper bound of the range, you may leave the right side blank, e.g., 'P90Y/' means 90 years old or older.
+[NWBI.check_subject_age] /vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/ember-standardized/000606/sub-00/sub-00_ses-experiment316.nwb — Subject age, 'PROVISIONAL', does not follow ISO 8601 duration format, e.g. 'P2Y' for 2 years or 'P23W' for 23 weeks. You may also specify a range using a '/' separator, e.g., 'P1D/P3D' for an age range somewhere from 1 to 3 days. If you cannot specify the upper bound of the range, you may leave the right side blank, e.g., 'P90Y/' means 90 years old or older.
+[NWBI.check_subject_age] /vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/ember-standardized/000606/sub-00/sub-00_ses-experiment311.nwb — Subject age, 'PROVISIONAL', does not follow ISO 8601 duration format, e.g. 'P2Y' for 2 years or 'P23W' for 23 weeks. You may also specify a range using a '/' separator, e.g., 'P1D/P3D' for an age range somewhere from 1 to 3 days. If you cannot specify the upper bound of the range, you may leave the right side blank, e.g., 'P90Y/' means 90 years old or older.
+[NWBI.check_subject_age] /vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/ember-standardized/000606/sub-00/sub-00_ses-experiment351.nwb — Subject age, 'PROVISIONAL', does not follow ISO 8601 duration format, e.g. 'P2Y' for 2 years or 'P23W' for 23 weeks. You may also specify a range using a '/' separator, e.g., 'P1D/P3D' for an age range somewhere from 1 to 3 days. If you cannot specify the upper bound of the range, you may leave the right side blank, e.g., 'P90Y/' means 90 years old or older.
+[NWBI.check_subject_age] /vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/ember-standardized/000606/sub-00/sub-00_ses-experiment347.nwb — Subject age, 'PROVISIONAL', does not follow ISO 8601 duration format, e.g. 'P2Y' for 2 years or 'P23W' for 23 weeks. You may also specify a range using a '/' separator, e.g., 'P1D/P3D' for an age range somewhere from 1 to 3 days. If you cannot specify the upper bound of the range, you may leave the right side blank, e.g., 'P90Y/' means 90 years old or older.
+[NWBI.check_subject_age] /vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/ember-standardized/000606/sub-00/sub-00_ses-experiment349.nwb — Subject age, 'PROVISIONAL', does not follow ISO 8601 duration format, e.g. 'P2Y' for 2 years or 'P23W' for 23 weeks. You may also specify a range using a '/' separator, e.g., 'P1D/P3D' for an age range somewhere from 1 to 3 days. If you cannot specify the upper bound of the range, you may leave the right side blank, e.g., 'P90Y/' means 90 years old or older.
+[NWBI.check_subject_age] /vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/ember-standardized/000606/sub-00/sub-00_ses-experiment280.nwb — Subject age, 'PROVISIONAL', does not follow ISO 8601 duration format, e.g. 'P2Y' for 2 years or 'P23W' for 23 weeks. You may also specify a range using a '/' separator, e.g., 'P1D/P3D' for an age range somewhere from 1 to 3 days. If you cannot specify the upper bound of the range, you may leave the right side blank, e.g., 'P90Y/' means 90 years old or older.
+[NWBI.check_subject_age] /vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/ember-standardized/000606/sub-00/sub-00_ses-experiment309.nwb — Subject age, 'PROVISIONAL', does not follow ISO 8601 duration format, e.g. 'P2Y' for 2 years or 'P23W' for 23 weeks. You may also specify a range using a '/' separator, e.g., 'P1D/P3D' for an age range somewhere from 1 to 3 days. If you cannot specify the upper bound of the range, you may leave the right side blank, e.g., 'P90Y/' means 90 years old or older.
+[NWBI.check_subject_age] /vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/ember-standardized/000606/sub-00/sub-00_ses-experiment287.nwb — Subject age, 'PROVISIONAL', does not follow ISO 8601 duration format, e.g. 'P2Y' for 2 years or 'P23W' for 23 weeks. You may also specify a range using a '/' separator, e.g., 'P1D/P3D' for an age range somewhere from 1 to 3 days. If you cannot specify the upper bound of the range, you may leave the right side blank, e.g., 'P90Y/' means 90 years old or older.
+[NWBI.check_subject_age] /vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/ember-standardized/000606/sub-00/sub-00_ses-experiment350.nwb — Subject age, 'PROVISIONAL', does not follow ISO 8601 duration format, e.g. 'P2Y' for 2 years or 'P23W' for 23 weeks. You may also specify a range using a '/' separator, e.g., 'P1D/P3D' for an age range somewhere from 1 to 3 days. If you cannot specify the upper bound of the range, you may leave the right side blank, e.g., 'P90Y/' means 90 years old or older.
+[NWBI.check_subject_age] /vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/ember-standardized/000606/sub-00/sub-00_ses-experiment310.nwb — Subject age, 'PROVISIONAL', does not follow ISO 8601 duration format, e.g. 'P2Y' for 2 years or 'P23W' for 23 weeks. You may also specify a range using a '/' separator, e.g., 'P1D/P3D' for an age range somewhere from 1 to 3 days. If you cannot specify the upper bound of the range, you may leave the right side blank, e.g., 'P90Y/' means 90 years old or older.
+[NWBI.check_subject_age] /vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/ember-standardized/000606/sub-00/sub-00_ses-experiment317.nwb — Subject age, 'PROVISIONAL', does not follow ISO 8601 duration format, e.g. 'P2Y' for 2 years or 'P23W' for 23 weeks. You may also specify a range using a '/' separator, e.g., 'P1D/P3D' for an age range somewhere from 1 to 3 days. If you cannot specify the upper bound of the range, you may leave the right side blank, e.g., 'P90Y/' means 90 years old or older.
+[NWBI.check_subject_age] /vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/ember-standardized/000606/sub-00/sub-00_ses-experiment319.nwb — Subject age, 'PROVISIONAL', does not follow ISO 8601 duration format, e.g. 'P2Y' for 2 years or 'P23W' for 23 weeks. You may also specify a range using a '/' separator, e.g., 'P1D/P3D' for an age range somewhere from 1 to 3 days. If you cannot specify the upper bound of the range, you may leave the right side blank, e.g., 'P90Y/' means 90 years old or older.
+[NWBI.check_subject_age] /vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/ember-standardized/000606/sub-00/sub-00_ses-experiment286.nwb — Subject age, 'PROVISIONAL', does not follow ISO 8601 duration format, e.g. 'P2Y' for 2 years or 'P23W' for 23 weeks. You may also specify a range using a '/' separator, e.g., 'P1D/P3D' for an age range somewhere from 1 to 3 days. If you cannot specify the upper bound of the range, you may leave the right side blank, e.g., 'P90Y/' means 90 years old or older.
+[NWBI.check_subject_age] /vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/ember-standardized/000606/sub-00/sub-00_ses-experiment281.nwb — Subject age, 'PROVISIONAL', does not follow ISO 8601 duration format, e.g. 'P2Y' for 2 years or 'P23W' for 23 weeks. You may also specify a range using a '/' separator, e.g., 'P1D/P3D' for an age range somewhere from 1 to 3 days. If you cannot specify the upper bound of the range, you may leave the right side blank, e.g., 'P90Y/' means 90 years old or older.
+[NWBI.check_subject_age] /vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/ember-standardized/000606/sub-00/sub-00_ses-experiment308.nwb — Subject age, 'PROVISIONAL', does not follow ISO 8601 duration format, e.g. 'P2Y' for 2 years or 'P23W' for 23 weeks. You may also specify a range using a '/' separator, e.g., 'P1D/P3D' for an age range somewhere from 1 to 3 days. If you cannot specify the upper bound of the range, you may leave the right side blank, e.g., 'P90Y/' means 90 years old or older.
+[NWBI.check_subject_age] /vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/ember-standardized/000606/sub-00/sub-00_ses-experiment288.nwb — Subject age, 'PROVISIONAL', does not follow ISO 8601 duration format, e.g. 'P2Y' for 2 years or 'P23W' for 23 weeks. You may also specify a range using a '/' separator, e.g., 'P1D/P3D' for an age range somewhere from 1 to 3 days. If you cannot specify the upper bound of the range, you may leave the right side blank, e.g., 'P90Y/' means 90 years old or older.
+[NWBI.check_subject_age] /vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/ember-standardized/000606/sub-00/sub-00_ses-experiment348.nwb — Subject age, 'PROVISIONAL', does not follow ISO 8601 duration format, e.g. 'P2Y' for 2 years or 'P23W' for 23 weeks. You may also specify a range using a '/' separator, e.g., 'P1D/P3D' for an age range somewhere from 1 to 3 days. If you cannot specify the upper bound of the range, you may leave the right side blank, e.g., 'P90Y/' means 90 years old or older.
+[NWBI.check_subject_age] /vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/ember-standardized/000606/sub-00/sub-00_ses-experiment346.nwb — Subject age, 'PROVISIONAL', does not follow ISO 8601 duration format, e.g. 'P2Y' for 2 years or 'P23W' for 23 weeks. You may also specify a range using a '/' separator, e.g., 'P1D/P3D' for an age range somewhere from 1 to 3 days. If you cannot specify the upper bound of the range, you may leave the right side blank, e.g., 'P90Y/' means 90 years old or older.
+[pynwb.GENERIC] /vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/ember-standardized/000606/sub-multi/sub-multi_ses-experiment351_behavior.nwb — data type 'NdxMultiSubjectsNWBFile' not found in namespace ndx-pose
+[NWBI.During evaluation of 'check_image_series_external_file_valid' - <class 'AttributeError'>: 'NoneType' object has no attribute 'container_source'] /vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/ember-standardized/000606/sub-multi/sub-multi_ses-experiment351_behavior.nwb — Traceback (most recent call last):
+  File "/usr/local/lib/python3.13/site-packages/nwbinspector/_nwb_inspection.py", line 471, in run_checks
+    output = check_function(nwbfile_object)
+  File "/usr/local/lib/python3.13/site-packages/nwbinspector/_registration.py", line 92, in auto_parse_some_output
+    for result in output:
+                  ^^^^^^
+  File "/usr/local/lib/python3.13/site-packages/nwbinspector/checks/_image_series.py", line 22, in check_image_series_external_file_valid
+    nwbfile_path = Path(get_nwbfile_path_from_internal_object(neurodata_object=image_series))
+                        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/site-packages/nwbinspector/tools/_nwb.py", line 20, in get_nwbfile_path_from_internal_object
+    return neurodata_object.get_ancestor("NWBFile").container_source  # type: ignore
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'container_source'
+
+[NWBI.check_subject_exists] /vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/ember-standardized/000606/sub-multi/sub-multi_ses-experiment351_behavior.nwb — Subject is missing.
+[pynwb.GENERIC] /vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/ember-standardized/000606/sub-multi/sub-multi_ses-experiment350_behavior.nwb — data type 'NdxMultiSubjectsNWBFile' not found in namespace ndx-pose
+[NWBI.During evaluation of 'check_image_series_external_file_valid' - <class 'AttributeError'>: 'NoneType' object has no attribute 'container_source'] /vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/ember-standardized/000606/sub-multi/sub-multi_ses-experiment350_behavior.nwb — Traceback (most recent call last):
+  File "/usr/local/lib/python3.13/site-packages/nwbinspector/_nwb_inspection.py", line 471, in run_checks
+    output = check_function(nwbfile_object)
+  File "/usr/local/lib/python3.13/site-packages/nwbinspector/_registration.py", line 92, in auto_parse_some_output
+    for result in output:
+                  ^^^^^^
+  File "/usr/local/lib/python3.13/site-packages/nwbinspector/checks/_image_series.py", line 22, in check_image_series_external_file_valid
+    nwbfile_path = Path(get_nwbfile_path_from_internal_object(neurodata_object=image_series))
+                        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/site-packages/nwbinspector/tools/_nwb.py", line 20, in get_nwbfile_path_from_internal_object
+    return neurodata_object.get_ancestor("NWBFile").container_source  # type: ignore
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'container_source'
+
+[NWBI.check_subject_exists] /vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/ember-standardized/000606/sub-multi/sub-multi_ses-experiment350_behavior.nwb — Subject is missing.
+[pynwb.GENERIC] /vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/ember-standardized/000606/sub-multi/sub-multi_ses-experiment308_behavior.nwb — data type 'NdxMultiSubjectsNWBFile' not found in namespace ndx-pose
+[NWBI.During evaluation of 'check_image_series_external_file_valid' - <class 'AttributeError'>: 'NoneType' object has no attribute 'container_source'] /vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/ember-standardized/000606/sub-multi/sub-multi_ses-experiment308_behavior.nwb — Traceback (most recent call last):
+  File "/usr/local/lib/python3.13/site-packages/nwbinspector/_nwb_inspection.py", line 471, in run_checks
+    output = check_function(nwbfile_object)
+  File "/usr/local/lib/python3.13/site-packages/nwbinspector/_registration.py", line 92, in auto_parse_some_output
+    for result in output:
+                  ^^^^^^
+  File "/usr/local/lib/python3.13/site-packages/nwbinspector/checks/_image_series.py", line 22, in check_image_series_external_file_valid
+    nwbfile_path = Path(get_nwbfile_path_from_internal_object(neurodata_object=image_series))
+                        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/site-packages/nwbinspector/tools/_nwb.py", line 20, in get_nwbfile_path_from_internal_object
+    return neurodata_object.get_ancestor("NWBFile").container_source  # type: ignore
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'container_source'
+
+[NWBI.check_subject_exists] /vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/ember-standardized/000606/sub-multi/sub-multi_ses-experiment308_behavior.nwb — Subject is missing.
+[pynwb.GENERIC] /vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/ember-standardized/000606/sub-multi/sub-multi_ses-experiment309_behavior.nwb — data type 'NdxMultiSubjectsNWBFile' not found in namespace ndx-pose
+[NWBI.During evaluation of 'check_image_series_external_file_valid' - <class 'AttributeError'>: 'NoneType' object has no attribute 'container_source'] /vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/ember-standardized/000606/sub-multi/sub-multi_ses-experiment309_behavior.nwb — Traceback (most recent call last):
+  File "/usr/local/lib/python3.13/site-packages/nwbinspector/_nwb_inspection.py", line 471, in run_checks
+    output = check_function(nwbfile_object)
+  File "/usr/local/lib/python3.13/site-packages/nwbinspector/_registration.py", line 92, in auto_parse_some_output
+    for result in output:
+                  ^^^^^^
+  File "/usr/local/lib/python3.13/site-packages/nwbinspector/checks/_image_series.py", line 22, in check_image_series_external_file_valid
+    nwbfile_path = Path(get_nwbfile_path_from_internal_object(neurodata_object=image_series))
+                        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/site-packages/nwbinspector/tools/_nwb.py", line 20, in get_nwbfile_path_from_internal_object
+    return neurodata_object.get_ancestor("NWBFile").container_source  # type: ignore
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'container_source'
+
+[NWBI.check_subject_exists] /vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/ember-standardized/000606/sub-multi/sub-multi_ses-experiment309_behavior.nwb — Subject is missing.
+[pynwb.GENERIC] /vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/ember-standardized/000606/sub-multi/sub-multi_ses-experiment321_behavior.nwb — data type 'NdxMultiSubjectsNWBFile' not found in namespace ndx-pose
+[NWBI.During evaluation of 'check_image_series_external_file_valid' - <class 'AttributeError'>: 'NoneType' object has no attribute 'container_source'] /vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/ember-standardized/000606/sub-multi/sub-multi_ses-experiment321_behavior.nwb — Traceback (most recent call last):
+  File "/usr/local/lib/python3.13/site-packages/nwbinspector/_nwb_inspection.py", line 471, in run_checks
+    output = check_function(nwbfile_object)
+  File "/usr/local/lib/python3.13/site-packages/nwbinspector/_registration.py", line 92, in auto_parse_some_output
+    for result in output:
+                  ^^^^^^
+  File "/usr/local/lib/python3.13/site-packages/nwbinspector/checks/_image_series.py", line 22, in check_image_series_external_file_valid
+    nwbfile_path = Path(get_nwbfile_path_from_internal_object(neurodata_object=image_series))
+                        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/site-packages/nwbinspector/tools/_nwb.py", line 20, in get_nwbfile_path_from_internal_object
+    return neurodata_object.get_ancestor("NWBFile").container_source  # type: ignore
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'container_source'
+
+[NWBI.check_subject_exists] /vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/ember-standardized/000606/sub-multi/sub-multi_ses-experiment321_behavior.nwb — Subject is missing.
+[pynwb.GENERIC] /vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/ember-standardized/000606/sub-multi/sub-multi_ses-experiment320_behavior.nwb — data type 'NdxMultiSubjectsNWBFile' not found in namespace ndx-pose
+[NWBI.During evaluation of 'check_image_series_external_file_valid' - <class 'AttributeError'>: 'NoneType' object has no attribute 'container_source'] /vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/ember-standardized/000606/sub-multi/sub-multi_ses-experiment320_behavior.nwb — Traceback (most recent call last):
+  File "/usr/local/lib/python3.13/site-packages/nwbinspector/_nwb_inspection.py", line 471, in run_checks
+    output = check_function(nwbfile_object)
+  File "/usr/local/lib/python3.13/site-packages/nwbinspector/_registration.py", line 92, in auto_parse_some_output
+    for result in output:
+                  ^^^^^^
+  File "/usr/local/lib/python3.13/site-packages/nwbinspector/checks/_image_series.py", line 22, in check_image_series_external_file_valid
+    nwbfile_path = Path(get_nwbfile_path_from_internal_object(neurodata_object=image_series))
+                        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/site-packages/nwbinspector/tools/_nwb.py", line 20, in get_nwbfile_path_from_internal_object
+    return neurodata_object.get_ancestor("NWBFile").container_source  # type: ignore
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'container_source'
+
+[NWBI.check_subject_exists] /vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/ember-standardized/000606/sub-multi/sub-multi_ses-experiment320_behavior.nwb — Subject is missing.
+[pynwb.GENERIC] /vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/ember-standardized/000606/sub-multi/sub-multi_ses-experiment348_behavior.nwb — data type 'NdxMultiSubjectsNWBFile' not found in namespace ndx-pose
+[NWBI.During evaluation of 'check_image_series_external_file_valid' - <class 'AttributeError'>: 'NoneType' object has no attribute 'container_source'] /vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/ember-standardized/000606/sub-multi/sub-multi_ses-experiment348_behavior.nwb — Traceback (most recent call last):
+  File "/usr/local/lib/python3.13/site-packages/nwbinspector/_nwb_inspection.py", line 471, in run_checks
+    output = check_function(nwbfile_object)
+  File "/usr/local/lib/python3.13/site-packages/nwbinspector/_registration.py", line 92, in auto_parse_some_output
+    for result in output:
+                  ^^^^^^
+  File "/usr/local/lib/python3.13/site-packages/nwbinspector/checks/_image_series.py", line 22, in check_image_series_external_file_valid
+    nwbfile_path = Path(get_nwbfile_path_from_internal_object(neurodata_object=image_series))
+                        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/site-packages/nwbinspector/tools/_nwb.py", line 20, in get_nwbfile_path_from_internal_object
+    return neurodata_object.get_ancestor("NWBFile").container_source  # type: ignore
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'container_source'
+
+[NWBI.check_subject_exists] /vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/ember-standardized/000606/sub-multi/sub-multi_ses-experiment348_behavior.nwb — Subject is missing.
+[pynwb.GENERIC] /vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/ember-standardized/000606/sub-multi/sub-multi_ses-experiment284_behavior.nwb — data type 'NdxMultiSubjectsNWBFile' not found in namespace ndx-pose
+[NWBI.During evaluation of 'check_image_series_external_file_valid' - <class 'AttributeError'>: 'NoneType' object has no attribute 'container_source'] /vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/ember-standardized/000606/sub-multi/sub-multi_ses-experiment284_behavior.nwb — Traceback (most recent call last):
+  File "/usr/local/lib/python3.13/site-packages/nwbinspector/_nwb_inspection.py", line 471, in run_checks
+    output = check_function(nwbfile_object)
+  File "/usr/local/lib/python3.13/site-packages/nwbinspector/_registration.py", line 92, in auto_parse_some_output
+    for result in output:
+                  ^^^^^^
+  File "/usr/local/lib/python3.13/site-packages/nwbinspector/checks/_image_series.py", line 22, in check_image_series_external_file_valid
+    nwbfile_path = Path(get_nwbfile_path_from_internal_object(neurodata_object=image_series))
+                        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/site-packages/nwbinspector/tools/_nwb.py", line 20, in get_nwbfile_path_from_internal_object
+    return neurodata_object.get_ancestor("NWBFile").container_source  # type: ignore
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'container_source'
+
+[NWBI.check_subject_exists] /vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/ember-standardized/000606/sub-multi/sub-multi_ses-experiment284_behavior.nwb — Subject is missing.
+[pynwb.GENERIC] /vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/ember-standardized/000606/sub-multi/sub-multi_ses-experiment285_behavior.nwb — data type 'NdxMultiSubjectsNWBFile' not found in namespace ndx-pose
+[NWBI.During evaluation of 'check_image_series_external_file_valid' - <class 'AttributeError'>: 'NoneType' object has no attribute 'container_source'] /vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/ember-standardized/000606/sub-multi/sub-multi_ses-experiment285_behavior.nwb — Traceback (most recent call last):
+  File "/usr/local/lib/python3.13/site-packages/nwbinspector/_nwb_inspection.py", line 471, in run_checks
+    output = check_function(nwbfile_object)
+  File "/usr/local/lib/python3.13/site-packages/nwbinspector/_registration.py", line 92, in auto_parse_some_output
+    for result in output:
+                  ^^^^^^
+  File "/usr/local/lib/python3.13/site-packages/nwbinspector/checks/_image_series.py", line 22, in check_image_series_external_file_valid
+    nwbfile_path = Path(get_nwbfile_path_from_internal_object(neurodata_object=image_series))
+                        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/site-packages/nwbinspector/tools/_nwb.py", line 20, in get_nwbfile_path_from_internal_object
+    return neurodata_object.get_ancestor("NWBFile").container_source  # type: ignore
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'container_source'
+
+[NWBI.check_subject_exists] /vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/ember-standardized/000606/sub-multi/sub-multi_ses-experiment285_behavior.nwb — Subject is missing.
+[pynwb.GENERIC] /vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/ember-standardized/000606/sub-multi/sub-multi_ses-experiment433_behavior.nwb — data type 'NdxMultiSubjectsNWBFile' not found in namespace ndx-pose
+[NWBI.During evaluation of 'check_image_series_external_file_valid' - <class 'AttributeError'>: 'NoneType' object has no attribute 'container_source'] /vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/ember-standardized/000606/sub-multi/sub-multi_ses-experiment433_behavior.nwb — Traceback (most recent call last):
+  File "/usr/local/lib/python3.13/site-packages/nwbinspector/_nwb_inspection.py", line 471, in run_checks
+    output = check_function(nwbfile_object)
+  File "/usr/local/lib/python3.13/site-packages/nwbinspector/_registration.py", line 92, in auto_parse_some_output
+    for result in output:
+                  ^^^^^^
+  File "/usr/local/lib/python3.13/site-packages/nwbinspector/checks/_image_series.py", line 22, in check_image_series_external_file_valid
+    nwbfile_path = Path(get_nwbfile_path_from_internal_object(neurodata_object=image_series))
+                        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/site-packages/nwbinspector/tools/_nwb.py", line 20, in get_nwbfile_path_from_internal_object
+    return neurodata_object.get_ancestor("NWBFile").container_source  # type: ignore
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'container_source'
+
+[NWBI.check_subject_exists] /vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/ember-standardized/000606/sub-multi/sub-multi_ses-experiment433_behavior.nwb — Subject is missing.
+[pynwb.GENERIC] /vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/ember-standardized/000606/sub-multi/sub-multi_ses-experiment349_behavior.nwb — data type 'NdxMultiSubjectsNWBFile' not found in namespace ndx-pose
+[NWBI.During evaluation of 'check_image_series_external_file_valid' - <class 'AttributeError'>: 'NoneType' object has no attribute 'container_source'] /vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/ember-standardized/000606/sub-multi/sub-multi_ses-experiment349_behavior.nwb — Traceback (most recent call last):
+  File "/usr/local/lib/python3.13/site-packages/nwbinspector/_nwb_inspection.py", line 471, in run_checks
+    output = check_function(nwbfile_object)
+  File "/usr/local/lib/python3.13/site-packages/nwbinspector/_registration.py", line 92, in auto_parse_some_output
+    for result in output:
+                  ^^^^^^
+  File "/usr/local/lib/python3.13/site-packages/nwbinspector/checks/_image_series.py", line 22, in check_image_series_external_file_valid
+    nwbfile_path = Path(get_nwbfile_path_from_internal_object(neurodata_object=image_series))
+                        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/site-packages/nwbinspector/tools/_nwb.py", line 20, in get_nwbfile_path_from_internal_object
+    return neurodata_object.get_ancestor("NWBFile").container_source  # type: ignore
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'container_source'
+
+[NWBI.check_subject_exists] /vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/ember-standardized/000606/sub-multi/sub-multi_ses-experiment349_behavior.nwb — Subject is missing.
+[pynwb.GENERIC] /vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/ember-standardized/000606/sub-multi/sub-multi_ses-experiment287_behavior.nwb — data type 'NdxMultiSubjectsNWBFile' not found in namespace ndx-pose
+[NWBI.During evaluation of 'check_image_series_external_file_valid' - <class 'AttributeError'>: 'NoneType' object has no attribute 'container_source'] /vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/ember-standardized/000606/sub-multi/sub-multi_ses-experiment287_behavior.nwb — Traceback (most recent call last):
+  File "/usr/local/lib/python3.13/site-packages/nwbinspector/_nwb_inspection.py", line 471, in run_checks
+    output = check_function(nwbfile_object)
+  File "/usr/local/lib/python3.13/site-packages/nwbinspector/_registration.py", line 92, in auto_parse_some_output
+    for result in output:
+                  ^^^^^^
+  File "/usr/local/lib/python3.13/site-packages/nwbinspector/checks/_image_series.py", line 22, in check_image_series_external_file_valid
+    nwbfile_path = Path(get_nwbfile_path_from_internal_object(neurodata_object=image_series))
+                        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/site-packages/nwbinspector/tools/_nwb.py", line 20, in get_nwbfile_path_from_internal_object
+    return neurodata_object.get_ancestor("NWBFile").container_source  # type: ignore
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'container_source'
+
+[NWBI.check_subject_exists] /vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/ember-standardized/000606/sub-multi/sub-multi_ses-experiment287_behavior.nwb — Subject is missing.
+[pynwb.GENERIC] /vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/ember-standardized/000606/sub-multi/sub-multi_ses-experiment318_behavior.nwb — data type 'NdxMultiSubjectsNWBFile' not found in namespace ndx-pose
+[NWBI.During evaluation of 'check_image_series_external_file_valid' - <class 'AttributeError'>: 'NoneType' object has no attribute 'container_source'] /vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/ember-standardized/000606/sub-multi/sub-multi_ses-experiment318_behavior.nwb — Traceback (most recent call last):
+  File "/usr/local/lib/python3.13/site-packages/nwbinspector/_nwb_inspection.py", line 471, in run_checks
+    output = check_function(nwbfile_object)
+  File "/usr/local/lib/python3.13/site-packages/nwbinspector/_registration.py", line 92, in auto_parse_some_output
+    for result in output:
+                  ^^^^^^
+  File "/usr/local/lib/python3.13/site-packages/nwbinspector/checks/_image_series.py", line 22, in check_image_series_external_file_valid
+    nwbfile_path = Path(get_nwbfile_path_from_internal_object(neurodata_object=image_series))
+                        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/site-packages/nwbinspector/tools/_nwb.py", line 20, in get_nwbfile_path_from_internal_object
+    return neurodata_object.get_ancestor("NWBFile").container_source  # type: ignore
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'container_source'
+
+[NWBI.check_subject_exists] /vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/ember-standardized/000606/sub-multi/sub-multi_ses-experiment318_behavior.nwb — Subject is missing.
+[pynwb.GENERIC] /vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/ember-standardized/000606/sub-multi/sub-multi_ses-experiment319_behavior.nwb — data type 'NdxMultiSubjectsNWBFile' not found in namespace ndx-pose
+[NWBI.During evaluation of 'check_image_series_external_file_valid' - <class 'AttributeError'>: 'NoneType' object has no attribute 'container_source'] /vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/ember-standardized/000606/sub-multi/sub-multi_ses-experiment319_behavior.nwb — Traceback (most recent call last):
+  File "/usr/local/lib/python3.13/site-packages/nwbinspector/_nwb_inspection.py", line 471, in run_checks
+    output = check_function(nwbfile_object)
+  File "/usr/local/lib/python3.13/site-packages/nwbinspector/_registration.py", line 92, in auto_parse_some_output
+    for result in output:
+                  ^^^^^^
+  File "/usr/local/lib/python3.13/site-packages/nwbinspector/checks/_image_series.py", line 22, in check_image_series_external_file_valid
+    nwbfile_path = Path(get_nwbfile_path_from_internal_object(neurodata_object=image_series))
+                        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/site-packages/nwbinspector/tools/_nwb.py", line 20, in get_nwbfile_path_from_internal_object
+    return neurodata_object.get_ancestor("NWBFile").container_source  # type: ignore
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'container_source'
+
+[NWBI.check_subject_exists] /vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/ember-standardized/000606/sub-multi/sub-multi_ses-experiment319_behavior.nwb — Subject is missing.
+[pynwb.GENERIC] /vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/ember-standardized/000606/sub-multi/sub-multi_ses-experiment286_behavior.nwb — data type 'NdxMultiSubjectsNWBFile' not found in namespace ndx-pose
+[NWBI.During evaluation of 'check_image_series_external_file_valid' - <class 'AttributeError'>: 'NoneType' object has no attribute 'container_source'] /vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/ember-standardized/000606/sub-multi/sub-multi_ses-experiment286_behavior.nwb — Traceback (most recent call last):
+  File "/usr/local/lib/python3.13/site-packages/nwbinspector/_nwb_inspection.py", line 471, in run_checks
+    output = check_function(nwbfile_object)
+  File "/usr/local/lib/python3.13/site-packages/nwbinspector/_registration.py", line 92, in auto_parse_some_output
+    for result in output:
+                  ^^^^^^
+  File "/usr/local/lib/python3.13/site-packages/nwbinspector/checks/_image_series.py", line 22, in check_image_series_external_file_valid
+    nwbfile_path = Path(get_nwbfile_path_from_internal_object(neurodata_object=image_series))
+                        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/site-packages/nwbinspector/tools/_nwb.py", line 20, in get_nwbfile_path_from_internal_object
+    return neurodata_object.get_ancestor("NWBFile").container_source  # type: ignore
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'container_source'
+
+[NWBI.check_subject_exists] /vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/ember-standardized/000606/sub-multi/sub-multi_ses-experiment286_behavior.nwb — Subject is missing.
+[pynwb.GENERIC] /vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/ember-standardized/000606/sub-multi/sub-multi_ses-experiment283_behavior.nwb — data type 'NdxMultiSubjectsNWBFile' not found in namespace ndx-pose
+[NWBI.During evaluation of 'check_image_series_external_file_valid' - <class 'AttributeError'>: 'NoneType' object has no attribute 'container_source'] /vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/ember-standardized/000606/sub-multi/sub-multi_ses-experiment283_behavior.nwb — Traceback (most recent call last):
+  File "/usr/local/lib/python3.13/site-packages/nwbinspector/_nwb_inspection.py", line 471, in run_checks
+    output = check_function(nwbfile_object)
+  File "/usr/local/lib/python3.13/site-packages/nwbinspector/_registration.py", line 92, in auto_parse_some_output
+    for result in output:
+                  ^^^^^^
+  File "/usr/local/lib/python3.13/site-packages/nwbinspector/checks/_image_series.py", line 22, in check_image_series_external_file_valid
+    nwbfile_path = Path(get_nwbfile_path_from_internal_object(neurodata_object=image_series))
+                        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/site-packages/nwbinspector/tools/_nwb.py", line 20, in get_nwbfile_path_from_internal_object
+    return neurodata_object.get_ancestor("NWBFile").container_source  # type: ignore
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'container_source'
+
+[NWBI.check_subject_exists] /vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/ember-standardized/000606/sub-multi/sub-multi_ses-experiment283_behavior.nwb — Subject is missing.
+[pynwb.GENERIC] /vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/ember-standardized/000606/sub-multi/sub-multi_ses-experiment282_behavior.nwb — data type 'NdxMultiSubjectsNWBFile' not found in namespace ndx-pose
+[NWBI.During evaluation of 'check_image_series_external_file_valid' - <class 'AttributeError'>: 'NoneType' object has no attribute 'container_source'] /vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/ember-standardized/000606/sub-multi/sub-multi_ses-experiment282_behavior.nwb — Traceback (most recent call last):
+  File "/usr/local/lib/python3.13/site-packages/nwbinspector/_nwb_inspection.py", line 471, in run_checks
+    output = check_function(nwbfile_object)
+  File "/usr/local/lib/python3.13/site-packages/nwbinspector/_registration.py", line 92, in auto_parse_some_output
+    for result in output:
+                  ^^^^^^
+  File "/usr/local/lib/python3.13/site-packages/nwbinspector/checks/_image_series.py", line 22, in check_image_series_external_file_valid
+    nwbfile_path = Path(get_nwbfile_path_from_internal_object(neurodata_object=image_series))
+                        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/site-packages/nwbinspector/tools/_nwb.py", line 20, in get_nwbfile_path_from_internal_object
+    return neurodata_object.get_ancestor("NWBFile").container_source  # type: ignore
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'container_source'
+
+[NWBI.check_subject_exists] /vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/ember-standardized/000606/sub-multi/sub-multi_ses-experiment282_behavior.nwb — Subject is missing.
+[pynwb.GENERIC] /vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/ember-standardized/000606/sub-multi/sub-multi_ses-experiment436_behavior.nwb — data type 'NdxMultiSubjectsNWBFile' not found in namespace ndx-pose
+[NWBI.During evaluation of 'check_image_series_external_file_valid' - <class 'AttributeError'>: 'NoneType' object has no attribute 'container_source'] /vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/ember-standardized/000606/sub-multi/sub-multi_ses-experiment436_behavior.nwb — Traceback (most recent call last):
+  File "/usr/local/lib/python3.13/site-packages/nwbinspector/_nwb_inspection.py", line 471, in run_checks
+    output = check_function(nwbfile_object)
+  File "/usr/local/lib/python3.13/site-packages/nwbinspector/_registration.py", line 92, in auto_parse_some_output
+    for result in output:
+                  ^^^^^^
+  File "/usr/local/lib/python3.13/site-packages/nwbinspector/checks/_image_series.py", line 22, in check_image_series_external_file_valid
+    nwbfile_path = Path(get_nwbfile_path_from_internal_object(neurodata_object=image_series))
+                        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/site-packages/nwbinspector/tools/_nwb.py", line 20, in get_nwbfile_path_from_internal_object
+    return neurodata_object.get_ancestor("NWBFile").container_source  # type: ignore
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'container_source'
+
+[NWBI.check_subject_exists] /vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/ember-standardized/000606/sub-multi/sub-multi_ses-experiment436_behavior.nwb — Subject is missing.
+[pynwb.GENERIC] /vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/ember-standardized/000606/sub-multi/sub-multi_ses-experiment280_behavior.nwb — data type 'NdxMultiSubjectsNWBFile' not found in namespace ndx-pose
+[NWBI.During evaluation of 'check_image_series_external_file_valid' - <class 'AttributeError'>: 'NoneType' object has no attribute 'container_source'] /vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/ember-standardized/000606/sub-multi/sub-multi_ses-experiment280_behavior.nwb — Traceback (most recent call last):
+  File "/usr/local/lib/python3.13/site-packages/nwbinspector/_nwb_inspection.py", line 471, in run_checks
+    output = check_function(nwbfile_object)
+  File "/usr/local/lib/python3.13/site-packages/nwbinspector/_registration.py", line 92, in auto_parse_some_output
+    for result in output:
+                  ^^^^^^
+  File "/usr/local/lib/python3.13/site-packages/nwbinspector/checks/_image_series.py", line 22, in check_image_series_external_file_valid
+    nwbfile_path = Path(get_nwbfile_path_from_internal_object(neurodata_object=image_series))
+                        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/site-packages/nwbinspector/tools/_nwb.py", line 20, in get_nwbfile_path_from_internal_object
+    return neurodata_object.get_ancestor("NWBFile").container_source  # type: ignore
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'container_source'
+
+[NWBI.check_subject_exists] /vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/ember-standardized/000606/sub-multi/sub-multi_ses-experiment280_behavior.nwb — Subject is missing.
+[pynwb.GENERIC] /vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/ember-standardized/000606/sub-multi/sub-multi_ses-experiment281_behavior.nwb — data type 'NdxMultiSubjectsNWBFile' not found in namespace ndx-pose
+[NWBI.During evaluation of 'check_image_series_external_file_valid' - <class 'AttributeError'>: 'NoneType' object has no attribute 'container_source'] /vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/ember-standardized/000606/sub-multi/sub-multi_ses-experiment281_behavior.nwb — Traceback (most recent call last):
+  File "/usr/local/lib/python3.13/site-packages/nwbinspector/_nwb_inspection.py", line 471, in run_checks
+    output = check_function(nwbfile_object)
+  File "/usr/local/lib/python3.13/site-packages/nwbinspector/_registration.py", line 92, in auto_parse_some_output
+    for result in output:
+                  ^^^^^^
+  File "/usr/local/lib/python3.13/site-packages/nwbinspector/checks/_image_series.py", line 22, in check_image_series_external_file_valid
+    nwbfile_path = Path(get_nwbfile_path_from_internal_object(neurodata_object=image_series))
+                        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/site-packages/nwbinspector/tools/_nwb.py", line 20, in get_nwbfile_path_from_internal_object
+    return neurodata_object.get_ancestor("NWBFile").container_source  # type: ignore
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'container_source'
+
+[NWBI.check_subject_exists] /vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/ember-standardized/000606/sub-multi/sub-multi_ses-experiment281_behavior.nwb — Subject is missing.
+[pynwb.GENERIC] /vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/ember-standardized/000606/sub-multi/sub-multi_ses-experiment346_behavior.nwb — data type 'NdxMultiSubjectsNWBFile' not found in namespace ndx-pose
+[NWBI.During evaluation of 'check_image_series_external_file_valid' - <class 'AttributeError'>: 'NoneType' object has no attribute 'container_source'] /vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/ember-standardized/000606/sub-multi/sub-multi_ses-experiment346_behavior.nwb — Traceback (most recent call last):
+  File "/usr/local/lib/python3.13/site-packages/nwbinspector/_nwb_inspection.py", line 471, in run_checks
+    output = check_function(nwbfile_object)
+  File "/usr/local/lib/python3.13/site-packages/nwbinspector/_registration.py", line 92, in auto_parse_some_output
+    for result in output:
+                  ^^^^^^
+  File "/usr/local/lib/python3.13/site-packages/nwbinspector/checks/_image_series.py", line 22, in check_image_series_external_file_valid
+    nwbfile_path = Path(get_nwbfile_path_from_internal_object(neurodata_object=image_series))
+                        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/site-packages/nwbinspector/tools/_nwb.py", line 20, in get_nwbfile_path_from_internal_object
+    return neurodata_object.get_ancestor("NWBFile").container_source  # type: ignore
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'container_source'
+
+[NWBI.check_subject_exists] /vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/ember-standardized/000606/sub-multi/sub-multi_ses-experiment346_behavior.nwb — Subject is missing.
+[pynwb.GENERIC] /vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/ember-standardized/000606/sub-multi/sub-multi_ses-experiment315_behavior.nwb — data type 'NdxMultiSubjectsNWBFile' not found in namespace ndx-pose
+[NWBI.During evaluation of 'check_image_series_external_file_valid' - <class 'AttributeError'>: 'NoneType' object has no attribute 'container_source'] /vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/ember-standardized/000606/sub-multi/sub-multi_ses-experiment315_behavior.nwb — Traceback (most recent call last):
+  File "/usr/local/lib/python3.13/site-packages/nwbinspector/_nwb_inspection.py", line 471, in run_checks
+    output = check_function(nwbfile_object)
+  File "/usr/local/lib/python3.13/site-packages/nwbinspector/_registration.py", line 92, in auto_parse_some_output
+    for result in output:
+                  ^^^^^^
+  File "/usr/local/lib/python3.13/site-packages/nwbinspector/checks/_image_series.py", line 22, in check_image_series_external_file_valid
+    nwbfile_path = Path(get_nwbfile_path_from_internal_object(neurodata_object=image_series))
+                        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/site-packages/nwbinspector/tools/_nwb.py", line 20, in get_nwbfile_path_from_internal_object
+    return neurodata_object.get_ancestor("NWBFile").container_source  # type: ignore
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'container_source'
+
+[NWBI.check_subject_exists] /vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/ember-standardized/000606/sub-multi/sub-multi_ses-experiment315_behavior.nwb — Subject is missing.
+[pynwb.GENERIC] /vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/ember-standardized/000606/sub-multi/sub-multi_ses-experiment347_behavior.nwb — data type 'NdxMultiSubjectsNWBFile' not found in namespace ndx-pose
+[NWBI.During evaluation of 'check_image_series_external_file_valid' - <class 'AttributeError'>: 'NoneType' object has no attribute 'container_source'] /vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/ember-standardized/000606/sub-multi/sub-multi_ses-experiment347_behavior.nwb — Traceback (most recent call last):
+  File "/usr/local/lib/python3.13/site-packages/nwbinspector/_nwb_inspection.py", line 471, in run_checks
+    output = check_function(nwbfile_object)
+  File "/usr/local/lib/python3.13/site-packages/nwbinspector/_registration.py", line 92, in auto_parse_some_output
+    for result in output:
+                  ^^^^^^
+  File "/usr/local/lib/python3.13/site-packages/nwbinspector/checks/_image_series.py", line 22, in check_image_series_external_file_valid
+    nwbfile_path = Path(get_nwbfile_path_from_internal_object(neurodata_object=image_series))
+                        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/site-packages/nwbinspector/tools/_nwb.py", line 20, in get_nwbfile_path_from_internal_object
+    return neurodata_object.get_ancestor("NWBFile").container_source  # type: ignore
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'container_source'
+
+[NWBI.check_subject_exists] /vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/ember-standardized/000606/sub-multi/sub-multi_ses-experiment347_behavior.nwb — Subject is missing.
+[pynwb.GENERIC] /vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/ember-standardized/000606/sub-multi/sub-multi_ses-experiment314_behavior.nwb — data type 'NdxMultiSubjectsNWBFile' not found in namespace ndx-pose
+[NWBI.During evaluation of 'check_image_series_external_file_valid' - <class 'AttributeError'>: 'NoneType' object has no attribute 'container_source'] /vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/ember-standardized/000606/sub-multi/sub-multi_ses-experiment314_behavior.nwb — Traceback (most recent call last):
+  File "/usr/local/lib/python3.13/site-packages/nwbinspector/_nwb_inspection.py", line 471, in run_checks
+    output = check_function(nwbfile_object)
+  File "/usr/local/lib/python3.13/site-packages/nwbinspector/_registration.py", line 92, in auto_parse_some_output
+    for result in output:
+                  ^^^^^^
+  File "/usr/local/lib/python3.13/site-packages/nwbinspector/checks/_image_series.py", line 22, in check_image_series_external_file_valid
+    nwbfile_path = Path(get_nwbfile_path_from_internal_object(neurodata_object=image_series))
+                        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/site-packages/nwbinspector/tools/_nwb.py", line 20, in get_nwbfile_path_from_internal_object
+    return neurodata_object.get_ancestor("NWBFile").container_source  # type: ignore
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'container_source'
+
+[NWBI.check_subject_exists] /vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/ember-standardized/000606/sub-multi/sub-multi_ses-experiment314_behavior.nwb — Subject is missing.
+[pynwb.GENERIC] /vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/ember-standardized/000606/sub-multi/sub-multi_ses-experiment316_behavior.nwb — data type 'NdxMultiSubjectsNWBFile' not found in namespace ndx-pose
+[NWBI.During evaluation of 'check_image_series_external_file_valid' - <class 'AttributeError'>: 'NoneType' object has no attribute 'container_source'] /vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/ember-standardized/000606/sub-multi/sub-multi_ses-experiment316_behavior.nwb — Traceback (most recent call last):
+  File "/usr/local/lib/python3.13/site-packages/nwbinspector/_nwb_inspection.py", line 471, in run_checks
+    output = check_function(nwbfile_object)
+  File "/usr/local/lib/python3.13/site-packages/nwbinspector/_registration.py", line 92, in auto_parse_some_output
+    for result in output:
+                  ^^^^^^
+  File "/usr/local/lib/python3.13/site-packages/nwbinspector/checks/_image_series.py", line 22, in check_image_series_external_file_valid
+    nwbfile_path = Path(get_nwbfile_path_from_internal_object(neurodata_object=image_series))
+                        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/site-packages/nwbinspector/tools/_nwb.py", line 20, in get_nwbfile_path_from_internal_object
+    return neurodata_object.get_ancestor("NWBFile").container_source  # type: ignore
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'container_source'
+
+[NWBI.check_subject_exists] /vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/ember-standardized/000606/sub-multi/sub-multi_ses-experiment316_behavior.nwb — Subject is missing.
+[pynwb.GENERIC] /vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/ember-standardized/000606/sub-multi/sub-multi_ses-experiment345_behavior.nwb — data type 'NdxMultiSubjectsNWBFile' not found in namespace ndx-pose
+[NWBI.During evaluation of 'check_image_series_external_file_valid' - <class 'AttributeError'>: 'NoneType' object has no attribute 'container_source'] /vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/ember-standardized/000606/sub-multi/sub-multi_ses-experiment345_behavior.nwb — Traceback (most recent call last):
+  File "/usr/local/lib/python3.13/site-packages/nwbinspector/_nwb_inspection.py", line 471, in run_checks
+    output = check_function(nwbfile_object)
+  File "/usr/local/lib/python3.13/site-packages/nwbinspector/_registration.py", line 92, in auto_parse_some_output
+    for result in output:
+                  ^^^^^^
+  File "/usr/local/lib/python3.13/site-packages/nwbinspector/checks/_image_series.py", line 22, in check_image_series_external_file_valid
+    nwbfile_path = Path(get_nwbfile_path_from_internal_object(neurodata_object=image_series))
+                        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/site-packages/nwbinspector/tools/_nwb.py", line 20, in get_nwbfile_path_from_internal_object
+    return neurodata_object.get_ancestor("NWBFile").container_source  # type: ignore
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'container_source'
+
+[NWBI.check_subject_exists] /vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/ember-standardized/000606/sub-multi/sub-multi_ses-experiment345_behavior.nwb — Subject is missing.
+[pynwb.GENERIC] /vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/ember-standardized/000606/sub-multi/sub-multi_ses-experiment317_behavior.nwb — data type 'NdxMultiSubjectsNWBFile' not found in namespace ndx-pose
+[NWBI.During evaluation of 'check_image_series_external_file_valid' - <class 'AttributeError'>: 'NoneType' object has no attribute 'container_source'] /vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/ember-standardized/000606/sub-multi/sub-multi_ses-experiment317_behavior.nwb — Traceback (most recent call last):
+  File "/usr/local/lib/python3.13/site-packages/nwbinspector/_nwb_inspection.py", line 471, in run_checks
+    output = check_function(nwbfile_object)
+  File "/usr/local/lib/python3.13/site-packages/nwbinspector/_registration.py", line 92, in auto_parse_some_output
+    for result in output:
+                  ^^^^^^
+  File "/usr/local/lib/python3.13/site-packages/nwbinspector/checks/_image_series.py", line 22, in check_image_series_external_file_valid
+    nwbfile_path = Path(get_nwbfile_path_from_internal_object(neurodata_object=image_series))
+                        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/site-packages/nwbinspector/tools/_nwb.py", line 20, in get_nwbfile_path_from_internal_object
+    return neurodata_object.get_ancestor("NWBFile").container_source  # type: ignore
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'container_source'
+
+[NWBI.check_subject_exists] /vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/ember-standardized/000606/sub-multi/sub-multi_ses-experiment317_behavior.nwb — Subject is missing.
+[pynwb.GENERIC] /vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/ember-standardized/000606/sub-multi/sub-multi_ses-experiment288_behavior.nwb — data type 'NdxMultiSubjectsNWBFile' not found in namespace ndx-pose
+[NWBI.During evaluation of 'check_image_series_external_file_valid' - <class 'AttributeError'>: 'NoneType' object has no attribute 'container_source'] /vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/ember-standardized/000606/sub-multi/sub-multi_ses-experiment288_behavior.nwb — Traceback (most recent call last):
+  File "/usr/local/lib/python3.13/site-packages/nwbinspector/_nwb_inspection.py", line 471, in run_checks
+    output = check_function(nwbfile_object)
+  File "/usr/local/lib/python3.13/site-packages/nwbinspector/_registration.py", line 92, in auto_parse_some_output
+    for result in output:
+                  ^^^^^^
+  File "/usr/local/lib/python3.13/site-packages/nwbinspector/checks/_image_series.py", line 22, in check_image_series_external_file_valid
+    nwbfile_path = Path(get_nwbfile_path_from_internal_object(neurodata_object=image_series))
+                        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/site-packages/nwbinspector/tools/_nwb.py", line 20, in get_nwbfile_path_from_internal_object
+    return neurodata_object.get_ancestor("NWBFile").container_source  # type: ignore
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'container_source'
+
+[NWBI.check_subject_exists] /vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/ember-standardized/000606/sub-multi/sub-multi_ses-experiment288_behavior.nwb — Subject is missing.
+[pynwb.GENERIC] /vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/ember-standardized/000606/sub-multi/sub-multi_ses-experiment312_behavior.nwb — data type 'NdxMultiSubjectsNWBFile' not found in namespace ndx-pose
+[NWBI.During evaluation of 'check_image_series_external_file_valid' - <class 'AttributeError'>: 'NoneType' object has no attribute 'container_source'] /vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/ember-standardized/000606/sub-multi/sub-multi_ses-experiment312_behavior.nwb — Traceback (most recent call last):
+  File "/usr/local/lib/python3.13/site-packages/nwbinspector/_nwb_inspection.py", line 471, in run_checks
+    output = check_function(nwbfile_object)
+  File "/usr/local/lib/python3.13/site-packages/nwbinspector/_registration.py", line 92, in auto_parse_some_output
+    for result in output:
+                  ^^^^^^
+  File "/usr/local/lib/python3.13/site-packages/nwbinspector/checks/_image_series.py", line 22, in check_image_series_external_file_valid
+    nwbfile_path = Path(get_nwbfile_path_from_internal_object(neurodata_object=image_series))
+                        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/site-packages/nwbinspector/tools/_nwb.py", line 20, in get_nwbfile_path_from_internal_object
+    return neurodata_object.get_ancestor("NWBFile").container_source  # type: ignore
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'container_source'
+
+[NWBI.check_subject_exists] /vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/ember-standardized/000606/sub-multi/sub-multi_ses-experiment312_behavior.nwb — Subject is missing.
+[pynwb.GENERIC] /vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/ember-standardized/000606/sub-multi/sub-multi_ses-experiment443_behavior.nwb — data type 'NdxMultiSubjectsNWBFile' not found in namespace ndx-pose
+[NWBI.During evaluation of 'check_image_series_external_file_valid' - <class 'AttributeError'>: 'NoneType' object has no attribute 'container_source'] /vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/ember-standardized/000606/sub-multi/sub-multi_ses-experiment443_behavior.nwb — Traceback (most recent call last):
+  File "/usr/local/lib/python3.13/site-packages/nwbinspector/_nwb_inspection.py", line 471, in run_checks
+    output = check_function(nwbfile_object)
+  File "/usr/local/lib/python3.13/site-packages/nwbinspector/_registration.py", line 92, in auto_parse_some_output
+    for result in output:
+                  ^^^^^^
+  File "/usr/local/lib/python3.13/site-packages/nwbinspector/checks/_image_series.py", line 22, in check_image_series_external_file_valid
+    nwbfile_path = Path(get_nwbfile_path_from_internal_object(neurodata_object=image_series))
+                        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/site-packages/nwbinspector/tools/_nwb.py", line 20, in get_nwbfile_path_from_internal_object
+    return neurodata_object.get_ancestor("NWBFile").container_source  # type: ignore
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'container_source'
+
+[NWBI.check_subject_exists] /vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/ember-standardized/000606/sub-multi/sub-multi_ses-experiment443_behavior.nwb — Subject is missing.
+[pynwb.GENERIC] /vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/ember-standardized/000606/sub-multi/sub-multi_ses-experiment313_behavior.nwb — data type 'NdxMultiSubjectsNWBFile' not found in namespace ndx-pose
+[NWBI.During evaluation of 'check_image_series_external_file_valid' - <class 'AttributeError'>: 'NoneType' object has no attribute 'container_source'] /vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/ember-standardized/000606/sub-multi/sub-multi_ses-experiment313_behavior.nwb — Traceback (most recent call last):
+  File "/usr/local/lib/python3.13/site-packages/nwbinspector/_nwb_inspection.py", line 471, in run_checks
+    output = check_function(nwbfile_object)
+  File "/usr/local/lib/python3.13/site-packages/nwbinspector/_registration.py", line 92, in auto_parse_some_output
+    for result in output:
+                  ^^^^^^
+  File "/usr/local/lib/python3.13/site-packages/nwbinspector/checks/_image_series.py", line 22, in check_image_series_external_file_valid
+    nwbfile_path = Path(get_nwbfile_path_from_internal_object(neurodata_object=image_series))
+                        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/site-packages/nwbinspector/tools/_nwb.py", line 20, in get_nwbfile_path_from_internal_object
+    return neurodata_object.get_ancestor("NWBFile").container_source  # type: ignore
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'container_source'
+
+[NWBI.check_subject_exists] /vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/ember-standardized/000606/sub-multi/sub-multi_ses-experiment313_behavior.nwb — Subject is missing.
+[pynwb.GENERIC] /vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/ember-standardized/000606/sub-multi/sub-multi_ses-experiment311_behavior.nwb — data type 'NdxMultiSubjectsNWBFile' not found in namespace ndx-pose
+[NWBI.During evaluation of 'check_image_series_external_file_valid' - <class 'AttributeError'>: 'NoneType' object has no attribute 'container_source'] /vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/ember-standardized/000606/sub-multi/sub-multi_ses-experiment311_behavior.nwb — Traceback (most recent call last):
+  File "/usr/local/lib/python3.13/site-packages/nwbinspector/_nwb_inspection.py", line 471, in run_checks
+    output = check_function(nwbfile_object)
+  File "/usr/local/lib/python3.13/site-packages/nwbinspector/_registration.py", line 92, in auto_parse_some_output
+    for result in output:
+                  ^^^^^^
+  File "/usr/local/lib/python3.13/site-packages/nwbinspector/checks/_image_series.py", line 22, in check_image_series_external_file_valid
+    nwbfile_path = Path(get_nwbfile_path_from_internal_object(neurodata_object=image_series))
+                        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/site-packages/nwbinspector/tools/_nwb.py", line 20, in get_nwbfile_path_from_internal_object
+    return neurodata_object.get_ancestor("NWBFile").container_source  # type: ignore
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'container_source'
+
+[NWBI.check_subject_exists] /vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/ember-standardized/000606/sub-multi/sub-multi_ses-experiment311_behavior.nwb — Subject is missing.
+[pynwb.GENERIC] /vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/ember-standardized/000606/sub-multi/sub-multi_ses-experiment310_behavior.nwb — data type 'NdxMultiSubjectsNWBFile' not found in namespace ndx-pose
+[NWBI.During evaluation of 'check_image_series_external_file_valid' - <class 'AttributeError'>: 'NoneType' object has no attribute 'container_source'] /vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/ember-standardized/000606/sub-multi/sub-multi_ses-experiment310_behavior.nwb — Traceback (most recent call last):
+  File "/usr/local/lib/python3.13/site-packages/nwbinspector/_nwb_inspection.py", line 471, in run_checks
+    output = check_function(nwbfile_object)
+  File "/usr/local/lib/python3.13/site-packages/nwbinspector/_registration.py", line 92, in auto_parse_some_output
+    for result in output:
+                  ^^^^^^
+  File "/usr/local/lib/python3.13/site-packages/nwbinspector/checks/_image_series.py", line 22, in check_image_series_external_file_valid
+    nwbfile_path = Path(get_nwbfile_path_from_internal_object(neurodata_object=image_series))
+                        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/site-packages/nwbinspector/tools/_nwb.py", line 20, in get_nwbfile_path_from_internal_object
+    return neurodata_object.get_ancestor("NWBFile").container_source  # type: ignore
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'container_source'
+
+[NWBI.check_subject_exists] /vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/ember-standardized/000606/sub-multi/sub-multi_ses-experiment310_behavior.nwb — Subject is missing.
+[NWBI.check_subject_age] /vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/ember-standardized/000606/sub-01/sub-01_ses-experiment283.nwb — Subject age, 'PROVISIONAL', does not follow ISO 8601 duration format, e.g. 'P2Y' for 2 years or 'P23W' for 23 weeks. You may also specify a range using a '/' separator, e.g., 'P1D/P3D' for an age range somewhere from 1 to 3 days. If you cannot specify the upper bound of the range, you may leave the right side blank, e.g., 'P90Y/' means 90 years old or older.
+[NWBI.check_subject_age] /vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/ember-standardized/000606/sub-01/sub-01_ses-experiment284.nwb — Subject age, 'PROVISIONAL', does not follow ISO 8601 duration format, e.g. 'P2Y' for 2 years or 'P23W' for 23 weeks. You may also specify a range using a '/' separator, e.g., 'P1D/P3D' for an age range somewhere from 1 to 3 days. If you cannot specify the upper bound of the range, you may leave the right side blank, e.g., 'P90Y/' means 90 years old or older.
+[NWBI.check_subject_age] /vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/ember-standardized/000606/sub-01/sub-01_ses-experiment320.nwb — Subject age, 'PROVISIONAL', does not follow ISO 8601 duration format, e.g. 'P2Y' for 2 years or 'P23W' for 23 weeks. You may also specify a range using a '/' separator, e.g., 'P1D/P3D' for an age range somewhere from 1 to 3 days. If you cannot specify the upper bound of the range, you may leave the right side blank, e.g., 'P90Y/' means 90 years old or older.
+[NWBI.check_subject_age] /vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/ember-standardized/000606/sub-01/sub-01_ses-experiment315.nwb — Subject age, 'PROVISIONAL', does not follow ISO 8601 duration format, e.g. 'P2Y' for 2 years or 'P23W' for 23 weeks. You may also specify a range using a '/' separator, e.g., 'P1D/P3D' for an age range somewhere from 1 to 3 days. If you cannot specify the upper bound of the range, you may leave the right side blank, e.g., 'P90Y/' means 90 years old or older.
+[NWBI.check_subject_age] /vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/ember-standardized/000606/sub-01/sub-01_ses-experiment312.nwb — Subject age, 'PROVISIONAL', does not follow ISO 8601 duration format, e.g. 'P2Y' for 2 years or 'P23W' for 23 weeks. You may also specify a range using a '/' separator, e.g., 'P1D/P3D' for an age range somewhere from 1 to 3 days. If you cannot specify the upper bound of the range, you may leave the right side blank, e.g., 'P90Y/' means 90 years old or older.
+[NWBI.check_subject_age] /vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/ember-standardized/000606/sub-01/sub-01_ses-experiment345.nwb — Subject age, 'PROVISIONAL', does not follow ISO 8601 duration format, e.g. 'P2Y' for 2 years or 'P23W' for 23 weeks. You may also specify a range using a '/' separator, e.g., 'P1D/P3D' for an age range somewhere from 1 to 3 days. If you cannot specify the upper bound of the range, you may leave the right side blank, e.g., 'P90Y/' means 90 years old or older.
+[NWBI.check_subject_age] /vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/ember-standardized/000606/sub-01/sub-01_ses-experiment285.nwb — Subject age, 'PROVISIONAL', does not follow ISO 8601 duration format, e.g. 'P2Y' for 2 years or 'P23W' for 23 weeks. You may also specify a range using a '/' separator, e.g., 'P1D/P3D' for an age range somewhere from 1 to 3 days. If you cannot specify the upper bound of the range, you may leave the right side blank, e.g., 'P90Y/' means 90 years old or older.
+[NWBI.check_subject_age] /vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/ember-standardized/000606/sub-01/sub-01_ses-experiment282.nwb — Subject age, 'PROVISIONAL', does not follow ISO 8601 duration format, e.g. 'P2Y' for 2 years or 'P23W' for 23 weeks. You may also specify a range using a '/' separator, e.g., 'P1D/P3D' for an age range somewhere from 1 to 3 days. If you cannot specify the upper bound of the range, you may leave the right side blank, e.g., 'P90Y/' means 90 years old or older.
+[NWBI.check_subject_age] /vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/ember-standardized/000606/sub-01/sub-01_ses-experiment313.nwb — Subject age, 'PROVISIONAL', does not follow ISO 8601 duration format, e.g. 'P2Y' for 2 years or 'P23W' for 23 weeks. You may also specify a range using a '/' separator, e.g., 'P1D/P3D' for an age range somewhere from 1 to 3 days. If you cannot specify the upper bound of the range, you may leave the right side blank, e.g., 'P90Y/' means 90 years old or older.
+[NWBI.check_subject_age] /vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/ember-standardized/000606/sub-01/sub-01_ses-experiment314.nwb — Subject age, 'PROVISIONAL', does not follow ISO 8601 duration format, e.g. 'P2Y' for 2 years or 'P23W' for 23 weeks. You may also specify a range using a '/' separator, e.g., 'P1D/P3D' for an age range somewhere from 1 to 3 days. If you cannot specify the upper bound of the range, you may leave the right side blank, e.g., 'P90Y/' means 90 years old or older.
+[NWBI.check_subject_age] /vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/ember-standardized/000606/sub-01/sub-01_ses-experiment321.nwb — Subject age, 'PROVISIONAL', does not follow ISO 8601 duration format, e.g. 'P2Y' for 2 years or 'P23W' for 23 weeks. You may also specify a range using a '/' separator, e.g., 'P1D/P3D' for an age range somewhere from 1 to 3 days. If you cannot specify the upper bound of the range, you may leave the right side blank, e.g., 'P90Y/' means 90 years old or older.
+[NWBI.check_subject_age] /vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/ember-standardized/000606/sub-01/sub-01_ses-experiment317.nwb — Subject age, 'PROVISIONAL', does not follow ISO 8601 duration format, e.g. 'P2Y' for 2 years or 'P23W' for 23 weeks. You may also specify a range using a '/' separator, e.g., 'P1D/P3D' for an age range somewhere from 1 to 3 days. If you cannot specify the upper bound of the range, you may leave the right side blank, e.g., 'P90Y/' means 90 years old or older.
+[NWBI.check_subject_age] /vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/ember-standardized/000606/sub-01/sub-01_ses-experiment310.nwb — Subject age, 'PROVISIONAL', does not follow ISO 8601 duration format, e.g. 'P2Y' for 2 years or 'P23W' for 23 weeks. You may also specify a range using a '/' separator, e.g., 'P1D/P3D' for an age range somewhere from 1 to 3 days. If you cannot specify the upper bound of the range, you may leave the right side blank, e.g., 'P90Y/' means 90 years old or older.
+[NWBI.check_subject_age] /vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/ember-standardized/000606/sub-01/sub-01_ses-experiment319.nwb — Subject age, 'PROVISIONAL', does not follow ISO 8601 duration format, e.g. 'P2Y' for 2 years or 'P23W' for 23 weeks. You may also specify a range using a '/' separator, e.g., 'P1D/P3D' for an age range somewhere from 1 to 3 days. If you cannot specify the upper bound of the range, you may leave the right side blank, e.g., 'P90Y/' means 90 years old or older.
+[NWBI.check_subject_age] /vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/ember-standardized/000606/sub-01/sub-01_ses-experiment350.nwb — Subject age, 'PROVISIONAL', does not follow ISO 8601 duration format, e.g. 'P2Y' for 2 years or 'P23W' for 23 weeks. You may also specify a range using a '/' separator, e.g., 'P1D/P3D' for an age range somewhere from 1 to 3 days. If you cannot specify the upper bound of the range, you may leave the right side blank, e.g., 'P90Y/' means 90 years old or older.
+[NWBI.check_subject_age] /vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/ember-standardized/000606/sub-01/sub-01_ses-experiment348.nwb — Subject age, 'PROVISIONAL', does not follow ISO 8601 duration format, e.g. 'P2Y' for 2 years or 'P23W' for 23 weeks. You may also specify a range using a '/' separator, e.g., 'P1D/P3D' for an age range somewhere from 1 to 3 days. If you cannot specify the upper bound of the range, you may leave the right side blank, e.g., 'P90Y/' means 90 years old or older.
+[NWBI.check_subject_age] /vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/ember-standardized/000606/sub-01/sub-01_ses-experiment346.nwb — Subject age, 'PROVISIONAL', does not follow ISO 8601 duration format, e.g. 'P2Y' for 2 years or 'P23W' for 23 weeks. You may also specify a range using a '/' separator, e.g., 'P1D/P3D' for an age range somewhere from 1 to 3 days. If you cannot specify the upper bound of the range, you may leave the right side blank, e.g., 'P90Y/' means 90 years old or older.
+[NWBI.check_subject_age] /vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/ember-standardized/000606/sub-01/sub-01_ses-experiment281.nwb — Subject age, 'PROVISIONAL', does not follow ISO 8601 duration format, e.g. 'P2Y' for 2 years or 'P23W' for 23 weeks. You may also specify a range using a '/' separator, e.g., 'P1D/P3D' for an age range somewhere from 1 to 3 days. If you cannot specify the upper bound of the range, you may leave the right side blank, e.g., 'P90Y/' means 90 years old or older.
+[NWBI.check_subject_age] /vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/ember-standardized/000606/sub-01/sub-01_ses-experiment308.nwb — Subject age, 'PROVISIONAL', does not follow ISO 8601 duration format, e.g. 'P2Y' for 2 years or 'P23W' for 23 weeks. You may also specify a range using a '/' separator, e.g., 'P1D/P3D' for an age range somewhere from 1 to 3 days. If you cannot specify the upper bound of the range, you may leave the right side blank, e.g., 'P90Y/' means 90 years old or older.
+[NWBI.check_subject_age] /vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/ember-standardized/000606/sub-01/sub-01_ses-experiment286.nwb — Subject age, 'PROVISIONAL', does not follow ISO 8601 duration format, e.g. 'P2Y' for 2 years or 'P23W' for 23 weeks. You may also specify a range using a '/' separator, e.g., 'P1D/P3D' for an age range somewhere from 1 to 3 days. If you cannot specify the upper bound of the range, you may leave the right side blank, e.g., 'P90Y/' means 90 years old or older.
+[NWBI.check_subject_age] /vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/ember-standardized/000606/sub-01/sub-01_ses-experiment288.nwb — Subject age, 'PROVISIONAL', does not follow ISO 8601 duration format, e.g. 'P2Y' for 2 years or 'P23W' for 23 weeks. You may also specify a range using a '/' separator, e.g., 'P1D/P3D' for an age range somewhere from 1 to 3 days. If you cannot specify the upper bound of the range, you may leave the right side blank, e.g., 'P90Y/' means 90 years old or older.
+[NWBI.check_subject_age] /vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/ember-standardized/000606/sub-01/sub-01_ses-experiment351.nwb — Subject age, 'PROVISIONAL', does not follow ISO 8601 duration format, e.g. 'P2Y' for 2 years or 'P23W' for 23 weeks. You may also specify a range using a '/' separator, e.g., 'P1D/P3D' for an age range somewhere from 1 to 3 days. If you cannot specify the upper bound of the range, you may leave the right side blank, e.g., 'P90Y/' means 90 years old or older.
+[NWBI.check_subject_age] /vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/ember-standardized/000606/sub-01/sub-01_ses-experiment318.nwb — Subject age, 'PROVISIONAL', does not follow ISO 8601 duration format, e.g. 'P2Y' for 2 years or 'P23W' for 23 weeks. You may also specify a range using a '/' separator, e.g., 'P1D/P3D' for an age range somewhere from 1 to 3 days. If you cannot specify the upper bound of the range, you may leave the right side blank, e.g., 'P90Y/' means 90 years old or older.
+[NWBI.check_subject_age] /vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/ember-standardized/000606/sub-01/sub-01_ses-experiment311.nwb — Subject age, 'PROVISIONAL', does not follow ISO 8601 duration format, e.g. 'P2Y' for 2 years or 'P23W' for 23 weeks. You may also specify a range using a '/' separator, e.g., 'P1D/P3D' for an age range somewhere from 1 to 3 days. If you cannot specify the upper bound of the range, you may leave the right side blank, e.g., 'P90Y/' means 90 years old or older.
+[NWBI.check_subject_age] /vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/ember-standardized/000606/sub-01/sub-01_ses-experiment316.nwb — Subject age, 'PROVISIONAL', does not follow ISO 8601 duration format, e.g. 'P2Y' for 2 years or 'P23W' for 23 weeks. You may also specify a range using a '/' separator, e.g., 'P1D/P3D' for an age range somewhere from 1 to 3 days. If you cannot specify the upper bound of the range, you may leave the right side blank, e.g., 'P90Y/' means 90 years old or older.
+[NWBI.check_subject_age] /vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/ember-standardized/000606/sub-01/sub-01_ses-experiment287.nwb — Subject age, 'PROVISIONAL', does not follow ISO 8601 duration format, e.g. 'P2Y' for 2 years or 'P23W' for 23 weeks. You may also specify a range using a '/' separator, e.g., 'P1D/P3D' for an age range somewhere from 1 to 3 days. If you cannot specify the upper bound of the range, you may leave the right side blank, e.g., 'P90Y/' means 90 years old or older.
+[NWBI.check_subject_age] /vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/ember-standardized/000606/sub-01/sub-01_ses-experiment280.nwb — Subject age, 'PROVISIONAL', does not follow ISO 8601 duration format, e.g. 'P2Y' for 2 years or 'P23W' for 23 weeks. You may also specify a range using a '/' separator, e.g., 'P1D/P3D' for an age range somewhere from 1 to 3 days. If you cannot specify the upper bound of the range, you may leave the right side blank, e.g., 'P90Y/' means 90 years old or older.
+[NWBI.check_subject_age] /vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/ember-standardized/000606/sub-01/sub-01_ses-experiment309.nwb — Subject age, 'PROVISIONAL', does not follow ISO 8601 duration format, e.g. 'P2Y' for 2 years or 'P23W' for 23 weeks. You may also specify a range using a '/' separator, e.g., 'P1D/P3D' for an age range somewhere from 1 to 3 days. If you cannot specify the upper bound of the range, you may leave the right side blank, e.g., 'P90Y/' means 90 years old or older.
+[NWBI.check_subject_age] /vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/ember-standardized/000606/sub-01/sub-01_ses-experiment347.nwb — Subject age, 'PROVISIONAL', does not follow ISO 8601 duration format, e.g. 'P2Y' for 2 years or 'P23W' for 23 weeks. You may also specify a range using a '/' separator, e.g., 'P1D/P3D' for an age range somewhere from 1 to 3 days. If you cannot specify the upper bound of the range, you may leave the right side blank, e.g., 'P90Y/' means 90 years old or older.
+[NWBI.check_subject_age] /vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/ember-standardized/000606/sub-01/sub-01_ses-experiment349.nwb — Subject age, 'PROVISIONAL', does not follow ISO 8601 duration format, e.g. 'P2Y' for 2 years or 'P23W' for 23 weeks. You may also specify a range using a '/' separator, e.g., 'P1D/P3D' for an age range somewhere from 1 to 3 days. If you cannot specify the upper bound of the range, you may leave the right side blank, e.g., 'P90Y/' means 90 years old or older.

@@ -1,0 +1,4 @@
+INFO:    fuse2fs not found, will not be able to mount EXT3 filesystems
+2026-11-12 03:32:00,830 [ WARNING] Failed to retrieve NWB Inspector version due to HTTPError: 500 Server Error: Internal Server Error for url: https://rig.mit.edu/et/projects/NeurodataWithoutBorders/nwbinspector
+2026-11-12 03:35:31,360 [    INFO] Validation companion saved to /home/cbaker/.local/state/dandi-cli/log/2026.11.12-03.31.55Z-974843_validation.jsonl
+2026-11-12 03:35:31,366 [    INFO] Logs saved in /home/cbaker/.local/state/dandi-cli/log/2026.11.12-03.31.55Z-974843.log
