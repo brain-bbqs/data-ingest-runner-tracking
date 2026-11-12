@@ -1,0 +1,281 @@
+INFO:    fuse2fs not found, will not be able to mount EXT3 filesystems
+Converting sessions:   0%|          | 0/64 [00:00<?, ?session/s]                                                                Converting sessions:   0%|          | 0/64 [1:42:20<?, ?session/s]Converting sessions:   2%|▏         | 1/64 [1:42:20<107:27:03, 6140.06s/session]                                                                                Converting sessions:   2%|▏         | 1/64 [2:21:58<107:27:03, 6140.06s/session]Converting sessions:   3%|▎         | 2/64 [2:21:58<67:38:07, 3927.21s/session]                                                                                Converting sessions:   3%|▎         | 2/64 [3:15:33<67:38:07, 3927.21s/session]Converting sessions:   5%|▍         | 3/64 [3:15:33<61:01:57, 3601.92s/session]                                                                               Converting sessions:   5%|▍         | 3/64 [4:22:47<61:01:57, 3601.92s/session]Converting sessions:   6%|▋         | 4/64 [4:22:47<62:52:30, 3772.51s/session]                                                                               Converting sessions:   6%|▋         | 4/64 [4:30:55<62:52:30, 3772.51s/session]Converting sessions:   8%|▊         | 5/64 [4:30:55<42:25:14, 2588.37s/session]                                                                               Converting sessions:   8%|▊         | 5/64 [4:55:36<42:25:14, 2588.37s/session]Converting sessions:   9%|▉         | 6/64 [4:55:36<35:38:08, 2211.87s/session]                                                                               Converting sessions:   9%|▉         | 6/64 [5:22:24<35:38:08, 2211.87s/session]Converting sessions:  11%|█         | 7/64 [5:22:24<31:53:33, 2014.28s/session]                                                                               Converting sessions:  11%|█         | 7/64 [5:33:01<31:53:33, 2014.28s/session]Converting sessions:  12%|█▎        | 8/64 [5:33:01<24:30:56, 1576.00s/session]                                                                               Converting sessions:  12%|█▎        | 8/64 [5:40:13<24:30:56, 1576.00s/session]Converting sessions:  14%|█▍        | 9/64 [5:40:13<18:36:46, 1218.30s/session]                                                                               Converting sessions:  14%|█▍        | 9/64 [6:12:01<18:36:46, 1218.30s/session]Converting sessions:  16%|█▌        | 10/64 [6:12:01<21:28:09, 1431.28s/session]                                                                                Converting sessions:  16%|█▌        | 10/64 [6:41:01<21:28:09, 1431.28s/session]Converting sessions:  17%|█▋        | 11/64 [6:41:01<22:27:39, 1525.66s/session]                                                                                Converting sessions:  17%|█▋        | 11/64 [7:06:42<22:27:39, 1525.66s/session]Converting sessions:  19%|█▉        | 12/64 [7:06:42<22:06:14, 1530.27s/session]                                                                                Converting sessions:  19%|█▉        | 12/64 [7:16:44<22:06:14, 1530.27s/session]Converting sessions:  20%|██        | 13/64 [7:16:44<17:41:46, 1249.14s/session]                                                                                Converting sessions:  20%|██        | 13/64 [8:17:47<17:41:46, 1249.14s/session]Converting sessions:  22%|██▏       | 14/64 [8:17:47<27:28:30, 1978.22s/session]                                                                                Converting sessions:  22%|██▏       | 14/64 [8:43:32<27:28:30, 1978.22s/session]Converting sessions:  23%|██▎       | 15/64 [8:43:32<25:08:55, 1847.67s/session]                                                                                Converting sessions:  23%|██▎       | 15/64 [9:14:45<25:08:55, 1847.67s/session]Converting sessions:  25%|██▌       | 16/64 [9:14:45<24:44:12, 1855.26s/session]                                                                                Converting sessions:  25%|██▌       | 16/64 [9:43:46<24:44:12, 1855.26s/session]Converting sessions:  27%|██▋       | 17/64 [9:43:46<23:46:17, 1820.80s/session]                                                                                Converting sessions:  27%|██▋       | 17/64 [10:03:50<23:46:17, 1820.80s/session]Converting sessions:  28%|██▊       | 18/64 [10:03:50<20:53:48, 1635.40s/session]                                                                                 Converting sessions:  28%|██▊       | 18/64 [10:53:32<20:53:48, 1635.40s/session]Converting sessions:  30%|██▉       | 19/64 [10:53:32<25:29:56, 2039.92s/session]                                                                                 Converting sessions:  30%|██▉       | 19/64 [11:48:23<25:29:56, 2039.92s/session]Converting sessions:  31%|███▏      | 20/64 [11:48:23<29:31:20, 2415.48s/session]                                                                                 Converting sessions:  31%|███▏      | 20/64 [12:04:13<29:31:20, 2415.48s/session]Converting sessions:  33%|███▎      | 21/64 [12:04:13<23:36:00, 1975.83s/session]                                                                                 Converting sessions:  33%|███▎      | 21/64 [12:30:50<23:36:00, 1975.83s/session]Converting sessions:  34%|███▍      | 22/64 [12:30:50<21:43:26, 1862.07s/session]                                                                                 Converting sessions:  34%|███▍      | 22/64 [12:42:52<21:43:26, 1862.07s/session]Converting sessions:  36%|███▌      | 23/64 [12:42:52<17:18:39, 1519.99s/session]                                                                                 Converting sessions:  36%|███▌      | 23/64 [13:19:47<17:18:39, 1519.99s/session]Converting sessions:  38%|███▊      | 24/64 [13:19:47<19:12:14, 1728.37s/session]                                                                                 Converting sessions:  38%|███▊      | 24/64 [13:38:34<19:12:14, 1728.37s/session]Converting sessions:  39%|███▉      | 25/64 [13:38:34<16:46:08, 1547.91s/session]                                                                                 Converting sessions:  39%|███▉      | 25/64 [15:13:29<16:46:08, 1547.91s/session]Converting sessions:  41%|████      | 26/64 [15:13:29<29:28:30, 2792.37s/session]                                                                                 Converting sessions:  41%|████      | 26/64 [15:48:22<29:28:30, 2792.37s/session]Converting sessions:  42%|████▏     | 27/64 [15:48:22<26:32:31, 2582.48s/session]                                                                                 Converting sessions:  42%|████▏     | 27/64 [16:29:45<26:32:31, 2582.48s/session]Converting sessions:  44%|████▍     | 28/64 [16:29:45<25:31:35, 2552.64s/session]                                                                                 Converting sessions:  44%|████▍     | 28/64 [17:17:09<25:31:35, 2552.64s/session]Converting sessions:  45%|████▌     | 29/64 [17:17:09<25:40:02, 2640.06s/session]                                                                                 Converting sessions:  45%|████▌     | 29/64 [18:26:54<25:40:02, 2640.06s/session]Converting sessions:  47%|████▋     | 30/64 [18:26:54<29:18:36, 3103.43s/session]Traceback (most recent call last):
+  File "/vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/task-force/labs/sanes/code/batch_convert.py", line 130, in convert_batch
+    output_path = build_nwb(session_dir=session_dir, output_dir=output_dir, config_path=config_path)
+  File "/vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/task-force/labs/sanes/code/_sanes_to_nwb.py", line 472, in build_nwb
+    raise ValueError(
+        f"Audio channel count, sampling rate, or sample type changes between chunks of {session_dir}"
+    )
+ValueError: Audio channel count, sampling rate, or sample type changes between chunks of /vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/ember-incoming/000524/sourcedata/raw/ssa_gt_data/experiment_384
+FAILED: /vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/ember-incoming/000524/sourcedata/raw/ssa_gt_data/experiment_384: Audio channel count, sampling rate, or sample type changes between chunks of /vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/ember-incoming/000524/sourcedata/raw/ssa_gt_data/experiment_384
+Converting sessions:  48%|████▊     | 31/64 [18:27:00<19:55:49, 2174.24s/session]Traceback (most recent call last):
+  File "/vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/task-force/labs/sanes/code/batch_convert.py", line 130, in convert_batch
+    output_path = build_nwb(session_dir=session_dir, output_dir=output_dir, config_path=config_path)
+  File "/vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/task-force/labs/sanes/code/_sanes_to_nwb.py", line 472, in build_nwb
+    raise ValueError(
+        f"Audio channel count, sampling rate, or sample type changes between chunks of {session_dir}"
+    )
+ValueError: Audio channel count, sampling rate, or sample type changes between chunks of /vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/ember-incoming/000524/sourcedata/raw/ssa_gt_data/experiment_385
+FAILED: /vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/ember-incoming/000524/sourcedata/raw/ssa_gt_data/experiment_385: Audio channel count, sampling rate, or sample type changes between chunks of /vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/ember-incoming/000524/sourcedata/raw/ssa_gt_data/experiment_385
+Converting sessions:  50%|█████     | 32/64 [18:27:08<13:32:56, 1524.28s/session]Traceback (most recent call last):
+  File "/vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/task-force/labs/sanes/code/batch_convert.py", line 130, in convert_batch
+    output_path = build_nwb(session_dir=session_dir, output_dir=output_dir, config_path=config_path)
+  File "/vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/task-force/labs/sanes/code/_sanes_to_nwb.py", line 472, in build_nwb
+    raise ValueError(
+        f"Audio channel count, sampling rate, or sample type changes between chunks of {session_dir}"
+    )
+ValueError: Audio channel count, sampling rate, or sample type changes between chunks of /vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/ember-incoming/000524/sourcedata/raw/ssa_gt_data/experiment_387
+FAILED: /vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/ember-incoming/000524/sourcedata/raw/ssa_gt_data/experiment_387: Audio channel count, sampling rate, or sample type changes between chunks of /vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/ember-incoming/000524/sourcedata/raw/ssa_gt_data/experiment_387
+Converting sessions:  52%|█████▏    | 33/64 [18:27:21<9:13:24, 1071.11s/session] Traceback (most recent call last):
+  File "/vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/task-force/labs/sanes/code/batch_convert.py", line 130, in convert_batch
+    output_path = build_nwb(session_dir=session_dir, output_dir=output_dir, config_path=config_path)
+  File "/vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/task-force/labs/sanes/code/_sanes_to_nwb.py", line 472, in build_nwb
+    raise ValueError(
+        f"Audio channel count, sampling rate, or sample type changes between chunks of {session_dir}"
+    )
+ValueError: Audio channel count, sampling rate, or sample type changes between chunks of /vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/ember-incoming/000524/sourcedata/raw/ssa_gt_data/experiment_388
+FAILED: /vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/ember-incoming/000524/sourcedata/raw/ssa_gt_data/experiment_388: Audio channel count, sampling rate, or sample type changes between chunks of /vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/ember-incoming/000524/sourcedata/raw/ssa_gt_data/experiment_388
+Converting sessions:  53%|█████▎    | 34/64 [18:27:43<6:18:05, 756.20s/session] Traceback (most recent call last):
+  File "/vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/task-force/labs/sanes/code/batch_convert.py", line 130, in convert_batch
+    output_path = build_nwb(session_dir=session_dir, output_dir=output_dir, config_path=config_path)
+  File "/vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/task-force/labs/sanes/code/_sanes_to_nwb.py", line 472, in build_nwb
+    raise ValueError(
+        f"Audio channel count, sampling rate, or sample type changes between chunks of {session_dir}"
+    )
+ValueError: Audio channel count, sampling rate, or sample type changes between chunks of /vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/ember-incoming/000524/sourcedata/raw/ssa_gt_data/experiment_389
+FAILED: /vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/ember-incoming/000524/sourcedata/raw/ssa_gt_data/experiment_389: Audio channel count, sampling rate, or sample type changes between chunks of /vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/ember-incoming/000524/sourcedata/raw/ssa_gt_data/experiment_389
+Converting sessions:  55%|█████▍    | 35/64 [18:27:51<4:16:57, 531.64s/session]Traceback (most recent call last):
+  File "/vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/task-force/labs/sanes/code/batch_convert.py", line 130, in convert_batch
+    output_path = build_nwb(session_dir=session_dir, output_dir=output_dir, config_path=config_path)
+  File "/vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/task-force/labs/sanes/code/_sanes_to_nwb.py", line 472, in build_nwb
+    raise ValueError(
+        f"Audio channel count, sampling rate, or sample type changes between chunks of {session_dir}"
+    )
+ValueError: Audio channel count, sampling rate, or sample type changes between chunks of /vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/ember-incoming/000524/sourcedata/raw/ssa_gt_data/experiment_395
+FAILED: /vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/ember-incoming/000524/sourcedata/raw/ssa_gt_data/experiment_395: Audio channel count, sampling rate, or sample type changes between chunks of /vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/ember-incoming/000524/sourcedata/raw/ssa_gt_data/experiment_395
+Converting sessions:  56%|█████▋    | 36/64 [18:28:04<2:55:31, 376.12s/session]Traceback (most recent call last):
+  File "/vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/task-force/labs/sanes/code/batch_convert.py", line 130, in convert_batch
+    output_path = build_nwb(session_dir=session_dir, output_dir=output_dir, config_path=config_path)
+  File "/vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/task-force/labs/sanes/code/_sanes_to_nwb.py", line 472, in build_nwb
+    raise ValueError(
+        f"Audio channel count, sampling rate, or sample type changes between chunks of {session_dir}"
+    )
+ValueError: Audio channel count, sampling rate, or sample type changes between chunks of /vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/ember-incoming/000524/sourcedata/raw/ssa_gt_data/experiment_396
+FAILED: /vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/ember-incoming/000524/sourcedata/raw/ssa_gt_data/experiment_396: Audio channel count, sampling rate, or sample type changes between chunks of /vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/ember-incoming/000524/sourcedata/raw/ssa_gt_data/experiment_396
+Converting sessions:  58%|█████▊    | 37/64 [18:28:11<1:59:26, 265.43s/session]Traceback (most recent call last):
+  File "/vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/task-force/labs/sanes/code/batch_convert.py", line 130, in convert_batch
+    output_path = build_nwb(session_dir=session_dir, output_dir=output_dir, config_path=config_path)
+  File "/vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/task-force/labs/sanes/code/_sanes_to_nwb.py", line 472, in build_nwb
+    raise ValueError(
+        f"Audio channel count, sampling rate, or sample type changes between chunks of {session_dir}"
+    )
+ValueError: Audio channel count, sampling rate, or sample type changes between chunks of /vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/ember-incoming/000524/sourcedata/raw/ssa_gt_data/experiment_398
+FAILED: /vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/ember-incoming/000524/sourcedata/raw/ssa_gt_data/experiment_398: Audio channel count, sampling rate, or sample type changes between chunks of /vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/ember-incoming/000524/sourcedata/raw/ssa_gt_data/experiment_398
+Converting sessions:  59%|█████▉    | 38/64 [18:28:17<1:21:15, 187.53s/session]Traceback (most recent call last):
+  File "/vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/task-force/labs/sanes/code/batch_convert.py", line 130, in convert_batch
+    output_path = build_nwb(session_dir=session_dir, output_dir=output_dir, config_path=config_path)
+  File "/vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/task-force/labs/sanes/code/_sanes_to_nwb.py", line 472, in build_nwb
+    raise ValueError(
+        f"Audio channel count, sampling rate, or sample type changes between chunks of {session_dir}"
+    )
+ValueError: Audio channel count, sampling rate, or sample type changes between chunks of /vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/ember-incoming/000524/sourcedata/raw/ssa_gt_data/experiment_400
+FAILED: /vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/ember-incoming/000524/sourcedata/raw/ssa_gt_data/experiment_400: Audio channel count, sampling rate, or sample type changes between chunks of /vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/ember-incoming/000524/sourcedata/raw/ssa_gt_data/experiment_400
+Converting sessions:  61%|██████    | 39/64 [18:28:41<57:45, 138.61s/session]  Traceback (most recent call last):
+  File "/vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/task-force/labs/sanes/code/batch_convert.py", line 130, in convert_batch
+    output_path = build_nwb(session_dir=session_dir, output_dir=output_dir, config_path=config_path)
+  File "/vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/task-force/labs/sanes/code/_sanes_to_nwb.py", line 472, in build_nwb
+    raise ValueError(
+        f"Audio channel count, sampling rate, or sample type changes between chunks of {session_dir}"
+    )
+ValueError: Audio channel count, sampling rate, or sample type changes between chunks of /vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/ember-incoming/000524/sourcedata/raw/ssa_gt_data/experiment_401
+FAILED: /vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/ember-incoming/000524/sourcedata/raw/ssa_gt_data/experiment_401: Audio channel count, sampling rate, or sample type changes between chunks of /vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/ember-incoming/000524/sourcedata/raw/ssa_gt_data/experiment_401
+Converting sessions:  62%|██████▎   | 40/64 [18:28:48<39:37, 99.07s/session] Traceback (most recent call last):
+  File "/vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/task-force/labs/sanes/code/batch_convert.py", line 130, in convert_batch
+    output_path = build_nwb(session_dir=session_dir, output_dir=output_dir, config_path=config_path)
+  File "/vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/task-force/labs/sanes/code/_sanes_to_nwb.py", line 472, in build_nwb
+    raise ValueError(
+        f"Audio channel count, sampling rate, or sample type changes between chunks of {session_dir}"
+    )
+ValueError: Audio channel count, sampling rate, or sample type changes between chunks of /vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/ember-incoming/000524/sourcedata/raw/ssa_gt_data/experiment_402
+FAILED: /vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/ember-incoming/000524/sourcedata/raw/ssa_gt_data/experiment_402: Audio channel count, sampling rate, or sample type changes between chunks of /vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/ember-incoming/000524/sourcedata/raw/ssa_gt_data/experiment_402
+Converting sessions:  64%|██████▍   | 41/64 [18:29:00<27:57, 72.94s/session]Traceback (most recent call last):
+  File "/vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/task-force/labs/sanes/code/batch_convert.py", line 130, in convert_batch
+    output_path = build_nwb(session_dir=session_dir, output_dir=output_dir, config_path=config_path)
+  File "/vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/task-force/labs/sanes/code/_sanes_to_nwb.py", line 472, in build_nwb
+    raise ValueError(
+        f"Audio channel count, sampling rate, or sample type changes between chunks of {session_dir}"
+    )
+ValueError: Audio channel count, sampling rate, or sample type changes between chunks of /vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/ember-incoming/000524/sourcedata/raw/ssa_gt_data/experiment_403
+FAILED: /vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/ember-incoming/000524/sourcedata/raw/ssa_gt_data/experiment_403: Audio channel count, sampling rate, or sample type changes between chunks of /vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/ember-incoming/000524/sourcedata/raw/ssa_gt_data/experiment_403
+Converting sessions:  66%|██████▌   | 42/64 [18:29:08<19:35, 53.44s/session]Traceback (most recent call last):
+  File "/vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/task-force/labs/sanes/code/batch_convert.py", line 130, in convert_batch
+    output_path = build_nwb(session_dir=session_dir, output_dir=output_dir, config_path=config_path)
+  File "/vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/task-force/labs/sanes/code/_sanes_to_nwb.py", line 472, in build_nwb
+    raise ValueError(
+        f"Audio channel count, sampling rate, or sample type changes between chunks of {session_dir}"
+    )
+ValueError: Audio channel count, sampling rate, or sample type changes between chunks of /vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/ember-incoming/000524/sourcedata/raw/ssa_gt_data/experiment_404
+FAILED: /vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/ember-incoming/000524/sourcedata/raw/ssa_gt_data/experiment_404: Audio channel count, sampling rate, or sample type changes between chunks of /vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/ember-incoming/000524/sourcedata/raw/ssa_gt_data/experiment_404
+Converting sessions:  67%|██████▋   | 43/64 [18:29:12<13:32, 38.71s/session]Traceback (most recent call last):
+  File "/vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/task-force/labs/sanes/code/batch_convert.py", line 130, in convert_batch
+    output_path = build_nwb(session_dir=session_dir, output_dir=output_dir, config_path=config_path)
+  File "/vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/task-force/labs/sanes/code/_sanes_to_nwb.py", line 472, in build_nwb
+    raise ValueError(
+        f"Audio channel count, sampling rate, or sample type changes between chunks of {session_dir}"
+    )
+ValueError: Audio channel count, sampling rate, or sample type changes between chunks of /vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/ember-incoming/000524/sourcedata/raw/ssa_gt_data/experiment_405
+FAILED: /vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/ember-incoming/000524/sourcedata/raw/ssa_gt_data/experiment_405: Audio channel count, sampling rate, or sample type changes between chunks of /vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/ember-incoming/000524/sourcedata/raw/ssa_gt_data/experiment_405
+Converting sessions:  69%|██████▉   | 44/64 [18:29:26<10:27, 31.35s/session]Traceback (most recent call last):
+  File "/vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/task-force/labs/sanes/code/batch_convert.py", line 130, in convert_batch
+    output_path = build_nwb(session_dir=session_dir, output_dir=output_dir, config_path=config_path)
+  File "/vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/task-force/labs/sanes/code/_sanes_to_nwb.py", line 472, in build_nwb
+    raise ValueError(
+        f"Audio channel count, sampling rate, or sample type changes between chunks of {session_dir}"
+    )
+ValueError: Audio channel count, sampling rate, or sample type changes between chunks of /vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/ember-incoming/000524/sourcedata/raw/ssa_gt_data/experiment_408
+FAILED: /vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/ember-incoming/000524/sourcedata/raw/ssa_gt_data/experiment_408: Audio channel count, sampling rate, or sample type changes between chunks of /vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/ember-incoming/000524/sourcedata/raw/ssa_gt_data/experiment_408
+Converting sessions:  70%|███████   | 45/64 [18:29:44<08:38, 27.29s/session]Traceback (most recent call last):
+  File "/vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/task-force/labs/sanes/code/batch_convert.py", line 130, in convert_batch
+    output_path = build_nwb(session_dir=session_dir, output_dir=output_dir, config_path=config_path)
+  File "/vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/task-force/labs/sanes/code/_sanes_to_nwb.py", line 472, in build_nwb
+    raise ValueError(
+        f"Audio channel count, sampling rate, or sample type changes between chunks of {session_dir}"
+    )
+ValueError: Audio channel count, sampling rate, or sample type changes between chunks of /vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/ember-incoming/000524/sourcedata/raw/ssa_gt_data/experiment_411
+FAILED: /vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/ember-incoming/000524/sourcedata/raw/ssa_gt_data/experiment_411: Audio channel count, sampling rate, or sample type changes between chunks of /vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/ember-incoming/000524/sourcedata/raw/ssa_gt_data/experiment_411
+Converting sessions:  72%|███████▏  | 46/64 [18:29:53<06:28, 21.60s/session]Traceback (most recent call last):
+  File "/vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/task-force/labs/sanes/code/batch_convert.py", line 130, in convert_batch
+    output_path = build_nwb(session_dir=session_dir, output_dir=output_dir, config_path=config_path)
+  File "/vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/task-force/labs/sanes/code/_sanes_to_nwb.py", line 472, in build_nwb
+    raise ValueError(
+        f"Audio channel count, sampling rate, or sample type changes between chunks of {session_dir}"
+    )
+ValueError: Audio channel count, sampling rate, or sample type changes between chunks of /vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/ember-incoming/000524/sourcedata/raw/ssa_gt_data/experiment_412
+FAILED: /vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/ember-incoming/000524/sourcedata/raw/ssa_gt_data/experiment_412: Audio channel count, sampling rate, or sample type changes between chunks of /vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/ember-incoming/000524/sourcedata/raw/ssa_gt_data/experiment_412
+Converting sessions:  73%|███████▎  | 47/64 [18:29:57<04:40, 16.50s/session]Traceback (most recent call last):
+  File "/vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/task-force/labs/sanes/code/batch_convert.py", line 130, in convert_batch
+    output_path = build_nwb(session_dir=session_dir, output_dir=output_dir, config_path=config_path)
+  File "/vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/task-force/labs/sanes/code/_sanes_to_nwb.py", line 472, in build_nwb
+    raise ValueError(
+        f"Audio channel count, sampling rate, or sample type changes between chunks of {session_dir}"
+    )
+ValueError: Audio channel count, sampling rate, or sample type changes between chunks of /vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/ember-incoming/000524/sourcedata/raw/ssa_gt_data/experiment_413
+FAILED: /vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/ember-incoming/000524/sourcedata/raw/ssa_gt_data/experiment_413: Audio channel count, sampling rate, or sample type changes between chunks of /vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/ember-incoming/000524/sourcedata/raw/ssa_gt_data/experiment_413
+Converting sessions:  75%|███████▌  | 48/64 [18:30:03<03:34, 13.39s/session]Traceback (most recent call last):
+  File "/vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/task-force/labs/sanes/code/batch_convert.py", line 130, in convert_batch
+    output_path = build_nwb(session_dir=session_dir, output_dir=output_dir, config_path=config_path)
+  File "/vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/task-force/labs/sanes/code/_sanes_to_nwb.py", line 472, in build_nwb
+    raise ValueError(
+        f"Audio channel count, sampling rate, or sample type changes between chunks of {session_dir}"
+    )
+ValueError: Audio channel count, sampling rate, or sample type changes between chunks of /vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/ember-incoming/000524/sourcedata/raw/ssa_gt_data/experiment_414
+FAILED: /vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/ember-incoming/000524/sourcedata/raw/ssa_gt_data/experiment_414: Audio channel count, sampling rate, or sample type changes between chunks of /vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/ember-incoming/000524/sourcedata/raw/ssa_gt_data/experiment_414
+Converting sessions:  77%|███████▋  | 49/64 [18:30:06<02:34, 10.28s/session]Traceback (most recent call last):
+  File "/vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/task-force/labs/sanes/code/batch_convert.py", line 130, in convert_batch
+    output_path = build_nwb(session_dir=session_dir, output_dir=output_dir, config_path=config_path)
+  File "/vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/task-force/labs/sanes/code/_sanes_to_nwb.py", line 472, in build_nwb
+    raise ValueError(
+        f"Audio channel count, sampling rate, or sample type changes between chunks of {session_dir}"
+    )
+ValueError: Audio channel count, sampling rate, or sample type changes between chunks of /vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/ember-incoming/000524/sourcedata/raw/ssa_gt_data/experiment_416
+FAILED: /vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/ember-incoming/000524/sourcedata/raw/ssa_gt_data/experiment_416: Audio channel count, sampling rate, or sample type changes between chunks of /vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/ember-incoming/000524/sourcedata/raw/ssa_gt_data/experiment_416
+Converting sessions:  78%|███████▊  | 50/64 [18:30:28<03:13, 13.82s/session]Traceback (most recent call last):
+  File "/vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/task-force/labs/sanes/code/batch_convert.py", line 130, in convert_batch
+    output_path = build_nwb(session_dir=session_dir, output_dir=output_dir, config_path=config_path)
+  File "/vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/task-force/labs/sanes/code/_sanes_to_nwb.py", line 472, in build_nwb
+    raise ValueError(
+        f"Audio channel count, sampling rate, or sample type changes between chunks of {session_dir}"
+    )
+ValueError: Audio channel count, sampling rate, or sample type changes between chunks of /vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/ember-incoming/000524/sourcedata/raw/ssa_gt_data/experiment_417
+FAILED: /vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/ember-incoming/000524/sourcedata/raw/ssa_gt_data/experiment_417: Audio channel count, sampling rate, or sample type changes between chunks of /vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/ember-incoming/000524/sourcedata/raw/ssa_gt_data/experiment_417
+Converting sessions:  80%|███████▉  | 51/64 [18:30:45<03:11, 14.77s/session]Traceback (most recent call last):
+  File "/vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/task-force/labs/sanes/code/batch_convert.py", line 130, in convert_batch
+    output_path = build_nwb(session_dir=session_dir, output_dir=output_dir, config_path=config_path)
+  File "/vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/task-force/labs/sanes/code/_sanes_to_nwb.py", line 472, in build_nwb
+    raise ValueError(
+        f"Audio channel count, sampling rate, or sample type changes between chunks of {session_dir}"
+    )
+ValueError: Audio channel count, sampling rate, or sample type changes between chunks of /vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/ember-incoming/000524/sourcedata/raw/ssa_gt_data/experiment_420
+FAILED: /vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/ember-incoming/000524/sourcedata/raw/ssa_gt_data/experiment_420: Audio channel count, sampling rate, or sample type changes between chunks of /vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/ember-incoming/000524/sourcedata/raw/ssa_gt_data/experiment_420
+Converting sessions:  81%|████████▏ | 52/64 [18:31:21<04:13, 21.12s/session]Traceback (most recent call last):
+  File "/vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/task-force/labs/sanes/code/batch_convert.py", line 130, in convert_batch
+    output_path = build_nwb(session_dir=session_dir, output_dir=output_dir, config_path=config_path)
+  File "/vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/task-force/labs/sanes/code/_sanes_to_nwb.py", line 472, in build_nwb
+    raise ValueError(
+        f"Audio channel count, sampling rate, or sample type changes between chunks of {session_dir}"
+    )
+ValueError: Audio channel count, sampling rate, or sample type changes between chunks of /vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/ember-incoming/000524/sourcedata/raw/ssa_gt_data/experiment_422
+FAILED: /vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/ember-incoming/000524/sourcedata/raw/ssa_gt_data/experiment_422: Audio channel count, sampling rate, or sample type changes between chunks of /vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/ember-incoming/000524/sourcedata/raw/ssa_gt_data/experiment_422
+Converting sessions:  83%|████████▎ | 53/64 [18:31:51<04:20, 23.69s/session]Traceback (most recent call last):
+  File "/vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/task-force/labs/sanes/code/batch_convert.py", line 130, in convert_batch
+    output_path = build_nwb(session_dir=session_dir, output_dir=output_dir, config_path=config_path)
+  File "/vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/task-force/labs/sanes/code/_sanes_to_nwb.py", line 472, in build_nwb
+    raise ValueError(
+        f"Audio channel count, sampling rate, or sample type changes between chunks of {session_dir}"
+    )
+ValueError: Audio channel count, sampling rate, or sample type changes between chunks of /vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/ember-incoming/000524/sourcedata/raw/ssa_gt_data/experiment_423
+FAILED: /vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/ember-incoming/000524/sourcedata/raw/ssa_gt_data/experiment_423: Audio channel count, sampling rate, or sample type changes between chunks of /vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/ember-incoming/000524/sourcedata/raw/ssa_gt_data/experiment_423
+Converting sessions:  84%|████████▍ | 54/64 [18:32:05<03:28, 20.86s/session]Traceback (most recent call last):
+  File "/vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/task-force/labs/sanes/code/batch_convert.py", line 130, in convert_batch
+    output_path = build_nwb(session_dir=session_dir, output_dir=output_dir, config_path=config_path)
+  File "/vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/task-force/labs/sanes/code/_sanes_to_nwb.py", line 472, in build_nwb
+    raise ValueError(
+        f"Audio channel count, sampling rate, or sample type changes between chunks of {session_dir}"
+    )
+ValueError: Audio channel count, sampling rate, or sample type changes between chunks of /vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/ember-incoming/000524/sourcedata/raw/ssa_gt_data/experiment_426
+FAILED: /vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/ember-incoming/000524/sourcedata/raw/ssa_gt_data/experiment_426: Audio channel count, sampling rate, or sample type changes between chunks of /vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/ember-incoming/000524/sourcedata/raw/ssa_gt_data/experiment_426
+Converting sessions:  86%|████████▌ | 55/64 [18:32:22<02:57, 19.71s/session]                                                                            Converting sessions:  86%|████████▌ | 55/64 [19:13:00<02:57, 19.71s/session]Converting sessions:  88%|████████▊ | 56/64 [19:13:00<1:39:19, 745.00s/session]                                                                               Converting sessions:  88%|████████▊ | 56/64 [19:44:58<1:39:19, 745.00s/session]Converting sessions:  89%|████████▉ | 57/64 [19:44:58<2:07:59, 1097.08s/session]Traceback (most recent call last):
+  File "/vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/task-force/labs/sanes/code/batch_convert.py", line 130, in convert_batch
+    output_path = build_nwb(session_dir=session_dir, output_dir=output_dir, config_path=config_path)
+  File "/vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/task-force/labs/sanes/code/_sanes_to_nwb.py", line 472, in build_nwb
+    raise ValueError(
+        f"Audio channel count, sampling rate, or sample type changes between chunks of {session_dir}"
+    )
+ValueError: Audio channel count, sampling rate, or sample type changes between chunks of /vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/ember-incoming/000524/sourcedata/raw/ssa_gt_data/experiment_437
+FAILED: /vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/ember-incoming/000524/sourcedata/raw/ssa_gt_data/experiment_437: Audio channel count, sampling rate, or sample type changes between chunks of /vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/ember-incoming/000524/sourcedata/raw/ssa_gt_data/experiment_437
+Converting sessions:  91%|█████████ | 58/64 [19:45:25<1:17:36, 776.05s/session] Traceback (most recent call last):
+  File "/vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/task-force/labs/sanes/code/batch_convert.py", line 130, in convert_batch
+    output_path = build_nwb(session_dir=session_dir, output_dir=output_dir, config_path=config_path)
+  File "/vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/task-force/labs/sanes/code/_sanes_to_nwb.py", line 472, in build_nwb
+    raise ValueError(
+        f"Audio channel count, sampling rate, or sample type changes between chunks of {session_dir}"
+    )
+ValueError: Audio channel count, sampling rate, or sample type changes between chunks of /vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/ember-incoming/000524/sourcedata/raw/ssa_gt_data/experiment_438
+FAILED: /vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/ember-incoming/000524/sourcedata/raw/ssa_gt_data/experiment_438: Audio channel count, sampling rate, or sample type changes between chunks of /vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/ember-incoming/000524/sourcedata/raw/ssa_gt_data/experiment_438
+Converting sessions:  92%|█████████▏| 59/64 [19:45:54<45:58, 551.80s/session]  Traceback (most recent call last):
+  File "/vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/task-force/labs/sanes/code/batch_convert.py", line 130, in convert_batch
+    output_path = build_nwb(session_dir=session_dir, output_dir=output_dir, config_path=config_path)
+  File "/vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/task-force/labs/sanes/code/_sanes_to_nwb.py", line 472, in build_nwb
+    raise ValueError(
+        f"Audio channel count, sampling rate, or sample type changes between chunks of {session_dir}"
+    )
+ValueError: Audio channel count, sampling rate, or sample type changes between chunks of /vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/ember-incoming/000524/sourcedata/raw/ssa_gt_data/experiment_439
+FAILED: /vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/ember-incoming/000524/sourcedata/raw/ssa_gt_data/experiment_439: Audio channel count, sampling rate, or sample type changes between chunks of /vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/ember-incoming/000524/sourcedata/raw/ssa_gt_data/experiment_439
+Converting sessions:  94%|█████████▍| 60/64 [19:46:21<26:18, 394.56s/session]Traceback (most recent call last):
+  File "/vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/task-force/labs/sanes/code/batch_convert.py", line 130, in convert_batch
+    output_path = build_nwb(session_dir=session_dir, output_dir=output_dir, config_path=config_path)
+  File "/vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/task-force/labs/sanes/code/_sanes_to_nwb.py", line 472, in build_nwb
+    raise ValueError(
+        f"Audio channel count, sampling rate, or sample type changes between chunks of {session_dir}"
+    )
+ValueError: Audio channel count, sampling rate, or sample type changes between chunks of /vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/ember-incoming/000524/sourcedata/raw/ssa_gt_data/experiment_442
+FAILED: /vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/ember-incoming/000524/sourcedata/raw/ssa_gt_data/experiment_442: Audio channel count, sampling rate, or sample type changes between chunks of /vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/ember-incoming/000524/sourcedata/raw/ssa_gt_data/experiment_442
+Converting sessions:  95%|█████████▌| 61/64 [19:46:38<14:03, 281.05s/session]                                                                             Converting sessions:  95%|█████████▌| 61/64 [19:55:30<14:03, 281.05s/session]Converting sessions:  97%|█████████▋| 62/64 [19:55:30<11:53, 356.57s/session]Traceback (most recent call last):
+  File "/vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/task-force/labs/sanes/code/batch_convert.py", line 130, in convert_batch
+    output_path = build_nwb(session_dir=session_dir, output_dir=output_dir, config_path=config_path)
+  File "/vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/task-force/labs/sanes/code/_sanes_to_nwb.py", line 472, in build_nwb
+    raise ValueError(
+        f"Audio channel count, sampling rate, or sample type changes between chunks of {session_dir}"
+    )
+ValueError: Audio channel count, sampling rate, or sample type changes between chunks of /vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/ember-incoming/000524/sourcedata/raw/ssa_gt_data/experiment_444
+FAILED: /vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/ember-incoming/000524/sourcedata/raw/ssa_gt_data/experiment_444: Audio channel count, sampling rate, or sample type changes between chunks of /vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/ember-incoming/000524/sourcedata/raw/ssa_gt_data/experiment_444
+Converting sessions:  98%|█████████▊| 63/64 [19:55:52<04:16, 256.19s/session]Traceback (most recent call last):
+  File "/vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/task-force/labs/sanes/code/batch_convert.py", line 130, in convert_batch
+    output_path = build_nwb(session_dir=session_dir, output_dir=output_dir, config_path=config_path)
+  File "/vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/task-force/labs/sanes/code/_sanes_to_nwb.py", line 472, in build_nwb
+    raise ValueError(
+        f"Audio channel count, sampling rate, or sample type changes between chunks of {session_dir}"
+    )
+ValueError: Audio channel count, sampling rate, or sample type changes between chunks of /vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/ember-incoming/000524/sourcedata/raw/ssa_gt_data/experiment_445
+FAILED: /vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/ember-incoming/000524/sourcedata/raw/ssa_gt_data/experiment_445: Audio channel count, sampling rate, or sample type changes between chunks of /vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/ember-incoming/000524/sourcedata/raw/ssa_gt_data/experiment_445
+Converting sessions: 100%|██████████| 64/64 [19:56:06<00:00, 183.38s/session]Converting sessions: 100%|██████████| 64/64 [19:56:06<00:00, 1121.35s/session]
