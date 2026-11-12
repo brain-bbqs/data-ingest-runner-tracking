@@ -13,7 +13,7 @@
 	image = envs/shepherd-r34da059723-ingest.sif
 	cmdexec = duct --fail-time 0 apptainer exec --cleanenv {img} {cmd}
 [datalad "containers.sanes-r34da059513-ingest"]
-	updateurl = docker://ghcr.io/brain-bbqs/sanes-r34da059513-ingest@sha256:6bfb94eb3223b686bc4401d8575e036c06b65fcfa478288830ddf2cf7fb59c8b
+	updateurl = docker://ghcr.io/brain-bbqs/sanes-r34da059513-ingest@sha256:76769b6b41b1d44042f92fd5b1f67a7a32123fbfb0ddc6b5eb87b00143dd85b9
 	image = envs/sanes-r34da059513-ingest.sif
 	cmdexec = duct --fail-time 0 apptainer exec --cleanenv {img} {cmd}
 [datalad "containers.suthana-in-lab-r61mh135106-ingest"]
