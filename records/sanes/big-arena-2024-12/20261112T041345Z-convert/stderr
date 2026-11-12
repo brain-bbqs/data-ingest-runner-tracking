@@ -1,0 +1,139 @@
+INFO:    fuse2fs not found, will not be able to mount EXT3 filesystems
+Converting sessions:   0%|          | 0/11 [00:00<?, ?session/s]Traceback (most recent call last):
+  File "/vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/task-force/labs/sanes/code/batch_convert.py", line 130, in convert_batch
+    output_path = build_nwb(session_dir=session_dir, output_dir=output_dir, config_path=config_path)
+  File "/vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/task-force/labs/sanes/code/_sanes_to_nwb.py", line 446, in build_nwb
+    output_path = _build_synced_nwb(session_dir=session_dir, output_dir=output_dir, cfg=cfg)
+  File "/vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/task-force/labs/sanes/code/_sanes_to_nwb.py", line 907, in _build_synced_nwb
+    row["audio_duration_residual"] = _check_sync_timing(
+                                     ~~~~~~~~~~~~~~~~~~^
+        actual=samples / rate,
+        ^^^^^^^^^^^^^^^^^^^^^^
+    ...<2 lines>...
+        description=f"audio duration {row['segment']}",
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/task-force/labs/sanes/code/_sanes_to_nwb.py", line 779, in _check_sync_timing
+    raise ValueError(f"Timing conflict for {description}: measured {actual:g}s, expected {expected:g}s")
+ValueError: Timing conflict for audio duration 000: measured 359.948s, expected 360s
+FAILED: /vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/ember-incoming/000601/sourcedata/raw/experiment_109: Timing conflict for audio duration 000: measured 359.948s, expected 360s
+Converting sessions:   9%|▉         | 1/11 [00:00<00:05,  1.86session/s]Traceback (most recent call last):
+  File "/vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/task-force/labs/sanes/code/batch_convert.py", line 130, in convert_batch
+    output_path = build_nwb(session_dir=session_dir, output_dir=output_dir, config_path=config_path)
+  File "/vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/task-force/labs/sanes/code/_sanes_to_nwb.py", line 446, in build_nwb
+    output_path = _build_synced_nwb(session_dir=session_dir, output_dir=output_dir, cfg=cfg)
+  File "/vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/task-force/labs/sanes/code/_sanes_to_nwb.py", line 878, in _build_synced_nwb
+    rows = _read_sync_manifest(folder=folder, timezone=cfg["session"]["timezone"])
+  File "/vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/task-force/labs/sanes/code/_sanes_to_nwb.py", line 657, in _read_sync_manifest
+    raise ValueError(f"Missing manifest media: {path}")
+ValueError: Missing manifest media: /vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/ember-incoming/000601/sourcedata/raw/experiment_110/concatenated_data_cam_mic_sync/video_underground_000.mp4
+FAILED: /vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/ember-incoming/000601/sourcedata/raw/experiment_110: Missing manifest media: /vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/ember-incoming/000601/sourcedata/raw/experiment_110/concatenated_data_cam_mic_sync/video_underground_000.mp4
+Traceback (most recent call last):
+  File "/vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/task-force/labs/sanes/code/batch_convert.py", line 130, in convert_batch
+    output_path = build_nwb(session_dir=session_dir, output_dir=output_dir, config_path=config_path)
+  File "/vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/task-force/labs/sanes/code/_sanes_to_nwb.py", line 446, in build_nwb
+    output_path = _build_synced_nwb(session_dir=session_dir, output_dir=output_dir, cfg=cfg)
+  File "/vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/task-force/labs/sanes/code/_sanes_to_nwb.py", line 878, in _build_synced_nwb
+    rows = _read_sync_manifest(folder=folder, timezone=cfg["session"]["timezone"])
+  File "/vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/task-force/labs/sanes/code/_sanes_to_nwb.py", line 657, in _read_sync_manifest
+    raise ValueError(f"Missing manifest media: {path}")
+ValueError: Missing manifest media: /vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/ember-incoming/000601/sourcedata/raw/experiment_111/concatenated_data_cam_mic_sync/video_underground_001.mp4
+FAILED: /vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/ember-incoming/000601/sourcedata/raw/experiment_111: Missing manifest media: /vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/ember-incoming/000601/sourcedata/raw/experiment_111/concatenated_data_cam_mic_sync/video_underground_001.mp4
+Traceback (most recent call last):
+  File "/vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/task-force/labs/sanes/code/batch_convert.py", line 130, in convert_batch
+    output_path = build_nwb(session_dir=session_dir, output_dir=output_dir, config_path=config_path)
+  File "/vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/task-force/labs/sanes/code/_sanes_to_nwb.py", line 446, in build_nwb
+    output_path = _build_synced_nwb(session_dir=session_dir, output_dir=output_dir, cfg=cfg)
+  File "/vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/task-force/labs/sanes/code/_sanes_to_nwb.py", line 878, in _build_synced_nwb
+    rows = _read_sync_manifest(folder=folder, timezone=cfg["session"]["timezone"])
+  File "/vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/task-force/labs/sanes/code/_sanes_to_nwb.py", line 657, in _read_sync_manifest
+    raise ValueError(f"Missing manifest media: {path}")
+ValueError: Missing manifest media: /vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/ember-incoming/000601/sourcedata/raw/experiment_112/concatenated_data_cam_mic_sync/video_gily_underground_066.mp4
+FAILED: /vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/ember-incoming/000601/sourcedata/raw/experiment_112: Missing manifest media: /vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/ember-incoming/000601/sourcedata/raw/experiment_112/concatenated_data_cam_mic_sync/video_gily_underground_066.mp4
+Converting sessions:  36%|███▋      | 4/11 [00:00<00:01,  6.43session/s]Traceback (most recent call last):
+  File "/vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/task-force/labs/sanes/code/batch_convert.py", line 130, in convert_batch
+    output_path = build_nwb(session_dir=session_dir, output_dir=output_dir, config_path=config_path)
+  File "/vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/task-force/labs/sanes/code/_sanes_to_nwb.py", line 446, in build_nwb
+    output_path = _build_synced_nwb(session_dir=session_dir, output_dir=output_dir, cfg=cfg)
+  File "/vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/task-force/labs/sanes/code/_sanes_to_nwb.py", line 878, in _build_synced_nwb
+    rows = _read_sync_manifest(folder=folder, timezone=cfg["session"]["timezone"])
+  File "/vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/task-force/labs/sanes/code/_sanes_to_nwb.py", line 657, in _read_sync_manifest
+    raise ValueError(f"Missing manifest media: {path}")
+ValueError: Missing manifest media: /vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/ember-incoming/000601/sourcedata/raw/experiment_113/concatenated_data_cam_mic_sync/video_center_035.mp4
+FAILED: /vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/ember-incoming/000601/sourcedata/raw/experiment_113: Missing manifest media: /vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/ember-incoming/000601/sourcedata/raw/experiment_113/concatenated_data_cam_mic_sync/video_center_035.mp4
+Traceback (most recent call last):
+  File "/vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/task-force/labs/sanes/code/batch_convert.py", line 130, in convert_batch
+    output_path = build_nwb(session_dir=session_dir, output_dir=output_dir, config_path=config_path)
+  File "/vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/task-force/labs/sanes/code/_sanes_to_nwb.py", line 446, in build_nwb
+    output_path = _build_synced_nwb(session_dir=session_dir, output_dir=output_dir, cfg=cfg)
+  File "/vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/task-force/labs/sanes/code/_sanes_to_nwb.py", line 907, in _build_synced_nwb
+    row["audio_duration_residual"] = _check_sync_timing(
+                                     ~~~~~~~~~~~~~~~~~~^
+        actual=samples / rate,
+        ^^^^^^^^^^^^^^^^^^^^^^
+    ...<2 lines>...
+        description=f"audio duration {row['segment']}",
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/task-force/labs/sanes/code/_sanes_to_nwb.py", line 779, in _check_sync_timing
+    raise ValueError(f"Timing conflict for {description}: measured {actual:g}s, expected {expected:g}s")
+ValueError: Timing conflict for audio duration 000: measured 359.948s, expected 360s
+FAILED: /vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/ember-incoming/000601/sourcedata/raw/experiment_114: Timing conflict for audio duration 000: measured 359.948s, expected 360s
+Converting sessions:  55%|█████▍    | 6/11 [00:01<00:01,  4.75session/s]Traceback (most recent call last):
+  File "/vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/task-force/labs/sanes/code/batch_convert.py", line 130, in convert_batch
+    output_path = build_nwb(session_dir=session_dir, output_dir=output_dir, config_path=config_path)
+  File "/vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/task-force/labs/sanes/code/_sanes_to_nwb.py", line 446, in build_nwb
+    output_path = _build_synced_nwb(session_dir=session_dir, output_dir=output_dir, cfg=cfg)
+  File "/vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/task-force/labs/sanes/code/_sanes_to_nwb.py", line 878, in _build_synced_nwb
+    rows = _read_sync_manifest(folder=folder, timezone=cfg["session"]["timezone"])
+  File "/vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/task-force/labs/sanes/code/_sanes_to_nwb.py", line 657, in _read_sync_manifest
+    raise ValueError(f"Missing manifest media: {path}")
+ValueError: Missing manifest media: /vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/ember-incoming/000601/sourcedata/raw/experiment_115/concatenated_data_cam_mic_sync/channel_00_file_000.wav
+FAILED: /vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/ember-incoming/000601/sourcedata/raw/experiment_115: Missing manifest media: /vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/ember-incoming/000601/sourcedata/raw/experiment_115/concatenated_data_cam_mic_sync/channel_00_file_000.wav
+Traceback (most recent call last):
+  File "/vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/task-force/labs/sanes/code/batch_convert.py", line 130, in convert_batch
+    output_path = build_nwb(session_dir=session_dir, output_dir=output_dir, config_path=config_path)
+  File "/vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/task-force/labs/sanes/code/_sanes_to_nwb.py", line 446, in build_nwb
+    output_path = _build_synced_nwb(session_dir=session_dir, output_dir=output_dir, cfg=cfg)
+  File "/vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/task-force/labs/sanes/code/_sanes_to_nwb.py", line 878, in _build_synced_nwb
+    rows = _read_sync_manifest(folder=folder, timezone=cfg["session"]["timezone"])
+  File "/vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/task-force/labs/sanes/code/_sanes_to_nwb.py", line 652, in _read_sync_manifest
+    raise ValueError(f"Invalid or duplicate sync.csv filename: {name}")
+ValueError: Invalid or duplicate sync.csv filename: channel_0_0
+FAILED: /vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/ember-incoming/000601/sourcedata/raw/experiment_116: Invalid or duplicate sync.csv filename: channel_0_0
+Traceback (most recent call last):
+  File "/vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/task-force/labs/sanes/code/batch_convert.py", line 130, in convert_batch
+    output_path = build_nwb(session_dir=session_dir, output_dir=output_dir, config_path=config_path)
+  File "/vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/task-force/labs/sanes/code/_sanes_to_nwb.py", line 446, in build_nwb
+    output_path = _build_synced_nwb(session_dir=session_dir, output_dir=output_dir, cfg=cfg)
+  File "/vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/task-force/labs/sanes/code/_sanes_to_nwb.py", line 878, in _build_synced_nwb
+    rows = _read_sync_manifest(folder=folder, timezone=cfg["session"]["timezone"])
+  File "/vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/task-force/labs/sanes/code/_sanes_to_nwb.py", line 657, in _read_sync_manifest
+    raise ValueError(f"Missing manifest media: {path}")
+ValueError: Missing manifest media: /vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/ember-incoming/000601/sourcedata/raw/experiment_97/concatenated_data_cam_mic_sync/video_underground_006.mp4
+FAILED: /vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/ember-incoming/000601/sourcedata/raw/experiment_97: Missing manifest media: /vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/ember-incoming/000601/sourcedata/raw/experiment_97/concatenated_data_cam_mic_sync/video_underground_006.mp4
+Traceback (most recent call last):
+  File "/vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/task-force/labs/sanes/code/batch_convert.py", line 130, in convert_batch
+    output_path = build_nwb(session_dir=session_dir, output_dir=output_dir, config_path=config_path)
+  File "/vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/task-force/labs/sanes/code/_sanes_to_nwb.py", line 446, in build_nwb
+    output_path = _build_synced_nwb(session_dir=session_dir, output_dir=output_dir, cfg=cfg)
+  File "/vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/task-force/labs/sanes/code/_sanes_to_nwb.py", line 878, in _build_synced_nwb
+    rows = _read_sync_manifest(folder=folder, timezone=cfg["session"]["timezone"])
+  File "/vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/task-force/labs/sanes/code/_sanes_to_nwb.py", line 657, in _read_sync_manifest
+    raise ValueError(f"Missing manifest media: {path}")
+ValueError: Missing manifest media: /vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/ember-incoming/000601/sourcedata/raw/experiment_98/concatenated_data_cam_mic_sync/video_underground_004.mp4
+FAILED: /vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/ember-incoming/000601/sourcedata/raw/experiment_98: Missing manifest media: /vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/ember-incoming/000601/sourcedata/raw/experiment_98/concatenated_data_cam_mic_sync/video_underground_004.mp4
+Traceback (most recent call last):
+  File "/vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/task-force/labs/sanes/code/batch_convert.py", line 130, in convert_batch
+    output_path = build_nwb(session_dir=session_dir, output_dir=output_dir, config_path=config_path)
+  File "/vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/task-force/labs/sanes/code/_sanes_to_nwb.py", line 446, in build_nwb
+    output_path = _build_synced_nwb(session_dir=session_dir, output_dir=output_dir, cfg=cfg)
+  File "/vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/task-force/labs/sanes/code/_sanes_to_nwb.py", line 878, in _build_synced_nwb
+    rows = _read_sync_manifest(folder=folder, timezone=cfg["session"]["timezone"])
+  File "/vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/task-force/labs/sanes/code/_sanes_to_nwb.py", line 657, in _read_sync_manifest
+    raise ValueError(f"Missing manifest media: {path}")
+ValueError: Missing manifest media: /vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/ember-incoming/000601/sourcedata/raw/experiment_99/concatenated_data_cam_mic_sync/video_underground_003.mp4
+FAILED: /vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/ember-incoming/000601/sourcedata/raw/experiment_99: Missing manifest media: /vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/ember-incoming/000601/sourcedata/raw/experiment_99/concatenated_data_cam_mic_sync/video_underground_003.mp4
+Converting sessions: 100%|██████████| 11/11 [00:01<00:00, 10.40session/s]Converting sessions: 100%|██████████| 11/11 [00:01<00:00,  7.78session/s]
