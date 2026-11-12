@@ -1,0 +1,5 @@
+INFO:    fuse2fs not found, will not be able to mount EXT3 filesystems
+2026-11-12 03:35:39,876 [ WARNING] Server uses schema version 0.7.0 older than client's 0.8.0 (dandischema library 0.14.0). Library will attempt (but might fail) to downgrade outgoing metadata to this schema version on upload. Server might fail to validate such assets and you might not be able to publish this dandiset until server is upgraded. Alternatively, you may downgrade dandischema and reupload.
+2026-11-12 03:35:42,311 [    INFO] Found 127 files to consider
+2026-11-12 03:52:05,717 [    INFO] Logs saved in /home/cbaker/.local/state/dandi-cli/log/2026.11.12-03.35.39Z-980319.log
+Error: Failed to extract metadata: ISO 8601 expected, but 'PROVISIONAL' was received. Verify the file format is correct and supported.
