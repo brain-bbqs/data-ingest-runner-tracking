@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="290" viewBox="0 0 720 290" role="img" aria-labelledby="title desc">
+<title id="title">Runner disk usage</title>
+<desc id="desc">39% used: 39T of 101T, 62T free on /vol/storage/ember. Updated 2026-11-13 18:23 UTC.</desc>
+<style>
+  svg { --surface: #fcfcfb; --text-primary: #0b0b0b; --text-secondary: #52514e; --grid: #e2e1dc; --series: #2a78d6; --critical: #d03b3b; }
+  @media (prefers-color-scheme: dark) {
+    svg { --surface: #1a1a19; --text-primary: #ffffff; --text-secondary: #c3c2b7; --grid: #383835; --series: #3987e5; --critical: #e66767; }
+  }
+  text { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif; fill: var(--text-secondary); font-size: 12px; }
+  .surface { fill: var(--surface); }
+  .label { font-size: 13px; }
+  .hero { fill: var(--text-primary); font-size: 40px; font-weight: 600; }
+  .detail { fill: var(--text-primary); font-size: 15px; }
+  .tick { font-size: 11px; font-variant-numeric: tabular-nums; }
+  .grid { stroke: var(--grid); stroke-width: 1; }
+  .threshold { stroke: var(--text-secondary); stroke-width: 1; stroke-dasharray: 4 4; }
+  .series { fill: none; stroke: var(--series); stroke-width: 2; stroke-linejoin: round; stroke-linecap: round; }
+  .dot { fill: var(--series); stroke: var(--surface); stroke-width: 2; }
+  .critical { fill: var(--critical); font-size: 13px; font-weight: 600; }
+</style>
+<rect class="surface" width="720" height="290" rx="8"/>
+<text class="label" x="24" y="28">Runner work drive · /vol/storage/ember</text>
+
+<text class="hero" x="24" y="74">39% used</text>
+<text class="detail" x="24" y="98">39T of 101T used · 62T free</text>
+<text class="label" x="24" y="124">Use over time</text>
+<line class="grid" x1="56" x2="690" y1="232.0" y2="232.0"/><text class="tick" x="48" y="236.0" text-anchor="end">0%</text><line class="grid" x1="56" x2="690" y1="136.0" y2="136.0"/><text class="tick" x="48" y="140.0" text-anchor="end">100%</text>
+<line class="threshold" x1="56" x2="690" y1="184.0" y2="184.0"/>
+<text class="tick" x="48" y="188.0" text-anchor="end">50%</text>
+<text class="tick" x="62" y="178.0">alert threshold</text>
+<polyline class="series" points="56.0,203.2 66.4,203.2 67.8,203.2 69.1,203.2 71.0,203.2 78.7,202.2 84.5,202.2 98.7,202.2 98.8,202.2 125.1,202.2 126.2,202.2 141.9,202.2 157.7,202.2 173.7,202.2 190.2,202.2 213.7,198.4 220.4,198.4 236.3,198.4 252.0,198.4 268.0,198.4 284.0,198.4 300.0,198.4 315.7,198.4 331.6,198.4 347.5,198.4 363.3,198.4 379.5,198.4 395.1,198.4 411.2,198.4 427.4,198.4 443.4,198.4 459.3,198.4 486.1,195.5 492.6,195.5 508.5,195.5 524.8,195.5 540.4,195.5 556.5,195.5 572.3,195.5 587.8,195.5 603.7,195.5 633.9,195.5 636.5,195.5 665.4,195.5 690.0,194.6"/>
+<circle class="dot" cx="690.0" cy="194.6" r="4"/>
+<text class="tick" x="690" y="250" text-anchor="end">2026-11-13</text><text class="tick" x="56" y="250">2026-10-04</text>
+<text x="24" y="278">Updated 2026-11-13 18:23 UTC</text>
+</svg>
