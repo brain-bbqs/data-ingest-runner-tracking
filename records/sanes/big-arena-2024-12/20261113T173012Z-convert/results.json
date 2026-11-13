@@ -1,0 +1,16 @@
+{
+  "failed": {
+    "experiment_109": "Timing conflict for audio duration 000: measured 359.948s, expected 360s",
+    "experiment_110": "Missing manifest media: /vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/ember-incoming/000601/sourcedata/raw/experiment_110/concatenated_data_cam_mic_sync/video_underground_000.mp4",
+    "experiment_111": "Missing manifest media: /vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/ember-incoming/000601/sourcedata/raw/experiment_111/concatenated_data_cam_mic_sync/video_underground_001.mp4",
+    "experiment_112": "Missing manifest media: /vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/ember-incoming/000601/sourcedata/raw/experiment_112/concatenated_data_cam_mic_sync/video_gily_underground_066.mp4",
+    "experiment_113": "Missing manifest media: /vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/ember-incoming/000601/sourcedata/raw/experiment_113/concatenated_data_cam_mic_sync/video_center_035.mp4",
+    "experiment_114": "Timing conflict for audio duration 000: measured 359.948s, expected 360s",
+    "experiment_115": "Missing manifest media: /vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/ember-incoming/000601/sourcedata/raw/experiment_115/concatenated_data_cam_mic_sync/channel_00_file_000.wav",
+    "experiment_116": "Invalid or duplicate sync.csv filename: channel_0_0",
+    "experiment_97": "Missing manifest media: /vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/ember-incoming/000601/sourcedata/raw/experiment_97/concatenated_data_cam_mic_sync/video_underground_006.mp4",
+    "experiment_98": "Missing manifest media: /vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/ember-incoming/000601/sourcedata/raw/experiment_98/concatenated_data_cam_mic_sync/video_underground_004.mp4",
+    "experiment_99": "Missing manifest media: /vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/ember-incoming/000601/sourcedata/raw/experiment_99/concatenated_data_cam_mic_sync/video_underground_003.mp4"
+  },
+  "pending": {}
+}
