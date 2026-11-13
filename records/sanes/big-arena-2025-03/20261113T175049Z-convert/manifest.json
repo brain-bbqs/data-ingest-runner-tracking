@@ -1,0 +1,21 @@
+{
+  "command": [
+    "python3",
+    "/vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/task-force/labs/sanes/code/batch_convert.py",
+    "--input",
+    "/vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/ember-incoming/000602/sourcedata/raw",
+    "--output",
+    "/vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/ember-standardized/000630",
+    "--config",
+    "/vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/task-force/labs/sanes/code/config_big_arena_2025_03.yaml",
+    "--results",
+    "/vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/ember-tracking/records/sanes/big-arena-2025-03/20261113T175049Z-convert/results.json",
+    "--overwrite"
+  ],
+  "exit_code": 1,
+  "finished_at": "2026-11-13T17:50:55+00:00",
+  "removed": [],
+  "root": "/vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/ember-standardized/000630",
+  "started_at": "2026-11-13T17:50:51+00:00",
+  "written": []
+}
