@@ -1,0 +1,6 @@
+{
+  "image": "docker://ghcr.io/brain-bbqs/dandi-cli@sha256:a92a13d64b2c6bdf14553c2601ba7852d4e7a60960afa778c2c6ee11398a7920",
+  "project": "sanes/ssa-gt",
+  "standardized_dandiset_id": "000606",
+  "step": "upload"
+}
