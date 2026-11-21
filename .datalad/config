@@ -29,6 +29,6 @@
 	image = envs/zhang-ferret-hyperscanning-r34da061924-ingest.sif
 	cmdexec = duct --fail-time 0 apptainer exec --cleanenv {img} {cmd}
 [datalad "containers.inman-r61mh135109-ingest"]
-	updateurl = docker://ghcr.io/brain-bbqs/inman-r61mh135109-ingest@sha256:43db6b92568374d9502acc93672f24190d60601497f0ec51f4d2fb8ab63a8bbb
+	updateurl = docker://ghcr.io/brain-bbqs/inman-r61mh135109-ingest@sha256:29144093da82d32fc6198f9a6c6736f96faf6ef541757455acb0fa438509cca9
 	image = envs/inman-r61mh135109-ingest.sif
 	cmdexec = duct --fail-time 0 apptainer exec --cleanenv {img} {cmd}
