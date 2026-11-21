@@ -1,0 +1,2717 @@
+{
+  "command": [
+    "python3",
+    "/vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/task-force/labs/zhang/ferret-hyperscanning/code/batch_convert.py",
+    "--input",
+    "/vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/ember-incoming/000480",
+    "--output",
+    "/vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/ember-standardized/000547",
+    "--config",
+    "/vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/task-force/labs/zhang/ferret-hyperscanning/code/config.yaml",
+    "--results",
+    "/vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/ember-tracking/records/zhang/ferret-hyperscanning/20261120T090651Z-convert/results.json",
+    "--overwrite"
+  ],
+  "exit_code": 1,
+  "finished_at": "2026-11-20T22:37:38+00:00",
+  "removed": [],
+  "root": "/vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/ember-standardized/000547",
+  "started_at": "2026-11-20T09:07:53+00:00",
+  "written": [
+    {
+      "path": "sub-0235/sub-0235_ses-20260306T154144_behavior+ecephys.nwb",
+      "sha256": "454e30d07f3c73e357ae9101ed426744172644970b1ce886fe01b01c00d31739",
+      "size": 740926442
+    },
+    {
+      "path": "sub-0235/sub-0235_ses-20260306T154144_cam14_calibration.avi",
+      "sha256": "edc9790edb36012e6b06975c1bac721eab5e541f564e6eabf2cfcf35b4ea5e2c",
+      "size": 3487083822
+    },
+    {
+      "path": "sub-0235/sub-0235_ses-20260306T154144_cam14_video.avi",
+      "sha256": "01762c0c1f3fcb433bf749f794a067d2b249c38367f25702aeb473524e09da90",
+      "size": 19615339926
+    },
+    {
+      "path": "sub-0235/sub-0235_ses-20260306T154144_cam46_calibration.avi",
+      "sha256": "ebd6febe2c4d031a17f2bad3661f7ba9450b1377ed19a0a5e39c653416671cae",
+      "size": 3487083822
+    },
+    {
+      "path": "sub-0235/sub-0235_ses-20260306T154144_cam46_video.avi",
+      "sha256": "224e74fdd617190a3ac3d50d8a5f8877884dde394c67292aae3164081c79f434",
+      "size": 19615339926
+    },
+    {
+      "path": "sub-0235/sub-0235_ses-20260306T154144_cam58_calibration.avi",
+      "sha256": "724c403b02f3a35198be957f27b65b16e5dbd4624d77fb5e59020d21af92f877",
+      "size": 3487083822
+    },
+    {
+      "path": "sub-0235/sub-0235_ses-20260306T154144_cam58_video.avi",
+      "sha256": "9c2a2ad9789bdb98afaddce5b46f58eb1835dc0fc7a1620611669ce669ed2dbd",
+      "size": 19615339926
+    },
+    {
+      "path": "sub-0235/sub-0235_ses-20260306T154144_cam67_calibration.avi",
+      "sha256": "20cbc887cac3e676a0a1fddcb13103f3f91aaf7155463f92fecf0502bbff51ae",
+      "size": 3487083822
+    },
+    {
+      "path": "sub-0235/sub-0235_ses-20260306T154144_cam67_video.avi",
+      "sha256": "51a8cf3af89935878eb51e13036cd39e4aba71b8f1b0e5092bc76c31f99a574a",
+      "size": 19615339926
+    },
+    {
+      "path": "sub-0235/sub-0235_ses-20260306T154144_cam68_calibration.avi",
+      "sha256": "c2215ec76fd5924cf9ef895fa1b5e0645986118a336a2adc25268af5b1c3272e",
+      "size": 3487083822
+    },
+    {
+      "path": "sub-0235/sub-0235_ses-20260306T154144_cam68_video.avi",
+      "sha256": "96b23158f2db7e8505d32ae7321b5cbb3b4eac0f5b8f951fd81ec54df178eccc",
+      "size": 19615339926
+    },
+    {
+      "path": "sub-0235/sub-0235_ses-20260308T142653_behavior+ecephys.nwb",
+      "sha256": "78732818f89ecfc1ffc1be57553d10bb05f8470a9034c65895a4fd6cb4d0558a",
+      "size": 749379791
+    },
+    {
+      "path": "sub-0235/sub-0235_ses-20260308T142653_cam14_calibration.avi",
+      "sha256": "0a15526c3974ace7cfea0f886ba4ecd0e72cded1d4678f304fb77ba574af15a6",
+      "size": 3151151350
+    },
+    {
+      "path": "sub-0235/sub-0235_ses-20260308T142653_cam14_video.avi",
+      "sha256": "034ae6286d9d6904267033aacc14beb23734b219f2234ceef6ee060614122d0e",
+      "size": 23993542662
+    },
+    {
+      "path": "sub-0235/sub-0235_ses-20260308T142653_cam46_calibration.avi",
+      "sha256": "b9c6714f4bc4131d1635756bbd6301dfc1289454b4fdf267748171211347b4d1",
+      "size": 3151151350
+    },
+    {
+      "path": "sub-0235/sub-0235_ses-20260308T142653_cam46_video.avi",
+      "sha256": "45dac40cd5b723f2b9a2777b4ef60bf7483082db82ac6ef157ef9f9c6ce826a8",
+      "size": 23993542662
+    },
+    {
+      "path": "sub-0235/sub-0235_ses-20260308T142653_cam58_calibration.avi",
+      "sha256": "4f0b722e9578c2328430d87db8a4d98a4e5ae142a1e7bf9d46db784e0a864eea",
+      "size": 3151151350
+    },
+    {
+      "path": "sub-0235/sub-0235_ses-20260308T142653_cam58_video.avi",
+      "sha256": "d069ee119287af16e03c01660ab6b0275ba433a52eb997f7bf8880df2b3e944c",
+      "size": 23993542662
+    },
+    {
+      "path": "sub-0235/sub-0235_ses-20260308T142653_cam67_calibration.avi",
+      "sha256": "1c265573eeb2fdffc5f60767d7ea06bfb2f34fe2e69c92ee5127c490c707f519",
+      "size": 3151151350
+    },
+    {
+      "path": "sub-0235/sub-0235_ses-20260308T142653_cam67_video.avi",
+      "sha256": "4eb69431881691858eb717e3e7bd5cc356c2c5d58aa4b27b678278382bf6201b",
+      "size": 23993542662
+    },
+    {
+      "path": "sub-0235/sub-0235_ses-20260308T142653_cam68_calibration.avi",
+      "sha256": "8375e354855722317eb9fffb4b9e88f2a9266f483d9dbd40b9f7e5bdcbd6aa7c",
+      "size": 3151151350
+    },
+    {
+      "path": "sub-0235/sub-0235_ses-20260308T142653_cam68_video.avi",
+      "sha256": "1ee4b78b19a347ceee4af87ceb5ac0b1a6f735173c3cc1152abc8624bd65ad0e",
+      "size": 23993542662
+    },
+    {
+      "path": "sub-0235/sub-0235_ses-20260308T164051_behavior+ecephys.nwb",
+      "sha256": "2d392ae7e29e527afd6ec2d588810f34ccb38e2a7dc2fe433a9a305ad1b71b44",
+      "size": 1134461267
+    },
+    {
+      "path": "sub-0235/sub-0235_ses-20260308T164051_cam14_calibration.avi",
+      "sha256": "2f82061320a53fe18800c81b0a0395f904dbcfa34b9d5ec90af5ec35eae403f2",
+      "size": 3429928654
+    },
+    {
+      "path": "sub-0235/sub-0235_ses-20260308T164051_cam46_calibration.avi",
+      "sha256": "31a3b41d4af869964aa5df46a8fb461e11115b1265b36122c2caa8d80df6e2b0",
+      "size": 3429928654
+    },
+    {
+      "path": "sub-0235/sub-0235_ses-20260308T164051_cam58_calibration.avi",
+      "sha256": "28f4c3446638367160b286a05baa8b2871f464864c24c47240d1e51477d438fb",
+      "size": 3429928654
+    },
+    {
+      "path": "sub-0235/sub-0235_ses-20260308T164051_cam67_calibration.avi",
+      "sha256": "c6585d030c753614c53b413a6d25340a958976133096ce3abc879f727c5851fb",
+      "size": 3429928654
+    },
+    {
+      "path": "sub-0235/sub-0235_ses-20260308T164051_cam68_calibration.avi",
+      "sha256": "69297d2826987416dbeb351b55a7cef5f433e8935668df2663188385ba3bef04",
+      "size": 3429928654
+    },
+    {
+      "path": "sub-0235/sub-0235_ses-20260309T165419_behavior+ecephys.nwb",
+      "sha256": "e7006b12db400aa0f65b2b6e9439e5e1893d83ba27d01c682eb4dff6874cc172",
+      "size": 609493802
+    },
+    {
+      "path": "sub-0235/sub-0235_ses-20260309T165419_cam14_calibration.avi",
+      "sha256": "cd47019ee1f0d32407b02b1fa94572d5753771975ba7c08aa4dbd040ff10c7de",
+      "size": 3224636622
+    },
+    {
+      "path": "sub-0235/sub-0235_ses-20260309T165419_cam46_calibration.avi",
+      "sha256": "ef6537d00e852e992b0d8a6e6edc9ac8045a6eb48c95330824894e36dfa9fa22",
+      "size": 3224636622
+    },
+    {
+      "path": "sub-0235/sub-0235_ses-20260309T165419_cam58_calibration.avi",
+      "sha256": "d525216b7cd9f11ae42e2778e602899e28ed03c61352d8c8eed6b79c5f0bc4e9",
+      "size": 3224636622
+    },
+    {
+      "path": "sub-0235/sub-0235_ses-20260309T165419_cam67_calibration.avi",
+      "sha256": "225883e236247c99c888fed6fe28d96e15d41f7231a9f4b0876d992f5722d357",
+      "size": 3224636622
+    },
+    {
+      "path": "sub-0235/sub-0235_ses-20260309T165419_cam68_calibration.avi",
+      "sha256": "092437e6dbc7637fd74182a4030c692333f7ea55dc69706fbd9b6e579ea548bd",
+      "size": 3224636622
+    },
+    {
+      "path": "sub-0235/sub-0235_ses-20260310T114913_behavior+ecephys.nwb",
+      "sha256": "34667ba3e48beb5220b65453e65a4d2f2f2b34800d52c5763e263362e085dc1a",
+      "size": 1405015615
+    },
+    {
+      "path": "sub-0235/sub-0235_ses-20260310T114913_cam14_calibration.avi",
+      "sha256": "5b55cbee25a1590719f3161d7416e144a286155bc2ca6f4cefc8c2c940f1062f",
+      "size": 4046971182
+    },
+    {
+      "path": "sub-0235/sub-0235_ses-20260310T114913_cam46_calibration.avi",
+      "sha256": "9b7dca444b7de32e29b2f339058a03ec50456e9693402a05cb59086e886efb0f",
+      "size": 4046971182
+    },
+    {
+      "path": "sub-0235/sub-0235_ses-20260310T114913_cam58_calibration.avi",
+      "sha256": "af667229a260eb5e4fe84a73c96b38bd59351f3eb53c9c09f38d47ed957f3295",
+      "size": 4046971182
+    },
+    {
+      "path": "sub-0235/sub-0235_ses-20260310T114913_cam67_calibration.avi",
+      "sha256": "3bc5ab9ce5088234193cc183659de867b9ec5488f7bfbc0baa0926635e16b669",
+      "size": 4046971182
+    },
+    {
+      "path": "sub-0235/sub-0235_ses-20260310T114913_cam68_calibration.avi",
+      "sha256": "2b06c0828b8156996c344e4463ea16d2f37909a9ea56074f1cbe2c7bedb5cf32",
+      "size": 4046971182
+    },
+    {
+      "path": "sub-0235/sub-0235_ses-20260313T102520_behavior+ecephys.nwb",
+      "sha256": "bb9b4f5dd980b5e64a431eae34cb9c57c7798b5b051968d62c433ad1bc2ed975",
+      "size": 1156459255
+    },
+    {
+      "path": "sub-0235/sub-0235_ses-20260313T102520_cam14_calibration.avi",
+      "sha256": "142a4ea81fbba578650d3b39a8f943dcbfd53d14062289c8674ca1596e8b5136",
+      "size": 3158149942
+    },
+    {
+      "path": "sub-0235/sub-0235_ses-20260313T102520_cam46_calibration.avi",
+      "sha256": "3b63f50ccaaa3a32b700fc2c6e6068802fc08d8480af61e5982c4dbef32039bb",
+      "size": 3158149942
+    },
+    {
+      "path": "sub-0235/sub-0235_ses-20260313T102520_cam58_calibration.avi",
+      "sha256": "52b68a51473b719a14e2fe04b95c50adbcebd62e7de5188671d39466f2ef0828",
+      "size": 3158149942
+    },
+    {
+      "path": "sub-0235/sub-0235_ses-20260313T102520_cam67_calibration.avi",
+      "sha256": "a7241f1cb1f8160cac1df92c50099269081e3664f3fdf6dd2ee1bae7ac63c931",
+      "size": 3158149942
+    },
+    {
+      "path": "sub-0235/sub-0235_ses-20260313T102520_cam68_calibration.avi",
+      "sha256": "2c8165123f0b9b260b90b716f828494bd4e92a0c8143655e9f69462b6b185a89",
+      "size": 3158149942
+    },
+    {
+      "path": "sub-0235/sub-0235_ses-20260313T114931_behavior+ecephys.nwb",
+      "sha256": "111d101e42f334fc9f762e25261fd652950f7eb0e064aef3aa9d1b5b86a655a5",
+      "size": 1413099140
+    },
+    {
+      "path": "sub-0235/sub-0235_ses-20260313T114931_cam14_calibration.avi",
+      "sha256": "f00738af9f98b672989223e2f73b942ada0a274584dd2eba6f9426d0c7a281bb",
+      "size": 3906416126
+    },
+    {
+      "path": "sub-0235/sub-0235_ses-20260313T114931_cam46_calibration.avi",
+      "sha256": "6f65857cc50b2e2c97f339f69aaf8d1e7f1c2a0dc852e80e10739237d98602e1",
+      "size": 3906416126
+    },
+    {
+      "path": "sub-0235/sub-0235_ses-20260313T114931_cam58_calibration.avi",
+      "sha256": "e4847a196978b7e9244cefebdab80b786d5ed646110877ca99f4a35257200411",
+      "size": 3906416126
+    },
+    {
+      "path": "sub-0235/sub-0235_ses-20260313T114931_cam67_calibration.avi",
+      "sha256": "6b34fae76cf2b5a22a3118faaa78f7282a6f881ddda4607825d83921b59a3023",
+      "size": 3906416126
+    },
+    {
+      "path": "sub-0235/sub-0235_ses-20260313T114931_cam68_calibration.avi",
+      "sha256": "38c84eeb207b87e036726da7356e37ed7993f5bbf4e9f755c686c3ca1e81b9f0",
+      "size": 3906416126
+    },
+    {
+      "path": "sub-0235/sub-0235_ses-20260316T163942_behavior+ecephys.nwb",
+      "sha256": "2150fc245f9ac163cf11dfc98ec92ee379321082bad92e3641a37e021eab93f1",
+      "size": 1243221762
+    },
+    {
+      "path": "sub-0235/sub-0235_ses-20260316T163942_cam14_calibration.avi",
+      "sha256": "b9cb554efc9c1dd5eb3d6486c7ee3f754e816b607daab8ac84dfd72ab757635b",
+      "size": 3877838542
+    },
+    {
+      "path": "sub-0235/sub-0235_ses-20260316T163942_cam46_calibration.avi",
+      "sha256": "f23d15133dcc87ef3514cf8eb4783a322421ddd470370aee08df0c471c105f22",
+      "size": 3877838542
+    },
+    {
+      "path": "sub-0235/sub-0235_ses-20260316T163942_cam58_calibration.avi",
+      "sha256": "e85b2c709f45b875adfee5a24bb82eda1b4da72dbc5476fe3d41e52d1c627b03",
+      "size": 3877838542
+    },
+    {
+      "path": "sub-0235/sub-0235_ses-20260316T163942_cam67_calibration.avi",
+      "sha256": "753f2891067a6f1ad690f29c6775acaf291d2317cbe5e9de43433b1ff180a754",
+      "size": 3877838542
+    },
+    {
+      "path": "sub-0235/sub-0235_ses-20260316T163942_cam68_calibration.avi",
+      "sha256": "f79cd39a0354f4f9362e47015fe9ae373445f96041db5b001154979e330c68bc",
+      "size": 3877838542
+    },
+    {
+      "path": "sub-0235/sub-0235_ses-20260317T153709_behavior+ecephys.nwb",
+      "sha256": "ca345b8b00b9147d19b5341042bfaaeb0aa2bacca9c86853e57c6d2f51a1967f",
+      "size": 449020970
+    },
+    {
+      "path": "sub-0235/sub-0235_ses-20260318T102354_behavior+ecephys.nwb",
+      "sha256": "ec24fbbc361117a6d77f32d794b74769df809259c12b54829d88da684f2c3f31",
+      "size": 931601023
+    },
+    {
+      "path": "sub-0235/sub-0235_ses-20260318T102354_cam14_calibration.avi",
+      "sha256": "c2f471e49bf523c7f7da6def5444ee97a368efd859ce5c5cd032ef4a271868ea",
+      "size": 4779490534
+    },
+    {
+      "path": "sub-0235/sub-0235_ses-20260318T102354_cam14_video.avi",
+      "sha256": "6932c93cb1d2ea93d015b13adefe84481ba2b04e23ce93cc68862d7a0b053d09",
+      "size": 17843529606
+    },
+    {
+      "path": "sub-0235/sub-0235_ses-20260318T102354_cam46_calibration.avi",
+      "sha256": "c9c1fdabcc6f9e800a3ad8f1abfd77c4a6db2653abffd39d46020beaa7219328",
+      "size": 4779490534
+    },
+    {
+      "path": "sub-0235/sub-0235_ses-20260318T102354_cam46_video.avi",
+      "sha256": "16929a690cebbf97460bc4591556638e27f1af247e9f7e754806857deb57160e",
+      "size": 17844696038
+    },
+    {
+      "path": "sub-0235/sub-0235_ses-20260318T102354_cam58_calibration.avi",
+      "sha256": "8ef4157b89c908926b708478e7476358be1fd9df18047f8c6c06fcef6f26a3eb",
+      "size": 4779490534
+    },
+    {
+      "path": "sub-0235/sub-0235_ses-20260318T102354_cam58_video.avi",
+      "sha256": "37f82ccf64a652f7572be836b8ded8c8ecd96195794c3829a61d873dd22ae6b7",
+      "size": 17844696038
+    },
+    {
+      "path": "sub-0235/sub-0235_ses-20260318T102354_cam67_calibration.avi",
+      "sha256": "564555768e79d6d98370fbb7a1dcc3b7b72b6cb7088525e24d238fe3fb346bbf",
+      "size": 4779490534
+    },
+    {
+      "path": "sub-0235/sub-0235_ses-20260318T102354_cam67_video.avi",
+      "sha256": "3766c3a728dea9fd842b3376344b7e1784931d59c1cbbd388ecbe4872a61259a",
+      "size": 17843529606
+    },
+    {
+      "path": "sub-0235/sub-0235_ses-20260318T102354_cam68_calibration.avi",
+      "sha256": "25eda548b9ebab683b3654bf5eb91839916dfa5fdd740a650f9d0e418eca4100",
+      "size": 4779490534
+    },
+    {
+      "path": "sub-0235/sub-0235_ses-20260318T102354_cam68_video.avi",
+      "sha256": "33d2186d0cabeef98a3fcea3ea23590fc56eee03510197b7b3c2be897deaf2b6",
+      "size": 17843529606
+    },
+    {
+      "path": "sub-0235/sub-0235_ses-20260318T111532_behavior+ecephys.nwb",
+      "sha256": "1cb2a8aa939e91e3730a47b5c431631d794f86ac721a238cc0db551a70b2fc28",
+      "size": 1365309008
+    },
+    {
+      "path": "sub-0235/sub-0235_ses-20260318T111532_cam14_calibration.avi",
+      "sha256": "21dc05d7e1b63526d887c17e9c61a896805fcb1ddf38ba726e6256068c3a754b",
+      "size": 4325165270
+    },
+    {
+      "path": "sub-0235/sub-0235_ses-20260318T111532_cam14_video.avi",
+      "sha256": "b316ef10317f1271485abb715372838a077e09a839e29a86322485ff7c0e011e",
+      "size": 24097355110
+    },
+    {
+      "path": "sub-0235/sub-0235_ses-20260318T111532_cam46_calibration.avi",
+      "sha256": "eac3c53a5238db81472671be94e846d50645093f308fe5dd3c1918eb2c9ff31a",
+      "size": 4325748486
+    },
+    {
+      "path": "sub-0235/sub-0235_ses-20260318T111532_cam46_video.avi",
+      "sha256": "a25fa124e908ab255dbb611aeefac0be8fcfd61f9768029b11509764670bd967",
+      "size": 24096771894
+    },
+    {
+      "path": "sub-0235/sub-0235_ses-20260318T111532_cam58_calibration.avi",
+      "sha256": "0866b281993096a7b0002a3bfc408673f39b6b544a6d80c65ee76a38b1de56a2",
+      "size": 4325748486
+    },
+    {
+      "path": "sub-0235/sub-0235_ses-20260318T111532_cam58_video.avi",
+      "sha256": "a52b95e1572f1fdfacc44a58ea17292e069453977463b125ad8a019776fa5cde",
+      "size": 24096771894
+    },
+    {
+      "path": "sub-0235/sub-0235_ses-20260318T111532_cam67_calibration.avi",
+      "sha256": "fc804049be23a99470c2b953449bc5a050c29539982ef2bda974d72711803040",
+      "size": 4325165270
+    },
+    {
+      "path": "sub-0235/sub-0235_ses-20260318T111532_cam67_video.avi",
+      "sha256": "de87c28472a427e0fab68ebc76b7280476b65ddbdbe2ed4dcf912e56c8492583",
+      "size": 24097355110
+    },
+    {
+      "path": "sub-0235/sub-0235_ses-20260318T111532_cam68_calibration.avi",
+      "sha256": "d75c2baa9585dcbcba55de2021712401ee103eb29d7d786240137b8dc042117b",
+      "size": 4325748486
+    },
+    {
+      "path": "sub-0235/sub-0235_ses-20260318T111532_cam68_video.avi",
+      "sha256": "c13b7c81e87b36e780b7c2453d1149c3ef51cce3afeab611f4750f8cf196f3a5",
+      "size": 24096188678
+    },
+    {
+      "path": "sub-0235/sub-0235_ses-20260318T152545_behavior+ecephys.nwb",
+      "sha256": "5a950faba0d781a73c7b4ad3835468ab72d41690f1e7b815cc46c29511f2e124",
+      "size": 2085449325
+    },
+    {
+      "path": "sub-0235/sub-0235_ses-20260318T152545_cam14_calibration.avi",
+      "sha256": "c4ecacb54c1f047e9d4022267b2aaf0d32357f62898d24e1d65a9510ac59fde0",
+      "size": 3856842766
+    },
+    {
+      "path": "sub-0235/sub-0235_ses-20260318T152545_cam14_video.avi",
+      "sha256": "58f8d825439e1d062a3e4f6dfc3825aaf06ef86950d75fb856bb236a6d45753f",
+      "size": 30574191694
+    },
+    {
+      "path": "sub-0235/sub-0235_ses-20260318T152545_cam46_calibration.avi",
+      "sha256": "12f600c6286293446fb0acd642d3197466cdf78e92b69557a71f92375ef21e6d",
+      "size": 3856259550
+    },
+    {
+      "path": "sub-0235/sub-0235_ses-20260318T152545_cam46_video.avi",
+      "sha256": "fa2a3349a6dea876f1544e9294274fff2f648059eb2708e3fb85d6434425a161",
+      "size": 30589708934
+    },
+    {
+      "path": "sub-0235/sub-0235_ses-20260318T152545_cam58_calibration.avi",
+      "sha256": "34eef23bfc73d23f490b1a9b28c1d9f1884a2b77bd551ddfd5da7a87b06274d2",
+      "size": 3856259550
+    },
+    {
+      "path": "sub-0235/sub-0235_ses-20260318T152545_cam58_video.avi",
+      "sha256": "ee7ab5aa964c2a708b41022581d2f2767aa23dd1618a9fef4385401c0daf3469",
+      "size": 30589125726
+    },
+    {
+      "path": "sub-0235/sub-0235_ses-20260318T152545_cam67_calibration.avi",
+      "sha256": "13f2a57393e3e080b8799689614bdd5737fb4ad8efa8466164ff14010682c63b",
+      "size": 3857425982
+    },
+    {
+      "path": "sub-0235/sub-0235_ses-20260318T152545_cam67_video.avi",
+      "sha256": "64688ccc083aea0693c65c190ba17593dcf68dc72ec998ff6afe8c9be849ea12",
+      "size": 30588706358
+    },
+    {
+      "path": "sub-0235/sub-0235_ses-20260318T152545_cam68_calibration.avi",
+      "sha256": "9b5f754e6d25c3967f16441a8c161bb8499093dc069a8266fb2bf5775b2ee7c9",
+      "size": 3856842766
+    },
+    {
+      "path": "sub-0235/sub-0235_ses-20260318T152545_cam68_video.avi",
+      "sha256": "8ee69c7650fc7e5726799dc16d41e2a24863abd5f60372d24ac47ef26cd511c5",
+      "size": 30587769318
+    },
+    {
+      "path": "sub-0235/sub-0235_ses-20260319T105012_behavior+ecephys.nwb",
+      "sha256": "6eda1ebeba90e5f94418ca8297b63ace5a302fdfd66fe616b86bb1742fe862b8",
+      "size": 1647646577
+    },
+    {
+      "path": "sub-0235/sub-0235_ses-20260319T105012_cam14_calibration.avi",
+      "sha256": "43f977ff5c61e3b5981dbcafe96ca2f350032eac90e2e0c382362a3a03b34850",
+      "size": 3853343470
+    },
+    {
+      "path": "sub-0235/sub-0235_ses-20260319T105012_cam14_video.avi",
+      "sha256": "aa026e355a31f3b8989d9e923385d537fcc56d5a7e0805fe74749369540b0ed6",
+      "size": 30082318038
+    },
+    {
+      "path": "sub-0235/sub-0235_ses-20260319T105012_cam46_calibration.avi",
+      "sha256": "30c24873445c96071395a2c40f5ca949413991a0ff86ead547d8d9e20f20e64f",
+      "size": 3855676334
+    },
+    {
+      "path": "sub-0235/sub-0235_ses-20260319T105012_cam46_video.avi",
+      "sha256": "e5a80fee79a21b11ce10bf2420ab80b43d8bf04338cd40016f35180504b5f15f",
+      "size": 30082318038
+    },
+    {
+      "path": "sub-0235/sub-0235_ses-20260319T105012_cam58_calibration.avi",
+      "sha256": "d79d86bcfb2126036a970ac238347207c776bde18250f627c6a7dc891aa3f01b",
+      "size": 3855676334
+    },
+    {
+      "path": "sub-0235/sub-0235_ses-20260319T105012_cam58_video.avi",
+      "sha256": "04f5722a3f47993cc52c861e230d6a4b6d6541188f6e3db0c2877ae2628c284a",
+      "size": 30081734822
+    },
+    {
+      "path": "sub-0235/sub-0235_ses-20260319T105012_cam67_calibration.avi",
+      "sha256": "bd33597d2d3c6cecab9d5d2ea6831e2fa98ddde0929e945c587516dae4e50c96",
+      "size": 3852760254
+    },
+    {
+      "path": "sub-0235/sub-0235_ses-20260319T105012_cam67_video.avi",
+      "sha256": "9ae91ebf3c5c8a2bb164829ec61fdaad1ceb8531fe301b9e7da54003ba092156",
+      "size": 30081734822
+    },
+    {
+      "path": "sub-0235/sub-0235_ses-20260319T105012_cam68_calibration.avi",
+      "sha256": "661266e058c59731faa9ff26a509031bdee08493ad2da8cdd4467a51678fdef7",
+      "size": 3856842766
+    },
+    {
+      "path": "sub-0235/sub-0235_ses-20260319T105012_cam68_video.avi",
+      "sha256": "2c672711ddf092469bc227adbb031c4473b2ab963c4d8874b5590b83f983d498",
+      "size": 30083484470
+    },
+    {
+      "path": "sub-0235/sub-0235_ses-20260319T130321_behavior+ecephys.nwb",
+      "sha256": "242dbb899487bb74b3db032298a24d03e1741ee79058e94611a942dc28ae7611",
+      "size": 2245379278
+    },
+    {
+      "path": "sub-0235/sub-0235_ses-20260319T154244_behavior+ecephys.nwb",
+      "sha256": "99bb20257fe6d185738954b49ae9f421544164b533e04a2aa311d3f8e2be0783",
+      "size": 450641522
+    },
+    {
+      "path": "sub-0235/sub-0235_ses-20260319T154244_cam14_calibration.avi",
+      "sha256": "0cdc1cde36a5515fcacf7f5f2c2efc112142ccb0441b7caf067d16dac5beed4b",
+      "size": 7914276702
+    },
+    {
+      "path": "sub-0235/sub-0235_ses-20260319T154244_cam14_video.avi",
+      "sha256": "4ab802bac9289594c7b0ecc145341e0a4124dd6f3c7a355f53646bff3b7532c2",
+      "size": 19650916102
+    },
+    {
+      "path": "sub-0235/sub-0235_ses-20260319T154244_cam46_calibration.avi",
+      "sha256": "c947602a48126c54a5bbdba5c1137a30174ce94389dd55c0866bd01721f9a465",
+      "size": 7914276702
+    },
+    {
+      "path": "sub-0235/sub-0235_ses-20260319T154244_cam46_video.avi",
+      "sha256": "153de69c794543c3bf6aff56702925096259ff5c21b6fb0e143dfd4c15b90037",
+      "size": 19650916102
+    },
+    {
+      "path": "sub-0235/sub-0235_ses-20260319T154244_cam58_calibration.avi",
+      "sha256": "04b90637dc924064ae9941ce34534992be059eeb2bfeca5e817e6257541669a2",
+      "size": 7914276702
+    },
+    {
+      "path": "sub-0235/sub-0235_ses-20260319T154244_cam58_video.avi",
+      "sha256": "58dfda13cdf9c6ca8bd935d652e12a2380b7c5b261402007239b04b51123e61c",
+      "size": 19651499318
+    },
+    {
+      "path": "sub-0235/sub-0235_ses-20260319T154244_cam67_calibration.avi",
+      "sha256": "8308c6a592c4df3c5dfb0b3072ef712cf350199dab1abcf235a3a426da46438c",
+      "size": 7914276702
+    },
+    {
+      "path": "sub-0235/sub-0235_ses-20260319T154244_cam67_video.avi",
+      "sha256": "865b273be2590582c6b6bbf927a6324e27824c6a22f88eeeae021e3ad776e708",
+      "size": 19650916102
+    },
+    {
+      "path": "sub-0235/sub-0235_ses-20260319T154244_cam68_calibration.avi",
+      "sha256": "8124af19ed0056d60c99ae124b3674d1d357ee8f31d44bbace709a15104d2969",
+      "size": 7914276702
+    },
+    {
+      "path": "sub-0235/sub-0235_ses-20260319T154244_cam68_video.avi",
+      "sha256": "77ac716fb0952eb45e40d0d4531eb8a42567fc7bbe44d53914dc86bcb8ee9fac",
+      "size": 19650916102
+    },
+    {
+      "path": "sub-0235/sub-0235_ses-20260320T102109_behavior+ecephys.nwb",
+      "sha256": "9bed197dfc3504072cff2e4baf80fd75d97ff383c5c4d39ca749383b6a068963",
+      "size": 959318855
+    },
+    {
+      "path": "sub-0235/sub-0235_ses-20260320T121930_behavior+ecephys.nwb",
+      "sha256": "6848511e5391a6c4bd2c77c93363240a09084e0889cfc78b4a28a8e5106fd4ef",
+      "size": 2091560025
+    },
+    {
+      "path": "sub-0235/sub-0235_ses-20260323T154740_behavior+ecephys.nwb",
+      "sha256": "53e40b2b53d82397f1e08e713d418d488b938a09ca881e8f29847749982c2926",
+      "size": 2477185839
+    },
+    {
+      "path": "sub-0235/sub-0235_ses-20260325T124806_behavior+ecephys.nwb",
+      "sha256": "c4cff19580c0827472f953777b4d4d66bcd6333efa499fcd2f0798ae0b1d52d6",
+      "size": 2285843546
+    },
+    {
+      "path": "sub-0235/sub-0235_ses-20260326T151316_behavior+ecephys.nwb",
+      "sha256": "66a125d1a2a4d4c0f0d0652fd71a30c5e47b1c755cfd4b911348125196e2e4aa",
+      "size": 1480128544
+    },
+    {
+      "path": "sub-0235/sub-0235_ses-20260326T160846_behavior+ecephys.nwb",
+      "sha256": "90d1e0a15e3c5ff38211a39fef639c76a348608bf076c70b22797b2828325e5b",
+      "size": 1778665144
+    },
+    {
+      "path": "sub-0235/sub-0235_ses-20260327T132810_behavior+ecephys.nwb",
+      "sha256": "00b9caf90c1e5eb8e52614be4def5239a3981526429b9c84f56425eb15ebfb1d",
+      "size": 740618083
+    },
+    {
+      "path": "sub-0235/sub-0235_ses-20260327T153625_behavior+ecephys.nwb",
+      "sha256": "5202fdb6ffebe905810e63fd28014883c270abe579b52885bf463499384ea50b",
+      "size": 1559264157
+    },
+    {
+      "path": "sub-0235/sub-0235_ses-20260330T150816_behavior+ecephys.nwb",
+      "sha256": "2981b21458be73bc05b00794fd43b6b2aa26bae45fed662b5107f24e7f5a05cf",
+      "size": 1879732802
+    },
+    {
+      "path": "sub-0235/sub-0235_ses-20260330T160710_behavior+ecephys.nwb",
+      "sha256": "9fe3735f83c17f6ed5e6c2c217fcb24227d961a69a16f621f18302c2a3c03c5b",
+      "size": 1627493079
+    },
+    {
+      "path": "sub-0235/sub-0235_ses-20260331T090629_behavior+ecephys.nwb",
+      "sha256": "406d9734eaf233d20e1165a386c6033fc6949c3976880719df07591c5240af78",
+      "size": 2385260432
+    },
+    {
+      "path": "sub-0235/sub-0235_ses-20260401T145148_behavior+ecephys.nwb",
+      "sha256": "75c32e758ef84072ed1092dd9b0268a771c6cabbb6a45442ab89c672315438ed",
+      "size": 1198327708
+    },
+    {
+      "path": "sub-0235/sub-0235_ses-20260401T155014_behavior+ecephys.nwb",
+      "sha256": "d99fde148bb7505afba0adb4d8771534db021bf93e1204e8e9af7e085eb06f99",
+      "size": 842879188
+    },
+    {
+      "path": "sub-0235/sub-0235_ses-20260402T130232_behavior+ecephys.nwb",
+      "sha256": "4703f5a758b4f50ea966295abcce3a9ba1f52ae6c0dabf9025cc8462f42e1ec8",
+      "size": 1234768798
+    },
+    {
+      "path": "sub-0235/sub-0235_ses-20260402T144945_behavior+ecephys.nwb",
+      "sha256": "9f7679d4809534fad7c6870f90366788c6679c8c94349658a2dd90935a05f51a",
+      "size": 2774021222
+    },
+    {
+      "path": "sub-0235/sub-0235_ses-20260402T144945_cam14_video.avi",
+      "sha256": "8a561244df92ffbb25d38249a0fb873a2caedb1c467a77d4af8883f3d82f4ea7",
+      "size": 48579597646
+    },
+    {
+      "path": "sub-0235/sub-0235_ses-20260402T144945_cam46_video.avi",
+      "sha256": "7854f52a97a8fa84843b0cc6af98ae7f6dd15f2599af6b1f2529a346b23b81f7",
+      "size": 48578431214
+    },
+    {
+      "path": "sub-0235/sub-0235_ses-20260402T144945_cam58_video.avi",
+      "sha256": "563c61b75d270fd9c083dff901b7fecd744adf724ce7e73c82011fe64dd2937f",
+      "size": 48579597646
+    },
+    {
+      "path": "sub-0235/sub-0235_ses-20260402T144945_cam67_video.avi",
+      "sha256": "3292aa455a07fd28259833e4f6792afbb80aa521874c5fdef4a8fbf7e5bdadef",
+      "size": 48579014430
+    },
+    {
+      "path": "sub-0235/sub-0235_ses-20260402T144945_cam68_video.avi",
+      "sha256": "c937b4005d498d92018fd273d98439ed97d44d8597f7f9cb9e13ad7fe6b6852c",
+      "size": 48579014430
+    },
+    {
+      "path": "sub-0235/sub-0235_ses-20260408T134217_behavior+ecephys.nwb",
+      "sha256": "1906aca23625a3ad883f087f969082cc9edaa4dce34aeb3d9b5b260ab2bdb296",
+      "size": 1556074886
+    },
+    {
+      "path": "sub-0235/sub-0235_ses-20260408T134217_cam14_calibration.avi",
+      "sha256": "a872b1190070a17fc2700d87c87ad7b2a882b8dcef9605a27a87527083a4b589",
+      "size": 4096544542
+    },
+    {
+      "path": "sub-0235/sub-0235_ses-20260408T134217_cam14_video.avi",
+      "sha256": "1da92191a9dc023562b487b6da8df91ce3c35c15e7bc28306d67fc0cab3fdece",
+      "size": 22761207198
+    },
+    {
+      "path": "sub-0235/sub-0235_ses-20260408T134217_cam46_calibration.avi",
+      "sha256": "538379ff4cbe84eee2899fed1aa34f12665d3f6d4e55aaae9a997b1c793f98f5",
+      "size": 4097127758
+    },
+    {
+      "path": "sub-0235/sub-0235_ses-20260408T134217_cam46_video.avi",
+      "sha256": "52eb3031865a56543a77e71f972601c73ba3ac4195185587e07cb03f69837ea6",
+      "size": 22760040766
+    },
+    {
+      "path": "sub-0235/sub-0235_ses-20260408T134217_cam58_calibration.avi",
+      "sha256": "e58a4c6fa16ece714dbf5835dec08e92d7bcc258bd83a90cff0799453d47060b",
+      "size": 4097127758
+    },
+    {
+      "path": "sub-0235/sub-0235_ses-20260408T134217_cam58_video.avi",
+      "sha256": "2fb313b9f94a0382c660a4090eca0d538bb8ec552dbe2c0de6aeb4827b8fbff9",
+      "size": 22760040766
+    },
+    {
+      "path": "sub-0235/sub-0235_ses-20260408T134217_cam67_calibration.avi",
+      "sha256": "f72cf4e190ab062492b3a83b542e95aa2c1c61eaf61923db6ca233f137e1d3e8",
+      "size": 4096544542
+    },
+    {
+      "path": "sub-0235/sub-0235_ses-20260408T134217_cam67_video.avi",
+      "sha256": "28c4c69fcbc2c454962a1cc394c7f11200642ffa0cff4186a6d60fc6ceaefe85",
+      "size": 22761207198
+    },
+    {
+      "path": "sub-0235/sub-0235_ses-20260408T134217_cam68_calibration.avi",
+      "sha256": "f9c4104b2d71a88e711da2b03f55218de87e30b11c52b0ec3aefa3b68fbe0da0",
+      "size": 4097127758
+    },
+    {
+      "path": "sub-0235/sub-0235_ses-20260408T134217_cam68_video.avi",
+      "sha256": "e93fec48959cceb7eb4f6032c9e7deebafd3279cba35475cc1ec52daf06be51d",
+      "size": 22760040766
+    },
+    {
+      "path": "sub-0235/sub-0235_ses-20260408T143920_behavior+ecephys.nwb",
+      "sha256": "03cad1386bf445c4eb161ea6f7b55f4bc721ff86a1ec200dddb37a7e9d078219",
+      "size": 1973720097
+    },
+    {
+      "path": "sub-0235/sub-0235_ses-20260409T151033_behavior+ecephys.nwb",
+      "sha256": "aaef23015c149699f523df3970e66a247b794ab5f9d3e8fd49657735203d98a1",
+      "size": 498395249
+    },
+    {
+      "path": "sub-0235/sub-0235_ses-20260409T172216_behavior+ecephys.nwb",
+      "sha256": "c5442aaa69dea7a307d1ad8f6826067e40d2cbde0b70c2c7cdd5479c40803eca",
+      "size": 1345393035
+    },
+    {
+      "path": "sub-0235/sub-0235_ses-20260410T125035_behavior+ecephys.nwb",
+      "sha256": "60624abfe0a812391235180dd3a58eda2e6afe95883cef8947faafaac33e7121",
+      "size": 1413582877
+    },
+    {
+      "path": "sub-0235/sub-0235_ses-20260410T141630_behavior+ecephys.nwb",
+      "sha256": "133a7a619b99e58f4d5f3366f86a8730a6da7834ccdb4c460080f29054aa7802",
+      "size": 1860640882
+    },
+    {
+      "path": "sub-0235/sub-0235_ses-20260414T145344_behavior+ecephys.nwb",
+      "sha256": "54fb79fe7a090fd15f55c23f228c439683fe1d0a4d462b1a1a84fdc58cc308d1",
+      "size": 2647150349
+    },
+    {
+      "path": "sub-0235/sub-0235_ses-20260414T164051_behavior+ecephys.nwb",
+      "sha256": "36eed147378163f38f708f86b18b9b9825e53d698a571c8b051faabe1a6e0d77",
+      "size": 243764266
+    },
+    {
+      "path": "sub-0235/sub-0235_ses-20260415T164755_behavior+ecephys.nwb",
+      "sha256": "6ccbff9cd9a00abc15744959d23afbf97695149948c2ac74738d969132694124",
+      "size": 1240097
+    },
+    {
+      "path": "sub-0235/sub-0235_ses-20260416T112924_behavior+ecephys.nwb",
+      "sha256": "2778d3bc9e9072c2bf48bacf5e8ab1ac54ce6e85e703361fb1be68c5f3a38020",
+      "size": 1236729482
+    },
+    {
+      "path": "sub-0235/sub-0235_ses-20260416T135624_behavior+ecephys.nwb",
+      "sha256": "7fcd223080a29a5f07763ed53662b9aad8c973139a371cf5ddd8e3572374c05e",
+      "size": 2408375657
+    },
+    {
+      "path": "sub-0235/sub-0235_ses-20260417T122833_behavior+ecephys.nwb",
+      "sha256": "0673d0682b34d19f2b8f0a77b7f0807e7acb627d8ba48578e227f53c65ef9556",
+      "size": 2172750450
+    },
+    {
+      "path": "sub-0235/sub-0235_ses-20260417T134302_behavior+ecephys.nwb",
+      "sha256": "0a48c3ea41e3ade3a76694d625ce01915aa172868607b2ea2d9f7382c2f7bfc3",
+      "size": 1799027929
+    },
+    {
+      "path": "sub-0235/sub-0235_ses-20260423T092353_behavior+ecephys.nwb",
+      "sha256": "ccc89f5f4af6c1bcfb2b78369f59966c15b8e0170f3a7a235a6c77462d085ee0",
+      "size": 1634824698
+    },
+    {
+      "path": "sub-0235/sub-0235_ses-20260423T092353_cam14_calibration.avi",
+      "sha256": "ef5ffb0613029d2f1c1ee3097f11933154a3265f2317c1d7e9804d1a94f6d1ff",
+      "size": 5205238214
+    },
+    {
+      "path": "sub-0235/sub-0235_ses-20260423T092353_cam14_video.avi",
+      "sha256": "ff1a7864ab57858ebf8a66cf77f820f4dbdff00bfe8969eb0a01be6ee5f60ec4",
+      "size": 32524826758
+    },
+    {
+      "path": "sub-0235/sub-0235_ses-20260423T092353_cam46_calibration.avi",
+      "sha256": "f716b9faa7acefd49596873290ecf9066d8cd61ab775e6448750ed09ff182ae7",
+      "size": 5204654998
+    },
+    {
+      "path": "sub-0235/sub-0235_ses-20260423T092353_cam46_video.avi",
+      "sha256": "5b50b584dec606b9d3c038ec1a77cf65a718426b51de9447ffc5e39111610f7c",
+      "size": 32524243542
+    },
+    {
+      "path": "sub-0235/sub-0235_ses-20260423T092353_cam58_calibration.avi",
+      "sha256": "a68bdbb233b96c99a93306e61df1c434c624d8f61bf395e9a0676a1624ac5955",
+      "size": 5204654998
+    },
+    {
+      "path": "sub-0235/sub-0235_ses-20260423T092353_cam58_video.avi",
+      "sha256": "343b90ceb23ae47de3b6a5a3e38088dbb0dfdb7911bb9c2d12216952c4c49d59",
+      "size": 32524243542
+    },
+    {
+      "path": "sub-0235/sub-0235_ses-20260423T092353_cam67_calibration.avi",
+      "sha256": "410787b059568c131bcac78bdcf88fcd66bfa9d27589687c4f631c8ee46da166",
+      "size": 5205238214
+    },
+    {
+      "path": "sub-0235/sub-0235_ses-20260423T092353_cam67_video.avi",
+      "sha256": "f04c0b41a5354d5e9f68749094bd2e9af8badebf7538610f64446ab12a693113",
+      "size": 32524826758
+    },
+    {
+      "path": "sub-0235/sub-0235_ses-20260423T092353_cam68_calibration.avi",
+      "sha256": "e4ce557b09e434cb38821c1c97f50248198364e3a8dab79a53338dc806b2ca9d",
+      "size": 5204654998
+    },
+    {
+      "path": "sub-0235/sub-0235_ses-20260423T092353_cam68_video.avi",
+      "sha256": "51cec624c0b1a17b65931ef7faca0bf58132671e28fac40bb1045d3a3fe0a63d",
+      "size": 32524243542
+    },
+    {
+      "path": "sub-0235/sub-0235_ses-20260423T123345_behavior+ecephys.nwb",
+      "sha256": "073225973b57fdfc8cc8d90e9306d1f689010f92579e98308dfc867923335a62",
+      "size": 2344709902
+    },
+    {
+      "path": "sub-0235/sub-0235_ses-20260423T123345_cam14_calibration.avi",
+      "sha256": "0622889f3ea4f0803af0106ab0acb99f88d1e5f23e3ad722db5285a2172bbd1a",
+      "size": 6256776718
+    },
+    {
+      "path": "sub-0235/sub-0235_ses-20260423T123345_cam14_video.avi",
+      "sha256": "508c5328a3c9dbee5b33bfef3267e02ea9d74f609d6512dbb2d28780c92023bd",
+      "size": 49583895654
+    },
+    {
+      "path": "sub-0235/sub-0235_ses-20260423T123345_cam46_calibration.avi",
+      "sha256": "b4d0975841299583969350cb78d039a94ae9674fb1470185484de0c933639bfb",
+      "size": 6256193502
+    },
+    {
+      "path": "sub-0235/sub-0235_ses-20260423T123345_cam46_video.avi",
+      "sha256": "c843f44cc4a64930a0d8186d716a6f3f1df9c78c552dfa29936f2f07cbdac225",
+      "size": 49583895654
+    },
+    {
+      "path": "sub-0235/sub-0235_ses-20260423T123345_cam58_calibration.avi",
+      "sha256": "226d13bdb5c3bb56768bb0ebca6b1379b6ee4b431e00f320bf01564988eba447",
+      "size": 6256193502
+    },
+    {
+      "path": "sub-0235/sub-0235_ses-20260423T123345_cam58_video.avi",
+      "sha256": "dbbd7ca6b3f2aba6c6525776ddbd2cb624d1a93e3051815af713accc97b8cbca",
+      "size": 49583895654
+    },
+    {
+      "path": "sub-0235/sub-0235_ses-20260423T123345_cam67_calibration.avi",
+      "sha256": "5baf8a7bd7287542488235600429686a50afca12d9c35d8c0aa8d5d5c20c3846",
+      "size": 6256193502
+    },
+    {
+      "path": "sub-0235/sub-0235_ses-20260423T123345_cam67_video.avi",
+      "sha256": "b69bdba62f36356c7ec1abd60ed9034f4e9954849ea06d4f554bb11351817bbc",
+      "size": 49583312438
+    },
+    {
+      "path": "sub-0235/sub-0235_ses-20260423T123345_cam68_calibration.avi",
+      "sha256": "e2afae42bacee76936609de382a02f254efeab7be882337d8f5b73b524f3ec30",
+      "size": 6256193502
+    },
+    {
+      "path": "sub-0235/sub-0235_ses-20260423T123345_cam68_video.avi",
+      "sha256": "f47f68fa6f55f945d1a7783e10656eeed0f650732f562b7c1f8884a219fb1f43",
+      "size": 49583895654
+    },
+    {
+      "path": "sub-0235/sub-0235_ses-20260423T142917_behavior+ecephys.nwb",
+      "sha256": "3ffa3eb27bcf0093fd6535c72cd90c211fbb21b8e42c40dff4674e5b463f1009",
+      "size": 1791298702
+    },
+    {
+      "path": "sub-0235/sub-0235_ses-20260423T142917_cam14_calibration.avi",
+      "sha256": "5811827686f21d101118046cd05e6230475d9c94d01ee43b22a2f544c58f0528",
+      "size": 5983831630
+    },
+    {
+      "path": "sub-0235/sub-0235_ses-20260423T142917_cam14_video.avi",
+      "sha256": "122e80312e21ece7bfb436b6f724971ae594820fbfb0483df009405a876011f5",
+      "size": 35541803294
+    },
+    {
+      "path": "sub-0235/sub-0235_ses-20260423T142917_cam46_calibration.avi",
+      "sha256": "d224af82eea216cd96f32582f2b5d995cfd32842caa4a195277559ed0da79686",
+      "size": 5983248414
+    },
+    {
+      "path": "sub-0235/sub-0235_ses-20260423T142917_cam46_video.avi",
+      "sha256": "7462d580045e3c70e526378b510f068b270aea79a4190a3f35d583e335fcc242",
+      "size": 35541803294
+    },
+    {
+      "path": "sub-0235/sub-0235_ses-20260423T142917_cam58_calibration.avi",
+      "sha256": "6913f52b1f2f048c137400171026db6229cbdafa03a47292c46a04676537a8de",
+      "size": 5983248414
+    },
+    {
+      "path": "sub-0235/sub-0235_ses-20260423T142917_cam58_video.avi",
+      "sha256": "d0fd78a9e6b2e280fa94ad8d726e65ce01630a6efb58a67a52fb38eb6a194a46",
+      "size": 35541220078
+    },
+    {
+      "path": "sub-0235/sub-0235_ses-20260423T142917_cam67_calibration.avi",
+      "sha256": "f815675241e8d8213f8fe7e187b83628025d840297efcc0b52d11dc251f44130",
+      "size": 5983831630
+    },
+    {
+      "path": "sub-0235/sub-0235_ses-20260423T142917_cam67_video.avi",
+      "sha256": "74219edb861d1a556c55bd950c5e43b2297e517e7a5b509b664a4e3ac7b7d42a",
+      "size": 35541220078
+    },
+    {
+      "path": "sub-0235/sub-0235_ses-20260423T142917_cam68_calibration.avi",
+      "sha256": "0c9d6b64194e6dcb50b760c1a57f782136b6419e0e4d501be8bceff8665e7d80",
+      "size": 5983248414
+    },
+    {
+      "path": "sub-0235/sub-0235_ses-20260423T142917_cam68_video.avi",
+      "sha256": "7f04ea2c4bccbc8a2f997ee97ac9ce12ff4d881fbdcf16a8cdcf4013f33a2fbe",
+      "size": 35541220078
+    },
+    {
+      "path": "sub-0235/sub-0235_ses-20260423T171313_behavior+ecephys.nwb",
+      "sha256": "84692fc7e9f9faafceec890a56e59924b1f3b7b26c393ea4e44b17c873ed7b36",
+      "size": 906370400
+    },
+    {
+      "path": "sub-0235/sub-0235_ses-20260423T171313_cam14_calibration.avi",
+      "sha256": "613698ea5df08f780133bfa1bf67e3f93adf311c3f23825913e771e5f06a81a5",
+      "size": 5058850998
+    },
+    {
+      "path": "sub-0235/sub-0235_ses-20260423T171313_cam14_video.avi",
+      "sha256": "5bb299dea9ba68e2e31cac500a145fbe6eb229c72edc920c46752c3e67d53eae",
+      "size": 17501765030
+    },
+    {
+      "path": "sub-0235/sub-0235_ses-20260423T171313_cam46_calibration.avi",
+      "sha256": "6afbdcee051dbb8190c96b27fb3fe998a2eacf5035c0b3a21956e10276aa31ee",
+      "size": 5058850998
+    },
+    {
+      "path": "sub-0235/sub-0235_ses-20260423T171313_cam46_video.avi",
+      "sha256": "dbca521f4763fde5e5e88ed1359d6a345290d973b5ba52390f34c42b68744012",
+      "size": 17501181814
+    },
+    {
+      "path": "sub-0235/sub-0235_ses-20260423T171313_cam58_calibration.avi",
+      "sha256": "1dab491f619a36ef197d7aecfaeb1ae5c790d4ce159d9991fc8ffc4c936cafb8",
+      "size": 5058850998
+    },
+    {
+      "path": "sub-0235/sub-0235_ses-20260423T171313_cam58_video.avi",
+      "sha256": "639cf65ac7ab7379393b530cac54a6fefc37093c74bf6c72ed2ed6d7c57f674a",
+      "size": 17502348246
+    },
+    {
+      "path": "sub-0235/sub-0235_ses-20260423T171313_cam67_calibration.avi",
+      "sha256": "e1611d7a85ae8ce8222be864186b3504712b888b2cd8076862db06135693c479",
+      "size": 5058850998
+    },
+    {
+      "path": "sub-0235/sub-0235_ses-20260423T171313_cam67_video.avi",
+      "sha256": "3ae4bbc9189fbb97019131ed7fb9ee4e34d6715eb8f1b557c417aaf174abed96",
+      "size": 17499432166
+    },
+    {
+      "path": "sub-0235/sub-0235_ses-20260423T171313_cam68_calibration.avi",
+      "sha256": "ecd59f028d0dacd630d216f4a6dc97b1488565246c7ff009a66ef35a5f38dc55",
+      "size": 5058850998
+    },
+    {
+      "path": "sub-0235/sub-0235_ses-20260423T171313_cam68_video.avi",
+      "sha256": "518afb17a931d9caa16abf51e56575fc7698ce513c80ffae0c8045ecd0624ff0",
+      "size": 17500015382
+    },
+    {
+      "path": "sub-0235/sub-0235_ses-20260424T132017_behavior+ecephys.nwb",
+      "sha256": "3d621d5b78cfc92d19145240a0eb5385691a5e780e783c8a4dd9423ecf584bee",
+      "size": 2613479936
+    },
+    {
+      "path": "sub-0235/sub-0235_ses-20260424T144606_behavior+ecephys.nwb",
+      "sha256": "7cc2009b8cf20d6ed695d98fd0423d122c537aa545d0488ef3d0eaf8386f1e92",
+      "size": 2384345891
+    },
+    {
+      "path": "sub-0235/sub-0235_ses-20260425T132118_behavior+ecephys.nwb",
+      "sha256": "ca3a2b329006181491ce7bf55f609b91fa302f38fd4a291da45bef02e0deb050",
+      "size": 1333738962
+    },
+    {
+      "path": "sub-0235/sub-0235_ses-20260425T144227_behavior+ecephys.nwb",
+      "sha256": "3d79dd8b0565e931aebb7a74dc5c66ef1354d1017916d73f24ea17c4376505cb",
+      "size": 2336926734
+    },
+    {
+      "path": "sub-0235/sub-0235_ses-20260428T105233_behavior+ecephys.nwb",
+      "sha256": "89a36bb801630385e5fa218d9d1946c3597270e122dad0f3d99c7d52de47e439",
+      "size": 1940943456
+    },
+    {
+      "path": "sub-0235/sub-0235_ses-20260428T105233_cam14_calibration.avi",
+      "sha256": "5e14a10918c672202212dd2585abdd8685e06765110e17d4a0acabbe4a2ab44e",
+      "size": 7499026854
+    },
+    {
+      "path": "sub-0235/sub-0235_ses-20260428T105233_cam14_video.avi",
+      "sha256": "4c934f9e275812a19d816e6ae96ae77f0e2005b18e0adf9d3b8a624bbfc44c77",
+      "size": 37917242174
+    },
+    {
+      "path": "sub-0235/sub-0235_ses-20260428T105233_cam46_calibration.avi",
+      "sha256": "1bcdb9ca9b2da22d94b6c1cf5e1cd137d89f5e22120cfa68b27a990d59a0d7fe",
+      "size": 7500193286
+    },
+    {
+      "path": "sub-0235/sub-0235_ses-20260428T105233_cam46_video.avi",
+      "sha256": "211795e25c31d4f161a5857fe819da420573c1f8dcf9ee6fb7b21902b0793a4b",
+      "size": 37917825390
+    },
+    {
+      "path": "sub-0235/sub-0235_ses-20260428T105233_cam58_calibration.avi",
+      "sha256": "e638b4563187a52801b0a0cfa9fda1c59e2b08ad4b9bb01536c13f4b99a257fe",
+      "size": 7500193286
+    },
+    {
+      "path": "sub-0235/sub-0235_ses-20260428T105233_cam58_video.avi",
+      "sha256": "0dd9389ca25f898d30ccd22e056a4762909f6bb49ce789ae85716b6c401dbf98",
+      "size": 37917825390
+    },
+    {
+      "path": "sub-0235/sub-0235_ses-20260428T105233_cam67_calibration.avi",
+      "sha256": "18d4fb74e92915d50eb6adfaf3e0d55871a77485f16019b1066f87bbfeed5dd0",
+      "size": 7499026854
+    },
+    {
+      "path": "sub-0235/sub-0235_ses-20260428T105233_cam67_video.avi",
+      "sha256": "b96e5a2e0d6ca73446652d2b10032511197ba09a7c7a29613b4325d9edf129df",
+      "size": 37917242174
+    },
+    {
+      "path": "sub-0235/sub-0235_ses-20260428T105233_cam68_calibration.avi",
+      "sha256": "2bc937dbcd0fa1afe1a7404d3c8d766c9ffdd4a01c72deb45938189c7aa57eee",
+      "size": 7500193286
+    },
+    {
+      "path": "sub-0235/sub-0235_ses-20260428T105233_cam68_video.avi",
+      "sha256": "10409ec65e3f138334c35becb403b3c9880dc84de11bcac08f3a8bedf5daef6f",
+      "size": 37917825390
+    },
+    {
+      "path": "sub-0235/sub-0235_ses-20260428T120159_behavior+ecephys.nwb",
+      "sha256": "9efcdaea18a058b55afe5b0394658f3109f464e94df4581374a42ec812191c48",
+      "size": 1665155390
+    },
+    {
+      "path": "sub-0235/sub-0235_ses-20260428T150446_behavior+ecephys.nwb",
+      "sha256": "966e6bee4d3a98e76a10f41bc654dd7a554db765498e2e0457b6ff6d6621cb2a",
+      "size": 1267278887
+    },
+    {
+      "path": "sub-0235/sub-0235_ses-20260428T150446_cam14_calibration.avi",
+      "sha256": "4537560f1779494670320b9e6db511d5703ae285b3ca53bb5fbb4d3db91c560e",
+      "size": 6432324734
+    },
+    {
+      "path": "sub-0235/sub-0235_ses-20260428T150446_cam14_video.avi",
+      "sha256": "dd5aa2556ff74e76e1bbd96528bc061449641b61f6ca83f2302e738821ce2862",
+      "size": 24628664886
+    },
+    {
+      "path": "sub-0235/sub-0235_ses-20260428T150446_cam46_calibration.avi",
+      "sha256": "d8a7a2a930f16e01bc4021851485c6f5d31be8c35c330b69a2f03f93ac129319",
+      "size": 6432324734
+    },
+    {
+      "path": "sub-0235/sub-0235_ses-20260428T150446_cam46_video.avi",
+      "sha256": "8b885161785874fbea09875cdce2fb5afa4516e657f2c41479a6a7c4bc0525c8",
+      "size": 24628664886
+    },
+    {
+      "path": "sub-0235/sub-0235_ses-20260428T150446_cam58_calibration.avi",
+      "sha256": "79edfa5cae4c02b5b0d80aec94a0534fc7b11c584277fe967d78a04f97f8d816",
+      "size": 6432324734
+    },
+    {
+      "path": "sub-0235/sub-0235_ses-20260428T150446_cam58_video.avi",
+      "sha256": "0d3c479804e715734a08746130e4b8c0695bc34b4aa580016e9c454f267c28b6",
+      "size": 24628664886
+    },
+    {
+      "path": "sub-0235/sub-0235_ses-20260428T150446_cam67_calibration.avi",
+      "sha256": "f16eb66439375fd8cd5bd475aae3982f4551db6106e300492b67fd8867c7ff0f",
+      "size": 6432324734
+    },
+    {
+      "path": "sub-0235/sub-0235_ses-20260428T150446_cam67_video.avi",
+      "sha256": "477a4cc6b02120e0aee9bcd4b5ecf0a0b8a1eb47009925e348d9e3a1ce3f3070",
+      "size": 24628664886
+    },
+    {
+      "path": "sub-0235/sub-0235_ses-20260428T150446_cam68_calibration.avi",
+      "sha256": "72d75d3983b46a685aff435e400222921ee51b02452a2af9fa9c86fb62a355b7",
+      "size": 6432324734
+    },
+    {
+      "path": "sub-0235/sub-0235_ses-20260428T150446_cam68_video.avi",
+      "sha256": "67fbae2e731b49586adaa4f79c562144a140b79c31d9d65f9a05edd5f03461ce",
+      "size": 24628664886
+    },
+    {
+      "path": "sub-0235/sub-0235_ses-20260429T112554_behavior+ecephys.nwb",
+      "sha256": "a5aca870c10c82d69e37bfb746cb2fac51d2d9f6ee39e6ab02d159489f849505",
+      "size": 2455518672
+    },
+    {
+      "path": "sub-0235/sub-0235_ses-20260429T133224_behavior+ecephys.nwb",
+      "sha256": "f6a0a4dd3584ed25b0ae696676f13eece86d7fd72b50a2a73c02187c6e0b6466",
+      "size": 2657861958
+    },
+    {
+      "path": "sub-0235/sub-0235_ses-20260430T104623_behavior+ecephys.nwb",
+      "sha256": "833161c4f497664e44182dd2d884c33f6d7a7f435d7b4f02f8ad9cc2d7a11748",
+      "size": 2663175688
+    },
+    {
+      "path": "sub-0235/sub-0235_ses-20260430T144826_behavior+ecephys.nwb",
+      "sha256": "d48e359d7a5787d389a2a09ee93f8457e09202ad9b90df1a43d322adf90d7cfe",
+      "size": 2711206682
+    },
+    {
+      "path": "sub-0235/sub-0235_ses-20260501T103824_behavior+ecephys.nwb",
+      "sha256": "ba06d4a6ed4aca56bb9fbbe182aa64640920e47a1ee56906b5692f5821c9ac0f",
+      "size": 2583494082
+    },
+    {
+      "path": "sub-0235/sub-0235_ses-20260501T142511_behavior+ecephys.nwb",
+      "sha256": "0883fde3dbc48a61e167b4190c33d966f0fd3b376f36a058efdd765eeedfdb52",
+      "size": 2424813298
+    },
+    {
+      "path": "sub-0235/sub-0235_ses-20260507T103040_behavior+ecephys.nwb",
+      "sha256": "6da271c5e0a3692c651400e12551c6bf607e78f4a537e47a66b10ff7ea2a0a30",
+      "size": 2397070870
+    },
+    {
+      "path": "sub-0235/sub-0235_ses-20260507T103040_cam14_calibration.avi",
+      "sha256": "dc414f7974738d9763a525da422cd490ad61b873ade7c26917d94073120858e2",
+      "size": 5528923150
+    },
+    {
+      "path": "sub-0235/sub-0235_ses-20260507T103040_cam14_video.avi",
+      "sha256": "d27096db73933e75a4669cdbeeefd7223f6ef2862e1a5bcbd114e24685f78742",
+      "size": 47112226078
+    },
+    {
+      "path": "sub-0235/sub-0235_ses-20260507T103040_cam46_calibration.avi",
+      "sha256": "6b4cdc8a4de936e8c79d6078eaa4891f336483a0f76189a67489d362440f065d",
+      "size": 5528923150
+    },
+    {
+      "path": "sub-0235/sub-0235_ses-20260507T103040_cam46_video.avi",
+      "sha256": "e07d0e41b8cb61e7b7cb13c643a94985e315701d0ea81907a4bb423b678ecd64",
+      "size": 47112226078
+    },
+    {
+      "path": "sub-0235/sub-0235_ses-20260507T103040_cam58_calibration.avi",
+      "sha256": "74fd9567c934bf704133c66c17cb9b5236fabbd4d15ac33ec58058cee68c8a7a",
+      "size": 5528923150
+    },
+    {
+      "path": "sub-0235/sub-0235_ses-20260507T103040_cam58_video.avi",
+      "sha256": "106aaef1eefc7bd5b873f33b5fd445622a4229faddf6ce46e4c8a89dc1ed5523",
+      "size": 47112226078
+    },
+    {
+      "path": "sub-0235/sub-0235_ses-20260507T103040_cam67_calibration.avi",
+      "sha256": "58d7733288001e85e395de39ffc3517bbdc06844133c83785ef628965d733bb3",
+      "size": 5528923150
+    },
+    {
+      "path": "sub-0235/sub-0235_ses-20260507T103040_cam67_video.avi",
+      "sha256": "5ad72aacf4faca5b23328388766724d42881bee26bbeffeee471722541014ae1",
+      "size": 47112226078
+    },
+    {
+      "path": "sub-0235/sub-0235_ses-20260507T103040_cam68_calibration.avi",
+      "sha256": "c039f8d54c78bb0c24305074145a336540a0f22ad8e7136a8d6feb2a4e82ac23",
+      "size": 5528923150
+    },
+    {
+      "path": "sub-0235/sub-0235_ses-20260507T103040_cam68_video.avi",
+      "sha256": "2f96d2deb22bcd9da0ae58a1e9c8b06f0584e9bfbe11842d1d45e43201bf9ccd",
+      "size": 47112226078
+    },
+    {
+      "path": "sub-0235/sub-0235_ses-20260507T132947_behavior+ecephys.nwb",
+      "sha256": "14e4e44cec410f7daf2a8e946d8c34a108816a4e10728ced177095bd9ff49887",
+      "size": 2326398458
+    },
+    {
+      "path": "sub-0235/sub-0235_ses-20260507T154953_behavior+ecephys.nwb",
+      "sha256": "61db60eee94a0e7d56285cebd445db5b9852bd2c559108e9ce92efef6a20c08d",
+      "size": 2695031966
+    },
+    {
+      "path": "sub-0235/sub-0235_ses-20260507T154953_cam14_calibration.avi",
+      "sha256": "11981a55217d810eb3e6b24f509cba332f6bf3ec7d705de84428c4a33ccd4e08",
+      "size": 5516675614
+    },
+    {
+      "path": "sub-0235/sub-0235_ses-20260507T154953_cam14_video.avi",
+      "sha256": "24662ef0101e3024749646f0bd072ce9c9a0fbbe9e4cf05f0b3df38dbeb35d8f",
+      "size": 53668157470
+    },
+    {
+      "path": "sub-0235/sub-0235_ses-20260507T154953_cam46_calibration.avi",
+      "sha256": "ec5f749d295e07fc1c876e1183a991128c1fc65da50970ee3c9c8f49293b6fff",
+      "size": 5517258830
+    },
+    {
+      "path": "sub-0235/sub-0235_ses-20260507T154953_cam46_video.avi",
+      "sha256": "c8ceebdc77d3cd7010788b410479be51ea680d0b654fedb3545ce548dda77465",
+      "size": 53668157470
+    },
+    {
+      "path": "sub-0235/sub-0235_ses-20260507T154953_cam58_calibration.avi",
+      "sha256": "c01dc1be0c8489901e51180ef6e7c768a3675e7e381278c4b808087fd5f2a76c",
+      "size": 5517258830
+    },
+    {
+      "path": "sub-0235/sub-0235_ses-20260507T154953_cam58_video.avi",
+      "sha256": "69b3ad2167fc847d0af9f7fa5e48dc3d00f327a4e3acbf1944304fb94c7e19e5",
+      "size": 53667574254
+    },
+    {
+      "path": "sub-0235/sub-0235_ses-20260507T154953_cam67_calibration.avi",
+      "sha256": "e2287fc003bb7890a2cea478f9869de8d4f0eb16598aa0ff7e545e9ee3e89703",
+      "size": 5516675614
+    },
+    {
+      "path": "sub-0235/sub-0235_ses-20260507T154953_cam67_video.avi",
+      "sha256": "e4d15cf27e2e9e4def41be287b18b38551a94e0d6847299bbcc7ffcbc49f1bb0",
+      "size": 53668740686
+    },
+    {
+      "path": "sub-0235/sub-0235_ses-20260507T154953_cam68_calibration.avi",
+      "sha256": "d2e9331bfbe53098a74ef14b9af11d1fcdf166a9bd912048c909ae83efdb6c75",
+      "size": 5516092398
+    },
+    {
+      "path": "sub-0235/sub-0235_ses-20260507T154953_cam68_video.avi",
+      "sha256": "565271f8f9d1de28fe67284fa4557d4aa977864b988f93124e5d0cf2f99916d7",
+      "size": 53668157470
+    },
+    {
+      "path": "sub-0235/sub-0235_ses-20260508T114107_behavior+ecephys.nwb",
+      "sha256": "25dd056d7f06c438a4da7d03a0391fbf4f0bf0f3a175cd298ce8482f6bc58763",
+      "size": 2426012135
+    },
+    {
+      "path": "sub-0235/sub-0235_ses-20260508T160604_behavior+ecephys.nwb",
+      "sha256": "16045a274ad8e6aba7af50d690189d15753fb917f66ba10027a065ac4d0fa323",
+      "size": 2389054718
+    },
+    {
+      "path": "sub-0235/sub-0235_ses-20260512T153155_behavior+ecephys.nwb",
+      "sha256": "4bd3bdd67996781b022ac48716629229ec55997373f9c98b2f541b828f7fbd2d",
+      "size": 1760402441
+    },
+    {
+      "path": "sub-0235/sub-0235_ses-20260513T113552_behavior+ecephys.nwb",
+      "sha256": "b348ba22501f902d9285d7b7287c47f5e263caf0380f123c1a8e132627424c2f",
+      "size": 2420643172
+    },
+    {
+      "path": "sub-0235/sub-0235_ses-20260513T113552_cam14_calibration.avi",
+      "sha256": "58850a76494bd52280f7cb2cd5f4d2b749ee808e9693b1d212d62e8ef4e3a8fa",
+      "size": 6055567198
+    },
+    {
+      "path": "sub-0235/sub-0235_ses-20260513T113552_cam14_video.avi",
+      "sha256": "896b6ca1eb11af33979d20e6633f667c1b14110200eca61f66a92552d14cf33d",
+      "size": 44707043182
+    },
+    {
+      "path": "sub-0235/sub-0235_ses-20260513T113552_cam46_calibration.avi",
+      "sha256": "a3d76c52ea0ddf178fb2d2d28918aa94b60ac9ae1f52b7e9b42e2a193dc3d354",
+      "size": 6055567198
+    },
+    {
+      "path": "sub-0235/sub-0235_ses-20260513T113552_cam46_video.avi",
+      "sha256": "e4295c2d0fb0a4b38a65375d853efb151c17a1e38a852bd4e2f5de1a19e21aad",
+      "size": 44705293534
+    },
+    {
+      "path": "sub-0235/sub-0235_ses-20260513T113552_cam58_calibration.avi",
+      "sha256": "97c85863bfe373246410f0c3cb66349d31fc2553134570646fb805b6b8ba388f",
+      "size": 6055567198
+    },
+    {
+      "path": "sub-0235/sub-0235_ses-20260513T113552_cam58_video.avi",
+      "sha256": "fa5e4359616a7f1ce6d271b145abeda72c5e4636232a8dd231b8e5b26e834d4a",
+      "size": 44705293534
+    },
+    {
+      "path": "sub-0235/sub-0235_ses-20260513T113552_cam67_calibration.avi",
+      "sha256": "a1a670bc7162cda3bebb4b80eeca6fa275b6bd8803089a1cd2ebb3c4328fa3e3",
+      "size": 6055567198
+    },
+    {
+      "path": "sub-0235/sub-0235_ses-20260513T113552_cam67_video.avi",
+      "sha256": "6de9a25b821ea46089dffe9647de278285a326908c0f8647e79706ca1f5f02ed",
+      "size": 44706459966
+    },
+    {
+      "path": "sub-0235/sub-0235_ses-20260513T113552_cam68_calibration.avi",
+      "sha256": "8b88b5f2ee4e8ffa08214840edcfc9f0c99e40fa764adc64a606fe2bf70795ea",
+      "size": 6055567198
+    },
+    {
+      "path": "sub-0235/sub-0235_ses-20260513T113552_cam68_video.avi",
+      "sha256": "40f8a9531b6cdb7d374bd3b9e6c8f970c68229c20cdc630d72cbdd46effece6c",
+      "size": 44704710318
+    },
+    {
+      "path": "sub-0235/sub-0235_ses-20260513T151008_behavior+ecephys.nwb",
+      "sha256": "c036d01e631fb78811f9e4c895368db30810a9cdb9e7b0b84e42429775db8a1e",
+      "size": 1792386658
+    },
+    {
+      "path": "sub-0235/sub-0235_ses-20260513T151008_cam14_calibration.avi",
+      "sha256": "63d8870b07537bb21a288e5c0f052a722f3992afbf131e3ecbeb6062e6a22d9a",
+      "size": 5507927374
+    },
+    {
+      "path": "sub-0235/sub-0235_ses-20260513T151008_cam14_video.avi",
+      "sha256": "c00db3339827ff1c07b8e27ee80d3c26b9823976aec7b84b07e20c5d538ed83d",
+      "size": 34952755078
+    },
+    {
+      "path": "sub-0235/sub-0235_ses-20260513T151008_cam46_calibration.avi",
+      "sha256": "b6ce8440c9f683d09eb8d3a0d149150a995ac6e2ee8a18c914454003b284be6b",
+      "size": 5508510590
+    },
+    {
+      "path": "sub-0235/sub-0235_ses-20260513T151008_cam46_video.avi",
+      "sha256": "70a9810f62ebc24817c8b6eb505f10239fb11e4efbc5a590ff8da56e58861b72",
+      "size": 34951005430
+    },
+    {
+      "path": "sub-0235/sub-0235_ses-20260513T151008_cam58_calibration.avi",
+      "sha256": "d628ad04d5dbc6cb9ea99626e6cbfc67121919149174e820e45cce6c24053bfd",
+      "size": 5507344158
+    },
+    {
+      "path": "sub-0235/sub-0235_ses-20260513T151008_cam58_video.avi",
+      "sha256": "cd4f14b50516454fb5af2834c9f46f0f5621ea11739798839f5a009967a6d997",
+      "size": 34951005430
+    },
+    {
+      "path": "sub-0235/sub-0235_ses-20260513T151008_cam67_calibration.avi",
+      "sha256": "f774b6952ae5005ea814b09bb7092240832891dd3d2d84457330b9ef9f964b49",
+      "size": 5507927374
+    },
+    {
+      "path": "sub-0235/sub-0235_ses-20260513T151008_cam67_video.avi",
+      "sha256": "cc99d24d7e99a2fd4ecc8844ff4b558da28215f5169839734620dda8062d52e7",
+      "size": 34952755078
+    },
+    {
+      "path": "sub-0235/sub-0235_ses-20260513T151008_cam68_calibration.avi",
+      "sha256": "b301149a25b9e15c1c9dcc17fd2809d506c42698db4cc7fd35a32a443323eeb2",
+      "size": 5507344158
+    },
+    {
+      "path": "sub-0235/sub-0235_ses-20260513T151008_cam68_video.avi",
+      "sha256": "74135fb15877b472150b0905cdfb0702a0f7aaf2c4c5e118183620021420a427",
+      "size": 34951005430
+    },
+    {
+      "path": "sub-0235/sub-0235_ses-20260515T145341_behavior+ecephys.nwb",
+      "sha256": "18a86a2a8699f6e6bab2b1a24867fcfb8b0e5b9f83120e5d5d6c9459ee75bf70",
+      "size": 2487397509
+    },
+    {
+      "path": "sub-0235/sub-0235_ses-20260518T130304_behavior+ecephys.nwb",
+      "sha256": "e3a1d0acd3247f481ae6c11d4b9bd7786a849f5a5df5fd3c95f43bd84d5a7c3f",
+      "size": 2299475982
+    },
+    {
+      "path": "sub-0235/sub-0235_ses-20260519T103735_behavior+ecephys.nwb",
+      "sha256": "b00ef1527ee9d2b3c69feafb0fdc146fda230c4fb3c6c4545b1f668c8ad5e260",
+      "size": 66928940
+    },
+    {
+      "path": "sub-0235/sub-0235_ses-20260520T101819_behavior+ecephys.nwb",
+      "sha256": "3892505fb01340e24a5861664603b0213fb826bf117f17572b9056fd79ecb7c9",
+      "size": 2483274229
+    },
+    {
+      "path": "sub-0235/sub-0235_ses-20260520T101819_cam14_calibration.avi",
+      "sha256": "567160524127f311c262a35b26bda78c0f06de360dcc358c1f08093088ec3423",
+      "size": 5362123318
+    },
+    {
+      "path": "sub-0235/sub-0235_ses-20260520T101819_cam14_video.avi",
+      "sha256": "6bdf3b9f093573c08024d0150033e11b73eb66c71884059312617a0f61048cec",
+      "size": 48828630878
+    },
+    {
+      "path": "sub-0235/sub-0235_ses-20260520T101819_cam46_calibration.avi",
+      "sha256": "871974cf5d5454944c76b78cc5f6984bb96b23b16bb9b5f3fb8b6c4dc6b89346",
+      "size": 5362123318
+    },
+    {
+      "path": "sub-0235/sub-0235_ses-20260520T101819_cam46_video.avi",
+      "sha256": "043c04d725816eba910083a50cd60402006bf6e4d48488df1d30b78ac0755676",
+      "size": 48826881230
+    },
+    {
+      "path": "sub-0235/sub-0235_ses-20260520T101819_cam58_calibration.avi",
+      "sha256": "954a0bd1bd00a9df9e39f0a9f18a2599d20186dedbec062f40a27d4c4262eaab",
+      "size": 5362123318
+    },
+    {
+      "path": "sub-0235/sub-0235_ses-20260520T101819_cam58_video.avi",
+      "sha256": "a6c173b5c4076b5fd4c9147f1b7c47dcbbda0683bc7aafde5ea792da55f2e771",
+      "size": 48826881230
+    },
+    {
+      "path": "sub-0235/sub-0235_ses-20260520T101819_cam67_calibration.avi",
+      "sha256": "87f08f7781cd4c12eeac6463cff9a6d7eed577107802609786cb4c3e2561712b",
+      "size": 5362123318
+    },
+    {
+      "path": "sub-0235/sub-0235_ses-20260520T101819_cam67_video.avi",
+      "sha256": "1aa35f6a9046f7ba41cb899b32cd3fa09f9a1675bd0d0694acb5101cd7787e20",
+      "size": 48828630878
+    },
+    {
+      "path": "sub-0235/sub-0235_ses-20260520T101819_cam68_calibration.avi",
+      "sha256": "baec7e2bbab84d40a5b35cc737fc1564f20792a04b3b6eb2e903ba38968d5bae",
+      "size": 5362123318
+    },
+    {
+      "path": "sub-0235/sub-0235_ses-20260520T101819_cam68_video.avi",
+      "sha256": "e384b4756e2738265c5918f5f6aa69cf7cd4560bc480b8dc2ebdc1d0af2e583c",
+      "size": 48826881230
+    },
+    {
+      "path": "sub-0235/sub-0235_ses-20260520T132059_behavior+ecephys.nwb",
+      "sha256": "451b9e366397333bf12b9871d264df8f3885b597d8dd9d8c826c95197210594e",
+      "size": 2666378665
+    },
+    {
+      "path": "sub-0235/sub-0235_ses-20260520T132059_cam14_calibration.avi",
+      "sha256": "a5acd66bf6735a713a3e844d2cae65ed7d542f364871a03745fe46b888211f91",
+      "size": 6073063678
+    },
+    {
+      "path": "sub-0235/sub-0235_ses-20260520T132059_cam14_video.avi",
+      "sha256": "991e6510c38c090a15565e3e8e6d180d5076414069b4a96aa9dcfc3a8af32aef",
+      "size": 53271570590
+    },
+    {
+      "path": "sub-0235/sub-0235_ses-20260520T132059_cam46_calibration.avi",
+      "sha256": "ff3455bcc765db23e06fe5859ac7bfe8c425dc8fe0b042fd174b2f92e3b79fea",
+      "size": 6073063678
+    },
+    {
+      "path": "sub-0235/sub-0235_ses-20260520T132059_cam46_video.avi",
+      "sha256": "6f4be849356a72e19932a419960e5f0457b9972fd93a687f6c3f54458b24b6ac",
+      "size": 53271570590
+    },
+    {
+      "path": "sub-0235/sub-0235_ses-20260520T132059_cam58_calibration.avi",
+      "sha256": "e88f06b3cd85a41937b24238e0ee0f3ee741d1786fef6d020e978dbf73b47e07",
+      "size": 6073063678
+    },
+    {
+      "path": "sub-0235/sub-0235_ses-20260520T132059_cam58_video.avi",
+      "sha256": "c4f414235f72762892fb7bc712990531e5aa716adbcf2fa0328d7cb7e0628e81",
+      "size": 53271570590
+    },
+    {
+      "path": "sub-0235/sub-0235_ses-20260520T132059_cam67_calibration.avi",
+      "sha256": "a60af76aeaf065f8be3330709941da1a957d819d4cbec6aa48d0ae8713ece6d3",
+      "size": 6073063678
+    },
+    {
+      "path": "sub-0235/sub-0235_ses-20260520T132059_cam67_video.avi",
+      "sha256": "7290718ddb150435fbf484ecfe81217d85366e49155ba6ace4e186953eb673de",
+      "size": 53271570590
+    },
+    {
+      "path": "sub-0235/sub-0235_ses-20260520T132059_cam68_calibration.avi",
+      "sha256": "db569deed3027a564e2968d9c50b4c0f0263a1c95b40213196c7e6557270933e",
+      "size": 6073063678
+    },
+    {
+      "path": "sub-0235/sub-0235_ses-20260520T132059_cam68_video.avi",
+      "sha256": "186cdf9de02d5399c3b4a39cd58fe2878b6d0bf1f739e9857ccd5cd566ab0354",
+      "size": 53271570590
+    },
+    {
+      "path": "sub-0235/sub-0235_ses-20260521T102105_behavior+ecephys.nwb",
+      "sha256": "428cdef86d6482cb6fc3abada70c8272898c72e559fe7e241814feb7ef2283ca",
+      "size": 3170378545
+    },
+    {
+      "path": "sub-0235/sub-0235_ses-20260522T115355_behavior+ecephys.nwb",
+      "sha256": "f0ff9f0df530ddb53dadf463a8256c5338d9bec18ec0c64ee7597f9c32368200",
+      "size": 2376986655
+    },
+    {
+      "path": "sub-0236/sub-0236_ses-20260306T114321_behavior+ecephys.nwb",
+      "sha256": "127f5c849767e06422648a8bd0ea7e676e7a4e6baff8f240243c7ee061bf07f7",
+      "size": 1200582667
+    },
+    {
+      "path": "sub-0236/sub-0236_ses-20260306T114321_cam14_calibration.avi",
+      "sha256": "70ee61d0260cbf60921da6f5b0c456298be389409aa25a671561ae7101b1d832",
+      "size": 7601672926
+    },
+    {
+      "path": "sub-0236/sub-0236_ses-20260306T114321_cam14_video.avi",
+      "sha256": "6e7b969ee09b3b9a4f7cbdd147da7b9514884e7aa445865ec336d62e0e59a3c3",
+      "size": 30133641046
+    },
+    {
+      "path": "sub-0236/sub-0236_ses-20260306T114321_cam46_calibration.avi",
+      "sha256": "4af7091f5b0ec1891e2ce150d8565abbb5b85a2a42888c1def5bf682f850a0ad",
+      "size": 7601672926
+    },
+    {
+      "path": "sub-0236/sub-0236_ses-20260306T114321_cam46_video.avi",
+      "sha256": "538b89213faf01c0951c0ec3861e562a51455c0934b50ce9306b98bd94785a4d",
+      "size": 30134224262
+    },
+    {
+      "path": "sub-0236/sub-0236_ses-20260306T114321_cam58_calibration.avi",
+      "sha256": "3186395c4c7836d5dacb6566111dc45449163e369dde6f2d98eea368ff101284",
+      "size": 7601672926
+    },
+    {
+      "path": "sub-0236/sub-0236_ses-20260306T114321_cam58_video.avi",
+      "sha256": "df3ae10b11bd3b79c6512f46c054320582dce7994a63416f542114e5705675fc",
+      "size": 30134224262
+    },
+    {
+      "path": "sub-0236/sub-0236_ses-20260306T114321_cam67_calibration.avi",
+      "sha256": "f7721ebc56bb8ae7bec320d4f4f97c77e6ab43316c9d1645307ae75bbf59cb8c",
+      "size": 7601672926
+    },
+    {
+      "path": "sub-0236/sub-0236_ses-20260306T114321_cam67_video.avi",
+      "sha256": "468fe984b5a07194a8d500904854877315d7fdddb21498747d4699714c895216",
+      "size": 30133641046
+    },
+    {
+      "path": "sub-0236/sub-0236_ses-20260306T114321_cam68_calibration.avi",
+      "sha256": "f21ed96816e34c9131569eda1cff84efd4df078ef2bc95bc22a96a99a127b055",
+      "size": 7601672926
+    },
+    {
+      "path": "sub-0236/sub-0236_ses-20260306T114321_cam68_video.avi",
+      "sha256": "27d0a289db52820bd23b5c1154a4546dcc9ab52377c6005310244c4d216bc443",
+      "size": 30134224262
+    },
+    {
+      "path": "sub-0236/sub-0236_ses-20260306T154144_behavior+ecephys.nwb",
+      "sha256": "835cd3dc08f5042c529223f1c84b2ce01148075afad50ff96a6a90238e225968",
+      "size": 684191888
+    },
+    {
+      "path": "sub-0236/sub-0236_ses-20260308T130347_behavior+ecephys.nwb",
+      "sha256": "274f9c115d4ae837c9f5dde082a6b1cabc2e9e36baf58104ad34dbc2af07c1f6",
+      "size": 1344778860
+    },
+    {
+      "path": "sub-0236/sub-0236_ses-20260308T130347_cam14_calibration.avi",
+      "sha256": "f84fa6bd471c855332cabd1014a7ffab0e5c06d26490734cb15f389792572790",
+      "size": 3788606494
+    },
+    {
+      "path": "sub-0236/sub-0236_ses-20260308T130347_cam14_video.avi",
+      "sha256": "c920377693b141aa03d383c968af4544153b6a505d7feffdf60f08f00582d26e",
+      "size": 30102147382
+    },
+    {
+      "path": "sub-0236/sub-0236_ses-20260308T130347_cam46_calibration.avi",
+      "sha256": "bc5b68db85490cbeb3ebfdf12615368407ab3751ef163fc2db67ea99adbcd9bb",
+      "size": 3788606494
+    },
+    {
+      "path": "sub-0236/sub-0236_ses-20260308T130347_cam46_video.avi",
+      "sha256": "2a1f3f3ecf128ea6a43786eb6c0e7547c82790f7c67d93b8f90534ed0d72cec2",
+      "size": 30100980950
+    },
+    {
+      "path": "sub-0236/sub-0236_ses-20260308T130347_cam58_calibration.avi",
+      "sha256": "03b3a2e1461b1e7915235c6eb7b0366c660bacc554706d726837f6a234ca0824",
+      "size": 3788606494
+    },
+    {
+      "path": "sub-0236/sub-0236_ses-20260308T130347_cam58_video.avi",
+      "sha256": "e46f3b4635dfc51ab15f36caf2daa0785a65c890230f5d7fe7f0378cd299ed49",
+      "size": 30100980950
+    },
+    {
+      "path": "sub-0236/sub-0236_ses-20260308T130347_cam67_calibration.avi",
+      "sha256": "b06918dadc46e303e8147790bed6a0821d238ceba75e659b4dd6cf0cf3d2aab7",
+      "size": 3788606494
+    },
+    {
+      "path": "sub-0236/sub-0236_ses-20260308T130347_cam67_video.avi",
+      "sha256": "897009b6b897c4a66fee814040b9edd66d78d1f2bbfc7a83dd094644015659bb",
+      "size": 30101564166
+    },
+    {
+      "path": "sub-0236/sub-0236_ses-20260308T130347_cam68_calibration.avi",
+      "sha256": "54cfa055c13260c0ba5551ff21fb07500d30384be9a4daa7cf7e4c0dbbca5d76",
+      "size": 3788606494
+    },
+    {
+      "path": "sub-0236/sub-0236_ses-20260308T130347_cam68_video.avi",
+      "sha256": "8e33f839b7ea259749bfda37a8799fd62c5fa2cd5def978115780122a96cff99",
+      "size": 30100980950
+    },
+    {
+      "path": "sub-0236/sub-0236_ses-20260308T164051_behavior+ecephys.nwb",
+      "sha256": "f68f68d525a316c75fea405cb8ccef276546ebc3292640106f5ef4e0fd662ffd",
+      "size": 1017012010
+    },
+    {
+      "path": "sub-0236/sub-0236_ses-20260309T165419_behavior+ecephys.nwb",
+      "sha256": "c68a18b65ce38bd4f2072508c8d398f780f04467ff12eac4ba5c5fa92baa52ed",
+      "size": 707268609
+    },
+    {
+      "path": "sub-0236/sub-0236_ses-20260310T114913_behavior+ecephys.nwb",
+      "sha256": "2d32a1b5cf0d9620ba7c08a05b2a4d72d3715d7bab8ca5411e305ebde32a77b2",
+      "size": 1387811656
+    },
+    {
+      "path": "sub-0236/sub-0236_ses-20260313T114931_behavior+ecephys.nwb",
+      "sha256": "9c8fa8fda079543c94a87c6202b23e80176066e5cb3bffde7cacbe395c72855a",
+      "size": 983238915
+    },
+    {
+      "path": "sub-0236/sub-0236_ses-20260313T125809_behavior+ecephys.nwb",
+      "sha256": "60faa5fbfd7a0e78cd62d4e723fe359e932c278457d6148e5ccc43d9f2f6ae6a",
+      "size": 280481173
+    },
+    {
+      "path": "sub-0236/sub-0236_ses-20260313T125809_cam14_calibration.avi",
+      "sha256": "2ee37023fa0ab7d4081d5376b22047da7f7a0d6594540441d12eae87bd8b15f8",
+      "size": 3963571294
+    },
+    {
+      "path": "sub-0236/sub-0236_ses-20260313T125809_cam46_calibration.avi",
+      "sha256": "3a244880d8da6c55c8a2c47c736770c798830189d3cd04be0e9e13ec79f76aa8",
+      "size": 3963571294
+    },
+    {
+      "path": "sub-0236/sub-0236_ses-20260313T125809_cam58_calibration.avi",
+      "sha256": "a4b5900d17a20ad5ca14d43dacee8abdc6dd12213ce3a77a410c1e8acc006c3c",
+      "size": 3963571294
+    },
+    {
+      "path": "sub-0236/sub-0236_ses-20260313T125809_cam67_calibration.avi",
+      "sha256": "a7af3e717a0335dded12d26eea703d6a438467c40e6e0c04a53f4fdde551dda7",
+      "size": 3963571294
+    },
+    {
+      "path": "sub-0236/sub-0236_ses-20260313T125809_cam68_calibration.avi",
+      "sha256": "63d7f3648ecf770580a63842599e39df8c3f26320dc9a0600043dcf8d2926c5a",
+      "size": 3963571294
+    },
+    {
+      "path": "sub-0236/sub-0236_ses-20260316T154046_behavior+ecephys.nwb",
+      "sha256": "420f9f34ae145cb764d9aab06993e8dbd3b84d69a1151217eab376a76b94aa34",
+      "size": 1097090588
+    },
+    {
+      "path": "sub-0236/sub-0236_ses-20260316T154046_cam14_calibration.avi",
+      "sha256": "1c0dfb098ec92da49102507704ac14d1772031f2a6764365670adaa084b4c1ef",
+      "size": 5037272006
+    },
+    {
+      "path": "sub-0236/sub-0236_ses-20260316T154046_cam46_calibration.avi",
+      "sha256": "fc29c7b4b1feb14856acb037f1227dcae24be7b20cdb9de36e79d4bbf6bef011",
+      "size": 5037272006
+    },
+    {
+      "path": "sub-0236/sub-0236_ses-20260316T154046_cam58_calibration.avi",
+      "sha256": "537bde5858fb2083140f946be8ccd316aa98b78bb90de3e49c83b10e8cfc87cf",
+      "size": 5037272006
+    },
+    {
+      "path": "sub-0236/sub-0236_ses-20260316T154046_cam67_calibration.avi",
+      "sha256": "c0a2ace33cca0749553e582c949def27652867d7063f3581cbc3dc7b35699e9b",
+      "size": 5037272006
+    },
+    {
+      "path": "sub-0236/sub-0236_ses-20260316T154046_cam68_calibration.avi",
+      "sha256": "8cc1c2356ada83fe6b26bc53d1e03c8e1996abcad11297a274441d873c7638e8",
+      "size": 5037272006
+    },
+    {
+      "path": "sub-0236/sub-0236_ses-20260316T163942_behavior+ecephys.nwb",
+      "sha256": "e06feb1ed5654e49e9a305823a8e71567abdb62278120ba846bed47a3143e43a",
+      "size": 1139632522
+    },
+    {
+      "path": "sub-0236/sub-0236_ses-20260317T142954_behavior+ecephys.nwb",
+      "sha256": "8d6edc1fe492d45bb1da0226550cedbfae7de7ca26ad174fd27af605735aab24",
+      "size": 449643312
+    },
+    {
+      "path": "sub-0236/sub-0236_ses-20260317T153709_behavior+ecephys.nwb",
+      "sha256": "c66a7fed1c706400b9c05c3f0a82a2e4255e69e0a11e4cbfd564c407d3bf5407",
+      "size": 353921654
+    },
+    {
+      "path": "sub-0236/sub-0236_ses-20260318T102354_behavior+ecephys.nwb",
+      "sha256": "fbb514dc91fcb97a597c95dd5afbae1baf5177aaada8e65fb87f03ca5b3cbc15",
+      "size": 735698053
+    },
+    {
+      "path": "sub-0236/sub-0236_ses-20260318T140526_behavior+ecephys.nwb",
+      "sha256": "98950916fdc84d5ff650942d38f75ef05d1b3f097a6c307d3f67fbd418c44100",
+      "size": 1471778944
+    },
+    {
+      "path": "sub-0236/sub-0236_ses-20260318T140526_cam14_calibration.avi",
+      "sha256": "88646bc82994b3cafe220edabbece0f5382c1883457c972f3b9ed0226ce58ee9",
+      "size": 4108208862
+    },
+    {
+      "path": "sub-0236/sub-0236_ses-20260318T140526_cam14_video.avi",
+      "sha256": "aafd0d6c51802b89d584c52b35e4ed4d761fde5f397c5ac4b4571a43a51e4655",
+      "size": 29528262782
+    },
+    {
+      "path": "sub-0236/sub-0236_ses-20260318T140526_cam46_calibration.avi",
+      "sha256": "ee89fea59499402584605a44bead1da5ad21317d63ada27defba91b11138d236",
+      "size": 4109958510
+    },
+    {
+      "path": "sub-0236/sub-0236_ses-20260318T140526_cam46_video.avi",
+      "sha256": "0a1322d77686ac8d5fe9a6e7b6370b140c7021ccf3c1d387c9dc8b1bbf9c6dbf",
+      "size": 29527679566
+    },
+    {
+      "path": "sub-0236/sub-0236_ses-20260318T140526_cam58_calibration.avi",
+      "sha256": "49e087f74946e44f9825818b1b2d07a1ed3b5b9b2eafd73aa0dd8720c9f079d8",
+      "size": 4109375294
+    },
+    {
+      "path": "sub-0236/sub-0236_ses-20260318T140526_cam58_video.avi",
+      "sha256": "44f3caf64ed096aeb7900c9d4edfc7093599aaf9b1d00b473eb382f704427c19",
+      "size": 29527679566
+    },
+    {
+      "path": "sub-0236/sub-0236_ses-20260318T140526_cam67_calibration.avi",
+      "sha256": "c6b28ff6ea9e05a066d2bb7d776fe70d15f8d4c4c60df8c6cd06e9148b604415",
+      "size": 4108208862
+    },
+    {
+      "path": "sub-0236/sub-0236_ses-20260318T140526_cam67_video.avi",
+      "sha256": "0bfa61e3afd8cc5392cd0c125e9208447228e619beb17b0b04b3a9708a03ea02",
+      "size": 29528262782
+    },
+    {
+      "path": "sub-0236/sub-0236_ses-20260318T140526_cam68_calibration.avi",
+      "sha256": "a445a075878379f1561e893f4ae56a025adec60891fe2f14d9cc41a33aef67df",
+      "size": 4109375294
+    },
+    {
+      "path": "sub-0236/sub-0236_ses-20260318T140526_cam68_video.avi",
+      "sha256": "5ebaec9f699ee7b17c63b569a588afff72aec2aff8f959518e9b3d93a3797054",
+      "size": 29527679566
+    },
+    {
+      "path": "sub-0236/sub-0236_ses-20260318T152545_behavior+ecephys.nwb",
+      "sha256": "cee3e2936b5ce13464fac53d85392ea8a1630d67684d946b6089f00ae5a280a0",
+      "size": 1531947179
+    },
+    {
+      "path": "sub-0236/sub-0236_ses-20260318T164616_behavior+ecephys.nwb",
+      "sha256": "909fb4f354e169d7ad47e6898b5196851486014c26214e3510f4832120daac86",
+      "size": 1673179088
+    },
+    {
+      "path": "sub-0236/sub-0236_ses-20260318T164616_cam14_calibration.avi",
+      "sha256": "542dd113c6eb37fbc5dcfe96da03b745938fafe210ff46adadb3b285d352353a",
+      "size": 3212389030
+    },
+    {
+      "path": "sub-0236/sub-0236_ses-20260318T164616_cam14_video.avi",
+      "sha256": "2f1bd263b88b6a693d1b861f8c9a4cf5c22ecab1a13d05d6e2f8133581c0f587",
+      "size": 32852594150
+    },
+    {
+      "path": "sub-0236/sub-0236_ses-20260318T164616_cam46_calibration.avi",
+      "sha256": "62778422da29a01d4ea053b0b27b48e22cbecf974e589772f0d15ae3fd5e9a35",
+      "size": 3214721894
+    },
+    {
+      "path": "sub-0236/sub-0236_ses-20260318T164616_cam46_video.avi",
+      "sha256": "e0d0893f50dd1d3d43d86af5b53b56dcb53cb876d1682fb958dd5b79deb0d0dc",
+      "size": 32870090630
+    },
+    {
+      "path": "sub-0236/sub-0236_ses-20260318T164616_cam58_calibration.avi",
+      "sha256": "7c2d9f5b0660e1d8a10248ef8702ab91a08016b6ee296bc31fa9b97fa8455504",
+      "size": 3214138678
+    },
+    {
+      "path": "sub-0236/sub-0236_ses-20260318T164616_cam58_video.avi",
+      "sha256": "54e6aedc73ddac2ed7254ff2db623d0a7eb1ecee87f50a272abee0b3c4958380",
+      "size": 32870090630
+    },
+    {
+      "path": "sub-0236/sub-0236_ses-20260318T164616_cam67_calibration.avi",
+      "sha256": "d4aee3f72254eac2d0749ec8fdf387d07c272eafbd998c9daa3eb10ba8db50f5",
+      "size": 3211222598
+    },
+    {
+      "path": "sub-0236/sub-0236_ses-20260318T164616_cam67_video.avi",
+      "sha256": "fa2780632a2b4f8c0ca494adf1bac8b5ced1fa6bf0f8fd8062e0efb916dc04cd",
+      "size": 32851427718
+    },
+    {
+      "path": "sub-0236/sub-0236_ses-20260318T164616_cam68_calibration.avi",
+      "sha256": "7ffe40f9c5ea60bc2828ad520e7424366fd0cb1ad2965d2dcad52772829a3cc7",
+      "size": 3214138678
+    },
+    {
+      "path": "sub-0236/sub-0236_ses-20260318T164616_cam68_video.avi",
+      "sha256": "8e13d7a9bcbfda708b4e3abf3387975d7a7919f53805ecb590077daa449a4bdf",
+      "size": 32871840278
+    },
+    {
+      "path": "sub-0236/sub-0236_ses-20260319T130321_behavior+ecephys.nwb",
+      "sha256": "d72c14570cfa7f6a90620e7c75772900f93cc46e5f0b3eae840cba551c0f288f",
+      "size": 1631333332
+    },
+    {
+      "path": "sub-0236/sub-0236_ses-20260319T143327_behavior+ecephys.nwb",
+      "sha256": "3e90f2b03919efa4a1f70019b63603773ffe5e43c4f15f2cfd3bc83a25766d65",
+      "size": 1595604439
+    },
+    {
+      "path": "sub-0236/sub-0236_ses-20260320T111100_behavior+ecephys.nwb",
+      "sha256": "0324d2e759ac1d8c140aa0046cdddcfa421b5a7d08fd8610353febd24b4dc07e",
+      "size": 1338514213
+    },
+    {
+      "path": "sub-0236/sub-0236_ses-20260320T121930_behavior+ecephys.nwb",
+      "sha256": "8ac50707c46fd7d44804d35b176898bd509ed775850de55ac967c57574ecbb5f",
+      "size": 1541076267
+    },
+    {
+      "path": "sub-0236/sub-0236_ses-20260323T154740_behavior+ecephys.nwb",
+      "sha256": "bbc945de99582bc0fe40b6a792b3477c45f8c43cbb3df6f6fe6fb3424d3b3d4a",
+      "size": 1930363490
+    },
+    {
+      "path": "sub-0236/sub-0236_ses-20260324T123138_behavior+ecephys.nwb",
+      "sha256": "c7154c34eafdc709c8dfde73b5700a6e86e7a99fcec1c87eabee47186ec17263",
+      "size": 1074034271
+    },
+    {
+      "path": "sub-0236/sub-0236_ses-20260326T141014_behavior+ecephys.nwb",
+      "sha256": "bfd21b6c24388367669011de88ada7c2d20d3422a8d2981bd6dea48eb630a3be",
+      "size": 1190246512
+    },
+    {
+      "path": "sub-0236/sub-0236_ses-20260326T160846_behavior+ecephys.nwb",
+      "sha256": "94df30a1245c0a472d1211625139cc7fb26c678f45179dc62717e8281eadbaa9",
+      "size": 1397908392
+    },
+    {
+      "path": "sub-0236/sub-0236_ses-20260327T132810_behavior+ecephys.nwb",
+      "sha256": "b6cd64d141c3fa77483880b267d4933e9ace472551a4bf07f0e3485656ad7655",
+      "size": 591493250
+    },
+    {
+      "path": "sub-0236/sub-0236_ses-20260327T142403_behavior+ecephys.nwb",
+      "sha256": "2a02f0d5014375a5227eb0c084b375ccd4e1cfba2a5df8dd895893ac21c40650",
+      "size": 1512254435
+    },
+    {
+      "path": "sub-0236/sub-0236_ses-20260330T160710_behavior+ecephys.nwb",
+      "sha256": "7d326eddf19aea6fedba74862ae1a31e8227403c243e620c7adc6a55912b0b6d",
+      "size": 1279595844
+    },
+    {
+      "path": "sub-0236/sub-0236_ses-20260331T090629_behavior+ecephys.nwb",
+      "sha256": "8a590dc1df97e4a6e0c98de3a5f1c07f294ed1009b6f22d6d5d0649d854f6ae7",
+      "size": 2167235378
+    },
+    {
+      "path": "sub-0236/sub-0236_ses-20260401T155014_behavior+ecephys.nwb",
+      "sha256": "0f3d4ac60d0728dd2b47f590cd432cfd6076df519c7639eadf78d4bcbf969b52",
+      "size": 772314947
+    },
+    {
+      "path": "sub-0236/sub-0236_ses-20260402T144945_behavior+ecephys.nwb",
+      "sha256": "933c398f418b5120d00c4dc6c8a6b52e976ad66a2485f889dca328e461c4d7bd",
+      "size": 2369544681
+    },
+    {
+      "path": "sub-0236/sub-0236_ses-20260402T164537_behavior+ecephys.nwb",
+      "sha256": "a4f163203a043ad1ce4442916086d3003a5b4a97eeb0adbc34c24460a368a90f",
+      "size": 1688181754
+    },
+    {
+      "path": "sub-0236/sub-0236_ses-20260408T134217_behavior+ecephys.nwb",
+      "sha256": "ce5c2beafc52ce6d0fe9125c13cd2884b1e4531d30673c179eb45467bc192466",
+      "size": 1200560816
+    },
+    {
+      "path": "sub-0236/sub-0236_ses-20260408T155939_behavior+ecephys.nwb",
+      "sha256": "5ea681abeb2fb3a70a0a7ebc120f8d59f5a64c6e6e7c19acdab16e83e1836d6d",
+      "size": 1757204651
+    },
+    {
+      "path": "sub-0236/sub-0236_ses-20260409T151033_behavior+ecephys.nwb",
+      "sha256": "eff552476179fe354e0ab270dce128868e79d7d488e915a8a1f86c9c7154ccf8",
+      "size": 1708643198
+    },
+    {
+      "path": "sub-0236/sub-0236_ses-20260409T162054_behavior+ecephys.nwb",
+      "sha256": "45d9f02d2c0a667c86ed4b5addf397df50300ab2911550f67ea82baa8f4b3fdc",
+      "size": 1626921287
+    },
+    {
+      "path": "sub-0236/sub-0236_ses-20260410T141630_behavior+ecephys.nwb",
+      "sha256": "d100e20c38940406c4b4a7f224ac46326da0480c36e0b889eb8aec4720dee366",
+      "size": 1517768003
+    },
+    {
+      "path": "sub-0236/sub-0236_ses-20260410T151755_behavior+ecephys.nwb",
+      "sha256": "97d6ad842f08eca44afdadc7a1aa832c0ef39c6a65aa58729871c7f14dab4496",
+      "size": 1809610194
+    },
+    {
+      "path": "sub-0236/sub-0236_ses-20260413T160009_behavior+ecephys.nwb",
+      "sha256": "42db9eb193c683a72da09801a3e8cf6fc71b9107feae99f0362e92e1472c6642",
+      "size": 2414638986
+    },
+    {
+      "path": "sub-0236/sub-0236_ses-20260414T145344_behavior+ecephys.nwb",
+      "sha256": "4f5f21e0068e87741823f6214afbfdb0fdc8e52ac401db8fa65ffb71ad2fbf8f",
+      "size": 2456228789
+    },
+    {
+      "path": "sub-0236/sub-0236_ses-20260415T120527_behavior+ecephys.nwb",
+      "sha256": "c3e6bdb793fc89a57507c25e62355df0f64ed555622ceab49b8a0c542ba832f4",
+      "size": 1864574064
+    },
+    {
+      "path": "sub-0236/sub-0236_ses-20260416T100056_behavior+ecephys.nwb",
+      "sha256": "68882acd40be71cf0ed30e19d7f9a502c2b385ea20507366c786b330a1ed7ae4",
+      "size": 2578415193
+    },
+    {
+      "path": "sub-0236/sub-0236_ses-20260416T135624_behavior+ecephys.nwb",
+      "sha256": "e65d4f26e6b04e9ecc30692ab671ce94ca376e2abadb29b1861a2dc9a8b0d547",
+      "size": 3113636338
+    },
+    {
+      "path": "sub-0236/sub-0236_ses-20260417T122833_behavior+ecephys.nwb",
+      "sha256": "4b0cffb1f214ccd34b5874a80611995bedd9079e2e1f3aaf42901c46c4ddf38c",
+      "size": 2136160057
+    },
+    {
+      "path": "sub-0236/sub-0236_ses-20260417T150304_behavior+ecephys.nwb",
+      "sha256": "a42bb5e367319c4b77fa0c7732d4fb3b50fe491c0793f24bf75df6b0afcc6cf9",
+      "size": 2124440295
+    },
+    {
+      "path": "sub-0236/sub-0236_ses-20260423T103710_behavior+ecephys.nwb",
+      "sha256": "f6a03f5b047dbaf7f5651344d0f439a312fc08365eb974e212e26dcbb1220b00",
+      "size": 1442159164
+    },
+    {
+      "path": "sub-0236/sub-0236_ses-20260423T103710_cam14_calibration.avi",
+      "sha256": "12c30f954d69bdd780900530da64d7175ae5fd52bd191124f2d03f6eeb160bc8",
+      "size": 6447488406
+    },
+    {
+      "path": "sub-0236/sub-0236_ses-20260423T103710_cam14_video.avi",
+      "sha256": "f5c6a8c05b3267e978ba0824ef721c45b2d9d8c9904427e40c592e933bfe22e2",
+      "size": 51439689022
+    },
+    {
+      "path": "sub-0236/sub-0236_ses-20260423T103710_cam46_calibration.avi",
+      "sha256": "b158d967152e426d5ee187e42c3d7d28e854ffac9c25e2f4e326b8bc5790e160",
+      "size": 6446905190
+    },
+    {
+      "path": "sub-0236/sub-0236_ses-20260423T103710_cam46_video.avi",
+      "sha256": "308ae507d81cb6d78544385390125f40dee0661b28fad7e0be3502fc5763badd",
+      "size": 51437939374
+    },
+    {
+      "path": "sub-0236/sub-0236_ses-20260423T103710_cam58_calibration.avi",
+      "sha256": "3651dbb4cc4bf1b4c5cc988fb3cab6c28404f850a06e128fec28557d1651b0d7",
+      "size": 6446905190
+    },
+    {
+      "path": "sub-0236/sub-0236_ses-20260423T103710_cam58_video.avi",
+      "sha256": "385b076eb82dac0e3bd5bc79c6dbdaba6bc5447f3ae38e105d935e4847615461",
+      "size": 51437939374
+    },
+    {
+      "path": "sub-0236/sub-0236_ses-20260423T103710_cam67_calibration.avi",
+      "sha256": "73e9c9ebb080f866fb52fbd8e68729d02d710a37c7be3beaeab57c940a9c2340",
+      "size": 6447488406
+    },
+    {
+      "path": "sub-0236/sub-0236_ses-20260423T103710_cam67_video.avi",
+      "sha256": "1278cd29a18c55696db236cc2060ed45c5c528a69ddf331080312c590b66d64b",
+      "size": 51439689022
+    },
+    {
+      "path": "sub-0236/sub-0236_ses-20260423T103710_cam68_calibration.avi",
+      "sha256": "ac7a83a33929580a4b0b3315e74d97a8485113a9a8db99a7c1a326c6db0071f0",
+      "size": 6446905190
+    },
+    {
+      "path": "sub-0236/sub-0236_ses-20260423T103710_cam68_video.avi",
+      "sha256": "f01907ee0c85c40c25fc4a42137e0d935b5bdbea9d0c85374bc9d29fe9c1e68e",
+      "size": 51437939374
+    },
+    {
+      "path": "sub-0236/sub-0236_ses-20260423T123345_behavior+ecephys.nwb",
+      "sha256": "5c9cd3444a1dbb5397b3791870d6f7be83292ffca97585275ac1bab98f83f5db",
+      "size": 2234567829
+    },
+    {
+      "path": "sub-0236/sub-0236_ses-20260423T142917_behavior+ecephys.nwb",
+      "sha256": "eb78cb750d32e1425ec7782286b31c228ad9d325662d579e7d7ac1f43b391f34",
+      "size": 1742277812
+    },
+    {
+      "path": "sub-0236/sub-0236_ses-20260423T153827_behavior+ecephys.nwb",
+      "sha256": "679c2db9bcb97d7b0fc3870ed5ca96623dbbda9f481885597156c5e3ac2bf7c6",
+      "size": 1926007337
+    },
+    {
+      "path": "sub-0236/sub-0236_ses-20260423T153827_cam14_calibration.avi",
+      "sha256": "0dd7cecfa490a10f9248ece51fd6c05fa2dd4e145a1b1b8c865ff0fcb5a0272e",
+      "size": 5819364718
+    },
+    {
+      "path": "sub-0236/sub-0236_ses-20260423T153827_cam14_video.avi",
+      "sha256": "8a1c48bb56135aa74f7bfd31b7f58f855e5e846eb852da4047a15c57e8cac8b6",
+      "size": 37305448534
+    },
+    {
+      "path": "sub-0236/sub-0236_ses-20260423T153827_cam46_calibration.avi",
+      "sha256": "18d87dabda97f30f9517b955a1f0647c850572a8c3e664b75ab6fe5955e0ce72",
+      "size": 5819947934
+    },
+    {
+      "path": "sub-0236/sub-0236_ses-20260423T153827_cam46_video.avi",
+      "sha256": "db095dec8edc3179d8c0e566e56fe7bf7226433e3c2144d3ab1b10ee8d2964ba",
+      "size": 37307198182
+    },
+    {
+      "path": "sub-0236/sub-0236_ses-20260423T153827_cam58_calibration.avi",
+      "sha256": "1148d7ce9743e90bb75d85485680e8e6fbd9ec4b1a85bb49916d468f851e9e0d",
+      "size": 5819947934
+    },
+    {
+      "path": "sub-0236/sub-0236_ses-20260423T153827_cam58_video.avi",
+      "sha256": "52ac54fb97f0df19da8280c597c8de0f678a4418d386df8404525ee4a8518c99",
+      "size": 37308364614
+    },
+    {
+      "path": "sub-0236/sub-0236_ses-20260423T153827_cam67_calibration.avi",
+      "sha256": "f2de68095fef19d2ba331b9a2eab824a234f82cd3003f538f18ba26c14b1b5ee",
+      "size": 5819364718
+    },
+    {
+      "path": "sub-0236/sub-0236_ses-20260423T153827_cam67_video.avi",
+      "sha256": "f57608a591c961c7fffcd42ba3c554c449f42de76f1f844338a3fe2d06dafac4",
+      "size": 37305448534
+    },
+    {
+      "path": "sub-0236/sub-0236_ses-20260423T153827_cam68_calibration.avi",
+      "sha256": "9bbac90f5ab667fd24ac12090b91b387f075e378a1f3ca5151ed504ce54dad08",
+      "size": 5819947934
+    },
+    {
+      "path": "sub-0236/sub-0236_ses-20260423T153827_cam68_video.avi",
+      "sha256": "79f40bd665a03d05a11525b46a395c6142d2b50d087e8d32753b535c2ecab4dc",
+      "size": 37308364614
+    },
+    {
+      "path": "sub-0236/sub-0236_ses-20260424T144606_behavior+ecephys.nwb",
+      "sha256": "bb6d3d68893af7dce34691e59005ed0d3b63420e95b49e4a8d51f8e6639f89b8",
+      "size": 2370085046
+    },
+    {
+      "path": "sub-0236/sub-0236_ses-20260424T160756_behavior+ecephys.nwb",
+      "sha256": "17b85423f57ffd3f3bee38149e07e22e35194a69ef9f5438c625bd2f4236a1e5",
+      "size": 1947514235
+    },
+    {
+      "path": "sub-0236/sub-0236_ses-20260425T115534_behavior+ecephys.nwb",
+      "sha256": "23fe928c2232e9efff64db675f1a9c91ea3e8c8ca351d9b6e0431c052187dd49",
+      "size": 2350783879
+    },
+    {
+      "path": "sub-0236/sub-0236_ses-20260425T144227_behavior+ecephys.nwb",
+      "sha256": "1442e7dbb695f5e80a08769d0dcb8ddb5d4f096b52690bb259d7d9a59d0a7312",
+      "size": 2287487051
+    },
+    {
+      "path": "sub-0236/sub-0236_ses-20260428T120159_behavior+ecephys.nwb",
+      "sha256": "8b878c54d15a20a1d53dc3f24d8a93446eb3632c0a59020c23bcd14126d3c6d6",
+      "size": 1646109530
+    },
+    {
+      "path": "sub-0236/sub-0236_ses-20260428T131255_behavior+ecephys.nwb",
+      "sha256": "f4e42ac7004809e301b24b83e143cf850bd9d91052fe9bc499aacd016a65ede4",
+      "size": 2217777526
+    },
+    {
+      "path": "sub-0236/sub-0236_ses-20260428T131255_cam14_calibration.avi",
+      "sha256": "c17a6bef93472650b01f8977fbac5b781677c6d3db55bb223527c203ca9e355d",
+      "size": 6818413782
+    },
+    {
+      "path": "sub-0236/sub-0236_ses-20260428T131255_cam14_video.avi",
+      "sha256": "94beadefe55a57c76467ae45db1b655e20289d781183a3f63d7b1fcc72b29082",
+      "size": 45504882726
+    },
+    {
+      "path": "sub-0236/sub-0236_ses-20260428T131255_cam46_calibration.avi",
+      "sha256": "bd9d3710feaf1ead93e686ab22d18f4ad2dd8abeaa3db534d700a8090ce87a69",
+      "size": 6818413782
+    },
+    {
+      "path": "sub-0236/sub-0236_ses-20260428T131255_cam46_video.avi",
+      "sha256": "a13bc01a8473132ba9ee75441ea16440f58cf99406c16f67cef521021a540893",
+      "size": 45506632374
+    },
+    {
+      "path": "sub-0236/sub-0236_ses-20260428T131255_cam58_calibration.avi",
+      "sha256": "69c1a1b4e2d2903e65e122886ce0f94a98222998f66b422732158d6ae5450cf4",
+      "size": 6818413782
+    },
+    {
+      "path": "sub-0236/sub-0236_ses-20260428T131255_cam58_video.avi",
+      "sha256": "dac3697cfa25d60b267d4fc491261607b983516bebbcddbe7d7d0751bc556c12",
+      "size": 45506632374
+    },
+    {
+      "path": "sub-0236/sub-0236_ses-20260428T131255_cam67_calibration.avi",
+      "sha256": "10a7ed4309c641d5495fac7230a0f15188dd2b768fcf4f75c55b47fa34e15e00",
+      "size": 6818413782
+    },
+    {
+      "path": "sub-0236/sub-0236_ses-20260428T131255_cam67_video.avi",
+      "sha256": "7b9f718a3729d51a84966c969ba2c6843ddd04f31dc0d68339824cdfbca34628",
+      "size": 45504882726
+    },
+    {
+      "path": "sub-0236/sub-0236_ses-20260428T131255_cam68_calibration.avi",
+      "sha256": "c3ede33dd9a9cd3a1d86727c43f1498785d567a4bc13853d61ebe0d31f2145a4",
+      "size": 6818413782
+    },
+    {
+      "path": "sub-0236/sub-0236_ses-20260428T131255_cam68_video.avi",
+      "sha256": "f1f6644da0752e83d0c166c99946067f2a276d587e91b87861ec31b06ca34f57",
+      "size": 45506632374
+    },
+    {
+      "path": "sub-0236/sub-0236_ses-20260428T161814_behavior+ecephys.nwb",
+      "sha256": "4db6e0bcf684d112304e0554da13e404f9a5bff9903879d0c87a5fb13fa0a7f3",
+      "size": 1052845366
+    },
+    {
+      "path": "sub-0236/sub-0236_ses-20260428T161814_cam14_calibration.avi",
+      "sha256": "7609dff03d33865ed092be523d7c7120da467af9f0acc4218876c524ea8e7e5e",
+      "size": 6087644078
+    },
+    {
+      "path": "sub-0236/sub-0236_ses-20260428T161814_cam14_video.avi",
+      "sha256": "f5cc04d115d0c0cf39d200bf4dd79f284f0a26b86453598bdc27e2de2f3334ef",
+      "size": 21659512118
+    },
+    {
+      "path": "sub-0236/sub-0236_ses-20260428T161814_cam46_calibration.avi",
+      "sha256": "a3cd2fa2b13685693968c26f99bde5ffef322dc4c7ec0da5164b2bf01e4a7b62",
+      "size": 6088227294
+    },
+    {
+      "path": "sub-0236/sub-0236_ses-20260428T161814_cam46_video.avi",
+      "sha256": "397242bcfb2228b94cdbff9275051d9ee0f07a9639e6057cde7dab37d3ca073f",
+      "size": 21661261766
+    },
+    {
+      "path": "sub-0236/sub-0236_ses-20260428T161814_cam58_calibration.avi",
+      "sha256": "76354034a350a82e4fad3dd30145a8d7c0f9cc92435c16b10143a11be85477c4",
+      "size": 6088227294
+    },
+    {
+      "path": "sub-0236/sub-0236_ses-20260428T161814_cam58_video.avi",
+      "sha256": "fe7cf3de61756c181a51b1e07389fe804c1576093d14c4c91d669dadbfebc0f7",
+      "size": 21660678550
+    },
+    {
+      "path": "sub-0236/sub-0236_ses-20260428T161814_cam67_calibration.avi",
+      "sha256": "9273def4b08b8ba2b2465bc5b0655f27d75192f06aa2ae4c1b75e15721e88c64",
+      "size": 6087644078
+    },
+    {
+      "path": "sub-0236/sub-0236_ses-20260428T161814_cam67_video.avi",
+      "sha256": "b79fbcc2bd34e830e7ab259d8a945b28ade0225695ecbfa7f197a20e9cdcc0da",
+      "size": 21661844982
+    },
+    {
+      "path": "sub-0236/sub-0236_ses-20260428T161814_cam68_calibration.avi",
+      "sha256": "e59e85facbb80173eb471382d7f57e0b107f535cf339334d35cdf35c9fe3830b",
+      "size": 6088227294
+    },
+    {
+      "path": "sub-0236/sub-0236_ses-20260428T161814_cam68_video.avi",
+      "sha256": "f366305fee7edbc11b108a74dd2cb8779f8b24a5315018e393de1d35137495d3",
+      "size": 21658928902
+    },
+    {
+      "path": "sub-0236/sub-0236_ses-20260429T112554_behavior+ecephys.nwb",
+      "sha256": "7a19ac4d8e20ecd817c8fc5eac2bd7bb19192f2ecfd2fc36eb3d919078d0ef34",
+      "size": 2357186319
+    },
+    {
+      "path": "sub-0236/sub-0236_ses-20260429T152344_behavior+ecephys.nwb",
+      "sha256": "ac9bc88b9d3d04ef0dde57c9ed68b83e2f348c7591d0130769a19c8bb905d345",
+      "size": 2331071096
+    },
+    {
+      "path": "sub-0236/sub-0236_ses-20260430T121633_behavior+ecephys.nwb",
+      "sha256": "37a6d92e79b0a2895bb56f16bea25c23d00ed74b46ad128c45580a8a415d23ea",
+      "size": 1600783828
+    },
+    {
+      "path": "sub-0236/sub-0236_ses-20260430T144826_behavior+ecephys.nwb",
+      "sha256": "bd1ce21972f64727dd2149f499ec2a8a340ac5a4694b34d8f935502b8825b6c2",
+      "size": 2618464940
+    },
+    {
+      "path": "sub-0236/sub-0236_ses-20260501T103824_behavior+ecephys.nwb",
+      "sha256": "62fec4561eec075c9a32ff325763a05cce77456457a38f7f236af8c8bfa94773",
+      "size": 2421502957
+    },
+    {
+      "path": "sub-0236/sub-0236_ses-20260501T123736_behavior+ecephys.nwb",
+      "sha256": "a459d7d7592e9bb399888c3c25ca26e7575dc198fd97dd663c5b936374763013",
+      "size": 2936500958
+    },
+    {
+      "path": "sub-0236/sub-0236_ses-20260507T115853_behavior+ecephys.nwb",
+      "sha256": "5626d34cfcb482f39b5285e9ff5a0022386132ae1dcb889377a69eafa7fcf026",
+      "size": 2157340284
+    },
+    {
+      "path": "sub-0236/sub-0236_ses-20260507T132947_behavior+ecephys.nwb",
+      "sha256": "f70f7f0a4ab71ad2e246e9a48ef2ae4d0f425e1f33ac39b450486538f60ed890",
+      "size": 2229286355
+    },
+    {
+      "path": "sub-0236/sub-0236_ses-20260508T114107_behavior+ecephys.nwb",
+      "sha256": "1778e65124658e75c01f46099a310bb9c0e2a2a56eaf4f370112323fdea3040b",
+      "size": 2272729486
+    },
+    {
+      "path": "sub-0236/sub-0236_ses-20260508T143352_behavior+ecephys.nwb",
+      "sha256": "8a663750a7d9704095e82aca7ec1e5e1db149e7094acb367be3ab730a5fcee74",
+      "size": 2603401144
+    },
+    {
+      "path": "sub-0236/sub-0236_ses-20260512T163836_behavior+ecephys.nwb",
+      "sha256": "55497154274d1c82d51eb5eaa09b09d1e44952f06ea1764f5a37def8d217ba7c",
+      "size": 1340699592
+    },
+    {
+      "path": "sub-0237/sub-0237_ses-20260306T114321_behavior+ecephys.nwb",
+      "sha256": "df6be7ed52346e81c4a364f979ded75761f97be33288d2f79c9c0b5234603bb6",
+      "size": 1099025430
+    },
+    {
+      "path": "sub-0237/sub-0237_ses-20260308T130347_behavior+ecephys.nwb",
+      "sha256": "93f30c5f1108f6ec66018061c46ed06bb7bc1ca84552db551d4198edd019ab88",
+      "size": 368587040
+    },
+    {
+      "path": "sub-0237/sub-0237_ses-20260308T142653_behavior+ecephys.nwb",
+      "sha256": "1eaceb5a5ace8a85912de48b0a7369ce6a587f54d3297b9f2699ddb847cd6760",
+      "size": 1243065712
+    },
+    {
+      "path": "sub-0237/sub-0237_ses-20260313T102520_behavior+ecephys.nwb",
+      "sha256": "b8885cc934a5633ea84b4660844717b6ad1dc4e81928e55045c4d1bcdede663d",
+      "size": 1300978587
+    },
+    {
+      "path": "sub-0237/sub-0237_ses-20260313T125809_behavior+ecephys.nwb",
+      "sha256": "37b3471e153f26c4633426b75fd754c4fd5b85dcd32352c9ef5f1ce4fafd1052",
+      "size": 353430624
+    },
+    {
+      "path": "sub-0237/sub-0237_ses-20260316T154046_behavior+ecephys.nwb",
+      "sha256": "fbe07cae6aa226449fb7aa3ac4c55a619e8051ef4d4725f4cf14dd2daf37029f",
+      "size": 1241452501
+    },
+    {
+      "path": "sub-0237/sub-0237_ses-20260317T142954_behavior+ecephys.nwb",
+      "sha256": "32997d6713dd0d4f3d9ffdfd390a0b1277313412cc1288e1afe5cd4c311a27b7",
+      "size": 498319464
+    },
+    {
+      "path": "sub-0237/sub-0237_ses-20260318T111532_behavior+ecephys.nwb",
+      "sha256": "775605d45d67a5eda67dea37b24ff49177ada1fb1739a39afed5f9745c532e8a",
+      "size": 1508488470
+    },
+    {
+      "path": "sub-0237/sub-0237_ses-20260318T140526_behavior+ecephys.nwb",
+      "sha256": "e33b12cde5f81b923f5cf7b09bc1feef66dfde778b0d17e67bf3b18e91449c73",
+      "size": 1767188888
+    },
+    {
+      "path": "sub-0237/sub-0237_ses-20260318T164616_behavior+ecephys.nwb",
+      "sha256": "2474331736ff70878638c988e57c880aaa09be6ea37bbb4905c4f3d20614528d",
+      "size": 2076736133
+    },
+    {
+      "path": "sub-0237/sub-0237_ses-20260319T105012_behavior+ecephys.nwb",
+      "sha256": "3ca979c5224ff912160c33aafbdd79b57ff5f4e419d7b13387f60c82a5768e8a",
+      "size": 1714490550
+    },
+    {
+      "path": "sub-0237/sub-0237_ses-20260319T143327_behavior+ecephys.nwb",
+      "sha256": "b90ad925ae45ae7f7b1c749f3477c469229a1b0494a07e62834714194e6224a2",
+      "size": 1415922044
+    },
+    {
+      "path": "sub-0237/sub-0237_ses-20260319T154244_behavior+ecephys.nwb",
+      "sha256": "0da67a7c444ca265ff53b09c9b403ac6401b6f62de4a624d9803f24c70406ecc",
+      "size": 512296517
+    },
+    {
+      "path": "sub-0237/sub-0237_ses-20260320T102109_behavior+ecephys.nwb",
+      "sha256": "f96922641e8f4911c4560c72ac719614bc4682f454808f0aca983ab8609a0cf0",
+      "size": 1104725077
+    },
+    {
+      "path": "sub-0237/sub-0237_ses-20260320T111100_behavior+ecephys.nwb",
+      "sha256": "9520e7f91c6d4dc16e989e5af3ba38a1d36f9b0d57b2a0e064a744e4e76a8ef4",
+      "size": 1774730589
+    },
+    {
+      "path": "sub-0237/sub-0237_ses-20260324T123138_behavior+ecephys.nwb",
+      "sha256": "f6966dd2289552e52d6dd16503f6ef48cd714f4c42704ad913c38639c379d1df",
+      "size": 1346238102
+    },
+    {
+      "path": "sub-0237/sub-0237_ses-20260325T124806_behavior+ecephys.nwb",
+      "sha256": "e525d9b22602e5163893442054ecfe049c18f691f028559fea286101b9344ecf",
+      "size": 2686176182
+    },
+    {
+      "path": "sub-0237/sub-0237_ses-20260326T141014_behavior+ecephys.nwb",
+      "sha256": "15d9f3e29a28dc014fede558695709ffe6665e67ab6497869ff7fee1003073ce",
+      "size": 1432073459
+    },
+    {
+      "path": "sub-0237/sub-0237_ses-20260326T151316_behavior+ecephys.nwb",
+      "sha256": "3afde220024c3915176bb9643a6eebfd1b97d94eade0b366f9478e2593e4e879",
+      "size": 1746737507
+    },
+    {
+      "path": "sub-0237/sub-0237_ses-20260327T142403_behavior+ecephys.nwb",
+      "sha256": "6717461ed72880ce4245a41f1a3cd69bb4fa4a8743d89be233f910f549792c09",
+      "size": 1836053105
+    },
+    {
+      "path": "sub-0237/sub-0237_ses-20260327T153625_behavior+ecephys.nwb",
+      "sha256": "b3f7047d9fd99c6254c296be45cbfa548b06d391da1da33e76ab1804227d5aa8",
+      "size": 1708324368
+    },
+    {
+      "path": "sub-0237/sub-0237_ses-20260330T150816_behavior+ecephys.nwb",
+      "sha256": "ee6f632b281beb27f01c02b84c7607983e3e1934e9a8d6efbc16b4225cf5d2a2",
+      "size": 2228747400
+    },
+    {
+      "path": "sub-0237/sub-0237_ses-20260401T145148_behavior+ecephys.nwb",
+      "sha256": "4f38ac9bdd0f057d41d16e140e63e97cb77cc7ad6821a5828deabb229c64539a",
+      "size": 944414654
+    },
+    {
+      "path": "sub-0237/sub-0237_ses-20260402T130232_behavior+ecephys.nwb",
+      "sha256": "f68f7f9915fa0ee82c4f6dbd02af23efdb3575af506403c59aa07dbc45101e1d",
+      "size": 1433985085
+    },
+    {
+      "path": "sub-0237/sub-0237_ses-20260402T164537_behavior+ecephys.nwb",
+      "sha256": "96c107b223aee7a4dbc96d9aa45272ef8bf4669027a4368f8137e062baa83a15",
+      "size": 2094840954
+    },
+    {
+      "path": "sub-0237/sub-0237_ses-20260408T143920_behavior+ecephys.nwb",
+      "sha256": "762edc92f53d88a25e4c3581f397e430729b367866044152e52d2f86990a0938",
+      "size": 2442024839
+    },
+    {
+      "path": "sub-0237/sub-0237_ses-20260408T155939_behavior+ecephys.nwb",
+      "sha256": "6978061eb05dc1b234a0623d531f5e5966474bad154fce29e5d52d7522d53495",
+      "size": 2352201085
+    },
+    {
+      "path": "sub-0237/sub-0237_ses-20260409T162054_behavior+ecephys.nwb",
+      "sha256": "066e575bfa5a96c4feefbe43ee3df03a5f415306ab548146f6a83cce37b9c664",
+      "size": 1945418977
+    },
+    {
+      "path": "sub-0237/sub-0237_ses-20260409T172216_behavior+ecephys.nwb",
+      "sha256": "3eeed23f0137764c0be3fc40357ada2ac98dec32fd345998083c73b47972d975",
+      "size": 1463273173
+    },
+    {
+      "path": "sub-0237/sub-0237_ses-20260410T125035_behavior+ecephys.nwb",
+      "sha256": "af61fedf491a0c1e62842ba0c7923b76b5e0ac9ecab116ff9b3f2bc82e8357ba",
+      "size": 1592945985
+    },
+    {
+      "path": "sub-0237/sub-0237_ses-20260410T151755_behavior+ecephys.nwb",
+      "sha256": "78d1e8d2752eb2f415569ad0117a2809074f856742dcd58b991a2f30f3d52a4b",
+      "size": 2200475808
+    },
+    {
+      "path": "sub-0237/sub-0237_ses-20260413T160009_behavior+ecephys.nwb",
+      "sha256": "deef763a4035de70e98678faaf0f716e128d4f62614d8e07bda6381593e91393",
+      "size": 3118637343
+    },
+    {
+      "path": "sub-0237/sub-0237_ses-20260414T164051_behavior+ecephys.nwb",
+      "sha256": "20fc0dcca0501ad52106498e37824e1fbdf7884d6880e3858cb9fa719f79a327",
+      "size": 572869920
+    },
+    {
+      "path": "sub-0237/sub-0237_ses-20260415T120527_behavior+ecephys.nwb",
+      "sha256": "85bfee665cea2ceb34442034faa279a6659f0eb9fa2b2c0423ead651559bfd5b",
+      "size": 1858263839
+    },
+    {
+      "path": "sub-0237/sub-0237_ses-20260415T164755_behavior+ecephys.nwb",
+      "sha256": "28e23a1829a4e8533c82eb81f27648f5b9a9314b1bfa14555f38d5f4ef1098c7",
+      "size": 1752929036
+    },
+    {
+      "path": "sub-0237/sub-0237_ses-20260416T100056_behavior+ecephys.nwb",
+      "sha256": "c780159d29a21939125f3c1040bb9764b839028cd3d004202649f97cb0b17b35",
+      "size": 2536520466
+    },
+    {
+      "path": "sub-0237/sub-0237_ses-20260416T112924_behavior+ecephys.nwb",
+      "sha256": "c2872c29d5e4685113d75ecf3c6a8fc0966b69565a8a0f9920a8018cb136a99c",
+      "size": 2790638293
+    },
+    {
+      "path": "sub-0237/sub-0237_ses-20260417T134302_behavior+ecephys.nwb",
+      "sha256": "e0a3d25b6d738936addd20fd3bc0858b074ad3ff149ed0e78fa6b740caed7c93",
+      "size": 174360750
+    },
+    {
+      "path": "sub-0237/sub-0237_ses-20260417T150304_behavior+ecephys.nwb",
+      "sha256": "27815f529504184c161564c6ad8f053eee21a78256adc27e217c7b674ed69953",
+      "size": 2095808964
+    },
+    {
+      "path": "sub-0237/sub-0237_ses-20260423T092353_behavior+ecephys.nwb",
+      "sha256": "16dcef44965918ab2ab5f6bae21513042e1c26062cf29a19f3e1b422f3cd9d53",
+      "size": 1616596933
+    },
+    {
+      "path": "sub-0237/sub-0237_ses-20260423T103710_behavior+ecephys.nwb",
+      "sha256": "023399a65cbcd0d9132c121c459230ac80544a5a4806b2b62bc5e4d409b44ec5",
+      "size": 988696524
+    },
+    {
+      "path": "sub-0237/sub-0237_ses-20260423T153827_behavior+ecephys.nwb",
+      "sha256": "4afea11b10bd9b65b51fe03038d119096aa029f09d2057f7283d5ff3afd37f39",
+      "size": 1904626257
+    },
+    {
+      "path": "sub-0237/sub-0237_ses-20260423T171313_behavior+ecephys.nwb",
+      "sha256": "bd8f04c6e5fa31f357528a6dd1ae35825c3f7907423cab3f90c65634e21e3330",
+      "size": 871493473
+    },
+    {
+      "path": "sub-0237/sub-0237_ses-20260424T132017_behavior+ecephys.nwb",
+      "sha256": "0da1ccbc8eacb93d0f258f9e40668a77fda364ff2130878c00122a9b8af1138d",
+      "size": 2472859853
+    },
+    {
+      "path": "sub-0237/sub-0237_ses-20260424T160756_behavior+ecephys.nwb",
+      "sha256": "0b5768903cb3c45203ce8cd8032ba93edff78b3390d0b59ea49fad375e487864",
+      "size": 1922649594
+    },
+    {
+      "path": "sub-0237/sub-0237_ses-20260425T115534_behavior+ecephys.nwb",
+      "sha256": "00c0c7ff581bff722b6cad1c6c88ba6785ba6761b123f37ade8a8d6b469822b4",
+      "size": 2359927190
+    },
+    {
+      "path": "sub-0237/sub-0237_ses-20260425T132118_behavior+ecephys.nwb",
+      "sha256": "30bf7403bf074b58c9a4aa8a1af964700dbc702a67a25c82cde82b2781d36638",
+      "size": 1281147862
+    },
+    {
+      "path": "sub-0237/sub-0237_ses-20260428T105233_behavior+ecephys.nwb",
+      "sha256": "6f7e0ccfc44b6272a8c7e17fac5c0c439ce5a40ed92283bce20646ebc6cde738",
+      "size": 1862067187
+    },
+    {
+      "path": "sub-0237/sub-0237_ses-20260428T131255_behavior+ecephys.nwb",
+      "sha256": "1e07305c21e87aed640ebdbcbaaa69bcbd50e6803d4e32541a4a8fe57e7776f1",
+      "size": 860187759
+    },
+    {
+      "path": "sub-0237/sub-0237_ses-20260428T150446_behavior+ecephys.nwb",
+      "sha256": "50f5654fa00a6da8eb23b4662a86560e54c84b48f63031bd2b24300e70245f93",
+      "size": 1225172780
+    },
+    {
+      "path": "sub-0237/sub-0237_ses-20260428T161814_behavior+ecephys.nwb",
+      "sha256": "af1465c335f9db0bcb7c6686743e89e1410d5f683e87ab77f4ae194e47dabaa4",
+      "size": 1055419346
+    },
+    {
+      "path": "sub-0237/sub-0237_ses-20260429T133224_behavior+ecephys.nwb",
+      "sha256": "7852dbadbcae7c19bcf71f3613e0e608221321599734e75d9f18387d4953f64e",
+      "size": 2566036154
+    },
+    {
+      "path": "sub-0237/sub-0237_ses-20260429T152344_behavior+ecephys.nwb",
+      "sha256": "2574ba479b8338f27f38608a95390148b3351b1c6c3b11dd561dc6c24ae159e7",
+      "size": 2424140887
+    },
+    {
+      "path": "sub-0237/sub-0237_ses-20260430T104623_behavior+ecephys.nwb",
+      "sha256": "c33130cf360d3e3fe34bd7af1142646ce92e37cfc21061d3ac5dbc007f8bf798",
+      "size": 2573405739
+    },
+    {
+      "path": "sub-0237/sub-0237_ses-20260430T121633_behavior+ecephys.nwb",
+      "sha256": "04c205c9c18b1caa7f39d61e4ca8a0a8284c22f8b8068ebf0903ba2d5ec2278e",
+      "size": 2865581262
+    },
+    {
+      "path": "sub-0237/sub-0237_ses-20260501T123736_behavior+ecephys.nwb",
+      "sha256": "f30eee4c5701b54c6ca30ad90e0080aa5f1e505ab6859e1810a5bc41706958df",
+      "size": 3014094304
+    },
+    {
+      "path": "sub-0237/sub-0237_ses-20260501T142511_behavior+ecephys.nwb",
+      "sha256": "095e3e47f3ff78f2065deec14d0da69c7aef8018d5b666f4dfe22a13d9142ec7",
+      "size": 2350371005
+    },
+    {
+      "path": "sub-0237/sub-0237_ses-20260507T103040_behavior+ecephys.nwb",
+      "sha256": "8c37cb3903535fe7fa1ca00a86aeae4967d7acd336f071b60a50e536a7a3854f",
+      "size": 2343268776
+    },
+    {
+      "path": "sub-0237/sub-0237_ses-20260507T115853_behavior+ecephys.nwb",
+      "sha256": "a10ffd806688bfc2e170722532524943b2124c0d7e49d8f779e6a049f473f741",
+      "size": 2220673193
+    },
+    {
+      "path": "sub-0237/sub-0237_ses-20260507T154953_behavior+ecephys.nwb",
+      "sha256": "f4e820fcc57dcdf63636612e958d7ff785f4e8662d8ba6cba25dcd1e6df58ca1",
+      "size": 2642837981
+    },
+    {
+      "path": "sub-0237/sub-0237_ses-20260508T143352_behavior+ecephys.nwb",
+      "sha256": "413349117dac252894ebb0dd5639025ec053f512945529c4df2f70a2d7b2671f",
+      "size": 2681389885
+    },
+    {
+      "path": "sub-0237/sub-0237_ses-20260508T160604_behavior+ecephys.nwb",
+      "sha256": "783a58659c6572c4785daea432408f772794de15e3de4d763a588c74c969f5c9",
+      "size": 2298094441
+    },
+    {
+      "path": "sub-0237/sub-0237_ses-20260512T153155_behavior+ecephys.nwb",
+      "sha256": "b3d6de32a584df1d5a3097b6e33eb0f6603584c5f13a8970d7b9bb53828c9fad",
+      "size": 1695997960
+    },
+    {
+      "path": "sub-0237/sub-0237_ses-20260512T163836_behavior+ecephys.nwb",
+      "sha256": "60a56b8c16842a42c52985274f7faff65540e814dce7fd0f3b3256021574ea07",
+      "size": 1373178453
+    },
+    {
+      "path": "sub-0237/sub-0237_ses-20260513T113552_behavior+ecephys.nwb",
+      "sha256": "c54e6bd994423fda7b528d38d96d3742434257b61f473e2231fd6ee89df7afbb",
+      "size": 2247772088
+    },
+    {
+      "path": "sub-0237/sub-0237_ses-20260513T151008_behavior+ecephys.nwb",
+      "sha256": "c9e3f0df4273b44b5fe51b9f59d54d68a0d880078cc633e3742016721f2d5f56",
+      "size": 1708314019
+    },
+    {
+      "path": "sub-0237/sub-0237_ses-20260515T145341_behavior+ecephys.nwb",
+      "sha256": "bd07f101781181934022387700e9ccb5ac586c4be56b7716f0d5777639a0a30b",
+      "size": 2421466690
+    },
+    {
+      "path": "sub-0237/sub-0237_ses-20260518T130304_behavior+ecephys.nwb",
+      "sha256": "ed01313fe4f748614d7e797e2d263de98e4f69776d805eec2529e89c4655aeab",
+      "size": 2266500874
+    },
+    {
+      "path": "sub-0237/sub-0237_ses-20260519T103735_behavior+ecephys.nwb",
+      "sha256": "13e6c4851419945bcfb05090685bd588b6a5c4d6244db59d9d0885ed9271a644",
+      "size": 3366081516
+    },
+    {
+      "path": "sub-0237/sub-0237_ses-20260520T101819_behavior+ecephys.nwb",
+      "sha256": "262bcab30b3a9f25846395f89c3b367560438fe8750bebfe68589b582e85af4a",
+      "size": 2448769807
+    },
+    {
+      "path": "sub-0237/sub-0237_ses-20260520T132059_behavior+ecephys.nwb",
+      "sha256": "363504f729446afbe89e2e162f2dbaffe3a42b4e7f52c2eb8527f8c3f353baa8",
+      "size": 2603202849
+    },
+    {
+      "path": "sub-0237/sub-0237_ses-20260521T102105_behavior+ecephys.nwb",
+      "sha256": "e31d4dbbe132fd05149fef14b7401726c983a8b87af6540f1523a81e99c299fb",
+      "size": 3155993274
+    },
+    {
+      "path": "sub-0237/sub-0237_ses-20260522T115355_behavior+ecephys.nwb",
+      "sha256": "85e7aaa305f86c475850bb0f05b784e5281cf3da825e408d140e7ec462bd7bb1",
+      "size": 2317552495
+    }
+  ]
+}
