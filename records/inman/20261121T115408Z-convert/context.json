@@ -1,0 +1,14 @@
+{
+  "force_overwrite": true,
+  "image": "docker://ghcr.io/brain-bbqs/inman-r61mh135109-ingest@sha256:29144093da82d32fc6198f9a6c6736f96faf6ef541757455acb0fa438509cca9",
+  "incoming_dandiset_id": "000519",
+  "project": "inman",
+  "script_path": "labs/inman/code/_inman_to_nwb.py",
+  "script_sha256": "604f6d18670551001cc583f93f5ec3a34788f93b49688bea8a09bf140903513a",
+  "sessions": [
+    "sample-1"
+  ],
+  "standardized_dandiset_id": "000638",
+  "step": "convert",
+  "task_force_commit": "532cc3d87caebe1375baaa58d283bbd82dddd0c2"
+}
