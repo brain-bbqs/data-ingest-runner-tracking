@@ -1,7 +1,7 @@
 [datalad "dataset"]
 	id = 86d7fcd9-cbde-413b-8423-a7cd6adc0cce
 [datalad "containers.dandi-cli"]
-	updateurl = docker://ghcr.io/brain-bbqs/dandi-cli@sha256:89e2a75cf5d1b01cf444f0f7d0f6b908e1a18eda85d4a00c5880cfaac1853d91
+	updateurl = docker://ghcr.io/brain-bbqs/dandi-cli@sha256:de23e2154f93e407c3466cf90d50e92123afe7495bd5e11527d2531f9c3fa228
 	image = envs/dandi-cli.sif
 	cmdexec = duct --fail-time 0 apptainer exec --cleanenv {img} {cmd}
 [datalad "containers.kemere-r34da059514-ingest"]
