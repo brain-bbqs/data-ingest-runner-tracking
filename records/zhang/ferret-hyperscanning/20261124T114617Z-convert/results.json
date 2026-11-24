@@ -1,0 +1,8 @@
+{
+  "failed": {},
+  "pending": {
+    "0236HS3_0237HS4_20260331_101851.rec": "no merged ephys file at /vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/ember-incoming/000480/sourcedata/raw/Ferret_Hyperscanning/0236-0237/03.31.2026/0236HS3_0237HS4_20260331_101851.rec/0236HS3/0236HS3_0237HS4_20260331_101851_0236HS3_merged.rec, /vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/ember-incoming/000480/sourcedata/raw/Ferret_Hyperscanning/0236-0237/03.31.2026/0236HS3_0237HS4_20260331_101851.rec/0237HS4/0236HS3_0237HS4_20260331_101851_0237HS4_merged.rec",
+    "0236HS3_0237HS4_20260331_110624.rec": "no merged ephys file at /vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/ember-incoming/000480/sourcedata/raw/Ferret_Hyperscanning/0236-0237/03.31.2026/0236HS3_0237HS4_20260331_110624.rec/0236HS3/0236HS3_0237HS4_20260331_110624_0236HS3_merged.rec, /vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/ember-incoming/000480/sourcedata/raw/Ferret_Hyperscanning/0236-0237/03.31.2026/0236HS3_0237HS4_20260331_110624.rec/0237HS4/0236HS3_0237HS4_20260331_110624_0237HS4_merged.rec",
+    "0236HS3_0237HS4_20260401_130419.rec": "no merged ephys file at /vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/ember-incoming/000480/sourcedata/raw/Ferret_Hyperscanning/0236-0237/04.01.2026/0236HS3_0237HS4_20260401_130419.rec/0236HS3/0236HS3_0237HS4_20260401_130419_0236HS3_merged.rec, /vol/storage/ember/actions-runner/_work/data-ingest-runner/data-ingest-runner/ember-incoming/000480/sourcedata/raw/Ferret_Hyperscanning/0236-0237/04.01.2026/0236HS3_0237HS4_20260401_130419.rec/0237HS4/0236HS3_0237HS4_20260401_130419_0237HS4_merged.rec"
+  }
+}
